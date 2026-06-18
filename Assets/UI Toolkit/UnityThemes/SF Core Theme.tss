@@ -1,0 +1,6 @@
+@import url("UnityDefaultRuntimeTheme.tss");
+
+@import url("/Assets/UI Toolkit/Styles/UnityOverrideUSS.uss");
+@import url("/Assets/UI Toolkit/Styles/CommonUSS.uss");
+@import url("/Assets/UI Toolkit/Styles/SFComponents.uss");
+VisualElement {}

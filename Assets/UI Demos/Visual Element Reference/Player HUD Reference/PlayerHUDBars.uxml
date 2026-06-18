@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ui="UnityEngine.UIElements" 
+         noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" 
+         editor-extension-mode="False">
+    <ui:ProgressBar name="health-bar" authoring-id="10" low-value="0" high-value="50" value="50" picking-mode="Ignore" title="" style="border-top-left-radius: 5px;">
+        <Bindings>
+            <ui:DataBinding property="value" data-source-path="CurrentHealth" data-source-type="SF.Damageable.HealthBase, Assembly-CSharp" binding-mode="ToTarget"/>
+            <ui:DataBinding property="highValue" data-source-path="MaxHealth" data-source-type="SF.Damageable.HealthBase, Assembly-CSharp" binding-mode="ToTarget"/>
+        </Bindings>
+    </ui:ProgressBar>
+</ui:UXML>
