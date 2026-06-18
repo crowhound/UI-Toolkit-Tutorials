@@ -2,6 +2,12 @@ using UnityEngine;
 
 namespace SF.Damageable
 {
+    /// <summary>
+    /// The base class for holding health data that is used inside of tutorials with data bindings.
+    /// <example>
+    /// For an example see the PlayerHUDBars.uxml file to see how a binding is used to change the health bar fill as the <see cref="CurrentHealth"/> values changes.
+    /// </example> 
+    /// </summary>
     public class HealthBase : MonoBehaviour
     {
         public int CurrentHealth = 10;

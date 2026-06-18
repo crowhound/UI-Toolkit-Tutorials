@@ -1,17 +1,35 @@
-using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
 namespace SF.UIModule
 {
-    using Damageable;
+    using SF.Damageable;
     
-    public class PlayerHUDDemo : MonoBehaviour
+    /// <summary>
+    /// Simple PlayerHUD with a <see cref="_healthBarRef"/> that has data binding to allow button to decrease/increase
+    /// the player health bar fill as the health changes.
+    /// See <see cref="HealthBase"/> for the class used as the data source for the binding.
+    /// </summary>
+    public class PlayerHUD : MonoBehaviour
     {
+        /// <summary>
+        /// The <see cref="PanelRenderer"/> that is used to renderer the UI Panel Tree.
+        /// </summary>
         [SerializeField] private PanelRenderer _panelRenderer;
         
+        /// <summary>
+        /// The reference data container for the <see cref="ProgressBar"/> that acts as the heath bar.
+        /// </summary>
         [SerializeField] private VisualElementReference<ProgressBar> _healthBarRef = new VisualElementReference<ProgressBar>();
+        /// <summary>
+        /// The Authroing ID for the <see cref="_healthBarRef"/> inside of the uxml asset assigned for the <see cref="_panelRenderer"/>
+        /// </summary>
         [SerializeField] private AuthoringIdPath _healthBarID;
+        /// <summary>
+        /// The actual <see cref="ProgressBar"/> ui element for the health bar.
+        /// Note the <see cref="_healthBarRef"/> is just a data container to help resolve the <see cref="_healthBar"/>
+        /// when the the <see cref="_panelRenderer"/> has loaded the uxml asset and is ready to be used.
+        /// </summary>
         private ProgressBar _healthBar;
         
         [SerializeField] private VisualElementReference<Button> _increaseButtonRef = new VisualElementReference<Button>();
@@ -22,14 +40,22 @@ namespace SF.UIModule
         private readonly AuthoringIdPath _decreaseButtonID = new AuthoringIdPath(3);
         private Button _decreaseButton;
         
+        /// <summary>
+        /// The <see cref="HealthBase"/> that will be set as the 
+        /// </summary>
         [Header("Player Health")]
         [SerializeField] private HealthBase _playerHealth;
         [SerializeField] private int _healthChangeAmount;
 
         private void Start()
         {
+            
             if (_panelRenderer == null)
                 return;
+            
+            /*You can also do set the references during PanelRenderer.OnUIReloadedCallback, but I have found some 
+             * cases where having SceneReload turned off makes it where the PanelRenderer.OnUIReloadedCallback sometimes doesn't
+             * refresh when entering playmode. */ 
             
             /* You can use a null-coalescing operator to guarantee the VisualElementReference is never null before using it.
              *  _healthBarRef ??= new VisualElementReference<ProgressBar>(); */ 
