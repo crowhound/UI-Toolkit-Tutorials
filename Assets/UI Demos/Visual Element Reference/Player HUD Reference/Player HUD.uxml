@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PlayerHUDBars" src="project://database/Assets/UI%20Toolkit/Demos/Visual%20ElementsReference/UXML/PlayerHUDBars.uxml?fileID=9197481963319205126&amp;guid=0b67fce0307e8b04e93bfe8091f19bfd&amp;type=3#PlayerHUDBars"/>
+    <ui:Instance template="PlayerHUDBars" authoring-id="1" data-source-path="CurrentHealth" name="health-bar__template"/>
+    <ui:Button text="Increase Health" name="increase__button" authoring-id="2"/>
+    <ui:Button text="Decrease Health" name="decrease__button"  authoring-id="3"/>
+</ui:UXML>
