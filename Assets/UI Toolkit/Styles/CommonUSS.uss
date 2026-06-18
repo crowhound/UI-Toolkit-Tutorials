@@ -1,81 +1,20 @@
 /* Important Please Read:
- * This is just the early WIP of the file. Some selectors are blank because I haven't pulled them over from the
- * SF UI Elements package yet. Example SideBarLayout has no styles in it because I 
- * haven't brought the custom SideBarLayout element into the tutorial repo yet.*/
+ * This is just the early WIP of the file. Some selectors are blank because I haven't pulled them over from the SF UI Elements package.
+ * Also this file should be loaded after any built in Unity Override styles if used and loaded before any specific sf component styles if used. */
 
+/* Really like to change where the variables are declared. 
+ * Putting them in :root is a huge performance issues. 
+ * You can see the time in miliseconds using the USS State Editor.
+ * Just adding the selector can add up to half a ms (0.5ms) in ui initialization.
+ * 60 FPS target is 16.667 milliseconds, so 0.5ms is 2 FPS lost for UI Style Sheet Initialization alone.*/
 :root {
     --dark-grey-background: rgb(40, 40, 40);
 }
 
-/* pre-wrap is valid white-space declaration, but some IDEs have it marked as invalid. 
-If you see a red line in your IDE under pre-warp. Ignore it.*/
-Label {
-    white-space: pre-wrap;
-}
-
-Button {
-    min-height: 15px;
-}
-
-/* Start of the layout section*/
-SideBarLayout {
-    
-}
-
-SideBarLayout .side-bar{
-    
-}
-
-/* These unity-base-field classes will possibly cause some issues for smaller resolution monitors,
-    but truthfully at the moment not sure what would be the best solution to make sure the 
-    label match up on the edges when you have a vertical list of input fields for entering data.
-    Maybe I need to create my own sf-base-field classes to override them.
-    First thought is to have my own C# SF Input Field class.
-    Have it take in a value type and generate the type of input field and set the uss class names in it.
-    Benefits would be having the ability to set my own C# BindableElement class that implements INotifyValueChanged.
-*/
-/*.unity-base-field {
-    max-width: 350px;
-}*/
-
-.unity-base-field__label {
-    min-width: 80px;
-}
-
-.unity-base-field__input {
-    min-width: 30%;
-}
 
 .header-label {
     -unity-text-align: middle-center;
     margin-bottom: 10px;
-}
-
-.sf-container {
-    min-width: 100%;
-    min-height: 10%;
-    width: 100%;
-    height: 100%;
-}
-
-/* SF Row classes*/
-.sf-row {
-    display: flex;
-    flex-direction: row;
-}
-
-    .sf-row.two-column > * {
-        width: 50%;
-    }
-/*  sf-row-item sets all children to take up the same flex baxis. 
-    Making them all take the same size in the SF Row container as
-    long as the content of one doesn't get to big for it's container.
-    To prevent one from getting bigger due to it's content change the 
-    auto to a set value for all of them.
-    Example three buttons side by side with one having a bigger text label.
-*/
-.sf-row--item {
-    flex:1 1 auto;
 }
 
 /* The sf-row class will now be used instead of just row. 
@@ -94,25 +33,6 @@ SideBarLayout .side-bar{
 
 .row.split > * {
     width: 50%;
-}
-
-.sf-button-group {
-    display: flex;
-}
-
-
-/* Foldout Styling */
-
-.unity-tab__content-container {
-    height: 100%;
-}
-
-.sf__foldout .unity-foldout__text{
-    font-size: 48px;
-}
-
-/* This is the checkmark to click to open and close the foldout.*/
-.unity-foldout__toggle > .unity-toggle__input:checked > .unity-foldout__checkmark {
 }
 
 .card {
@@ -154,56 +74,7 @@ SideBarLayout .side-bar{
     padding: 2px;
 }
 
-.sf-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.sf-header__header-container {
-    height: 35px;
-}
-
-.sf-header__label--container {
-    width: 20%;
-    height: 50px;
-    -unity-text-align: middle-center;
-}
-
-.sf-header__label {
-    font-size: 18px;
-    -unity-text-align: middle-left;
-}
-
-.sf-header__description {
-    width: 80%;
-}
-
-.sf-menu-text {
-    font-size: 25px;
-    word-spacing: 24px;
-    text-shadow: 2px 1px 4px black;
-    -unity-font-style: Bold;
-    -unity-text-outline-width: 1px;
-    -unity-text-outline-color: rgb(126, 79, 37);
-}
-
-.sf-button__transparent {
-    background-color: rgba(88, 88, 88, 0);
-    height: 105px;
-    width: 425px;
-    font-size: 25px;
-    -unity-font-style: bold;
-    text-shadow: 2px 1px 4px rgb(0, 0, 0);
-    -unity-text-align: middle-center;
-    background-position-x: left -25px;
-    border-left-color: rgba(0, 0, 0, 0);
-    border-right-color: rgba(0, 0, 0, 0);
-    border-top-color: rgba(0, 0, 0, 0);
-    border-bottom-color: rgba(0, 0, 0, 0);
-}
-
-/* Start of all layouts. */
+/* Start of all layouts class selectors. Keyword class base selectors not element or id selectors.*/
 
 /* Start of layouts for side bars.*/
 .side-bar {
@@ -214,3 +85,5 @@ SideBarLayout .side-bar{
     min-width: 200px;
     max-width: 30%;
 }
+
+/* End of all layouts class selectors */

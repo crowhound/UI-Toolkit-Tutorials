@@ -2,10 +2,3 @@
 @import url("SF Core Theme.tss");
 
 @import url("/Assets/UI Demos/Visual Element Reference/Player HUD Reference/PlayerHud StyleSheet.uss");
-
-
-
-
-
-
-VisualElement {}

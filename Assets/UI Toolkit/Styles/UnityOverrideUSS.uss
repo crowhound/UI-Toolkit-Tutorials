@@ -1,1 +1,48 @@
-VisualElement {}
+/* pre-wrap is valid white-space declaration, but some IDEs have it marked as invalid. 
+If you see a red line in your IDE under pre-warp. Ignore it.*/
+Label {
+    white-space: pre-wrap;
+}
+
+Button {
+    min-height: 15px;
+}
+
+
+/* Unity's Base Field Elements Overrides */
+
+/* These unity-base-field classes could possibly cause some issues for smaller resolution monitors,
+    but truthfully at the moment not sure what would be the best solution to make sure the 
+    label match up on the edges when you have a vertical list of input fields for entering data.
+    Maybe I need to create my own sf-base-field classes to override them.
+    First thought is to have my own C# SF Input Field class.
+    Have it take in a value type and generate the type of input field and set the uss class names in it.
+    Benefits would be having the ability to set my own C# BindableElement class that implements INotifyValueChanged.*/
+
+.unity-base-field__label {
+    min-width: 80px;
+}
+
+.unity-base-field__input {
+    min-width: 30%;
+}
+
+
+/*.unity-base-field {
+    max-width: 350px;
+}*/
+
+
+
+/* Start of Foldout/Tab elements overrides.*/
+
+/* This helps prevent the tab container from being 0px when some child elements are set to display none or not active yet. */
+.unity-tab__content-container {
+    height: 100%;
+}
+
+/* This is the checkmark to click to open and close the foldout.
+.unity-foldout__toggle > .unity-toggle__input:checked > .unity-foldout__checkmark {
+} */
+
+/* End of Foldout/Tab elements overrides.*/
