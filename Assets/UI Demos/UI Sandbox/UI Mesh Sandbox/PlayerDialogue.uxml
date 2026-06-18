@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="background-color: rgb(130, 32, 32); width: 100%; height: auto;">
+        <ui:Label text="Dialogue Box" style="color: rgb(217, 207, 207); font-size: 24px;"/>
+    </ui:VisualElement>
+</ui:UXML>
