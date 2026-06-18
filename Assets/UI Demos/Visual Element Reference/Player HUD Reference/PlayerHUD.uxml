@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement authoring-id="-449528060" style="-unity-background-image-tint-color: rgb(209, 168, 17); width: 100%; height: 100%;">
+        <ui:Label text="Player HUD" authoring-id="-645073009" style="font-size: 24px;"/>
+    </ui:VisualElement>
+</ui:UXML>
