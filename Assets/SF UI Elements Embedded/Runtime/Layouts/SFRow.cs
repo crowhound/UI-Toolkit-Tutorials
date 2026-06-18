@@ -3,9 +3,14 @@ using UnityEngine.UIElements;
 
 namespace SF.UIModule
 {
+    /// <summary>
+    /// Base class for any custom row element in the SF UI Elements pckage.
+    /// </summary>
     [UxmlElement]
     public partial class SFRow : VisualElement
     {
+        // TODO: Implement the update I got working in sandbox to allow choosing any amount of columns with error checking.
+        
         [UxmlAttribute(TwoColumnUSSClassName)] public bool TwoColumn { get; set; }
         
         public const string USSClassName = "sf-row";
