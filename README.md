@@ -25,12 +25,14 @@ Also removing them vastly increase build times and performance.
 
 <details>
   <summary>List of legacy stuff purposely disabled by default in repos:</summary>
-- The Old Input Manager - I only use the Input System package.
-- No UGUI/Text Mesh Pro - I removed it from my projects.
-  - Note any multiplayer tutorial project before Unity 6.6 will have a UGUI reference because Unity.Authentication package for some reason has a hard dependacy on it.
-- Any 2D physics demos will use the Physics Core 2D module - I have not used Collider2D or Rigidbody2D in any project since Unity 6.3 I only use PhysicsBody and PhysicsShape for performance and customization.
-  - Some of Unity's internal stuff might have a reference to the built in module. If not I have the legacyy 2D physics Module disabled so even Rigidbody2D and Collider2D don't appear as components.
-- No BIRP OR HDRP - Only using URP since it is the main SRP going forward by Unity.
+  
+  - No UGUI AKA Text Mesh Pro - I removed it from my projects.
+  - The Old Input Manager - I only use the Input System package.
+    - Note any multiplayer tutorial project before Unity 6.6 will have a UGUI reference because Unity.Authentication package for some reason has a hard dependacy on it.
+  - Any 2D physics demos will use the Physics Core 2D module - I have not used Collider2D or Rigidbody2D in any project since Unity 6.3 I only use PhysicsBody and PhysicsShape for performance and customization.
+    - Some of Unity's internal stuff might have a reference to the built in module. If not I have the legacyy 2D physics Module disabled so even Rigidbody2D and Collider2D don't appear as components.
+      
+  - No BIRP OR HDRP - Only using URP since it is the main SRP going forward by Unity.
 </details>
 
 
