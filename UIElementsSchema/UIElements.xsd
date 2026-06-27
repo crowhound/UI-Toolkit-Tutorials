@@ -5,6 +5,10 @@
   <xs:import schemaLocation="UnityEngine.xsd" namespace="UnityEngine" />
   <xs:import schemaLocation="UnityEditor.Rendering.Converter.xsd" namespace="UnityEditor.Rendering.Converter" />
   <xs:import schemaLocation="UnityEditor.Rendering.xsd" namespace="UnityEditor.Rendering" />
+  <xs:import schemaLocation="UnityEditor.U2D.Sprites.SpriteEditorTool.xsd" namespace="UnityEditor.U2D.Sprites.SpriteEditorTool" />
+  <xs:import schemaLocation="SFEditor.UIElements.xsd" namespace="SFEditor.UIElements" />
+  <xs:import schemaLocation="SF.UIModule.xsd" namespace="SF.UIModule" />
+  <xs:import schemaLocation="SF.UIElements.xsd" namespace="SF.UIElements" />
   <xs:import schemaLocation="Unity.UIToolkit.Editor.xsd" namespace="Unity.UIToolkit.Editor" />
   <xs:import schemaLocation="UnityEditor.UIElements.xsd" namespace="UnityEditor.UIElements" />
   <xs:import schemaLocation="UnityEditor.UIElements.Debugger.xsd" namespace="UnityEditor.UIElements.Debugger" />

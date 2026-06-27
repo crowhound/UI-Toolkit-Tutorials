@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="SF.UIModule" elementFormDefault="qualified" targetNamespace="SF.UIModule" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:import schemaLocation="SF.UIElements.xsd" namespace="SF.UIElements" />
+  <xs:complexType name="FillBarType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="FillBar" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:FillBarType" />
+  <xs:complexType name="UIViewElementType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="SF.UIElements" base="q3:SFVisualElementBaseType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="UIViewElement" xmlns:q4="SF.UIElements" substitutionGroup="q4:SFVisualElementBase" type="tns:UIViewElementType" />
+</xs:schema>

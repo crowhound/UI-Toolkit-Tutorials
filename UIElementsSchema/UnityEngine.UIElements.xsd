@@ -86,6 +86,30 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="Foldout" substitutionGroup="tns:BindableElement" type="tns:FoldoutType" />
+  <xs:complexType name="LabelType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:TextElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="TextElementType">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BindableElementType">
+        <xs:choice />
+        <xs:attribute name="text" type="xs:string" />
+        <xs:attribute default="true" name="enable-rich-text" type="xs:boolean" />
+        <xs:attribute default="true" name="emoji-fallback-support" type="xs:boolean" />
+        <xs:attribute default="false" name="parse-escape-sequences" type="xs:boolean" />
+        <xs:attribute default="false" name="selectable" type="xs:boolean" />
+        <xs:attribute default="true" name="double-click-selects-word" type="xs:boolean" />
+        <xs:attribute default="true" name="triple-click-selects-line" type="xs:boolean" />
+        <xs:attribute default="true" name="display-tooltip-when-elided" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextElement" substitutionGroup="tns:BindableElement" type="tns:TextElementType" />
+  <xs:element name="Label" substitutionGroup="tns:TextElement" type="tns:LabelType" />
   <xs:simpleType name="BackgroundPosition_AxisType">
     <xs:restriction base="xs:string">
       <xs:enumeration value="Horizontal" />
@@ -127,22 +151,6 @@
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
-  <xs:complexType name="TextElementType">
-    <xs:complexContent mixed="false">
-      <xs:extension base="tns:BindableElementType">
-        <xs:choice />
-        <xs:attribute name="text" type="xs:string" />
-        <xs:attribute default="true" name="enable-rich-text" type="xs:boolean" />
-        <xs:attribute default="true" name="emoji-fallback-support" type="xs:boolean" />
-        <xs:attribute default="false" name="parse-escape-sequences" type="xs:boolean" />
-        <xs:attribute default="false" name="selectable" type="xs:boolean" />
-        <xs:attribute default="true" name="double-click-selects-word" type="xs:boolean" />
-        <xs:attribute default="true" name="triple-click-selects-line" type="xs:boolean" />
-        <xs:attribute default="true" name="display-tooltip-when-elided" type="xs:boolean" />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="TextElement" substitutionGroup="tns:BindableElement" type="tns:TextElementType" />
   <xs:element name="Button" substitutionGroup="tns:TextElement" type="tns:ButtonType" />
   <xs:complexType name="ToggleButtonGroupType">
     <xs:complexContent mixed="false">
@@ -156,14 +164,6 @@
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="ToggleButtonGroup" substitutionGroup="tns:BindableElement" type="tns:ToggleButtonGroupType" />
-  <xs:complexType name="LabelType">
-    <xs:complexContent mixed="false">
-      <xs:extension base="tns:TextElementType">
-        <xs:choice />
-      </xs:extension>
-    </xs:complexContent>
-  </xs:complexType>
-  <xs:element name="Label" substitutionGroup="tns:TextElement" type="tns:LabelType" />
   <xs:complexType name="ScrollViewType">
     <xs:complexContent mixed="false">
       <xs:extension base="tns:VisualElementType">

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="SF.UIElements" elementFormDefault="qualified" targetNamespace="SF.UIElements" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="UnityEngine.UIElements.xsd" namespace="UnityEngine.UIElements" />
+  <xs:complexType name="SFContainerType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="UnityEngine.UIElements" base="q1:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFContainer" xmlns:q2="UnityEngine.UIElements" substitutionGroup="q2:VisualElement" type="tns:SFContainerType" />
+  <xs:complexType name="SFButtonGroupType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q3="UnityEngine.UIElements" base="q3:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFButtonGroup" xmlns:q4="UnityEngine.UIElements" substitutionGroup="q4:VisualElement" type="tns:SFButtonGroupType" />
+  <xs:complexType name="SFRowType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q5="UnityEngine.UIElements" base="q5:VisualElementType">
+        <xs:choice />
+        <xs:attribute default="false" name="two-column" type="xs:boolean" />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFRow" xmlns:q6="UnityEngine.UIElements" substitutionGroup="q6:VisualElement" type="tns:SFRowType" />
+  <xs:complexType name="SideBarLayoutType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q7="UnityEngine.UIElements" base="q7:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SideBarLayout" xmlns:q8="UnityEngine.UIElements" substitutionGroup="q8:VisualElement" type="tns:SideBarLayoutType" />
+  <xs:complexType name="SFVisualElementBaseType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q9="UnityEngine.UIElements" base="q9:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFVisualElementBase" xmlns:q10="UnityEngine.UIElements" substitutionGroup="q10:VisualElement" type="tns:SFVisualElementBaseType" />
+  <xs:complexType name="SFAutoFitLabelType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q11="UnityEngine.UIElements" base="q11:LabelType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFAutoFitLabel" xmlns:q12="UnityEngine.UIElements" substitutionGroup="q12:Label" type="tns:SFAutoFitLabelType" />
+  <xs:complexType name="SFCardType">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="UnityEngine.UIElements" base="q13:VisualElementType">
+        <xs:choice />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SFCard" xmlns:q14="UnityEngine.UIElements" substitutionGroup="q14:VisualElement" type="tns:SFCardType" />
+</xs:schema>
