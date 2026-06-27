@@ -1,13 +1,18 @@
-#if !SF_DATABASES
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Unity.Scripting.LifecycleManagement;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using Object = UnityEngine.Object;
+using UnityEditor;
+#endif
 
 namespace SF.DataModule
 {
     [CreateAssetMenu(fileName = nameof(DatabaseRegistry), menuName = "SF/Data/Database Registry")]
-    public class DatabaseRegistry : ScriptableObject
+    public partial class DatabaseRegistry : ScriptableObject
     {
         /// <summary>
         /// A list of databases needing to be preloaded when the runtime player first starts up.
@@ -150,13 +155,47 @@ namespace SF.DataModule
         
         
 #if UNITY_EDITOR
-        
-        [ContextMenu("Register Preloaded Databases")]
-        public void PreloadDatabases()
+        [AutoStaticsCleanup] private static string _cachedPath;
+    
+        /// <summary>
+        /// Returns the first asset found using the search glob filter if any is passed in. If no filter string is passed in it will just find the first type without worrying about any filters being applied.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="searchGlobFilter"></param>
+        /// <returns></returns>
+        public static T FindFirstAssetOfType<T>(string searchGlobFilter = "") where T : Object
         {
-            var databaseRegistry = DatabaseRegistry.Registry;
+            string[] guids = AssetDatabase.FindAssets($"{searchGlobFilter} t:{typeof(T).Name}");
+            
+            if (guids == null || guids.Length < 1 || string.IsNullOrEmpty(guids[0]))
+                return null;
+            
+            _cachedPath = AssetDatabase.GUIDToAssetPath(guids[0]);
+            return AssetDatabase.LoadAssetAtPath<T>(_cachedPath);
+        }
+    
+        /// <summary>
+        /// Tries and set the <see cref="_registry"/> instance after a code reload from Unity where the managed objects have already finished being restored.
+        /// if one is not already been set. If one is set we make sure to add it to the PlayerSettings.SetPreloadedAssets array to make sure the databases all are initialized before the first frame in scenes.
+        /// </summary>
+        [OnCodeInitializing]
+        static void InitializeDatabaseRegistry()
+        {
+            _registry ??= FindFirstAssetOfType<DatabaseRegistry>();
 
-            if (databaseRegistry == null)
+            // TODO: Add example of how to auto create a folder and make a Database Registry in there if one was not already made.
+            if (_registry == null)
+                return;
+            
+            PreloadDatabases_Internal();
+        }
+        
+        /// <summary>
+        /// Preloads all <see cref="SFDatabase{TDTOBase}"/> set inside of the <see cref="DatabaseRegistry"/> to make sure they are ready before the first frame of the game.
+        /// </summary>
+        private static void PreloadDatabases_Internal()
+        {
+            if (_registry == null)
             {
                 Debug.Log("There was not DatabaseRegistry set as the active registry.");
                 return;
@@ -166,13 +205,19 @@ namespace SF.DataModule
             var preloadedAssets = UnityEditor.PlayerSettings.GetPreloadedAssets().ToList();
             
             // Don't set it if it already is in the PreloadedAssets list.
-            if (preloadedAssets.Contains(databaseRegistry))
+            if (preloadedAssets.Contains(_registry))
                 return;
             
-            preloadedAssets.Add(databaseRegistry);
+            preloadedAssets.Add(_registry);
             UnityEditor.PlayerSettings.SetPreloadedAssets(preloadedAssets.ToArray());
+        }
+        
+        // Context menu needs a public method so we just use it to call into the internal static method.
+        [ContextMenu("Register Preloaded Databases")]
+        public void PreloadDatabases()
+        {
+            PreloadDatabases_Internal();
         }
 #endif
     }
 }
-#endif
