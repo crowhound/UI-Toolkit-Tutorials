@@ -1,0 +1,16 @@
+{
+    "name": "SFeditor.Packages",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0363594ea35ac6e4997cc559311a7c42"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
