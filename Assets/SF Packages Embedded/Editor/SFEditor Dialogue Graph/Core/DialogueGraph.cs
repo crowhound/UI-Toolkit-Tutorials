@@ -66,7 +66,7 @@ namespace SFEditor.Dialogue.Graphs
     }
 
     [Serializable]
-    class DialogueInterruptionNode : Node
+    public class DialogueInterruptionNode : Node
     {
 	    protected override void OnDefinePorts(IPortDefinitionContext context)
 	    {
@@ -76,7 +76,7 @@ namespace SFEditor.Dialogue.Graphs
     }
     
 	[Serializable]
-    class DialoguePersonalityContextNode : ContextNode
+	public class DialoguePersonalityContextNode : ContextNode
     {
 	    protected override void OnDefinePorts(IPortDefinitionContext context)
 	    {
@@ -87,7 +87,7 @@ namespace SFEditor.Dialogue.Graphs
     }
     
     [UseWithContext(typeof(DialoguePersonalityContextNode))] [Serializable]
-    class DialoguePersonalityBlockNode : BlockNode
+    public class DialoguePersonalityBlockNode : BlockNode
     {
 	    protected override void OnDefineOptions(IOptionDefinitionContext  context)
 	    {
@@ -109,7 +109,7 @@ namespace SFEditor.Dialogue.Graphs
     }
     
     [Serializable]
-    class SpriteNode : Node
+    public class SpriteNode : Node
     {
 	    protected override void OnDefineOptions(IOptionDefinitionContext  context)
 	    {
@@ -123,7 +123,7 @@ namespace SFEditor.Dialogue.Graphs
     }
     
     [Serializable]
-    class SpriteRenderNode : Node
+    public class SpriteRenderNode : Node
     {
 	    protected override void OnDefineOptions(IOptionDefinitionContext  context)
 	    {
@@ -133,21 +133,6 @@ namespace SFEditor.Dialogue.Graphs
 	    protected override void OnDefinePorts(IPortDefinitionContext context)
 	    {
 		    context.AddOutputPort<SpriteRenderer>("Output").Build();
-	    }
-    }
-    
-    [Serializable]
-    class SpriteBlinkNode : Node
-    {
-	    protected override void OnDefineOptions(IOptionDefinitionContext  context)
-	    {
-		    context.AddOption<Color>("Blink Color");
-		    context.AddOption<float>("Blink Duration");
-	    }
-
-	    protected override void OnDefinePorts(IPortDefinitionContext context)
-	    {
-		    context.AddInputPort<Sprite>("Input").Build();
 	    }
     }
 }
