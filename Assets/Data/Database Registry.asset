@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d610ffe9765d2784baabfcd7178cce43, type: 3}
   m_Name: Database Registry
   m_EditorClassIdentifier: SF.Packages::SF.DataModule.DatabaseRegistry
-  PreloadedDatabase: []
+  PreloadedDatabase:
+  - {fileID: 11400000, guid: e51c39aa642716f49bee840b906656cd, type: 2}

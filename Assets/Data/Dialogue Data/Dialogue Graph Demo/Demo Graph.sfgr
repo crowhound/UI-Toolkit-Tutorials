@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!114 &1
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12501, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: Demo Graph
   m_EditorClassIdentifier: UnityEditor.dll::Unity.GraphToolkit.Editor.Implementation.GraphObjectImp
   m_GraphModel:
     rid: 8848383124701970624
@@ -29,8 +29,11 @@ MonoBehaviour:
           serializedVersion: 2
           Hash: e1ab396348cec148383cbbe5f7735b87
         m_Name: 
-        m_GraphNodeModels: []
-        m_GraphWireModels: []
+        m_GraphNodeModels:
+        - rid: 8848383124701970627
+        - rid: 8848383124701970630
+        m_GraphWireModels:
+        - rid: 8848383124701970631
         m_GraphStickyNoteModels: []
         m_GraphPlacematModels: []
         m_GraphVariableModels: []
@@ -40,13 +43,37 @@ MonoBehaviour:
         m_LocalSubgraphs: []
         m_LastKnownBounds:
           serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_GraphElementMetaData: []
+          x: -143.00002
+          y: 117.000015
+          width: 895.00006
+          height: 383.00006
+        m_GraphElementMetaData:
+        - m_Guid:
+            m_Value0: 6162410440251377015
+            m_Value1: 10955728020266617720
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 77855743a5478555780bc9a796900a98
+          m_Category: 0
+          m_Index: 0
+        - m_Guid:
+            m_Value0: 9123664904390894654
+            m_Value1: 7417345607816793773
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 3ee4ea2be4c49d7ead4e391288b4ef66
+          m_Category: 4
+          m_Index: 1
+        - m_Guid:
+            m_Value0: 15180401240635402883
+            m_Value1: 12320436673372615520
+          m_HashGuid:
+            serializedVersion: 2
+            Hash: 83eaf8c77f9eabd260f311c2e0fbfaaa
+          m_Category: 2
+          m_Index: 0
         m_EntryPoint:
-          rid: -2
+          rid: 8848383124701970627
         m_Graph:
           rid: 8848383124701970626
     - rid: 8848383124701970625
@@ -64,7 +91,188 @@ MonoBehaviour:
     - rid: 8848383124701970626
       type: {class: DialogueGraph, ns: SFEditor.Dialogue.Graphs, asm: SFeditor.Packages}
       data:
-        HasGraphChanged: 0
+        HasGraphChanged: 1
         HasInitialized: 0
-        LinkedConversationAsset: {fileID: 0}
+        LinkedConversationAsset: {fileID: 11400000, guid: 79702431e30ecb040a031bb4b936d177, type: 2}
         Database: {fileID: 0}
+    - rid: 8848383124701970627
+      type: {class: UserNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 6162410440251377015
+          m_Value1: 10955728020266617720
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 77855743a5478555780bc9a796900a98
+        m_Version: 2
+        m_Position: {x: -143.00009, y: 210.99995}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_Dialogue Database
+          m_ValueList:
+          - rid: 8848383124701970628
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Node:
+          rid: 8848383124701970629
+    - rid: 8848383124701970628
+      type: {class: 'Constant`1[[SF.DialogueModule.DialogueDatabase, SF.Packages]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: {fileID: 11400000, guid: e51c39aa642716f49bee840b906656cd, type: 2}
+    - rid: 8848383124701970629
+      type: {class: StartDialogueNode, ns: SFEditor.Dialogue.Graphs, asm: SFeditor.Packages}
+      data: 
+    - rid: 8848383124701970630
+      type: {class: UserContextNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 9123664904390894654
+          m_Value1: 7417345607816793773
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 3ee4ea2be4c49d7ead4e391288b4ef66
+        m_Version: 2
+        m_Position: {x: 482.50003, y: 116.91672}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_Conversation Name
+          - Input Node
+          m_ValueList:
+          - rid: 8848383124701970632
+          - rid: 8848383124701970633
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_Blocks:
+        - rid: 8848383124701970635
+        m_BlockGuids:
+        - serializedVersion: 2
+          Hash: 5670ae7e244344b100f8d805057ad628
+        m_Subtitle: 
+        m_Node:
+          rid: 8848383124701970634
+    - rid: 8848383124701970631
+      type: {class: WireModel, ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 15180401240635402883
+          m_Value1: 12320436673372615520
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 83eaf8c77f9eabd260f311c2e0fbfaaa
+        m_Version: 2
+        m_FromPortReference:
+          m_NodeModelGuid:
+            m_Value0: 6162410440251377015
+            m_Value1: 10955728020266617720
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 77855743a5478555780bc9a796900a98
+          m_UniqueId: Dialogue Start
+          m_PortDirection: 2
+          m_PortOrientation: 0
+          m_Title: Dialogue Start
+        m_ToPortReference:
+          m_NodeModelGuid:
+            m_Value0: 9123664904390894654
+            m_Value1: 7417345607816793773
+          m_NodeModelHashGuid:
+            serializedVersion: 2
+            Hash: 3ee4ea2be4c49d7ead4e391288b4ef66
+          m_UniqueId: Input Node
+          m_PortDirection: 1
+          m_PortOrientation: 0
+          m_Title: Input Node
+    - rid: 8848383124701970632
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: Demo One
+    - rid: 8848383124701970633
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: 
+    - rid: 8848383124701970634
+      type: {class: ConversationContextNode, ns: SFEditor.Dialogue.Graphs, asm: SFeditor.Packages}
+      data: 
+    - rid: 8848383124701970635
+      type: {class: UserBlockNodeModelImp, ns: Unity.GraphToolkit.Editor.Implementation, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Guid:
+          m_Value0: 12773408267152814166
+          m_Value1: 2942673568524728320
+        m_HashGuid:
+          serializedVersion: 2
+          Hash: 5670ae7e244344b100f8d805057ad628
+        m_Version: 2
+        m_Position: {x: 0, y: 0}
+        m_Title: 
+        m_Tooltip: 
+        m_NodePreviewModel:
+          rid: -2
+        m_State: 0
+        m_InputConstantsById:
+          m_KeyList:
+          - __option_Conversation Entry
+          - __option_Speaker
+          m_ValueList:
+          - rid: 8848383124701970636
+          - rid: 8848383124701970637
+        m_InputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_OutputPortInfos:
+          expandedPortsById:
+            m_KeyList: []
+            m_ValueList: 
+        m_Collapsed: 0
+        m_CurrentModeIndex: 0
+        m_ElementColor:
+          m_Color: {r: 0, g: 0, b: 0, a: 0}
+          m_HasUserColor: 0
+        m_ContextNodeModel:
+          rid: 8848383124701970630
+        m_Node:
+          rid: 8848383124701970638
+    - rid: 8848383124701970636
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: Hello everyone this is a demo graph.
+    - rid: 8848383124701970637
+      type: {class: 'Constant`1[[System.String, mscorlib]]', ns: Unity.GraphToolkit.Editor, asm: UnityEditor.GraphToolkitModule}
+      data:
+        m_Value: Shatter Fantasy Studio
+    - rid: 8848383124701970638
+      type: {class: ConversationEntryBlockNode, ns: SFEditor.Dialogue.Graphs, asm: SFeditor.Packages}
+      data: 

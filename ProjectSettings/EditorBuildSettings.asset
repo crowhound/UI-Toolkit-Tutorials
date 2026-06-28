@@ -9,4 +9,4 @@ EditorBuildSettings:
     path: Assets/UI Demos/Visual Element Reference/Player HUD Reference/HealthBar_VEReference-00.unity
     guid: cbc92bfdfa9bf02428babb051f7dd1d2
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 9dd9c4865025fce48bc994c56b520a4e, type: 3}

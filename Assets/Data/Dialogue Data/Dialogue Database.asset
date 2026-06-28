@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Dialogue Database
   m_EditorClassIdentifier: SF.Packages::SF.DialogueModule.DialogueDatabase
   DatabaseLoadOrder: 0
-  DataEntries: []
+  DataEntries:
+  - {fileID: 11400000, guid: 79702431e30ecb040a031bb4b936d177, type: 2}
