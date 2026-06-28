@@ -1,11 +1,10 @@
 using System.Collections.Generic;
-using SF.DialogueModule;
-using SF.DialogueModule.Nodes;
-using Unity.GraphToolkit.Editor;
-using UnityEngine;
 
 namespace SFEditor.Nodes
 {
+    using SF.DialogueModule;
+    using SF.DialogueModule.Nodes;
+    
     /// <summary>
     /// Describes how to convert an editor node to a runtime node for processing.
     /// </summary>

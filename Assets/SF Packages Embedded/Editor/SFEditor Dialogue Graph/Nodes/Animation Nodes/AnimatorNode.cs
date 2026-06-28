@@ -1,10 +1,11 @@
-using SF.DialogueModule.Nodes;
-using SFEditor.Nodes;
 using Unity.GraphToolkit.Editor;
 using UnityEngine;
 
 namespace SFEditor.Dialogue.Graphs
 {
+    using SF.DialogueModule.Nodes;
+    using SFEditor.Nodes;
+    
     /// <summary>
     /// The type of animation value an <see cref="AnimatorNode"/> is setting.
     /// </summary>

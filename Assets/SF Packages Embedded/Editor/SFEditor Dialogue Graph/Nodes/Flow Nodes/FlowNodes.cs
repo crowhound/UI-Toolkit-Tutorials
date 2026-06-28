@@ -3,6 +3,10 @@ using System;
 namespace SFEditor.Dialogue.Graphs
 {
     using SF.DialogueModule;
+    
+    /// <summary>
+    /// Defines a possible starting point for a Dialogue Graph.
+    /// </summary>
     [Serializable]
     public class StartDialogueNode : DialogueNode, IDialogueNode
     {

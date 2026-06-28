@@ -1,10 +1,11 @@
-using SF.DialogueModule;
 using Unity.GraphToolkit.Editor;
-using SF.DialogueModule.Nodes;
-using SFEditor.Nodes;
 
 namespace SFEditor.Dialogue.Graphs
 {
+    using SFEditor.Nodes;
+    using SF.DialogueModule;
+    using SF.DialogueModule.Nodes;
+    
     [System.Serializable]
     [UseWithContext(typeof(BranchingContextNode), typeof(ConversationContextNode))]
     [UseWithGraph(typeof(DialogueGraph))]

@@ -1,4 +1,3 @@
-#if !SF_DATABASES
 using UnityEngine;
 
 namespace SF.DataModule
@@ -33,4 +32,3 @@ namespace SF.DataModule
         }
     }
 }
-#endif

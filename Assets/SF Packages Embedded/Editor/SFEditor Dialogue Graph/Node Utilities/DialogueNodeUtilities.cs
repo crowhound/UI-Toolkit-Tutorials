@@ -6,7 +6,6 @@ namespace SFEditor.DialogueModule
 	using Dialogue.Graphs;
     public static class DialogueNodeUtilities
     {
-		
 		public static IDialogueNode GetNextNode<T>(T currentNode) where T : IDialogueNode
 	    {
 		    var outputPort = currentNode.GetOutputPortByName(currentNode.ExecutionPortName);
@@ -20,7 +19,5 @@ namespace SFEditor.DialogueModule
 		    var nextNode = nextNodePort?.GetNode() as IDialogueNode;
 		    return nextNode;
 	    }
-	    
-	   
     }
 }

@@ -1,12 +1,13 @@
 using System.Collections.Generic;
-using SF.DialogueModule;
 using Unity.GraphToolkit.Editor;
-using SFEditor.Nodes;
-using SF.DialogueModule.Nodes;
 using UnityEngine;
 
 namespace SFEditor.Dialogue.Graphs
 {
+    using SFEditor.Nodes;
+    using SF.DialogueModule;
+    using SF.DialogueModule.Nodes;
+    
     [System.Serializable]
     [UseWithGraph(typeof(DialogueGraph))]
     public class BranchingContextNode : ContextNode, IContextNodeConvertor, IDialogueNode

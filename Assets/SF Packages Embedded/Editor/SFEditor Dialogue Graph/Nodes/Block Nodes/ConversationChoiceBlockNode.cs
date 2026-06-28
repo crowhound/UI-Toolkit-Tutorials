@@ -1,10 +1,10 @@
 using Unity.GraphToolkit.Editor;
+
 namespace SFEditor.Dialogue.Graphs
 {
-	
     [UseWithContext(typeof(ConversationContextNode))] [System.Serializable]
     [UseWithGraph(typeof(DialogueGraph))]
-    class ConversationChoiceBlockNode : BlockNode
+    public class ConversationChoiceBlockNode : BlockNode
     {
 	    public const string ChoiceOneName = "Choice One"; 
 	    public const string ChoiceTwoName = "Choice Two"; 

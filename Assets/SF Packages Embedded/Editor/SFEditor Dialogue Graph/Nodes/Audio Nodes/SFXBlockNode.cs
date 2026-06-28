@@ -1,11 +1,12 @@
-using SF.DialogueModule.Nodes;
-using SFEditor.Nodes;
 using Unity.GraphToolkit.Editor;
 using UnityEngine;
 using UnityEngine.Audio;
 
 namespace SFEditor.Dialogue.Graphs
 {
+    using SF.DialogueModule.Nodes;
+    using SFEditor.Nodes;
+    
     [System.Serializable]
     [UseWithContext(typeof(ConversationContextNode))]
     [UseWithGraph(typeof(DialogueGraph))]

@@ -8,7 +8,7 @@ namespace SFEditor.Dialogue.Graphs
 	[System.Serializable]
     [UseWithContext(typeof(ConversationContextNode))] 
 	[UseWithGraph(typeof(DialogueGraph))]
-    class ConversationEntryBlockNode : BlockNode, IDialogueNode,INodeConvertor
+	public class ConversationEntryBlockNode : BlockNode, IDialogueNode,INodeConvertor
     {
 	    public string ExecutionPortName { get; } = "Conversation Entry";
 	    public string SpeakerOptionsName { get; } = "Speaker";
