@@ -3,6 +3,11 @@ using UnityEngine;
 
 namespace SF
 {
+    /// <summary>
+    /// Base class for manager types in scene that don't have their static instance cleaned up between
+    /// entering and exiting playmode.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class ManagerBase<T> : MonoBehaviour
     {
         [NoAutoStaticsCleanup]
@@ -16,6 +21,10 @@ namespace SF
         
     }
     
+    /// <summary>
+    /// Base class for manager types in scene that cleans their static instance between entering and exiting playmode.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract partial class ManagerBaseStaticCleanUp<T> : MonoBehaviour where T : Object
     {
         [AutoStaticsCleanup]

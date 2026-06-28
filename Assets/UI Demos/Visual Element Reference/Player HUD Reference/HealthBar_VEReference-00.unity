@@ -225,15 +225,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SF.UIModule.PlayerHUDDemo
   _panelRenderer: {fileID: 297396529}
   _healthBarRef:
-    m_PanelRenderer: {fileID: 297396529}
-    m_AuthoringPath:
-      m_PathIds: 010000000a000000
-  _healthBarID:
-    m_PathIds: 010000000a000000
-  _increaseButtonRef:
     m_PanelRenderer: {fileID: 0}
     m_AuthoringPath:
       m_PathIds: 
+  _healthBarID:
+    m_PathIds: 010000000a000000
+  _increaseButtonRef:
+    m_PanelRenderer: {fileID: 297396529}
+    m_AuthoringPath:
+      m_PathIds: 02000000
   _playerHealth: {fileID: 297396532}
   _healthChangeAmount: 2
 --- !u!114 &297396532
@@ -248,8 +248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899a012e6f5abfd4b8d9dbc2fb2c751f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SF.Damageable.HealthBase
-  CurrentHealth: 20
-  MaxHealth: 20
+  CurrentHealth: 30
+  MaxHealth: 40
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
