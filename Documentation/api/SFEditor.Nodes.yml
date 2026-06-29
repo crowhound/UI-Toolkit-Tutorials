@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Nodes
+  commentId: N:SFEditor.Nodes
+  id: SFEditor.Nodes
+  children:
+  - SFEditor.Nodes.IContextNodeConvertor
+  - SFEditor.Nodes.INodeConvertor
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.Nodes
+  nameWithType: SFEditor.Nodes
+  fullName: SFEditor.Nodes
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: SFEditor.Nodes.INodeConvertor
+  commentId: T:SFEditor.Nodes.INodeConvertor
+  parent: SFEditor.Nodes
+  href: SFEditor.Nodes.INodeConvertor.html
+  name: INodeConvertor
+  nameWithType: INodeConvertor
+  fullName: SFEditor.Nodes.INodeConvertor
+- uid: SFEditor.Nodes.IContextNodeConvertor
+  commentId: T:SFEditor.Nodes.IContextNodeConvertor
+  parent: SFEditor.Nodes
+  href: SFEditor.Nodes.IContextNodeConvertor.html
+  name: IContextNodeConvertor
+  nameWithType: IContextNodeConvertor
+  fullName: SFEditor.Nodes.IContextNodeConvertor
+- uid: SFEditor.Nodes
+  commentId: N:SFEditor.Nodes
+  href: SFEditor.html
+  name: SFEditor.Nodes
+  nameWithType: SFEditor.Nodes
+  fullName: SFEditor.Nodes
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html

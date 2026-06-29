@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.MathUtilities
+  commentId: N:SF.Utilities.MathUtilities
+  id: SF.Utilities.MathUtilities
+  children:
+  - SF.Utilities.MathUtilities.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: SF.Utilities.MathUtilities
+  nameWithType: SF.Utilities.MathUtilities
+  fullName: SF.Utilities.MathUtilities
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Utilities.MathUtilities.TransformExtensions
+  commentId: T:SF.Utilities.MathUtilities.TransformExtensions
+  href: SF.Utilities.MathUtilities.TransformExtensions.html
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: SF.Utilities.MathUtilities.TransformExtensions

@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF
+  commentId: N:SF
+  id: SF
+  children:
+  - SF.ComponentUtilities
+  - SF.DragAndDropManipulator
+  - SF.ManagerBaseStaticCleanUp`1
+  - SF.ManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: SF
+  nameWithType: SF
+  fullName: SF
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF.ManagerBase`1
+  commentId: T:SF.ManagerBase`1
+  href: SF.ManagerBase-1.html
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: SF.ManagerBase<T>
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: SF.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+  spec.csharp:
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.ManagerBaseStaticCleanUp`1
+  commentId: T:SF.ManagerBaseStaticCleanUp`1
+  href: SF.ManagerBaseStaticCleanUp-1.html
+  name: ManagerBaseStaticCleanUp<T>
+  nameWithType: ManagerBaseStaticCleanUp<T>
+  fullName: SF.ManagerBaseStaticCleanUp<T>
+  nameWithType.vb: ManagerBaseStaticCleanUp(Of T)
+  fullName.vb: SF.ManagerBaseStaticCleanUp(Of T)
+  name.vb: ManagerBaseStaticCleanUp(Of T)
+  spec.csharp:
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.DragAndDropManipulator
+  commentId: T:SF.DragAndDropManipulator
+  href: SF.DragAndDropManipulator.html
+  name: DragAndDropManipulator
+  nameWithType: DragAndDropManipulator
+  fullName: SF.DragAndDropManipulator
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF

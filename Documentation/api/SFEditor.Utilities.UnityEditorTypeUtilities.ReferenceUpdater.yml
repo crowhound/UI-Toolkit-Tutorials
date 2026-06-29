@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  commentId: T:SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  id: UnityEditorTypeUtilities.ReferenceUpdater
+  parent: SFEditor.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: UnityEditorTypeUtilities.ReferenceUpdater
+  nameWithType: UnityEditorTypeUtilities.ReferenceUpdater
+  fullName: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  type: Delegate
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public delegate MonoBehaviour UnityEditorTypeUtilities.ReferenceUpdater(Type expectedType, MonoBehaviour oldValue)
+    parameters:
+    - id: expectedType
+      type: System.Type
+    - id: oldValue
+      type: UnityEngine.MonoBehaviour
+    return:
+      type: UnityEngine.MonoBehaviour
+    content.vb: Public Delegate Function UnityEditorTypeUtilities.ReferenceUpdater(expectedType As Type, oldValue As MonoBehaviour) As MonoBehaviour
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.Utilities
+  commentId: N:SFEditor.UIElements.Utilities
+  id: SFEditor.UIElements.Utilities
+  children:
+  - SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory
+  - SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.UIElements.Utilities
+  nameWithType: SFEditor.UIElements.Utilities
+  fullName: SFEditor.UIElements.Utilities
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  commentId: T:SFEditor.UIElements.Utilities.SFUIElementsFactory
+  href: SFEditor.UIElements.Utilities.SFUIElementsFactory.html
+  name: SFUIElementsFactory
+  nameWithType: SFUIElementsFactory
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  commentId: T:SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  href: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html
+  name: UIElementsEditorUtilities
+  nameWithType: UIElementsEditorUtilities
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+- uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  commentId: T:SFEditor.UIElements.Utilities.MouseRectDragManipulator
+  href: SFEditor.UIElements.Utilities.MouseRectDragManipulator.html
+  name: MouseRectDragManipulator
+  nameWithType: MouseRectDragManipulator
+  fullName: SFEditor.UIElements.Utilities.MouseRectDragManipulator

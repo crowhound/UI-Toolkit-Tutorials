@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SideBarLayout.UxmlSerializedData
+  commentId: T:SF.UIElements.SideBarLayout.UxmlSerializedData
+  id: SideBarLayout.UxmlSerializedData
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance
+  langs:
+  - csharp
+  - vb
+  name: SideBarLayout.UxmlSerializedData
+  nameWithType: SideBarLayout.UxmlSerializedData
+  fullName: SF.UIElements.SideBarLayout.UxmlSerializedData
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SideBarLayout.UxmlSerializedData : VisualElement.UxmlSerializedData
+    content.vb: >-
+      <Serializable>
+
+      Public Class SideBarLayout.UxmlSerializedData Inherits VisualElement.UxmlSerializedData
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.UxmlSerializedData
+  - UnityEngine.UIElements.VisualElement.UxmlSerializedData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance
+  commentId: M:SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance
+  id: CreateInstance
+  parent: SF.UIElements.SideBarLayout.UxmlSerializedData
+  langs:
+  - csharp
+  - vb
+  name: CreateInstance()
+  nameWithType: SideBarLayout.UxmlSerializedData.CreateInstance()
+  fullName: SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  summary: >-
+    <p>
+
+    Returns an instance of the declaring element.
+
+    </p>
+  example: []
+  syntax:
+    content: public override object CreateInstance()
+    return:
+      type: System.Object
+      description: <p>The new instance of the declaring element.</p>
+    content.vb: Public Overrides Function CreateInstance() As Object
+  overridden: UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance
+  overload: SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance*
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  href: SF.html
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.UxmlSerializedData
+  commentId: T:UnityEngine.UIElements.UxmlSerializedData
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UxmlSerializedData
+  nameWithType: UxmlSerializedData
+  fullName: UnityEngine.UIElements.UxmlSerializedData
+- uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData
+  commentId: T:UnityEngine.UIElements.VisualElement.UxmlSerializedData
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement.UxmlSerializedData
+  nameWithType: VisualElement.UxmlSerializedData
+  fullName: UnityEngine.UIElements.VisualElement.UxmlSerializedData
+  spec.csharp:
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData
+    name: UxmlSerializedData
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData
+    name: UxmlSerializedData
+    isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance
+  commentId: M:UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance
+  parent: UnityEngine.UIElements.VisualElement.UxmlSerializedData
+  isExternal: true
+  name: CreateInstance()
+  nameWithType: VisualElement.UxmlSerializedData.CreateInstance()
+  fullName: UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance()
+  spec.csharp:
+  - uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance
+    name: CreateInstance
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEngine.UIElements.VisualElement.UxmlSerializedData.CreateInstance
+    name: CreateInstance
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance*
+  commentId: Overload:SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance
+  href: SF.UIElements.SideBarLayout.UxmlSerializedData.html#SF_UIElements_SideBarLayout_UxmlSerializedData_CreateInstance
+  name: CreateInstance
+  nameWithType: SideBarLayout.UxmlSerializedData.CreateInstance
+  fullName: SF.UIElements.SideBarLayout.UxmlSerializedData.CreateInstance

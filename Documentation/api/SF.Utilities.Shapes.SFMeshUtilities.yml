@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes.SFMeshUtilities
+  commentId: T:SF.Utilities.Shapes.SFMeshUtilities
+  id: SFMeshUtilities
+  parent: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.SFMeshUtilities.CreateMesh(System.Span{UnityEngine.Vector3})
+  langs:
+  - csharp
+  - vb
+  name: SFMeshUtilities
+  nameWithType: SFMeshUtilities
+  fullName: SF.Utilities.Shapes.SFMeshUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static class SFMeshUtilities
+    content.vb: Public Module SFMeshUtilities
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh(System.Span{UnityEngine.Vector3})
+  commentId: M:SF.Utilities.Shapes.SFMeshUtilities.CreateMesh(System.Span{UnityEngine.Vector3})
+  id: CreateMesh(System.Span{UnityEngine.Vector3})
+  parent: SF.Utilities.Shapes.SFMeshUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateMesh(Span<Vector3>)
+  nameWithType: SFMeshUtilities.CreateMesh(Span<Vector3>)
+  fullName: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh(System.Span<UnityEngine.Vector3>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Mesh CreateMesh(Span<Vector3> vertices)
+    parameters:
+    - id: vertices
+      type: System.Span{UnityEngine.Vector3}
+    return:
+      type: UnityEngine.Mesh
+    content.vb: Public Shared Function CreateMesh(vertices As Span(Of Vector3)) As Mesh
+  overload: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh*
+  nameWithType.vb: SFMeshUtilities.CreateMesh(Span(Of Vector3))
+  fullName.vb: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh(System.Span(Of UnityEngine.Vector3))
+  name.vb: CreateMesh(Span(Of Vector3))
+references:
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh*
+  commentId: Overload:SF.Utilities.Shapes.SFMeshUtilities.CreateMesh
+  href: SF.Utilities.Shapes.SFMeshUtilities.html#SF_Utilities_Shapes_SFMeshUtilities_CreateMesh_System_Span_UnityEngine_Vector3__
+  name: CreateMesh
+  nameWithType: SFMeshUtilities.CreateMesh
+  fullName: SF.Utilities.Shapes.SFMeshUtilities.CreateMesh
+- uid: System.Span{UnityEngine.Vector3}
+  commentId: T:System.Span{UnityEngine.Vector3}
+  parent: System
+  definition: System.Span`1
+  name: Span<Vector3>
+  nameWithType: Span<Vector3>
+  fullName: System.Span<UnityEngine.Vector3>
+  nameWithType.vb: Span(Of Vector3)
+  fullName.vb: System.Span(Of UnityEngine.Vector3)
+  name.vb: Span(Of Vector3)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: UnityEngine.Mesh
+  commentId: T:UnityEngine.Mesh
+  parent: UnityEngine
+  isExternal: true
+  name: Mesh
+  nameWithType: Mesh
+  fullName: UnityEngine.Mesh
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

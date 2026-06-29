@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+  commentId: T:SFEditor.UIElements.SFTypeDropdownMenu`1
+  id: SFTypeDropdownMenu`1
+  parent: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor
+  - SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor(System.Predicate{System.Type})
+  langs:
+  - csharp
+  - vb
+  name: SFTypeDropdownMenu<TOption>
+  nameWithType: SFTypeDropdownMenu<TOption>
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  summary: An editor only dropdown menu that displays options for c# types that meet the pass in predicate when calling the constructor.
+  example: []
+  syntax:
+    content: >-
+      [UxmlElement]
+
+      public class SFTypeDropdownMenu<TOption> : VisualElement where TOption : class
+    typeParameters:
+    - id: TOption
+    content.vb: >-
+      <UxmlElement>
+
+      Public Class SFTypeDropdownMenu(Of TOption As Class) Inherits VisualElement
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  attributes:
+  - type: UnityEngine.UIElements.UxmlElementAttribute
+    ctor: UnityEngine.UIElements.UxmlElementAttribute.#ctor
+    arguments: []
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption)
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption)
+  name.vb: SFTypeDropdownMenu(Of TOption)
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor
+  commentId: M:SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor
+  id: '#ctor'
+  parent: SFEditor.UIElements.SFTypeDropdownMenu`1
+  langs:
+  - csharp
+  - vb
+  name: SFTypeDropdownMenu()
+  nameWithType: SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu()
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu()
+  type: Constructor
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public SFTypeDropdownMenu()
+    content.vb: Public Sub New()
+  overload: SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor*
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption).New()
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption).New()
+  name.vb: New()
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor(System.Predicate{System.Type})
+  commentId: M:SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor(System.Predicate{System.Type})
+  id: '#ctor(System.Predicate{System.Type})'
+  parent: SFEditor.UIElements.SFTypeDropdownMenu`1
+  langs:
+  - csharp
+  - vb
+  name: SFTypeDropdownMenu(Predicate<Type>)
+  nameWithType: SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu(Predicate<Type>)
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu(System.Predicate<System.Type>)
+  type: Constructor
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public SFTypeDropdownMenu(Predicate<Type> predicate)
+    parameters:
+    - id: predicate
+      type: System.Predicate{System.Type}
+    content.vb: Public Sub New(predicate As Predicate(Of Type))
+  overload: SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor*
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption).New(Predicate(Of Type))
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption).New(System.Predicate(Of System.Type))
+  name.vb: New(Predicate(Of Type))
+references:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  href: SFEditor.html
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor*
+  commentId: Overload:SFEditor.UIElements.SFTypeDropdownMenu`1.#ctor
+  href: SFEditor.UIElements.SFTypeDropdownMenu-1.html#SFEditor_UIElements_SFTypeDropdownMenu_1__ctor
+  name: SFTypeDropdownMenu
+  nameWithType: SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>.SFTypeDropdownMenu
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption).New
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption).New
+  name.vb: New
+- uid: System.Predicate{System.Type}
+  commentId: T:System.Predicate{System.Type}
+  parent: System
+  definition: System.Predicate`1
+  name: Predicate<Type>
+  nameWithType: Predicate<Type>
+  fullName: System.Predicate<System.Type>
+  nameWithType.vb: Predicate(Of Type)
+  fullName.vb: System.Predicate(Of System.Type)
+  name.vb: Predicate(Of Type)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+  - name: <
+  - uid: System.Type
+    name: Type
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Type
+    name: Type
+    isExternal: true
+  - name: )
+- uid: System.Predicate`1
+  commentId: T:System.Predicate`1
+  isExternal: true
+  name: Predicate<T>
+  nameWithType: Predicate<T>
+  fullName: System.Predicate<T>
+  nameWithType.vb: Predicate(Of T)
+  fullName.vb: System.Predicate(Of T)
+  name.vb: Predicate(Of T)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.IUIView
+  commentId: T:SF.UIModule.IUIView
+  id: IUIView
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.IUIView.Dispose
+  - SF.UIModule.IUIView.Hide
+  - SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  - SF.UIModule.IUIView.IsHidden
+  - SF.UIModule.IUIView.RootElement
+  - SF.UIModule.IUIView.Show
+  langs:
+  - csharp
+  - vb
+  name: IUIView
+  nameWithType: IUIView
+  fullName: SF.UIModule.IUIView
+  type: Interface
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: public interface IUIView
+    content.vb: Public Interface IUIView
+  derivedClasses:
+  - SF.UIModule.UIView
+  - SF.UIModule.UIViewElement
+- uid: SF.UIModule.IUIView.RootElement
+  commentId: P:SF.UIModule.IUIView.RootElement
+  id: RootElement
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: RootElement
+  nameWithType: IUIView.RootElement
+  fullName: SF.UIModule.IUIView.RootElement
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: VisualElement RootElement { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: ReadOnly Property RootElement As VisualElement
+  overload: SF.UIModule.IUIView.RootElement*
+- uid: SF.UIModule.IUIView.IsHidden
+  commentId: P:SF.UIModule.IUIView.IsHidden
+  id: IsHidden
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: IsHidden
+  nameWithType: IUIView.IsHidden
+  fullName: SF.UIModule.IUIView.IsHidden
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: bool IsHidden { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsHidden As Boolean
+  overload: SF.UIModule.IUIView.IsHidden*
+- uid: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  commentId: M:SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  id: Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: Initialize(VisualElement, UIController)
+  nameWithType: IUIView.Initialize(VisualElement, UIController)
+  fullName: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement, SF.UIModule.UIController)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: void Initialize(VisualElement rootElement, UIController uiController = null)
+    parameters:
+    - id: rootElement
+      type: UnityEngine.UIElements.VisualElement
+    - id: uiController
+      type: SF.UIModule.UIController
+    content.vb: Sub Initialize(rootElement As VisualElement, uiController As UIController = Nothing)
+  overload: SF.UIModule.IUIView.Initialize*
+- uid: SF.UIModule.IUIView.Show
+  commentId: M:SF.UIModule.IUIView.Show
+  id: Show
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: IUIView.Show()
+  fullName: SF.UIModule.IUIView.Show()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Shows the defined root element of the <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    This sets the root element's style display to flex.
+  example: []
+  syntax:
+    content: void Show()
+    content.vb: Sub Show()
+  overload: SF.UIModule.IUIView.Show*
+- uid: SF.UIModule.IUIView.Hide
+  commentId: M:SF.UIModule.IUIView.Hide
+  id: Hide
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: IUIView.Hide()
+  fullName: SF.UIModule.IUIView.Hide()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Hides the defined root element of the <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    /// This sets the root element's style display to none.
+  example: []
+  syntax:
+    content: void Hide()
+    content.vb: Sub Hide()
+  overload: SF.UIModule.IUIView.Hide*
+- uid: SF.UIModule.IUIView.Dispose
+  commentId: M:SF.UIModule.IUIView.Dispose
+  id: Dispose
+  parent: SF.UIModule.IUIView
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: IUIView.Dispose()
+  fullName: SF.UIModule.IUIView.Dispose()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: Unregisters any callbacks or event handlers.
+  example: []
+  syntax:
+    content: void Dispose()
+    content.vb: Sub Dispose()
+  overload: SF.UIModule.IUIView.Dispose*
+references:
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: SF.UIModule.IUIView.RootElement*
+  commentId: Overload:SF.UIModule.IUIView.RootElement
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_RootElement
+  name: RootElement
+  nameWithType: IUIView.RootElement
+  fullName: SF.UIModule.IUIView.RootElement
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SF.UIModule.IUIView.IsHidden*
+  commentId: Overload:SF.UIModule.IUIView.IsHidden
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_IsHidden
+  name: IsHidden
+  nameWithType: IUIView.IsHidden
+  fullName: SF.UIModule.IUIView.IsHidden
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.UIModule.IUIView.Initialize*
+  commentId: Overload:SF.UIModule.IUIView.Initialize
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_
+  name: Initialize
+  nameWithType: IUIView.Initialize
+  fullName: SF.UIModule.IUIView.Initialize
+- uid: SF.UIModule.UIController
+  commentId: T:SF.UIModule.UIController
+  parent: SF.UIModule
+  href: SF.UIModule.UIController.html
+  name: UIController
+  nameWithType: UIController
+  fullName: SF.UIModule.UIController
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  href: SF.UIModule.UIView.html
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+- uid: SF.UIModule.IUIView.Show*
+  commentId: Overload:SF.UIModule.IUIView.Show
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Show
+  name: Show
+  nameWithType: IUIView.Show
+  fullName: SF.UIModule.IUIView.Show
+- uid: SF.UIModule.IUIView.Hide*
+  commentId: Overload:SF.UIModule.IUIView.Hide
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Hide
+  name: Hide
+  nameWithType: IUIView.Hide
+  fullName: SF.UIModule.IUIView.Hide
+- uid: SF.UIModule.IUIView.Dispose*
+  commentId: Overload:SF.UIModule.IUIView.Dispose
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Dispose
+  name: Dispose
+  nameWithType: IUIView.Dispose
+  fullName: SF.UIModule.IUIView.Dispose

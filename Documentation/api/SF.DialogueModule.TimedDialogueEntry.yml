@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.TimedDialogueEntry
+  commentId: T:SF.DialogueModule.TimedDialogueEntry
+  id: TimedDialogueEntry
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  - SF.DialogueModule.TimedDialogueEntry.DelayedAction
+  langs:
+  - csharp
+  - vb
+  name: TimedDialogueEntry
+  nameWithType: TimedDialogueEntry
+  fullName: SF.DialogueModule.TimedDialogueEntry
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: >-
+    A class to allow DialogueEntries can have an action that can be called if
+
+    the user stays on the dialogue for a set amount of time.
+  remarks: This allows for having special dialogue that calls events if the player hesitates to take an action or make a choice.
+  example: []
+  syntax:
+    content: 'public class TimedDialogueEntry : DialogueEntry'
+    content.vb: Public Class TimedDialogueEntry Inherits DialogueEntry
+  inheritance:
+  - System.Object
+  - SF.DialogueModule.DialogueEntry
+  inheritedMembers:
+  - SF.DialogueModule.DialogueEntry.Text
+  - SF.DialogueModule.DialogueEntry.SpeakerName
+  - SF.DialogueModule.DialogueEntry.StartAction
+  - SF.DialogueModule.DialogueEntry.EndAction
+  - SF.DialogueModule.DialogueEntry.EmptyEntry
+- uid: SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  commentId: F:SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  id: DelayTimer
+  parent: SF.DialogueModule.TimedDialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: DelayTimer
+  nameWithType: TimedDialogueEntry.DelayTimer
+  fullName: SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: How long before the delayed action is activated.
+  example: []
+  syntax:
+    content: public float DelayTimer
+    return:
+      type: System.Single
+    content.vb: Public DelayTimer As Single
+- uid: SF.DialogueModule.TimedDialogueEntry.DelayedAction
+  commentId: F:SF.DialogueModule.TimedDialogueEntry.DelayedAction
+  id: DelayedAction
+  parent: SF.DialogueModule.TimedDialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: DelayedAction
+  nameWithType: TimedDialogueEntry.DelayedAction
+  fullName: SF.DialogueModule.TimedDialogueEntry.DelayedAction
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The action to invoke when the <xref href="SF.DialogueModule.TimedDialogueEntry.DelayTimer" data-throw-if-not-resolved="false"></xref> has reached 0.
+  example: []
+  syntax:
+    content: public Action DelayedAction
+    return:
+      type: System.Action
+    content.vb: Public DelayedAction As Action
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SF.DialogueModule.DialogueEntry
+  commentId: T:SF.DialogueModule.DialogueEntry
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueEntry.html
+  name: DialogueEntry
+  nameWithType: DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry
+- uid: SF.DialogueModule.DialogueEntry.Text
+  commentId: F:SF.DialogueModule.DialogueEntry.Text
+  parent: SF.DialogueModule.DialogueEntry
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry_Text
+  name: Text
+  nameWithType: DialogueEntry.Text
+  fullName: SF.DialogueModule.DialogueEntry.Text
+- uid: SF.DialogueModule.DialogueEntry.SpeakerName
+  commentId: F:SF.DialogueModule.DialogueEntry.SpeakerName
+  parent: SF.DialogueModule.DialogueEntry
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry_SpeakerName
+  name: SpeakerName
+  nameWithType: DialogueEntry.SpeakerName
+  fullName: SF.DialogueModule.DialogueEntry.SpeakerName
+- uid: SF.DialogueModule.DialogueEntry.StartAction
+  commentId: F:SF.DialogueModule.DialogueEntry.StartAction
+  parent: SF.DialogueModule.DialogueEntry
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry_StartAction
+  name: StartAction
+  nameWithType: DialogueEntry.StartAction
+  fullName: SF.DialogueModule.DialogueEntry.StartAction
+- uid: SF.DialogueModule.DialogueEntry.EndAction
+  commentId: F:SF.DialogueModule.DialogueEntry.EndAction
+  parent: SF.DialogueModule.DialogueEntry
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry_EndAction
+  name: EndAction
+  nameWithType: DialogueEntry.EndAction
+  fullName: SF.DialogueModule.DialogueEntry.EndAction
+- uid: SF.DialogueModule.DialogueEntry.EmptyEntry
+  commentId: F:SF.DialogueModule.DialogueEntry.EmptyEntry
+  parent: SF.DialogueModule.DialogueEntry
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry_EmptyEntry
+  name: EmptyEntry
+  nameWithType: DialogueEntry.EmptyEntry
+  fullName: SF.DialogueModule.DialogueEntry.EmptyEntry
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  commentId: F:SF.DialogueModule.TimedDialogueEntry.DelayTimer
+  href: SF.DialogueModule.TimedDialogueEntry.html#SF_DialogueModule_TimedDialogueEntry_DelayTimer
+  name: DelayTimer
+  nameWithType: TimedDialogueEntry.DelayTimer
+  fullName: SF.DialogueModule.TimedDialogueEntry.DelayTimer
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action

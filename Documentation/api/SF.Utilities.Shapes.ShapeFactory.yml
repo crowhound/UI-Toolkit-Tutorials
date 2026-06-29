@@ -1,0 +1,496 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes.ShapeFactory
+  commentId: T:SF.Utilities.Shapes.ShapeFactory
+  id: ShapeFactory
+  parent: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.ShapeFactory.#ctor
+  - SF.Utilities.Shapes.ShapeFactory.#ctor(System.Collections.Generic.List{UnityEngine.Vector3})
+  - SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan
+  - SF.Utilities.Shapes.ShapeFactory.Points
+  - SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan(System.Span{UnityEngine.Vector3}@)
+  langs:
+  - csharp
+  - vb
+  name: ShapeFactory
+  nameWithType: ShapeFactory
+  fullName: SF.Utilities.Shapes.ShapeFactory
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  summary: The base class for all SF Shapes.
+  remarks: >-
+    This class is not marked as abstract so it can be instantiated than assigned to on the fly
+
+    while the initial instantiation can implement a constructor.
+
+
+    It also will use a struct for shape data to allow for some performance and memory usages when copying it's path data into stuff like Unity's UnityEngine.PhysicsShape2D class.
+  example: []
+  syntax:
+    content: 'public class ShapeFactory : MonoBehaviour'
+    content.vb: Public Class ShapeFactory Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.Utilities.Shapes.ShapeFactory.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.Utilities.Shapes.ShapeFactory.Points
+  commentId: F:SF.Utilities.Shapes.ShapeFactory.Points
+  id: Points
+  parent: SF.Utilities.Shapes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: Points
+  nameWithType: ShapeFactory.Points
+  fullName: SF.Utilities.Shapes.ShapeFactory.Points
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public List<Vector3> Points
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Points As List(Of Vector3)
+- uid: SF.Utilities.Shapes.ShapeFactory.#ctor
+  commentId: M:SF.Utilities.Shapes.ShapeFactory.#ctor
+  id: '#ctor'
+  parent: SF.Utilities.Shapes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: ShapeFactory()
+  nameWithType: ShapeFactory.ShapeFactory()
+  fullName: SF.Utilities.Shapes.ShapeFactory.ShapeFactory()
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapeFactory()
+    content.vb: Public Sub New()
+  overload: SF.Utilities.Shapes.ShapeFactory.#ctor*
+  nameWithType.vb: ShapeFactory.New()
+  fullName.vb: SF.Utilities.Shapes.ShapeFactory.New()
+  name.vb: New()
+- uid: SF.Utilities.Shapes.ShapeFactory.#ctor(System.Collections.Generic.List{UnityEngine.Vector3})
+  commentId: M:SF.Utilities.Shapes.ShapeFactory.#ctor(System.Collections.Generic.List{UnityEngine.Vector3})
+  id: '#ctor(System.Collections.Generic.List{UnityEngine.Vector3})'
+  parent: SF.Utilities.Shapes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: ShapeFactory(List<Vector3>)
+  nameWithType: ShapeFactory.ShapeFactory(List<Vector3>)
+  fullName: SF.Utilities.Shapes.ShapeFactory.ShapeFactory(System.Collections.Generic.List<UnityEngine.Vector3>)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapeFactory(List<Vector3> points)
+    parameters:
+    - id: points
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Sub New(points As List(Of Vector3))
+  overload: SF.Utilities.Shapes.ShapeFactory.#ctor*
+  nameWithType.vb: ShapeFactory.New(List(Of Vector3))
+  fullName.vb: SF.Utilities.Shapes.ShapeFactory.New(System.Collections.Generic.List(Of UnityEngine.Vector3))
+  name.vb: New(List(Of Vector3))
+- uid: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan(System.Span{UnityEngine.Vector3}@)
+  commentId: M:SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan(System.Span{UnityEngine.Vector3}@)
+  id: TryGetPointAsSpan(System.Span{UnityEngine.Vector3}@)
+  parent: SF.Utilities.Shapes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: TryGetPointAsSpan(ref Span<Vector3>)
+  nameWithType: ShapeFactory.TryGetPointAsSpan(ref Span<Vector3>)
+  fullName: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan(ref System.Span<UnityEngine.Vector3>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  summary: >-
+    Returns true if a Span was able to be made or false it it failed.
+
+    Also sends back a ref type of Span[Vector2] to use for any data you need it for.
+  example: []
+  syntax:
+    content: public bool TryGetPointAsSpan(ref Span<Vector3> spanPoints)
+    parameters:
+    - id: spanPoints
+      type: System.Span{UnityEngine.Vector3}
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function TryGetPointAsSpan(spanPoints As Span(Of Vector3)) As Boolean
+  overload: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan*
+  nameWithType.vb: ShapeFactory.TryGetPointAsSpan(Span(Of Vector3))
+  fullName.vb: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan(System.Span(Of UnityEngine.Vector3))
+  name.vb: TryGetPointAsSpan(Span(Of Vector3))
+- uid: SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan
+  commentId: M:SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan
+  id: GetPointsAsSpan
+  parent: SF.Utilities.Shapes.ShapeFactory
+  langs:
+  - csharp
+  - vb
+  name: GetPointsAsSpan()
+  nameWithType: ShapeFactory.GetPointsAsSpan()
+  fullName: SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public Span<Vector3> GetPointsAsSpan()
+    return:
+      type: System.Span{UnityEngine.Vector3}
+    content.vb: Public Function GetPointsAsSpan() As Span(Of Vector3)
+  overload: SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan*
+references:
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.Utilities.Shapes.ShapeFactory.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<ShapeFactory>(ShapeFactory)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<ShapeFactory>(ShapeFactory)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.Utilities.Shapes.ShapeFactory>(SF.Utilities.Shapes.ShapeFactory)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of ShapeFactory)(ShapeFactory)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.Utilities.Shapes.ShapeFactory)(SF.Utilities.Shapes.ShapeFactory)
+  name.vb: IsActiveEnabledAndNotNull(Of ShapeFactory)(ShapeFactory)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Utilities.Shapes.ShapeFactory)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.Utilities.Shapes.ShapeFactory
+    name: ShapeFactory
+    href: SF.Utilities.Shapes.ShapeFactory.html
+  - name: '>'
+  - name: (
+  - uid: SF.Utilities.Shapes.ShapeFactory
+    name: ShapeFactory
+    href: SF.Utilities.Shapes.ShapeFactory.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Utilities.Shapes.ShapeFactory)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Utilities.Shapes.ShapeFactory
+    name: ShapeFactory
+    href: SF.Utilities.Shapes.ShapeFactory.html
+  - name: )
+  - name: (
+  - uid: SF.Utilities.Shapes.ShapeFactory
+    name: ShapeFactory
+    href: SF.Utilities.Shapes.ShapeFactory.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.Utilities.Shapes.ShapeFactory.#ctor*
+  commentId: Overload:SF.Utilities.Shapes.ShapeFactory.#ctor
+  href: SF.Utilities.Shapes.ShapeFactory.html#SF_Utilities_Shapes_ShapeFactory__ctor
+  name: ShapeFactory
+  nameWithType: ShapeFactory.ShapeFactory
+  fullName: SF.Utilities.Shapes.ShapeFactory.ShapeFactory
+  nameWithType.vb: ShapeFactory.New
+  fullName.vb: SF.Utilities.Shapes.ShapeFactory.New
+  name.vb: New
+- uid: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan*
+  commentId: Overload:SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan
+  href: SF.Utilities.Shapes.ShapeFactory.html#SF_Utilities_Shapes_ShapeFactory_TryGetPointAsSpan_System_Span_UnityEngine_Vector3___
+  name: TryGetPointAsSpan
+  nameWithType: ShapeFactory.TryGetPointAsSpan
+  fullName: SF.Utilities.Shapes.ShapeFactory.TryGetPointAsSpan
+- uid: System.Span{UnityEngine.Vector3}
+  commentId: T:System.Span{UnityEngine.Vector3}
+  parent: System
+  definition: System.Span`1
+  name: Span<Vector3>
+  nameWithType: Span<Vector3>
+  fullName: System.Span<UnityEngine.Vector3>
+  nameWithType.vb: Span(Of Vector3)
+  fullName.vb: System.Span(Of UnityEngine.Vector3)
+  name.vb: Span(Of Vector3)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan*
+  commentId: Overload:SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan
+  href: SF.Utilities.Shapes.ShapeFactory.html#SF_Utilities_Shapes_ShapeFactory_GetPointsAsSpan
+  name: GetPointsAsSpan
+  nameWithType: ShapeFactory.GetPointsAsSpan
+  fullName: SF.Utilities.Shapes.ShapeFactory.GetPointsAsSpan

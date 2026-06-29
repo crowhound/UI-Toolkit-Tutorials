@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes.SFRendererUtilities
+  commentId: T:SF.Utilities.Shapes.SFRendererUtilities
+  id: SFRendererUtilities
+  parent: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh(UnityEngine.Mesh)
+  - SF.Utilities.Shapes.SFRendererUtilities.DebugMaterial
+  - SF.Utilities.Shapes.SFRendererUtilities.DebugMeshes
+  - SF.Utilities.Shapes.SFRendererUtilities.OutlineColor
+  - SF.Utilities.Shapes.SFRendererUtilities.OutputTexture
+  - SF.Utilities.Shapes.SFRendererUtilities.ProjectionMatrix
+  - SF.Utilities.Shapes.SFRendererUtilities.RenderCamera
+  - SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List{UnityEngine.Camera})
+  - SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix
+  - SF.Utilities.Shapes.SFRendererUtilities.VirtualCameraSize
+  langs:
+  - csharp
+  - vb
+  name: SFRendererUtilities
+  nameWithType: SFRendererUtilities
+  fullName: SF.Utilities.Shapes.SFRendererUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static class SFRendererUtilities
+    content.vb: Public Module SFRendererUtilities
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.Shapes.SFRendererUtilities.OutputTexture
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.OutputTexture
+  id: OutputTexture
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: OutputTexture
+  nameWithType: SFRendererUtilities.OutputTexture
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.OutputTexture
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static RenderTexture OutputTexture
+    return:
+      type: UnityEngine.RenderTexture
+    content.vb: Public Shared OutputTexture As RenderTexture
+- uid: SF.Utilities.Shapes.SFRendererUtilities.RenderCamera
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.RenderCamera
+  id: RenderCamera
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: RenderCamera
+  nameWithType: SFRendererUtilities.RenderCamera
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.RenderCamera
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Camera RenderCamera
+    return:
+      type: UnityEngine.Camera
+    content.vb: Public Shared RenderCamera As Camera
+- uid: SF.Utilities.Shapes.SFRendererUtilities.ProjectionMatrix
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.ProjectionMatrix
+  id: ProjectionMatrix
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: ProjectionMatrix
+  nameWithType: SFRendererUtilities.ProjectionMatrix
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.ProjectionMatrix
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Matrix4x4 ProjectionMatrix
+    return:
+      type: UnityEngine.Matrix4x4
+    content.vb: Public Shared ProjectionMatrix As Matrix4x4
+- uid: SF.Utilities.Shapes.SFRendererUtilities.VirtualCameraSize
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.VirtualCameraSize
+  id: VirtualCameraSize
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: VirtualCameraSize
+  nameWithType: SFRendererUtilities.VirtualCameraSize
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.VirtualCameraSize
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static float VirtualCameraSize
+    return:
+      type: System.Single
+    content.vb: Public Shared VirtualCameraSize As Single
+- uid: SF.Utilities.Shapes.SFRendererUtilities.DebugMaterial
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.DebugMaterial
+  id: DebugMaterial
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: DebugMaterial
+  nameWithType: SFRendererUtilities.DebugMaterial
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.DebugMaterial
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Material DebugMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Shared DebugMaterial As Material
+- uid: SF.Utilities.Shapes.SFRendererUtilities.OutlineColor
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.OutlineColor
+  id: OutlineColor
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: OutlineColor
+  nameWithType: SFRendererUtilities.OutlineColor
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.OutlineColor
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Color OutlineColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared OutlineColor As Color
+- uid: SF.Utilities.Shapes.SFRendererUtilities.DebugMeshes
+  commentId: F:SF.Utilities.Shapes.SFRendererUtilities.DebugMeshes
+  id: DebugMeshes
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: DebugMeshes
+  nameWithType: SFRendererUtilities.DebugMeshes
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.DebugMeshes
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static readonly List<Mesh> DebugMeshes
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Mesh}
+    content.vb: Public Shared ReadOnly DebugMeshes As List(Of Mesh)
+- uid: SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix
+  commentId: M:SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix
+  id: SetOrthoProjectionMatrix
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: SetOrthoProjectionMatrix()
+  nameWithType: SFRendererUtilities.SetOrthoProjectionMatrix()
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Matrix4x4 SetOrthoProjectionMatrix()
+    return:
+      type: UnityEngine.Matrix4x4
+    content.vb: Public Shared Function SetOrthoProjectionMatrix() As Matrix4x4
+  overload: SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix*
+- uid: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List{UnityEngine.Camera})
+  commentId: M:SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List{UnityEngine.Camera})
+  id: RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List{UnityEngine.Camera})
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: RenderMeshes(ScriptableRenderContext, List<Camera>)
+  nameWithType: SFRendererUtilities.RenderMeshes(ScriptableRenderContext, List<Camera>)
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext, System.Collections.Generic.List<UnityEngine.Camera>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static void RenderMeshes(ScriptableRenderContext context, List<Camera> cameras)
+    parameters:
+    - id: context
+      type: UnityEngine.Rendering.ScriptableRenderContext
+    - id: cameras
+      type: System.Collections.Generic.List{UnityEngine.Camera}
+    content.vb: Public Shared Sub RenderMeshes(context As ScriptableRenderContext, cameras As List(Of Camera))
+  overload: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes*
+  nameWithType.vb: SFRendererUtilities.RenderMeshes(ScriptableRenderContext, List(Of Camera))
+  fullName.vb: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes(UnityEngine.Rendering.ScriptableRenderContext, System.Collections.Generic.List(Of UnityEngine.Camera))
+  name.vb: RenderMeshes(ScriptableRenderContext, List(Of Camera))
+- uid: SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh(UnityEngine.Mesh)
+  commentId: M:SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh(UnityEngine.Mesh)
+  id: AddDebugMesh(UnityEngine.Mesh)
+  parent: SF.Utilities.Shapes.SFRendererUtilities
+  langs:
+  - csharp
+  - vb
+  name: AddDebugMesh(Mesh)
+  nameWithType: SFRendererUtilities.AddDebugMesh(Mesh)
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh(UnityEngine.Mesh)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static void AddDebugMesh(Mesh mesh)
+    parameters:
+    - id: mesh
+      type: UnityEngine.Mesh
+    content.vb: Public Shared Sub AddDebugMesh(mesh As Mesh)
+  overload: SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh*
+references:
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.RenderTexture
+  commentId: T:UnityEngine.RenderTexture
+  parent: UnityEngine
+  isExternal: true
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: UnityEngine.RenderTexture
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Camera
+  commentId: T:UnityEngine.Camera
+  parent: UnityEngine
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: UnityEngine.Camera
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: System.Collections.Generic.List{UnityEngine.Mesh}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Mesh}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Mesh>
+  nameWithType: List<Mesh>
+  fullName: System.Collections.Generic.List<UnityEngine.Mesh>
+  nameWithType.vb: List(Of Mesh)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Mesh)
+  name.vb: List(Of Mesh)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Mesh
+    name: Mesh
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix*
+  commentId: Overload:SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix
+  href: SF.Utilities.Shapes.SFRendererUtilities.html#SF_Utilities_Shapes_SFRendererUtilities_SetOrthoProjectionMatrix
+  name: SetOrthoProjectionMatrix
+  nameWithType: SFRendererUtilities.SetOrthoProjectionMatrix
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.SetOrthoProjectionMatrix
+- uid: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes*
+  commentId: Overload:SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes
+  href: SF.Utilities.Shapes.SFRendererUtilities.html#SF_Utilities_Shapes_SFRendererUtilities_RenderMeshes_UnityEngine_Rendering_ScriptableRenderContext_System_Collections_Generic_List_UnityEngine_Camera__
+  name: RenderMeshes
+  nameWithType: SFRendererUtilities.RenderMeshes
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.RenderMeshes
+- uid: UnityEngine.Rendering.ScriptableRenderContext
+  commentId: T:UnityEngine.Rendering.ScriptableRenderContext
+  parent: UnityEngine.Rendering
+  isExternal: true
+  name: ScriptableRenderContext
+  nameWithType: ScriptableRenderContext
+  fullName: UnityEngine.Rendering.ScriptableRenderContext
+- uid: System.Collections.Generic.List{UnityEngine.Camera}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Camera}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Camera>
+  nameWithType: List<Camera>
+  fullName: System.Collections.Generic.List<UnityEngine.Camera>
+  nameWithType.vb: List(Of Camera)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Camera)
+  name.vb: List(Of Camera)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Camera
+    name: Camera
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Camera
+    name: Camera
+    isExternal: true
+  - name: )
+- uid: UnityEngine.Rendering
+  commentId: N:UnityEngine.Rendering
+  isExternal: true
+  name: UnityEngine.Rendering
+  nameWithType: UnityEngine.Rendering
+  fullName: UnityEngine.Rendering
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Rendering
+    name: Rendering
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Rendering
+    name: Rendering
+    isExternal: true
+- uid: SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh*
+  commentId: Overload:SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh
+  href: SF.Utilities.Shapes.SFRendererUtilities.html#SF_Utilities_Shapes_SFRendererUtilities_AddDebugMesh_UnityEngine_Mesh_
+  name: AddDebugMesh
+  nameWithType: SFRendererUtilities.AddDebugMesh
+  fullName: SF.Utilities.Shapes.SFRendererUtilities.AddDebugMesh
+- uid: UnityEngine.Mesh
+  commentId: T:UnityEngine.Mesh
+  parent: UnityEngine
+  isExternal: true
+  name: Mesh
+  nameWithType: Mesh
+  fullName: UnityEngine.Mesh

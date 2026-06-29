@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  id: SF.UIModule
+  children:
+  - SF.UIModule.FillBar
+  - SF.UIModule.FillBar.UxmlSerializedData
+  - SF.UIModule.FillBarDirection
+  - SF.UIModule.FillBarEvent
+  - SF.UIModule.IUIView
+  - SF.UIModule.PlayerHUD
+  - SF.UIModule.UIController
+  - SF.UIModule.UIControllerBase
+  - SF.UIModule.UIOverlayView
+  - SF.UIModule.UIView
+  - SF.UIModule.UIViewElement
+  - SF.UIModule.UIViewElement.UxmlSerializedData
+  langs:
+  - csharp
+  - vb
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: SF.UIModule.PlayerHUD
+  commentId: T:SF.UIModule.PlayerHUD
+  href: SF.UIModule.PlayerHUD.html
+  name: PlayerHUD
+  nameWithType: PlayerHUD
+  fullName: SF.UIModule.PlayerHUD
+- uid: SF.UIModule.UIOverlayView
+  commentId: T:SF.UIModule.UIOverlayView
+  href: SF.UIModule.UIOverlayView.html
+  name: UIOverlayView
+  nameWithType: UIOverlayView
+  fullName: SF.UIModule.UIOverlayView
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  href: SF.UIModule.UIView.html
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+- uid: SF.UIModule.UIViewElement
+  commentId: T:SF.UIModule.UIViewElement
+  href: SF.UIModule.UIViewElement.html
+  name: UIViewElement
+  nameWithType: UIViewElement
+  fullName: SF.UIModule.UIViewElement
+- uid: SF.UIModule.UIViewElement.UxmlSerializedData
+  commentId: T:SF.UIModule.UIViewElement.UxmlSerializedData
+  href: SF.UIModule.UIViewElement.html
+  name: UIViewElement.UxmlSerializedData
+  nameWithType: UIViewElement.UxmlSerializedData
+  fullName: SF.UIModule.UIViewElement.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIModule.UIViewElement
+    name: UIViewElement
+    href: SF.UIModule.UIViewElement.html
+  - name: .
+  - uid: SF.UIModule.UIViewElement.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIModule.UIViewElement.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIModule.UIViewElement
+    name: UIViewElement
+    href: SF.UIModule.UIViewElement.html
+  - name: .
+  - uid: SF.UIModule.UIViewElement.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIModule.UIViewElement.UxmlSerializedData.html
+- uid: SF.UIModule.IUIView
+  commentId: T:SF.UIModule.IUIView
+  parent: SF.UIModule
+  href: SF.UIModule.IUIView.html
+  name: IUIView
+  nameWithType: IUIView
+  fullName: SF.UIModule.IUIView
+- uid: SF.UIModule.UIControllerBase
+  commentId: T:SF.UIModule.UIControllerBase
+  parent: SF.UIModule
+  href: SF.UIModule.UIControllerBase.html
+  name: UIControllerBase
+  nameWithType: UIControllerBase
+  fullName: SF.UIModule.UIControllerBase
+- uid: SF.UIModule.UIController
+  commentId: T:SF.UIModule.UIController
+  parent: SF.UIModule
+  href: SF.UIModule.UIController.html
+  name: UIController
+  nameWithType: UIController
+  fullName: SF.UIModule.UIController
+- uid: SF.UIModule.FillBarEvent
+  commentId: T:SF.UIModule.FillBarEvent
+  parent: SF.UIModule
+  href: SF.UIModule.FillBarEvent.html
+  name: FillBarEvent
+  nameWithType: FillBarEvent
+  fullName: SF.UIModule.FillBarEvent
+- uid: SF.UIModule.FillBarDirection
+  commentId: T:SF.UIModule.FillBarDirection
+  parent: SF.UIModule
+  href: SF.UIModule.FillBarDirection.html
+  name: FillBarDirection
+  nameWithType: FillBarDirection
+  fullName: SF.UIModule.FillBarDirection
+- uid: SF.UIModule.FillBar
+  commentId: T:SF.UIModule.FillBar
+  href: SF.UIModule.FillBar.html
+  name: FillBar
+  nameWithType: FillBar
+  fullName: SF.UIModule.FillBar
+- uid: SF.UIModule.FillBar.UxmlSerializedData
+  commentId: T:SF.UIModule.FillBar.UxmlSerializedData
+  href: SF.UIModule.FillBar.html
+  name: FillBar.UxmlSerializedData
+  nameWithType: FillBar.UxmlSerializedData
+  fullName: SF.UIModule.FillBar.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIModule.FillBar
+    name: FillBar
+    href: SF.UIModule.FillBar.html
+  - name: .
+  - uid: SF.UIModule.FillBar.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIModule.FillBar.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIModule.FillBar
+    name: FillBar
+    href: SF.UIModule.FillBar.html
+  - name: .
+  - uid: SF.UIModule.FillBar.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIModule.FillBar.UxmlSerializedData.html
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html

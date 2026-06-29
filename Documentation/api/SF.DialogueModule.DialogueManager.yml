@@ -1,0 +1,786 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialogueManager
+  commentId: T:SF.DialogueModule.DialogueManager
+  id: DialogueManager
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialogueManager.DialogueDB
+  - SF.DialogueModule.DialogueManager.DialogueEndedHandler
+  - SF.DialogueModule.DialogueManager.DialogueStartedHandler
+  - SF.DialogueModule.DialogueManager.DialogueTextChangedHandler
+  - SF.DialogueModule.DialogueManager.Extensions
+  - SF.DialogueModule.DialogueManager.InConversation
+  - SF.DialogueModule.DialogueManager.Instance
+  - SF.DialogueModule.DialogueManager.RecentConversation
+  - SF.DialogueModule.DialogueManager.RuntimeGraph
+  - SF.DialogueModule.DialogueManager.StartConversation(SF.DialogueModule.DialogueConversation)
+  - SF.DialogueModule.DialogueManager.StopConversation
+  - SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  - SF.DialogueModule.DialogueManager.TriggerConversation(System.Int32,UnityEngine.Component)
+  - SF.DialogueModule.DialogueManager.UpdateDialogueText(SF.DialogueModule.DialogueEntry)
+  langs:
+  - csharp
+  - vb
+  name: DialogueManager
+  nameWithType: DialogueManager
+  fullName: SF.DialogueModule.DialogueManager
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The in scene manager that controls the way DialogueConversations are run and set up.
+  example: []
+  syntax:
+    content: 'public class DialogueManager : MonoBehaviour'
+    content.vb: Public Class DialogueManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.DialogueModule.DialogueManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.DialogueModule.DialogueManager.Instance
+  commentId: P:SF.DialogueModule.DialogueManager.Instance
+  id: Instance
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: DialogueManager.Instance
+  fullName: SF.DialogueModule.DialogueManager.Instance
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static DialogueManager Instance { get; set; }
+    parameters: []
+    return:
+      type: SF.DialogueModule.DialogueManager
+    content.vb: Public Shared Property Instance As DialogueManager
+  overload: SF.DialogueModule.DialogueManager.Instance*
+- uid: SF.DialogueModule.DialogueManager.DialogueDB
+  commentId: P:SF.DialogueModule.DialogueManager.DialogueDB
+  id: DialogueDB
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: DialogueDB
+  nameWithType: DialogueManager.DialogueDB
+  fullName: SF.DialogueModule.DialogueManager.DialogueDB
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueDatabase DialogueDB { get; }
+    parameters: []
+    return:
+      type: SF.DialogueModule.DialogueDatabase
+    content.vb: Public Property DialogueDB As DialogueDatabase
+  overload: SF.DialogueModule.DialogueManager.DialogueDB*
+- uid: SF.DialogueModule.DialogueManager.RecentConversation
+  commentId: P:SF.DialogueModule.DialogueManager.RecentConversation
+  id: RecentConversation
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: RecentConversation
+  nameWithType: DialogueManager.RecentConversation
+  fullName: SF.DialogueModule.DialogueManager.RecentConversation
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static DialogueConversation RecentConversation { get; }
+    parameters: []
+    return:
+      type: SF.DialogueModule.DialogueConversation
+    content.vb: Public Shared Property RecentConversation As DialogueConversation
+  overload: SF.DialogueModule.DialogueManager.RecentConversation*
+- uid: SF.DialogueModule.DialogueManager.InConversation
+  commentId: P:SF.DialogueModule.DialogueManager.InConversation
+  id: InConversation
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: InConversation
+  nameWithType: DialogueManager.InConversation
+  fullName: SF.DialogueModule.DialogueManager.InConversation
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static bool InConversation { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property InConversation As Boolean
+  overload: SF.DialogueModule.DialogueManager.InConversation*
+- uid: SF.DialogueModule.DialogueManager.RuntimeGraph
+  commentId: F:SF.DialogueModule.DialogueManager.RuntimeGraph
+  id: RuntimeGraph
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: RuntimeGraph
+  nameWithType: DialogueManager.RuntimeGraph
+  fullName: SF.DialogueModule.DialogueManager.RuntimeGraph
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: This is the runtime graph for conversations nodes created from the Dialogue Graph Importer.
+  example: []
+  syntax:
+    content: public DialogueRuntimeGraph RuntimeGraph
+    return:
+      type: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+    content.vb: Public RuntimeGraph As DialogueRuntimeGraph
+- uid: SF.DialogueModule.DialogueManager.Extensions
+  commentId: F:SF.DialogueModule.DialogueManager.Extensions
+  id: Extensions
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: Extensions
+  nameWithType: DialogueManager.Extensions
+  fullName: SF.DialogueModule.DialogueManager.Extensions
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public List<DialogueExtensionBase> Extensions
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.DialogueExtensionBase}
+    content.vb: >-
+      <NonSerialized>
+
+      Public Extensions As List(Of DialogueExtensionBase)
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueManager.DialogueStartedHandler
+  commentId: E:SF.DialogueModule.DialogueManager.DialogueStartedHandler
+  id: DialogueStartedHandler
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: DialogueStartedHandler
+  nameWithType: DialogueManager.DialogueStartedHandler
+  fullName: SF.DialogueModule.DialogueManager.DialogueStartedHandler
+  type: Event
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static event Action DialogueStartedHandler
+    return:
+      type: System.Action
+    content.vb: Public Shared Event DialogueStartedHandler As Action
+- uid: SF.DialogueModule.DialogueManager.DialogueEndedHandler
+  commentId: E:SF.DialogueModule.DialogueManager.DialogueEndedHandler
+  id: DialogueEndedHandler
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: DialogueEndedHandler
+  nameWithType: DialogueManager.DialogueEndedHandler
+  fullName: SF.DialogueModule.DialogueManager.DialogueEndedHandler
+  type: Event
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static event Action DialogueEndedHandler
+    return:
+      type: System.Action
+    content.vb: Public Shared Event DialogueEndedHandler As Action
+- uid: SF.DialogueModule.DialogueManager.DialogueTextChangedHandler
+  commentId: E:SF.DialogueModule.DialogueManager.DialogueTextChangedHandler
+  id: DialogueTextChangedHandler
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: DialogueTextChangedHandler
+  nameWithType: DialogueManager.DialogueTextChangedHandler
+  fullName: SF.DialogueModule.DialogueManager.DialogueTextChangedHandler
+  type: Event
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Invoked when the dialogue changes the current <xref href="SF.DialogueModule.DialogueEntry" data-throw-if-not-resolved="false"></xref> to the next conversation node.
+  example: []
+  syntax:
+    content: public static event Action<DialogueEntry> DialogueTextChangedHandler
+    return:
+      type: System.Action{SF.DialogueModule.DialogueEntry}
+    content.vb: Public Shared Event DialogueTextChangedHandler As Action(Of DialogueEntry)
+- uid: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  commentId: M:SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  id: TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: TriggerConversation(DialogueConversation, Component)
+  nameWithType: DialogueManager.TriggerConversation(DialogueConversation, Component)
+  fullName: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation, UnityEngine.Component)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static void TriggerConversation(DialogueConversation conversation, Component callingComponent = null)
+    parameters:
+    - id: conversation
+      type: SF.DialogueModule.DialogueConversation
+    - id: callingComponent
+      type: UnityEngine.Component
+    content.vb: Public Shared Sub TriggerConversation(conversation As DialogueConversation, callingComponent As Component = Nothing)
+  overload: SF.DialogueModule.DialogueManager.TriggerConversation*
+- uid: SF.DialogueModule.DialogueManager.TriggerConversation(System.Int32,UnityEngine.Component)
+  commentId: M:SF.DialogueModule.DialogueManager.TriggerConversation(System.Int32,UnityEngine.Component)
+  id: TriggerConversation(System.Int32,UnityEngine.Component)
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: TriggerConversation(int, Component)
+  nameWithType: DialogueManager.TriggerConversation(int, Component)
+  fullName: SF.DialogueModule.DialogueManager.TriggerConversation(int, UnityEngine.Component)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static void TriggerConversation(int guid, Component callingComponent = null)
+    parameters:
+    - id: guid
+      type: System.Int32
+    - id: callingComponent
+      type: UnityEngine.Component
+    content.vb: Public Shared Sub TriggerConversation(guid As Integer, callingComponent As Component = Nothing)
+  overload: SF.DialogueModule.DialogueManager.TriggerConversation*
+  nameWithType.vb: DialogueManager.TriggerConversation(Integer, Component)
+  fullName.vb: SF.DialogueModule.DialogueManager.TriggerConversation(Integer, UnityEngine.Component)
+  name.vb: TriggerConversation(Integer, Component)
+- uid: SF.DialogueModule.DialogueManager.UpdateDialogueText(SF.DialogueModule.DialogueEntry)
+  commentId: M:SF.DialogueModule.DialogueManager.UpdateDialogueText(SF.DialogueModule.DialogueEntry)
+  id: UpdateDialogueText(SF.DialogueModule.DialogueEntry)
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateDialogueText(DialogueEntry)
+  nameWithType: DialogueManager.UpdateDialogueText(DialogueEntry)
+  fullName: SF.DialogueModule.DialogueManager.UpdateDialogueText(SF.DialogueModule.DialogueEntry)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static void UpdateDialogueText(DialogueEntry dialogueEntry)
+    parameters:
+    - id: dialogueEntry
+      type: SF.DialogueModule.DialogueEntry
+    content.vb: Public Shared Sub UpdateDialogueText(dialogueEntry As DialogueEntry)
+  overload: SF.DialogueModule.DialogueManager.UpdateDialogueText*
+- uid: SF.DialogueModule.DialogueManager.StartConversation(SF.DialogueModule.DialogueConversation)
+  commentId: M:SF.DialogueModule.DialogueManager.StartConversation(SF.DialogueModule.DialogueConversation)
+  id: StartConversation(SF.DialogueModule.DialogueConversation)
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: StartConversation(DialogueConversation)
+  nameWithType: DialogueManager.StartConversation(DialogueConversation)
+  fullName: SF.DialogueModule.DialogueManager.StartConversation(SF.DialogueModule.DialogueConversation)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public virtual void StartConversation(DialogueConversation newConversation)
+    parameters:
+    - id: newConversation
+      type: SF.DialogueModule.DialogueConversation
+    content.vb: Public Overridable Sub StartConversation(newConversation As DialogueConversation)
+  overload: SF.DialogueModule.DialogueManager.StartConversation*
+- uid: SF.DialogueModule.DialogueManager.StopConversation
+  commentId: M:SF.DialogueModule.DialogueManager.StopConversation
+  id: StopConversation
+  parent: SF.DialogueModule.DialogueManager
+  langs:
+  - csharp
+  - vb
+  name: StopConversation()
+  nameWithType: DialogueManager.StopConversation()
+  fullName: SF.DialogueModule.DialogueManager.StopConversation()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static void StopConversation()
+    content.vb: Public Shared Sub StopConversation()
+  overload: SF.DialogueModule.DialogueManager.StopConversation*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.DialogueModule.DialogueManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<DialogueManager>(DialogueManager)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<DialogueManager>(DialogueManager)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.DialogueModule.DialogueManager>(SF.DialogueModule.DialogueManager)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of DialogueManager)(DialogueManager)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.DialogueModule.DialogueManager)(SF.DialogueModule.DialogueManager)
+  name.vb: IsActiveEnabledAndNotNull(Of DialogueManager)(DialogueManager)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialogueManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.DialogueModule.DialogueManager
+    name: DialogueManager
+    href: SF.DialogueModule.DialogueManager.html
+  - name: '>'
+  - name: (
+  - uid: SF.DialogueModule.DialogueManager
+    name: DialogueManager
+    href: SF.DialogueModule.DialogueManager.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialogueManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialogueManager
+    name: DialogueManager
+    href: SF.DialogueModule.DialogueManager.html
+  - name: )
+  - name: (
+  - uid: SF.DialogueModule.DialogueManager
+    name: DialogueManager
+    href: SF.DialogueModule.DialogueManager.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: SF.DialogueModule.DialogueManager.Instance*
+  commentId: Overload:SF.DialogueModule.DialogueManager.Instance
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_Instance
+  name: Instance
+  nameWithType: DialogueManager.Instance
+  fullName: SF.DialogueModule.DialogueManager.Instance
+- uid: SF.DialogueModule.DialogueManager
+  commentId: T:SF.DialogueModule.DialogueManager
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueManager.html
+  name: DialogueManager
+  nameWithType: DialogueManager
+  fullName: SF.DialogueModule.DialogueManager
+- uid: SF.DialogueModule.DialogueManager.DialogueDB*
+  commentId: Overload:SF.DialogueModule.DialogueManager.DialogueDB
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_DialogueDB
+  name: DialogueDB
+  nameWithType: DialogueManager.DialogueDB
+  fullName: SF.DialogueModule.DialogueManager.DialogueDB
+- uid: SF.DialogueModule.DialogueDatabase
+  commentId: T:SF.DialogueModule.DialogueDatabase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueDatabase.html
+  name: DialogueDatabase
+  nameWithType: DialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase
+- uid: SF.DialogueModule.DialogueManager.RecentConversation*
+  commentId: Overload:SF.DialogueModule.DialogueManager.RecentConversation
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_RecentConversation
+  name: RecentConversation
+  nameWithType: DialogueManager.RecentConversation
+  fullName: SF.DialogueModule.DialogueManager.RecentConversation
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: SF.DialogueModule.DialogueManager.InConversation*
+  commentId: Overload:SF.DialogueModule.DialogueManager.InConversation
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_InConversation
+  name: InConversation
+  nameWithType: DialogueManager.InConversation
+  fullName: SF.DialogueModule.DialogueManager.InConversation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  commentId: T:SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.DialogueRuntimeGraph.html
+  name: DialogueRuntimeGraph
+  nameWithType: DialogueRuntimeGraph
+  fullName: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: System.Collections.Generic.List{SF.DialogueModule.DialogueExtensionBase}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.DialogueExtensionBase}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.DialogueExtensionBase.html
+  name: List<DialogueExtensionBase>
+  nameWithType: List<DialogueExtensionBase>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.DialogueExtensionBase>
+  nameWithType.vb: List(Of DialogueExtensionBase)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.DialogueExtensionBase)
+  name.vb: List(Of DialogueExtensionBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SF.DialogueModule.DialogueEntry
+  commentId: T:SF.DialogueModule.DialogueEntry
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueEntry.html
+  name: DialogueEntry
+  nameWithType: DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry
+- uid: System.Action{SF.DialogueModule.DialogueEntry}
+  commentId: T:System.Action{SF.DialogueModule.DialogueEntry}
+  parent: System
+  definition: System.Action`1
+  href: SF.DialogueModule.DialogueEntry.html
+  name: Action<DialogueEntry>
+  nameWithType: Action<DialogueEntry>
+  fullName: System.Action<SF.DialogueModule.DialogueEntry>
+  nameWithType.vb: Action(Of DialogueEntry)
+  fullName.vb: System.Action(Of SF.DialogueModule.DialogueEntry)
+  name.vb: Action(Of DialogueEntry)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.DialogueEntry
+    name: DialogueEntry
+    href: SF.DialogueModule.DialogueEntry.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialogueEntry
+    name: DialogueEntry
+    href: SF.DialogueModule.DialogueEntry.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.DialogueModule.DialogueManager.TriggerConversation*
+  commentId: Overload:SF.DialogueModule.DialogueManager.TriggerConversation
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_TriggerConversation_SF_DialogueModule_DialogueConversation_UnityEngine_Component_
+  name: TriggerConversation
+  nameWithType: DialogueManager.TriggerConversation
+  fullName: SF.DialogueModule.DialogueManager.TriggerConversation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.DialogueModule.DialogueManager.UpdateDialogueText*
+  commentId: Overload:SF.DialogueModule.DialogueManager.UpdateDialogueText
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_UpdateDialogueText_SF_DialogueModule_DialogueEntry_
+  name: UpdateDialogueText
+  nameWithType: DialogueManager.UpdateDialogueText
+  fullName: SF.DialogueModule.DialogueManager.UpdateDialogueText
+- uid: SF.DialogueModule.DialogueManager.StartConversation*
+  commentId: Overload:SF.DialogueModule.DialogueManager.StartConversation
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_StartConversation_SF_DialogueModule_DialogueConversation_
+  name: StartConversation
+  nameWithType: DialogueManager.StartConversation
+  fullName: SF.DialogueModule.DialogueManager.StartConversation
+- uid: SF.DialogueModule.DialogueManager.StopConversation*
+  commentId: Overload:SF.DialogueModule.DialogueManager.StopConversation
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_StopConversation
+  name: StopConversation
+  nameWithType: DialogueManager.StopConversation
+  fullName: SF.DialogueModule.DialogueManager.StopConversation

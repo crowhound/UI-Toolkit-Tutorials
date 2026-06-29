@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.ManagerBaseStaticCleanUp`1
+  commentId: T:SF.ManagerBaseStaticCleanUp`1
+  id: ManagerBaseStaticCleanUp`1
+  parent: SF
+  children:
+  - SF.ManagerBaseStaticCleanUp`1.Instance
+  - SF.ManagerBaseStaticCleanUp`1._instance
+  langs:
+  - csharp
+  - vb
+  name: ManagerBaseStaticCleanUp<T>
+  nameWithType: ManagerBaseStaticCleanUp<T>
+  fullName: SF.ManagerBaseStaticCleanUp<T>
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  summary: Base class for manager types in scene that cleans their static instance between entering and exiting playmode.
+  example: []
+  syntax:
+    content: 'public abstract class ManagerBaseStaticCleanUp<T> : MonoBehaviour where T : Object'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public MustInherit Class ManagerBaseStaticCleanUp(Of T As [Object]) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.ManagerBaseStaticCleanUp`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  nameWithType.vb: ManagerBaseStaticCleanUp(Of T)
+  fullName.vb: SF.ManagerBaseStaticCleanUp(Of T)
+  name.vb: ManagerBaseStaticCleanUp(Of T)
+- uid: SF.ManagerBaseStaticCleanUp`1._instance
+  commentId: F:SF.ManagerBaseStaticCleanUp`1._instance
+  id: _instance
+  parent: SF.ManagerBaseStaticCleanUp`1
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: ManagerBaseStaticCleanUp<T>._instance
+  fullName: SF.ManagerBaseStaticCleanUp<T>._instance
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: >-
+      [AutoStaticsCleanup]
+
+      protected static T _instance
+    return:
+      type: '{T}'
+    content.vb: >-
+      <AutoStaticsCleanup>
+
+      Protected Shared _instance As T
+  attributes:
+  - type: Unity.Scripting.LifecycleManagement.AutoStaticsCleanupAttribute
+    ctor: Unity.Scripting.LifecycleManagement.AutoStaticsCleanupAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ManagerBaseStaticCleanUp(Of T)._instance
+  fullName.vb: SF.ManagerBaseStaticCleanUp(Of T)._instance
+- uid: SF.ManagerBaseStaticCleanUp`1.Instance
+  commentId: P:SF.ManagerBaseStaticCleanUp`1.Instance
+  id: Instance
+  parent: SF.ManagerBaseStaticCleanUp`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: ManagerBaseStaticCleanUp<T>.Instance
+  fullName: SF.ManagerBaseStaticCleanUp<T>.Instance
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: public static T Instance { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared Property Instance As T
+  overload: SF.ManagerBaseStaticCleanUp`1.Instance*
+  nameWithType.vb: ManagerBaseStaticCleanUp(Of T).Instance
+  fullName.vb: SF.ManagerBaseStaticCleanUp(Of T).Instance
+references:
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.ManagerBaseStaticCleanUp`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<ManagerBaseStaticCleanUp<T>>(ManagerBaseStaticCleanUp<T>)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<ManagerBaseStaticCleanUp<T>>(ManagerBaseStaticCleanUp<T>)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.ManagerBaseStaticCleanUp<T>>(SF.ManagerBaseStaticCleanUp<T>)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of ManagerBaseStaticCleanUp(Of T))(ManagerBaseStaticCleanUp(Of T))
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.ManagerBaseStaticCleanUp(Of T))(SF.ManagerBaseStaticCleanUp(Of T))
+  name.vb: IsActiveEnabledAndNotNull(Of ManagerBaseStaticCleanUp(Of T))(ManagerBaseStaticCleanUp(Of T))
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.ManagerBaseStaticCleanUp{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.ManagerBaseStaticCleanUp{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp
+    href: SF.ManagerBaseStaticCleanUp-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SF.ManagerBaseStaticCleanUp`1.Instance*
+  commentId: Overload:SF.ManagerBaseStaticCleanUp`1.Instance
+  href: SF.ManagerBaseStaticCleanUp-1.html#SF_ManagerBaseStaticCleanUp_1_Instance
+  name: Instance
+  nameWithType: ManagerBaseStaticCleanUp<T>.Instance
+  fullName: SF.ManagerBaseStaticCleanUp<T>.Instance
+  nameWithType.vb: ManagerBaseStaticCleanUp(Of T).Instance
+  fullName.vb: SF.ManagerBaseStaticCleanUp(Of T).Instance

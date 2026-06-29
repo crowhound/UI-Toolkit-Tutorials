@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.PersonalityTraits
+  commentId: T:SFEditor.Dialogue.Graphs.PersonalityTraits
+  id: PersonalityTraits
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.PersonalityTraits.Proud
+  - SFEditor.Dialogue.Graphs.PersonalityTraits.Quirky
+  - SFEditor.Dialogue.Graphs.PersonalityTraits.Social
+  langs:
+  - csharp
+  - vb
+  name: PersonalityTraits
+  nameWithType: PersonalityTraits
+  fullName: SFEditor.Dialogue.Graphs.PersonalityTraits
+  type: Enum
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public enum PersonalityTraits
+    content.vb: Public Enum PersonalityTraits
+- uid: SFEditor.Dialogue.Graphs.PersonalityTraits.Quirky
+  commentId: F:SFEditor.Dialogue.Graphs.PersonalityTraits.Quirky
+  id: Quirky
+  parent: SFEditor.Dialogue.Graphs.PersonalityTraits
+  langs:
+  - csharp
+  - vb
+  name: Quirky
+  nameWithType: PersonalityTraits.Quirky
+  fullName: SFEditor.Dialogue.Graphs.PersonalityTraits.Quirky
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: Quirky = 0
+    return:
+      type: SFEditor.Dialogue.Graphs.PersonalityTraits
+- uid: SFEditor.Dialogue.Graphs.PersonalityTraits.Proud
+  commentId: F:SFEditor.Dialogue.Graphs.PersonalityTraits.Proud
+  id: Proud
+  parent: SFEditor.Dialogue.Graphs.PersonalityTraits
+  langs:
+  - csharp
+  - vb
+  name: Proud
+  nameWithType: PersonalityTraits.Proud
+  fullName: SFEditor.Dialogue.Graphs.PersonalityTraits.Proud
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: Proud = 1
+    return:
+      type: SFEditor.Dialogue.Graphs.PersonalityTraits
+- uid: SFEditor.Dialogue.Graphs.PersonalityTraits.Social
+  commentId: F:SFEditor.Dialogue.Graphs.PersonalityTraits.Social
+  id: Social
+  parent: SFEditor.Dialogue.Graphs.PersonalityTraits
+  langs:
+  - csharp
+  - vb
+  name: Social
+  nameWithType: PersonalityTraits.Social
+  fullName: SFEditor.Dialogue.Graphs.PersonalityTraits.Social
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: Social = 2
+    return:
+      type: SFEditor.Dialogue.Graphs.PersonalityTraits
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: SFEditor.Dialogue.Graphs.PersonalityTraits
+  commentId: T:SFEditor.Dialogue.Graphs.PersonalityTraits
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.PersonalityTraits.html
+  name: PersonalityTraits
+  nameWithType: PersonalityTraits
+  fullName: SFEditor.Dialogue.Graphs.PersonalityTraits

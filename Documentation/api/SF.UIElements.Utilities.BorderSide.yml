@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities.BorderSide
+  commentId: T:SF.UIElements.Utilities.BorderSide
+  id: BorderSide
+  parent: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.BorderSide.AllSides
+  - SF.UIElements.Utilities.BorderSide.BottomSide
+  - SF.UIElements.Utilities.BorderSide.LeftSide
+  - SF.UIElements.Utilities.BorderSide.RightSide
+  - SF.UIElements.Utilities.BorderSide.TopSide
+  langs:
+  - csharp
+  - vb
+  name: BorderSide
+  nameWithType: BorderSide
+  fullName: SF.UIElements.Utilities.BorderSide
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public enum BorderSide
+    content.vb: Public Enum BorderSide
+- uid: SF.UIElements.Utilities.BorderSide.AllSides
+  commentId: F:SF.UIElements.Utilities.BorderSide.AllSides
+  id: AllSides
+  parent: SF.UIElements.Utilities.BorderSide
+  langs:
+  - csharp
+  - vb
+  name: AllSides
+  nameWithType: BorderSide.AllSides
+  fullName: SF.UIElements.Utilities.BorderSide.AllSides
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: AllSides = 0
+    return:
+      type: SF.UIElements.Utilities.BorderSide
+- uid: SF.UIElements.Utilities.BorderSide.LeftSide
+  commentId: F:SF.UIElements.Utilities.BorderSide.LeftSide
+  id: LeftSide
+  parent: SF.UIElements.Utilities.BorderSide
+  langs:
+  - csharp
+  - vb
+  name: LeftSide
+  nameWithType: BorderSide.LeftSide
+  fullName: SF.UIElements.Utilities.BorderSide.LeftSide
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: LeftSide = 1
+    return:
+      type: SF.UIElements.Utilities.BorderSide
+- uid: SF.UIElements.Utilities.BorderSide.RightSide
+  commentId: F:SF.UIElements.Utilities.BorderSide.RightSide
+  id: RightSide
+  parent: SF.UIElements.Utilities.BorderSide
+  langs:
+  - csharp
+  - vb
+  name: RightSide
+  nameWithType: BorderSide.RightSide
+  fullName: SF.UIElements.Utilities.BorderSide.RightSide
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: RightSide = 2
+    return:
+      type: SF.UIElements.Utilities.BorderSide
+- uid: SF.UIElements.Utilities.BorderSide.TopSide
+  commentId: F:SF.UIElements.Utilities.BorderSide.TopSide
+  id: TopSide
+  parent: SF.UIElements.Utilities.BorderSide
+  langs:
+  - csharp
+  - vb
+  name: TopSide
+  nameWithType: BorderSide.TopSide
+  fullName: SF.UIElements.Utilities.BorderSide.TopSide
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: TopSide = 3
+    return:
+      type: SF.UIElements.Utilities.BorderSide
+- uid: SF.UIElements.Utilities.BorderSide.BottomSide
+  commentId: F:SF.UIElements.Utilities.BorderSide.BottomSide
+  id: BottomSide
+  parent: SF.UIElements.Utilities.BorderSide
+  langs:
+  - csharp
+  - vb
+  name: BottomSide
+  nameWithType: BorderSide.BottomSide
+  fullName: SF.UIElements.Utilities.BorderSide.BottomSide
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: BottomSide = 4
+    return:
+      type: SF.UIElements.Utilities.BorderSide
+references:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+- uid: SF.UIElements.Utilities.BorderSide
+  commentId: T:SF.UIElements.Utilities.BorderSide
+  parent: SF.UIElements.Utilities
+  href: SF.UIElements.Utilities.BorderSide.html
+  name: BorderSide
+  nameWithType: BorderSide
+  fullName: SF.UIElements.Utilities.BorderSide

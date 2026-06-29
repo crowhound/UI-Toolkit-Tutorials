@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.ConversationStage
+  commentId: T:SF.DialogueModule.ConversationStage
+  id: ConversationStage
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.ConversationStage.Completed
+  - SF.DialogueModule.ConversationStage.DialogueNode
+  - SF.DialogueModule.ConversationStage.Start
+  langs:
+  - csharp
+  - vb
+  name: ConversationStage
+  nameWithType: ConversationStage
+  fullName: SF.DialogueModule.ConversationStage
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Controls when the Conversation extension injects custom logic into the conversation flow.
+  example: []
+  syntax:
+    content: public enum ConversationStage
+    content.vb: Public Enum ConversationStage
+- uid: SF.DialogueModule.ConversationStage.Start
+  commentId: F:SF.DialogueModule.ConversationStage.Start
+  id: Start
+  parent: SF.DialogueModule.ConversationStage
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: ConversationStage.Start
+  fullName: SF.DialogueModule.ConversationStage.Start
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: Start = 0
+    return:
+      type: SF.DialogueModule.ConversationStage
+- uid: SF.DialogueModule.ConversationStage.Completed
+  commentId: F:SF.DialogueModule.ConversationStage.Completed
+  id: Completed
+  parent: SF.DialogueModule.ConversationStage
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: ConversationStage.Completed
+  fullName: SF.DialogueModule.ConversationStage.Completed
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: Completed = 1
+    return:
+      type: SF.DialogueModule.ConversationStage
+- uid: SF.DialogueModule.ConversationStage.DialogueNode
+  commentId: F:SF.DialogueModule.ConversationStage.DialogueNode
+  id: DialogueNode
+  parent: SF.DialogueModule.ConversationStage
+  langs:
+  - csharp
+  - vb
+  name: DialogueNode
+  nameWithType: ConversationStage.DialogueNode
+  fullName: SF.DialogueModule.ConversationStage.DialogueNode
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: DialogueNode = 2
+    return:
+      type: SF.DialogueModule.ConversationStage
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: SF.DialogueModule.ConversationStage
+  commentId: T:SF.DialogueModule.ConversationStage
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.ConversationStage.html
+  name: ConversationStage
+  nameWithType: ConversationStage
+  fullName: SF.DialogueModule.ConversationStage

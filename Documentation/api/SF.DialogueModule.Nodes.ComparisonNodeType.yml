@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType
+  commentId: T:SF.DialogueModule.Nodes.ComparisonNodeType
+  id: ComparisonNodeType
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.ComparisonNodeType.Bool
+  - SF.DialogueModule.Nodes.ComparisonNodeType.Float
+  - SF.DialogueModule.Nodes.ComparisonNodeType.Int
+  langs:
+  - csharp
+  - vb
+  name: ComparisonNodeType
+  nameWithType: ComparisonNodeType
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    Informs a DialogueGraph about what type of comparison is being done
+
+    on a <xref href="SF.DialogueModule.Nodes.IComparisonNode" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public enum ComparisonNodeType
+    content.vb: Public Enum ComparisonNodeType
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType.Int
+  commentId: F:SF.DialogueModule.Nodes.ComparisonNodeType.Int
+  id: Int
+  parent: SF.DialogueModule.Nodes.ComparisonNodeType
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: ComparisonNodeType.Int
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType.Int
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: Int = 0
+    return:
+      type: SF.DialogueModule.Nodes.ComparisonNodeType
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType.Float
+  commentId: F:SF.DialogueModule.Nodes.ComparisonNodeType.Float
+  id: Float
+  parent: SF.DialogueModule.Nodes.ComparisonNodeType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: ComparisonNodeType.Float
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType.Float
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: Float = 1
+    return:
+      type: SF.DialogueModule.Nodes.ComparisonNodeType
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType.Bool
+  commentId: F:SF.DialogueModule.Nodes.ComparisonNodeType.Bool
+  id: Bool
+  parent: SF.DialogueModule.Nodes.ComparisonNodeType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: ComparisonNodeType.Bool
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType.Bool
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: Bool = 2
+    return:
+      type: SF.DialogueModule.Nodes.ComparisonNodeType
+references:
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IComparisonNode.html
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType
+  commentId: T:SF.DialogueModule.Nodes.ComparisonNodeType
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ComparisonNodeType.html
+  name: ComparisonNodeType
+  nameWithType: ComparisonNodeType
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType

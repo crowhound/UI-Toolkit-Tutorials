@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  commentId: T:SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  id: UIElementsEditorUtilities
+  parent: SFEditor.UIElements.Utilities
+  children:
+  - SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages``1(System.String)
+  - SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension(System.String,System.String)
+  - SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension(System.String)
+  - SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages``1(System.String,``0@)
+  langs:
+  - csharp
+  - vb
+  name: UIElementsEditorUtilities
+  nameWithType: UIElementsEditorUtilities
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public static class UIElementsEditorUtilities
+    content.vb: Public Module UIElementsEditorUtilities
+  inheritance:
+  - System.Object
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages``1(System.String)
+  commentId: M:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages``1(System.String)
+  id: FindFirstAssetInPackages``1(System.String)
+  parent: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: FindFirstAssetInPackages<T>(string)
+  nameWithType: UIElementsEditorUtilities.FindFirstAssetInPackages<T>(string)
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages<T>(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  summary: Gets the first asset meeting the search filter.
+  example: []
+  syntax:
+    content: 'public static T FindFirstAssetInPackages<T>(string searchFilter) where T : Object'
+    parameters:
+    - id: searchFilter
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function FindFirstAssetInPackages(Of T As [Object])(searchFilter As String) As T
+  overload: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages*
+  nameWithType.vb: UIElementsEditorUtilities.FindFirstAssetInPackages(Of T)(String)
+  fullName.vb: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages(Of T)(String)
+  name.vb: FindFirstAssetInPackages(Of T)(String)
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages``1(System.String,``0@)
+  commentId: M:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages``1(System.String,``0@)
+  id: TryFindFirstAssetInPackages``1(System.String,``0@)
+  parent: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: TryFindFirstAssetInPackages<T>(string, ref T)
+  nameWithType: UIElementsEditorUtilities.TryFindFirstAssetInPackages<T>(string, ref T)
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages<T>(string, ref T)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: 'public static bool TryFindFirstAssetInPackages<T>(string searchFilter, ref T asset) where T : Object'
+    parameters:
+    - id: searchFilter
+      type: System.String
+    - id: asset
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function TryFindFirstAssetInPackages(Of T As [Object])(searchFilter As String, asset As T) As Boolean
+  overload: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages*
+  nameWithType.vb: UIElementsEditorUtilities.TryFindFirstAssetInPackages(Of T)(String, T)
+  fullName.vb: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages(Of T)(String, T)
+  name.vb: TryFindFirstAssetInPackages(Of T)(String, T)
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension(System.String)
+  commentId: M:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension(System.String)
+  id: GetCallerPathWithoutExtension(System.String)
+  parent: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetCallerPathWithoutExtension(string)
+  nameWithType: UIElementsEditorUtilities.GetCallerPathWithoutExtension(string)
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  summary: >-
+    Uses the CallerFilePath attribute to get the absolute path of the calling script.
+
+    Than removes the extention after the period.
+  example: []
+  syntax:
+    content: public static string GetCallerPathWithoutExtension(string filePath = "")
+    parameters:
+    - id: filePath
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetCallerPathWithoutExtension(filePath As String = "") As String
+  overload: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension*
+  nameWithType.vb: UIElementsEditorUtilities.GetCallerPathWithoutExtension(String)
+  fullName.vb: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension(String)
+  name.vb: GetCallerPathWithoutExtension(String)
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension(System.String,System.String)
+  commentId: M:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension(System.String,System.String)
+  id: GetCallerPathWithNewExtension(System.String,System.String)
+  parent: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetCallerPathWithNewExtension(string, string)
+  nameWithType: UIElementsEditorUtilities.GetCallerPathWithNewExtension(string, string)
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension(string, string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  summary: >-
+    Uses the CallerFilePath attribute to get the absolute path of the calling script.
+
+    Than removes the extention after the period.
+  example: []
+  syntax:
+    content: public static string GetCallerPathWithNewExtension(string newExtention, string filePath = "")
+    parameters:
+    - id: newExtention
+      type: System.String
+    - id: filePath
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetCallerPathWithNewExtension(newExtention As String, filePath As String = "") As String
+  overload: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension*
+  nameWithType.vb: UIElementsEditorUtilities.GetCallerPathWithNewExtension(String, String)
+  fullName.vb: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension(String, String)
+  name.vb: GetCallerPathWithNewExtension(String, String)
+references:
+- uid: SFEditor.UIElements.Utilities
+  commentId: N:SFEditor.UIElements.Utilities
+  href: SFEditor.html
+  name: SFEditor.UIElements.Utilities
+  nameWithType: SFEditor.UIElements.Utilities
+  fullName: SFEditor.UIElements.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+    href: SFEditor.UIElements.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+    href: SFEditor.UIElements.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages*
+  commentId: Overload:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages
+  href: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html#SFEditor_UIElements_Utilities_UIElementsEditorUtilities_FindFirstAssetInPackages__1_System_String_
+  name: FindFirstAssetInPackages
+  nameWithType: UIElementsEditorUtilities.FindFirstAssetInPackages
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.FindFirstAssetInPackages
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages*
+  commentId: Overload:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages
+  href: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html#SFEditor_UIElements_Utilities_UIElementsEditorUtilities_TryFindFirstAssetInPackages__1_System_String___0__
+  name: TryFindFirstAssetInPackages
+  nameWithType: UIElementsEditorUtilities.TryFindFirstAssetInPackages
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.TryFindFirstAssetInPackages
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension*
+  commentId: Overload:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension
+  href: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html#SFEditor_UIElements_Utilities_UIElementsEditorUtilities_GetCallerPathWithoutExtension_System_String_
+  name: GetCallerPathWithoutExtension
+  nameWithType: UIElementsEditorUtilities.GetCallerPathWithoutExtension
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithoutExtension
+- uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension*
+  commentId: Overload:SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension
+  href: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html#SFEditor_UIElements_Utilities_UIElementsEditorUtilities_GetCallerPathWithNewExtension_System_String_System_String_
+  name: GetCallerPathWithNewExtension
+  nameWithType: UIElementsEditorUtilities.GetCallerPathWithNewExtension
+  fullName: SFEditor.UIElements.Utilities.UIElementsEditorUtilities.GetCallerPathWithNewExtension

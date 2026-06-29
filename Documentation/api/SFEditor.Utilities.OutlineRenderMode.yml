@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.OutlineRenderMode
+  commentId: T:SFEditor.Utilities.OutlineRenderMode
+  id: OutlineRenderMode
+  parent: SFEditor.Utilities
+  children:
+  - SFEditor.Utilities.OutlineRenderMode.Dotted
+  - SFEditor.Utilities.OutlineRenderMode.Solid
+  langs:
+  - csharp
+  - vb
+  name: OutlineRenderMode
+  nameWithType: OutlineRenderMode
+  fullName: SFEditor.Utilities.OutlineRenderMode
+  type: Enum
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public enum OutlineRenderMode
+    content.vb: Public Enum OutlineRenderMode
+- uid: SFEditor.Utilities.OutlineRenderMode.Solid
+  commentId: F:SFEditor.Utilities.OutlineRenderMode.Solid
+  id: Solid
+  parent: SFEditor.Utilities.OutlineRenderMode
+  langs:
+  - csharp
+  - vb
+  name: Solid
+  nameWithType: OutlineRenderMode.Solid
+  fullName: SFEditor.Utilities.OutlineRenderMode.Solid
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: Solid = 0
+    return:
+      type: SFEditor.Utilities.OutlineRenderMode
+- uid: SFEditor.Utilities.OutlineRenderMode.Dotted
+  commentId: F:SFEditor.Utilities.OutlineRenderMode.Dotted
+  id: Dotted
+  parent: SFEditor.Utilities.OutlineRenderMode
+  langs:
+  - csharp
+  - vb
+  name: Dotted
+  nameWithType: OutlineRenderMode.Dotted
+  fullName: SFEditor.Utilities.OutlineRenderMode.Dotted
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: Dotted = 1
+    return:
+      type: SFEditor.Utilities.OutlineRenderMode
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: SFEditor.Utilities.OutlineRenderMode
+  commentId: T:SFEditor.Utilities.OutlineRenderMode
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.OutlineRenderMode.html
+  name: OutlineRenderMode
+  nameWithType: OutlineRenderMode
+  fullName: SFEditor.Utilities.OutlineRenderMode

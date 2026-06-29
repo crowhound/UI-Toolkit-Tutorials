@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Managers.GameControlState
+  commentId: T:SF.Managers.GameControlState
+  id: GameControlState
+  parent: SF.Managers
+  children:
+  - SF.Managers.GameControlState.Cutscenes
+  - SF.Managers.GameControlState.Dialogue
+  - SF.Managers.GameControlState.Menu
+  - SF.Managers.GameControlState.Player
+  - SF.Managers.GameControlState.SceneChanging
+  - SF.Managers.GameControlState.Transition
+  langs:
+  - csharp
+  - vb
+  name: GameControlState
+  nameWithType: GameControlState
+  fullName: SF.Managers.GameControlState
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  summary: The current state that is controlling the games input and actions.
+  example: []
+  syntax:
+    content: public enum GameControlState
+    content.vb: Public Enum GameControlState
+- uid: SF.Managers.GameControlState.Player
+  commentId: F:SF.Managers.GameControlState.Player
+  id: Player
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: GameControlState.Player
+  fullName: SF.Managers.GameControlState.Player
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: Player = 0
+    return:
+      type: SF.Managers.GameControlState
+- uid: SF.Managers.GameControlState.SceneChanging
+  commentId: F:SF.Managers.GameControlState.SceneChanging
+  id: SceneChanging
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: SceneChanging
+  nameWithType: GameControlState.SceneChanging
+  fullName: SF.Managers.GameControlState.SceneChanging
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: SceneChanging = 1
+    return:
+      type: SF.Managers.GameControlState
+- uid: SF.Managers.GameControlState.Cutscenes
+  commentId: F:SF.Managers.GameControlState.Cutscenes
+  id: Cutscenes
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: Cutscenes
+  nameWithType: GameControlState.Cutscenes
+  fullName: SF.Managers.GameControlState.Cutscenes
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: Cutscenes = 2
+    return:
+      type: SF.Managers.GameControlState
+- uid: SF.Managers.GameControlState.Transition
+  commentId: F:SF.Managers.GameControlState.Transition
+  id: Transition
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: Transition
+  nameWithType: GameControlState.Transition
+  fullName: SF.Managers.GameControlState.Transition
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: Transition = 3
+    return:
+      type: SF.Managers.GameControlState
+- uid: SF.Managers.GameControlState.Dialogue
+  commentId: F:SF.Managers.GameControlState.Dialogue
+  id: Dialogue
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: Dialogue
+  nameWithType: GameControlState.Dialogue
+  fullName: SF.Managers.GameControlState.Dialogue
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: Dialogue = 4
+    return:
+      type: SF.Managers.GameControlState
+- uid: SF.Managers.GameControlState.Menu
+  commentId: F:SF.Managers.GameControlState.Menu
+  id: Menu
+  parent: SF.Managers.GameControlState
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: GameControlState.Menu
+  fullName: SF.Managers.GameControlState.Menu
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: Menu = 5
+    return:
+      type: SF.Managers.GameControlState
+references:
+- uid: SF.Managers
+  commentId: N:SF.Managers
+  href: SF.html
+  name: SF.Managers
+  nameWithType: SF.Managers
+  fullName: SF.Managers
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html
+- uid: SF.Managers.GameControlState
+  commentId: T:SF.Managers.GameControlState
+  parent: SF.Managers
+  href: SF.Managers.GameControlState.html
+  name: GameControlState
+  nameWithType: GameControlState
+  fullName: SF.Managers.GameControlState

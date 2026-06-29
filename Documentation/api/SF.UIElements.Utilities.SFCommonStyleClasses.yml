@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities.SFCommonStyleClasses
+  commentId: T:SF.UIElements.Utilities.SFCommonStyleClasses
+  id: SFCommonStyleClasses
+  parent: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumn
+  - SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumnRow
+  langs:
+  - csharp
+  - vb
+  name: SFCommonStyleClasses
+  nameWithType: SFCommonStyleClasses
+  fullName: SF.UIElements.Utilities.SFCommonStyleClasses
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  summary: >-
+    The USS style class names are from the CommonUss.uss style asset. 
+
+    This class holds a list of commonly used USS style class names.
+
+    It is intended to just help not have to memorize the names of certain USS classes.
+
+    It also has certain combo of commonly used together USS classes names like a two column row.
+
+    Read the remark in the file to see a nice clean way to not have to type out the full class name when using them.
+  remarks: >-
+    For those not wanting to type out SFCommonStyleClasses everytime they want to use one of the class names.
+
+    Do this in your using namespace declarations and than you can just type out the variable name byitself.
+
+
+    using static SF.UIElements.Utilities.SFCommonStyleClasses;
+  example: []
+  syntax:
+    content: public static class SFCommonStyleClasses
+    content.vb: Public Module SFCommonStyleClasses
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumn
+  commentId: F:SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumn
+  id: TwoColumn
+  parent: SF.UIElements.Utilities.SFCommonStyleClasses
+  langs:
+  - csharp
+  - vb
+  name: TwoColumn
+  nameWithType: SFCommonStyleClasses.TwoColumn
+  fullName: SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumn
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public static readonly string TwoColumn
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly TwoColumn As String
+- uid: SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumnRow
+  commentId: F:SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumnRow
+  id: TwoColumnRow
+  parent: SF.UIElements.Utilities.SFCommonStyleClasses
+  langs:
+  - csharp
+  - vb
+  name: TwoColumnRow
+  nameWithType: SFCommonStyleClasses.TwoColumnRow
+  fullName: SF.UIElements.Utilities.SFCommonStyleClasses.TwoColumnRow
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public static readonly string[] TwoColumnRow
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly TwoColumnRow As String()
+references:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )

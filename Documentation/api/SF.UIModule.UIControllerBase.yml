@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.UIControllerBase
+  commentId: T:SF.UIModule.UIControllerBase
+  id: UIControllerBase
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.UIControllerBase.HideView
+  - SF.UIModule.UIControllerBase.ShowView
+  langs:
+  - csharp
+  - vb
+  name: UIControllerBase
+  nameWithType: UIControllerBase
+  fullName: SF.UIModule.UIControllerBase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    The wrapper class for anything that controls the logic of an <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref> or a class that inherits from <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    <remarks>
+    	There can be multiple UIController using the same <xref href="UnityEngine.UIElements.UIDocument" data-throw-if-not-resolved="false"></xref>.
+    	Example the main menu has sub <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref> that display a specific menu like inventory, options, and ect.
+    	Depending on the submenu it might have its own UIController class for its logic.
+    </remarks>
+  example: []
+  syntax:
+    content: 'public abstract class UIControllerBase : MonoBehaviour'
+    content.vb: Public MustInherit Class UIControllerBase Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - SF.UIModule.UIController
+  extensionMethods:
+  - SF.UIModule.UIControllerBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.UIModule.UIControllerBase.ShowView
+  commentId: M:SF.UIModule.UIControllerBase.ShowView
+  id: ShowView
+  parent: SF.UIModule.UIControllerBase
+  langs:
+  - csharp
+  - vb
+  name: ShowView()
+  nameWithType: UIControllerBase.ShowView()
+  fullName: SF.UIModule.UIControllerBase.ShowView()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: public abstract void ShowView()
+    content.vb: Public MustOverride Sub ShowView()
+  overload: SF.UIModule.UIControllerBase.ShowView*
+- uid: SF.UIModule.UIControllerBase.HideView
+  commentId: M:SF.UIModule.UIControllerBase.HideView
+  id: HideView
+  parent: SF.UIModule.UIControllerBase
+  langs:
+  - csharp
+  - vb
+  name: HideView()
+  nameWithType: UIControllerBase.HideView()
+  fullName: SF.UIModule.UIControllerBase.HideView()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: public abstract void HideView()
+    content.vb: Public MustOverride Sub HideView()
+  overload: SF.UIModule.UIControllerBase.HideView*
+references:
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  href: SF.UIModule.UIView.html
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+- uid: UnityEngine.UIElements.UIDocument
+  commentId: T:UnityEngine.UIElements.UIDocument
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UIDocument
+  nameWithType: UIDocument
+  fullName: UnityEngine.UIElements.UIDocument
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.UIModule.UIControllerBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<UIControllerBase>(UIControllerBase)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<UIControllerBase>(UIControllerBase)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.UIModule.UIControllerBase>(SF.UIModule.UIControllerBase)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of UIControllerBase)(UIControllerBase)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.UIModule.UIControllerBase)(SF.UIModule.UIControllerBase)
+  name.vb: IsActiveEnabledAndNotNull(Of UIControllerBase)(UIControllerBase)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIControllerBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.UIModule.UIControllerBase
+    name: UIControllerBase
+    href: SF.UIModule.UIControllerBase.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIModule.UIControllerBase
+    name: UIControllerBase
+    href: SF.UIModule.UIControllerBase.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIControllerBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIModule.UIControllerBase
+    name: UIControllerBase
+    href: SF.UIModule.UIControllerBase.html
+  - name: )
+  - name: (
+  - uid: SF.UIModule.UIControllerBase
+    name: UIControllerBase
+    href: SF.UIModule.UIControllerBase.html
+  - name: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: SF.UIModule.UIControllerBase.ShowView*
+  commentId: Overload:SF.UIModule.UIControllerBase.ShowView
+  href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_ShowView
+  name: ShowView
+  nameWithType: UIControllerBase.ShowView
+  fullName: SF.UIModule.UIControllerBase.ShowView
+- uid: SF.UIModule.UIControllerBase.HideView*
+  commentId: Overload:SF.UIModule.UIControllerBase.HideView
+  href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_HideView
+  name: HideView
+  nameWithType: UIControllerBase.HideView
+  fullName: SF.UIModule.UIControllerBase.HideView

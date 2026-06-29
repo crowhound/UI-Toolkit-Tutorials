@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.ConversationPropertyPair
+  commentId: T:SF.DialogueModule.ConversationPropertyPair
+  id: ConversationPropertyPair
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.ConversationPropertyPair.#ctor(System.Object,System.String)
+  - SF.DialogueModule.ConversationPropertyPair.#ctor(UnityEngine.Component,System.String)
+  - SF.DialogueModule.ConversationPropertyPair.GetValueObject``1
+  - SF.DialogueModule.ConversationPropertyPair.PropertyName
+  - SF.DialogueModule.ConversationPropertyPair.Value
+  - SF.DialogueModule.ConversationPropertyPair.ValueType
+  langs:
+  - csharp
+  - vb
+  name: ConversationPropertyPair
+  nameWithType: ConversationPropertyPair
+  fullName: SF.DialogueModule.ConversationPropertyPair
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ConversationPropertyPair
+    content.vb: >-
+      <Serializable>
+
+      Public Class ConversationPropertyPair
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.ConversationPropertyPair.PropertyName
+  commentId: F:SF.DialogueModule.ConversationPropertyPair.PropertyName
+  id: PropertyName
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: PropertyName
+  nameWithType: ConversationPropertyPair.PropertyName
+  fullName: SF.DialogueModule.ConversationPropertyPair.PropertyName
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public string PropertyName
+    return:
+      type: System.String
+    content.vb: Public PropertyName As String
+- uid: SF.DialogueModule.ConversationPropertyPair.Value
+  commentId: F:SF.DialogueModule.ConversationPropertyPair.Value
+  id: Value
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ConversationPropertyPair.Value
+  fullName: SF.DialogueModule.ConversationPropertyPair.Value
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The object that is the value in the property pair.
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public object Value
+    return:
+      type: System.Object
+    content.vb: >-
+      <NonSerialized>
+
+      Public Value As Object
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.ConversationPropertyPair.ValueType
+  commentId: F:SF.DialogueModule.ConversationPropertyPair.ValueType
+  id: ValueType
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: ValueType
+  nameWithType: ConversationPropertyPair.ValueType
+  fullName: SF.DialogueModule.ConversationPropertyPair.ValueType
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public Type ValueType
+    return:
+      type: System.Type
+    content.vb: >-
+      <NonSerialized>
+
+      Public ValueType As Type
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.ConversationPropertyPair.#ctor(UnityEngine.Component,System.String)
+  commentId: M:SF.DialogueModule.ConversationPropertyPair.#ctor(UnityEngine.Component,System.String)
+  id: '#ctor(UnityEngine.Component,System.String)'
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: ConversationPropertyPair(Component, string)
+  nameWithType: ConversationPropertyPair.ConversationPropertyPair(Component, string)
+  fullName: SF.DialogueModule.ConversationPropertyPair.ConversationPropertyPair(UnityEngine.Component, string)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public ConversationPropertyPair(Component value, string name)
+    parameters:
+    - id: value
+      type: UnityEngine.Component
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(value As Component, name As String)
+  overload: SF.DialogueModule.ConversationPropertyPair.#ctor*
+  nameWithType.vb: ConversationPropertyPair.New(Component, String)
+  fullName.vb: SF.DialogueModule.ConversationPropertyPair.New(UnityEngine.Component, String)
+  name.vb: New(Component, String)
+- uid: SF.DialogueModule.ConversationPropertyPair.#ctor(System.Object,System.String)
+  commentId: M:SF.DialogueModule.ConversationPropertyPair.#ctor(System.Object,System.String)
+  id: '#ctor(System.Object,System.String)'
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: ConversationPropertyPair(object, string)
+  nameWithType: ConversationPropertyPair.ConversationPropertyPair(object, string)
+  fullName: SF.DialogueModule.ConversationPropertyPair.ConversationPropertyPair(object, string)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public ConversationPropertyPair(object value, string name)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(value As Object, name As String)
+  overload: SF.DialogueModule.ConversationPropertyPair.#ctor*
+  nameWithType.vb: ConversationPropertyPair.New(Object, String)
+  fullName.vb: SF.DialogueModule.ConversationPropertyPair.New(Object, String)
+  name.vb: New(Object, String)
+- uid: SF.DialogueModule.ConversationPropertyPair.GetValueObject``1
+  commentId: M:SF.DialogueModule.ConversationPropertyPair.GetValueObject``1
+  id: GetValueObject``1
+  parent: SF.DialogueModule.ConversationPropertyPair
+  langs:
+  - csharp
+  - vb
+  name: GetValueObject<TObject>()
+  nameWithType: ConversationPropertyPair.GetValueObject<TObject>()
+  fullName: SF.DialogueModule.ConversationPropertyPair.GetValueObject<TObject>()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: >-
+    Casts the <xref href="SF.DialogueModule.ConversationPropertyPair.Value" data-throw-if-not-resolved="false"></xref> as the requested type of T.
+
+
+    Returns null if the <xref href="SF.DialogueModule.ConversationPropertyPair.Value" data-throw-if-not-resolved="false"></xref> was not of the requested TObject type or
+
+    as type that can be boxed from it.
+  example: []
+  syntax:
+    content: public TObject GetValueObject<TObject>()
+    typeParameters:
+    - id: TObject
+      description: ''
+    return:
+      type: '{TObject}'
+      description: ''
+    content.vb: Public Function GetValueObject(Of TObject)() As TObject
+  overload: SF.DialogueModule.ConversationPropertyPair.GetValueObject*
+  nameWithType.vb: ConversationPropertyPair.GetValueObject(Of TObject)()
+  fullName.vb: SF.DialogueModule.ConversationPropertyPair.GetValueObject(Of TObject)()
+  name.vb: GetValueObject(Of TObject)()
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SF.DialogueModule.ConversationPropertyPair.#ctor*
+  commentId: Overload:SF.DialogueModule.ConversationPropertyPair.#ctor
+  href: SF.DialogueModule.ConversationPropertyPair.html#SF_DialogueModule_ConversationPropertyPair__ctor_UnityEngine_Component_System_String_
+  name: ConversationPropertyPair
+  nameWithType: ConversationPropertyPair.ConversationPropertyPair
+  fullName: SF.DialogueModule.ConversationPropertyPair.ConversationPropertyPair
+  nameWithType.vb: ConversationPropertyPair.New
+  fullName.vb: SF.DialogueModule.ConversationPropertyPair.New
+  name.vb: New
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.DialogueModule.ConversationPropertyPair.Value
+  commentId: F:SF.DialogueModule.ConversationPropertyPair.Value
+  href: SF.DialogueModule.ConversationPropertyPair.html#SF_DialogueModule_ConversationPropertyPair_Value
+  name: Value
+  nameWithType: ConversationPropertyPair.Value
+  fullName: SF.DialogueModule.ConversationPropertyPair.Value
+- uid: SF.DialogueModule.ConversationPropertyPair.GetValueObject*
+  commentId: Overload:SF.DialogueModule.ConversationPropertyPair.GetValueObject
+  href: SF.DialogueModule.ConversationPropertyPair.html#SF_DialogueModule_ConversationPropertyPair_GetValueObject__1
+  name: GetValueObject
+  nameWithType: ConversationPropertyPair.GetValueObject
+  fullName: SF.DialogueModule.ConversationPropertyPair.GetValueObject
+- uid: '{TObject}'
+  commentId: '!:TObject'
+  definition: TObject
+  name: TObject
+  nameWithType: TObject
+  fullName: TObject
+- uid: TObject
+  commentId: '!:TObject'
+  name: TObject
+  nameWithType: TObject
+  fullName: TObject

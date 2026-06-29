@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  commentId: T:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  id: ConversationChoiceBlockNode
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceOneName
+  - SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceTwoName
+  - SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  - SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  langs:
+  - csharp
+  - vb
+  name: ConversationChoiceBlockNode
+  nameWithType: ConversationChoiceBlockNode
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: >-
+      [UseWithContext(new Type[] { typeof(ConversationContextNode) })]
+
+      [Serializable]
+
+      [UseWithGraph(new Type[] { typeof(DialogueGraph) })]
+
+      public class ConversationChoiceBlockNode : BlockNode
+    content.vb: >-
+      <UseWithContext(New Type() { GetType(ConversationContextNode) })>
+
+      <Serializable>
+
+      <UseWithGraph(New Type() { GetType(DialogueGraph) })>
+
+      Public Class ConversationChoiceBlockNode Inherits BlockNode
+  inheritance:
+  - System.Object
+  - Unity.GraphToolkit.Editor.Node
+  - Unity.GraphToolkit.Editor.BlockNode
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceOneName
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceOneName
+  id: ChoiceOneName
+  parent: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  langs:
+  - csharp
+  - vb
+  name: ChoiceOneName
+  nameWithType: ConversationChoiceBlockNode.ChoiceOneName
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceOneName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public const string ChoiceOneName = "Choice One"
+    return:
+      type: System.String
+    content.vb: Public Const ChoiceOneName As String = "Choice One"
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceTwoName
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceTwoName
+  id: ChoiceTwoName
+  parent: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  langs:
+  - csharp
+  - vb
+  name: ChoiceTwoName
+  nameWithType: ConversationChoiceBlockNode.ChoiceTwoName
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.ChoiceTwoName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public const string ChoiceTwoName = "Choice Two"
+    return:
+      type: System.String
+    content.vb: Public Const ChoiceTwoName As String = "Choice Two"
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  id: OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  parent: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  langs:
+  - csharp
+  - vb
+  name: OnDefineOptions(IOptionDefinitionContext)
+  nameWithType: ConversationChoiceBlockNode.OnDefineOptions(Node.IOptionDefinitionContext)
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: protected override void OnDefineOptions(Node.IOptionDefinitionContext context)
+    parameters:
+    - id: context
+      type: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    content.vb: Protected Overrides Sub OnDefineOptions(context As Node.IOptionDefinitionContext)
+  overridden: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  overload: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions*
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  id: OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  parent: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+  langs:
+  - csharp
+  - vb
+  name: OnDefinePorts(IPortDefinitionContext)
+  nameWithType: ConversationChoiceBlockNode.OnDefinePorts(Node.IPortDefinitionContext)
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: protected override void OnDefinePorts(Node.IPortDefinitionContext context)
+    parameters:
+    - id: context
+      type: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    content.vb: Protected Overrides Sub OnDefinePorts(context As Node.IPortDefinitionContext)
+  overridden: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  overload: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts*
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Unity.GraphToolkit.Editor.Node
+  commentId: T:Unity.GraphToolkit.Editor.Node
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node
+  nameWithType: Node
+  fullName: Unity.GraphToolkit.Editor.Node
+- uid: Unity.GraphToolkit.Editor.BlockNode
+  commentId: T:Unity.GraphToolkit.Editor.BlockNode
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: BlockNode
+  nameWithType: BlockNode
+  fullName: Unity.GraphToolkit.Editor.BlockNode
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.GraphToolkit.Editor
+  commentId: N:Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Unity.GraphToolkit.Editor
+  nameWithType: Unity.GraphToolkit.Editor
+  fullName: Unity.GraphToolkit.Editor
+  spec.csharp:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+  spec.vb:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  commentId: M:Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  parent: Unity.GraphToolkit.Editor.Node
+  isExternal: true
+  name: OnDefineOptions(IOptionDefinitionContext)
+  nameWithType: Node.OnDefineOptions(Node.IOptionDefinitionContext)
+  fullName: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+    name: OnDefineOptions
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+    name: OnDefineOptions
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions
+  href: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.html#SFEditor_Dialogue_Graphs_ConversationChoiceBlockNode_OnDefineOptions_Unity_GraphToolkit_Editor_Node_IOptionDefinitionContext_
+  name: OnDefineOptions
+  nameWithType: ConversationChoiceBlockNode.OnDefineOptions
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefineOptions
+- uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  commentId: T:Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node.IOptionDefinitionContext
+  nameWithType: Node.IOptionDefinitionContext
+  fullName: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+- uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  commentId: M:Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  parent: Unity.GraphToolkit.Editor.Node
+  isExternal: true
+  name: OnDefinePorts(IPortDefinitionContext)
+  nameWithType: Node.OnDefinePorts(Node.IPortDefinitionContext)
+  fullName: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+    name: OnDefinePorts
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+    name: OnDefinePorts
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts
+  href: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.html#SFEditor_Dialogue_Graphs_ConversationChoiceBlockNode_OnDefinePorts_Unity_GraphToolkit_Editor_Node_IPortDefinitionContext_
+  name: OnDefinePorts
+  nameWithType: ConversationChoiceBlockNode.OnDefinePorts
+  fullName: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.OnDefinePorts
+- uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  commentId: T:Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node.IPortDefinitionContext
+  nameWithType: Node.IPortDefinitionContext
+  fullName: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true

@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.ConversationTimelineExtension
+  commentId: T:SF.DialogueModule.ConversationTimelineExtension
+  id: ConversationTimelineExtension
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.ConversationTimelineExtension.ControlFlow
+  - SF.DialogueModule.ConversationTimelineExtension.Director
+  langs:
+  - csharp
+  - vb
+  name: ConversationTimelineExtension
+  nameWithType: ConversationTimelineExtension
+  fullName: SF.DialogueModule.ConversationTimelineExtension
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: 'public class ConversationTimelineExtension : DialogueExtensionBase'
+    content.vb: Public Class ConversationTimelineExtension Inherits DialogueExtensionBase
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - SF.DialogueModule.DialogueExtensionBase
+  inheritedMembers:
+  - SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  - SF.DialogueModule.DialogueExtensionBase.Stage
+  - SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  extensionMethods:
+  - SF.DialogueModule.ConversationTimelineExtension.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.DialogueModule.ConversationTimelineExtension.Director
+  commentId: F:SF.DialogueModule.ConversationTimelineExtension.Director
+  id: Director
+  parent: SF.DialogueModule.ConversationTimelineExtension
+  langs:
+  - csharp
+  - vb
+  name: Director
+  nameWithType: ConversationTimelineExtension.Director
+  fullName: SF.DialogueModule.ConversationTimelineExtension.Director
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public PlayableDirector Director
+    return:
+      type: UnityEngine.Playables.PlayableDirector
+    content.vb: Public Director As PlayableDirector
+- uid: SF.DialogueModule.ConversationTimelineExtension.ControlFlow
+  commentId: M:SF.DialogueModule.ConversationTimelineExtension.ControlFlow
+  id: ControlFlow
+  parent: SF.DialogueModule.ConversationTimelineExtension
+  langs:
+  - csharp
+  - vb
+  name: ControlFlow()
+  nameWithType: ConversationTimelineExtension.ControlFlow()
+  fullName: SF.DialogueModule.ConversationTimelineExtension.ControlFlow()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Called from the ConversationRunner before it starts a conversation.
+  remarks: Called Control flow because this is a form of a Pipeline Paradigm
+  example: []
+  syntax:
+    content: public override void ControlFlow()
+    content.vb: Public Overrides Sub ControlFlow()
+  overridden: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  overload: SF.DialogueModule.ConversationTimelineExtension.ControlFlow*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.DialogueModule.DialogueExtensionBase
+  commentId: T:SF.DialogueModule.DialogueExtensionBase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueExtensionBase.html
+  name: DialogueExtensionBase
+  nameWithType: DialogueExtensionBase
+  fullName: SF.DialogueModule.DialogueExtensionBase
+- uid: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_RuntimeGraph
+  name: RuntimeGraph
+  nameWithType: DialogueExtensionBase.RuntimeGraph
+  fullName: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+- uid: SF.DialogueModule.DialogueExtensionBase.Stage
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.Stage
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_Stage
+  name: Stage
+  nameWithType: DialogueExtensionBase.Stage
+  fullName: SF.DialogueModule.DialogueExtensionBase.Stage
+- uid: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_NodeCallerID
+  name: NodeCallerID
+  nameWithType: DialogueExtensionBase.NodeCallerID
+  fullName: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+- uid: SF.DialogueModule.ConversationTimelineExtension.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<ConversationTimelineExtension>(ConversationTimelineExtension)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<ConversationTimelineExtension>(ConversationTimelineExtension)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.DialogueModule.ConversationTimelineExtension>(SF.DialogueModule.ConversationTimelineExtension)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of ConversationTimelineExtension)(ConversationTimelineExtension)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.DialogueModule.ConversationTimelineExtension)(SF.DialogueModule.ConversationTimelineExtension)
+  name.vb: IsActiveEnabledAndNotNull(Of ConversationTimelineExtension)(ConversationTimelineExtension)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.ConversationTimelineExtension)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.DialogueModule.ConversationTimelineExtension
+    name: ConversationTimelineExtension
+    href: SF.DialogueModule.ConversationTimelineExtension.html
+  - name: '>'
+  - name: (
+  - uid: SF.DialogueModule.ConversationTimelineExtension
+    name: ConversationTimelineExtension
+    href: SF.DialogueModule.ConversationTimelineExtension.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.ConversationTimelineExtension)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.ConversationTimelineExtension
+    name: ConversationTimelineExtension
+    href: SF.DialogueModule.ConversationTimelineExtension.html
+  - name: )
+  - name: (
+  - uid: SF.DialogueModule.ConversationTimelineExtension
+    name: ConversationTimelineExtension
+    href: SF.DialogueModule.ConversationTimelineExtension.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: UnityEngine.Playables.PlayableDirector
+  commentId: T:UnityEngine.Playables.PlayableDirector
+  parent: UnityEngine.Playables
+  isExternal: true
+  name: PlayableDirector
+  nameWithType: PlayableDirector
+  fullName: UnityEngine.Playables.PlayableDirector
+- uid: UnityEngine.Playables
+  commentId: N:UnityEngine.Playables
+  isExternal: true
+  name: UnityEngine.Playables
+  nameWithType: UnityEngine.Playables
+  fullName: UnityEngine.Playables
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Playables
+    name: Playables
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Playables
+    name: Playables
+    isExternal: true
+- uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  commentId: M:SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  name: ControlFlow()
+  nameWithType: DialogueExtensionBase.ControlFlow()
+  fullName: SF.DialogueModule.DialogueExtensionBase.ControlFlow()
+  spec.csharp:
+  - uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+    name: ControlFlow
+    href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+    name: ControlFlow
+    href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.ConversationTimelineExtension.ControlFlow*
+  commentId: Overload:SF.DialogueModule.ConversationTimelineExtension.ControlFlow
+  href: SF.DialogueModule.ConversationTimelineExtension.html#SF_DialogueModule_ConversationTimelineExtension_ControlFlow
+  name: ControlFlow
+  nameWithType: ConversationTimelineExtension.ControlFlow
+  fullName: SF.DialogueModule.ConversationTimelineExtension.ControlFlow

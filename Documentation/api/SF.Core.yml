@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Core
+  commentId: N:SF.Core
+  id: SF.Core
+  children:
+  - SF.Core.ConditionalShowAttribute
+  - SF.Core.TypeExtensions
+  langs:
+  - csharp
+  - vb
+  name: SF.Core
+  nameWithType: SF.Core
+  fullName: SF.Core
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Core.TypeExtensions
+  commentId: T:SF.Core.TypeExtensions
+  href: SF.Core.TypeExtensions.html
+  name: TypeExtensions
+  nameWithType: TypeExtensions
+  fullName: SF.Core.TypeExtensions
+- uid: SF.Core.ConditionalShowAttribute
+  commentId: T:SF.Core.ConditionalShowAttribute
+  href: SF.Core.ConditionalShowAttribute.html
+  name: ConditionalShowAttribute
+  nameWithType: ConditionalShowAttribute
+  fullName: SF.Core.ConditionalShowAttribute

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.AttributeUtilities
+  commentId: T:SF.Utilities.AttributeUtilities
+  id: AttributeUtilities
+  parent: SF.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AttributeUtilities
+  nameWithType: AttributeUtilities
+  fullName: SF.Utilities.AttributeUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static class AttributeUtilities
+    content.vb: Public Module AttributeUtilities
+  inheritance:
+  - System.Object
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

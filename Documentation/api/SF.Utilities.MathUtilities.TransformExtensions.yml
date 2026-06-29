@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.MathUtilities.TransformExtensions
+  commentId: T:SF.Utilities.MathUtilities.TransformExtensions
+  id: TransformExtensions
+  parent: SF.Utilities.MathUtilities
+  children:
+  - SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  - SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: SF.Utilities.MathUtilities.TransformExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.MathUtilities
+  syntax:
+    content: public static class TransformExtensions
+    content.vb: Public Module TransformExtensions
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  id: RotateToTargetView(UnityEngine.Transform,UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: SF.Utilities.MathUtilities.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RotateToTargetView(Transform, Transform, Vector3)
+  nameWithType: TransformExtensions.RotateToTargetView(Transform, Transform, Vector3)
+  fullName: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform, UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.MathUtilities
+  summary: >-
+    Rotates the Transform of the calling transform to look at the view targeted object and align its rotation up with it.
+
+    Both passed in values should be in the same space (world/local). If one is world space then the other should be as well.
+  example: []
+  syntax:
+    content: public static void RotateToTargetView(this Transform transform, Transform viewTargetTransform, Vector3 upDirection)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: ''
+    - id: viewTargetTransform
+      type: UnityEngine.Transform
+      description: ''
+    - id: upDirection
+      type: UnityEngine.Vector3
+      description: ''
+      attributes:
+      - type: UnityEngine.Internal.DefaultValueAttribute
+        ctor: UnityEngine.Internal.DefaultValueAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: Vector.up
+    content.vb: Public Shared Sub RotateToTargetView(transform As Transform, viewTargetTransform As Transform, upDirection As Vector3)
+  overload: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView*
+- uid: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: RotateToTargetView(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: SF.Utilities.MathUtilities.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: RotateToTargetView(Transform, Vector3, Vector3)
+  nameWithType: TransformExtensions.RotateToTargetView(Transform, Vector3, Vector3)
+  fullName: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView(UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.MathUtilities
+  summary: >-
+    Rotates the Transform of the calling transform to look at the view targeted object and align its rotation up with it.
+
+    Both passed in values should be in the same space (world/local). If one is world space then the other should be as well.
+  example: []
+  syntax:
+    content: public static void RotateToTargetView(this Transform transform, Vector3 viewTargetPosition, Vector3 upDirection)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: ''
+    - id: viewTargetPosition
+      type: UnityEngine.Vector3
+      description: ''
+    - id: upDirection
+      type: UnityEngine.Vector3
+      description: ''
+      attributes:
+      - type: UnityEngine.Internal.DefaultValueAttribute
+        ctor: UnityEngine.Internal.DefaultValueAttribute.#ctor(System.String)
+        arguments:
+        - type: System.String
+          value: Vector.up
+    content.vb: Public Shared Sub RotateToTargetView(transform As Transform, viewTargetPosition As Vector3, upDirection As Vector3)
+  overload: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView*
+references:
+- uid: SF.Utilities.MathUtilities
+  commentId: N:SF.Utilities.MathUtilities
+  href: SF.html
+  name: SF.Utilities.MathUtilities
+  nameWithType: SF.Utilities.MathUtilities
+  fullName: SF.Utilities.MathUtilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.MathUtilities
+    name: MathUtilities
+    href: SF.Utilities.MathUtilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.MathUtilities
+    name: MathUtilities
+    href: SF.Utilities.MathUtilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView*
+  commentId: Overload:SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView
+  href: SF.Utilities.MathUtilities.TransformExtensions.html#SF_Utilities_MathUtilities_TransformExtensions_RotateToTargetView_UnityEngine_Transform_UnityEngine_Transform_UnityEngine_Vector3_
+  name: RotateToTargetView
+  nameWithType: TransformExtensions.RotateToTargetView
+  fullName: SF.Utilities.MathUtilities.TransformExtensions.RotateToTargetView
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.DialogueModule
+  commentId: N:SFEditor.DialogueModule
+  id: SFEditor.DialogueModule
+  children:
+  - SFEditor.DialogueModule.DialogueAssetPostProcessor
+  - SFEditor.DialogueModule.DialogueNodeProcessor
+  - SFEditor.DialogueModule.DialogueNodeUtilities
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.DialogueModule
+  nameWithType: SFEditor.DialogueModule
+  fullName: SFEditor.DialogueModule
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: SFEditor.DialogueModule.DialogueNodeUtilities
+  commentId: T:SFEditor.DialogueModule.DialogueNodeUtilities
+  href: SFEditor.DialogueModule.DialogueNodeUtilities.html
+  name: DialogueNodeUtilities
+  nameWithType: DialogueNodeUtilities
+  fullName: SFEditor.DialogueModule.DialogueNodeUtilities
+- uid: SFEditor.DialogueModule.DialogueNodeProcessor
+  commentId: T:SFEditor.DialogueModule.DialogueNodeProcessor
+  parent: SFEditor.DialogueModule
+  href: SFEditor.DialogueModule.DialogueNodeProcessor.html
+  name: DialogueNodeProcessor
+  nameWithType: DialogueNodeProcessor
+  fullName: SFEditor.DialogueModule.DialogueNodeProcessor
+- uid: SFEditor.DialogueModule.DialogueAssetPostProcessor
+  commentId: T:SFEditor.DialogueModule.DialogueAssetPostProcessor
+  href: SFEditor.DialogueModule.DialogueAssetPostProcessor.html
+  name: DialogueAssetPostProcessor
+  nameWithType: DialogueAssetPostProcessor
+  fullName: SFEditor.DialogueModule.DialogueAssetPostProcessor
+- uid: SFEditor.DialogueModule
+  commentId: N:SFEditor.DialogueModule
+  href: SFEditor.html
+  name: SFEditor.DialogueModule
+  nameWithType: SFEditor.DialogueModule
+  fullName: SFEditor.DialogueModule
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html

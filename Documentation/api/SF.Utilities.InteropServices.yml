@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.InteropServices
+  commentId: N:SF.Utilities.InteropServices
+  id: SF.Utilities.InteropServices
+  children:
+  - SF.Utilities.InteropServices.CollectionsMarshal
+  langs:
+  - csharp
+  - vb
+  name: SF.Utilities.InteropServices
+  nameWithType: SF.Utilities.InteropServices
+  fullName: SF.Utilities.InteropServices
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Utilities.InteropServices.CollectionsMarshal
+  commentId: T:SF.Utilities.InteropServices.CollectionsMarshal
+  href: SF.Utilities.InteropServices.CollectionsMarshal.html
+  name: CollectionsMarshal
+  nameWithType: CollectionsMarshal
+  fullName: SF.Utilities.InteropServices.CollectionsMarshal

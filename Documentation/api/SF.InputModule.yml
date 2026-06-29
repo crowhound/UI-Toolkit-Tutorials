@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.InputModule
+  commentId: N:SF.InputModule
+  id: SF.InputModule
+  children:
+  - SF.InputModule.SFInputManager
+  langs:
+  - csharp
+  - vb
+  name: SF.InputModule
+  nameWithType: SF.InputModule
+  fullName: SF.InputModule
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.InputModule.SFInputManager
+  commentId: T:SF.InputModule.SFInputManager
+  parent: SF.InputModule
+  href: SF.InputModule.SFInputManager.html
+  name: SFInputManager
+  nameWithType: SFInputManager
+  fullName: SF.InputModule.SFInputManager
+- uid: SF.InputModule
+  commentId: N:SF.InputModule
+  href: SF.html
+  name: SF.InputModule
+  nameWithType: SF.InputModule
+  fullName: SF.InputModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.InputModule
+    name: InputModule
+    href: SF.InputModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.InputModule
+    name: InputModule
+    href: SF.InputModule.html

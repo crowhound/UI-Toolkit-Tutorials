@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.GridUtilities
+  commentId: T:SF.Utilities.GridUtilities
+  id: GridUtilities
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.GridUtilities.GetPointsOnLine(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  langs:
+  - csharp
+  - vb
+  name: GridUtilities
+  nameWithType: GridUtilities
+  fullName: SF.Utilities.GridUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static class GridUtilities
+    content.vb: Public Module GridUtilities
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.GridUtilities.GetPointsOnLine(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  commentId: M:SF.Utilities.GridUtilities.GetPointsOnLine(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  id: GetPointsOnLine(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  parent: SF.Utilities.GridUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetPointsOnLine(Vector2Int, Vector2Int)
+  nameWithType: GridUtilities.GetPointsOnLine(Vector2Int, Vector2Int)
+  fullName: SF.Utilities.GridUtilities.GetPointsOnLine(UnityEngine.Vector2Int, UnityEngine.Vector2Int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static IEnumerable<Vector2Int> GetPointsOnLine(Vector2Int p1, Vector2Int p2)
+    parameters:
+    - id: p1
+      type: UnityEngine.Vector2Int
+    - id: p2
+      type: UnityEngine.Vector2Int
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.Vector2Int}
+    content.vb: Public Shared Function GetPointsOnLine(p1 As Vector2Int, p2 As Vector2Int) As IEnumerable(Of Vector2Int)
+  overload: SF.Utilities.GridUtilities.GetPointsOnLine*
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.GridUtilities.GetPointsOnLine*
+  commentId: Overload:SF.Utilities.GridUtilities.GetPointsOnLine
+  href: SF.Utilities.GridUtilities.html#SF_Utilities_GridUtilities_GetPointsOnLine_UnityEngine_Vector2Int_UnityEngine_Vector2Int_
+  name: GetPointsOnLine
+  nameWithType: GridUtilities.GetPointsOnLine
+  fullName: SF.Utilities.GridUtilities.GetPointsOnLine
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector2Int}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.Vector2Int}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Vector2Int>
+  nameWithType: IEnumerable<Vector2Int>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.Vector2Int>
+  nameWithType.vb: IEnumerable(Of Vector2Int)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.Vector2Int)
+  name.vb: IEnumerable(Of Vector2Int)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector2Int
+    name: Vector2Int
+    isExternal: true
+  - name: )
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

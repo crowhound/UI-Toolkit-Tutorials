@@ -1,0 +1,412 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  commentId: T:SFEditor.Utilities.AssetDatabaseEditorUtilities
+  id: AssetDatabaseEditorUtilities
+  parent: SFEditor.Utilities
+  children:
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely``1(System.String)
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType``1(System.String)
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType``1(System.String)
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEditor.MonoScript)
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEngine.ScriptableObject)
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType``1(``0@)
+  langs:
+  - csharp
+  - vb
+  name: AssetDatabaseEditorUtilities
+  nameWithType: AssetDatabaseEditorUtilities
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public static class AssetDatabaseEditorUtilities
+    content.vb: Public Module AssetDatabaseEditorUtilities
+  inheritance:
+  - System.Object
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType``1(System.String)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType``1(System.String)
+  id: FindAssetsOfType``1(System.String)
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: FindAssetsOfType<T>(string)
+  nameWithType: AssetDatabaseEditorUtilities.FindAssetsOfType<T>(string)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType<T>(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: 'public static List<T> FindAssetsOfType<T>(string searchGlobFilter = "") where T : Object'
+    parameters:
+    - id: searchGlobFilter
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.List{{T}}
+    content.vb: Public Shared Function FindAssetsOfType(Of T As [Object])(searchGlobFilter As String = "") As List(Of T)
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType*
+  nameWithType.vb: AssetDatabaseEditorUtilities.FindAssetsOfType(Of T)(String)
+  fullName.vb: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType(Of T)(String)
+  name.vb: FindAssetsOfType(Of T)(String)
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType``1(System.String)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType``1(System.String)
+  id: FindFirstAssetOfType``1(System.String)
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: FindFirstAssetOfType<T>(string)
+  nameWithType: AssetDatabaseEditorUtilities.FindFirstAssetOfType<T>(string)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType<T>(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  summary: Returns the first asset found using the search glob filter if any is passed in. If no filter string is passed in it will just find the first type without worrying about any filters being applied.
+  example: []
+  syntax:
+    content: 'public static T FindFirstAssetOfType<T>(string searchGlobFilter = "") where T : Object'
+    parameters:
+    - id: searchGlobFilter
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function FindFirstAssetOfType(Of T As [Object])(searchGlobFilter As String = "") As T
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType*
+  nameWithType.vb: AssetDatabaseEditorUtilities.FindFirstAssetOfType(Of T)(String)
+  fullName.vb: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType(Of T)(String)
+  name.vb: FindFirstAssetOfType(Of T)(String)
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely``1(System.String)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely``1(System.String)
+  id: CreateScriptableObjectSafely``1(System.String)
+  isExtensionMethod: true
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateScriptableObjectSafely<T>(string)
+  nameWithType: AssetDatabaseEditorUtilities.CreateScriptableObjectSafely<T>(string)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely<T>(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: 'public static T CreateScriptableObjectSafely<T>(this string defaultPath) where T : ScriptableObject'
+    parameters:
+    - id: defaultPath
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateScriptableObjectSafely(Of T As ScriptableObject)(defaultPath As String) As T
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely*
+  nameWithType.vb: AssetDatabaseEditorUtilities.CreateScriptableObjectSafely(Of T)(String)
+  fullName.vb: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely(Of T)(String)
+  name.vb: CreateScriptableObjectSafely(Of T)(String)
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEngine.ScriptableObject)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEngine.ScriptableObject)
+  id: GetLogicalFolderFromAsset(UnityEngine.ScriptableObject)
+  isExtensionMethod: true
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetLogicalFolderFromAsset(ScriptableObject)
+  nameWithType: AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(ScriptableObject)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEngine.ScriptableObject)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  summary: Gets the logical folder that an asset is in. The logical folder is the folder relative to the Unity Project's root not the folder path from the drive or storage device.
+  example: []
+  syntax:
+    content: public static string GetLogicalFolderFromAsset(this ScriptableObject script)
+    parameters:
+    - id: script
+      type: UnityEngine.ScriptableObject
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetLogicalFolderFromAsset(script As ScriptableObject) As String
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset*
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEditor.MonoScript)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEditor.MonoScript)
+  id: GetLogicalFolderFromAsset(UnityEditor.MonoScript)
+  isExtensionMethod: true
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetLogicalFolderFromAsset(MonoScript)
+  nameWithType: AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(MonoScript)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset(UnityEditor.MonoScript)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  summary: Gets the logical folder that an asset is in. The logical folder is the folder relative to the Unity Project's root not the folder path from the drive or storage device.
+  example: []
+  syntax:
+    content: public static string GetLogicalFolderFromAsset(this MonoScript asset)
+    parameters:
+    - id: asset
+      type: UnityEditor.MonoScript
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetLogicalFolderFromAsset(asset As MonoScript) As String
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset*
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType``1(``0@)
+  commentId: M:SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType``1(``0@)
+  id: TryGetSelectedObjectOfType``1(``0@)
+  parent: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: TryGetSelectedObjectOfType<T>(out T)
+  nameWithType: AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType<T>(out T)
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType<T>(out T)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  summary: Gets the currently selected Unity Object asset in the editor and returns true if the asset matches the type passed in. If it is of the same type and returns true it will also out the object converted over to the defined type from the base UnityEngine.Object type. Retruns false if the asset is not of the type or is null.
+  example: []
+  syntax:
+    content: 'public static bool TryGetSelectedObjectOfType<T>(out T unityObject) where T : Object'
+    parameters:
+    - id: unityObject
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Shared Function TryGetSelectedObjectOfType(Of T As [Object])(unityObject As T) As Boolean
+  overload: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType*
+  nameWithType.vb: AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType(Of T)(T)
+  fullName.vb: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType(Of T)(T)
+  name.vb: TryGetSelectedObjectOfType(Of T)(T)
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType*
+  commentId: Overload:SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html#SFEditor_Utilities_AssetDatabaseEditorUtilities_FindAssetsOfType__1_System_String_
+  name: FindAssetsOfType
+  nameWithType: AssetDatabaseEditorUtilities.FindAssetsOfType
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindAssetsOfType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType*
+  commentId: Overload:SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html#SFEditor_Utilities_AssetDatabaseEditorUtilities_FindFirstAssetOfType__1_System_String_
+  name: FindFirstAssetOfType
+  nameWithType: AssetDatabaseEditorUtilities.FindFirstAssetOfType
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.FindFirstAssetOfType
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely*
+  commentId: Overload:SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html#SFEditor_Utilities_AssetDatabaseEditorUtilities_CreateScriptableObjectSafely__1_System_String_
+  name: CreateScriptableObjectSafely
+  nameWithType: AssetDatabaseEditorUtilities.CreateScriptableObjectSafely
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.CreateScriptableObjectSafely
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset*
+  commentId: Overload:SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html#SFEditor_Utilities_AssetDatabaseEditorUtilities_GetLogicalFolderFromAsset_UnityEngine_ScriptableObject_
+  name: GetLogicalFolderFromAsset
+  nameWithType: AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.GetLogicalFolderFromAsset
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEditor.MonoScript
+  commentId: T:UnityEditor.MonoScript
+  parent: UnityEditor
+  isExternal: true
+  name: MonoScript
+  nameWithType: MonoScript
+  fullName: UnityEditor.MonoScript
+- uid: UnityEditor
+  commentId: N:UnityEditor
+  isExternal: true
+  name: UnityEditor
+  nameWithType: UnityEditor
+  fullName: UnityEditor
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType*
+  commentId: Overload:SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html#SFEditor_Utilities_AssetDatabaseEditorUtilities_TryGetSelectedObjectOfType__1___0__
+  name: TryGetSelectedObjectOfType
+  nameWithType: AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities.TryGetSelectedObjectOfType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

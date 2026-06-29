@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.InteropServices.CollectionsMarshal
+  commentId: T:SF.Utilities.InteropServices.CollectionsMarshal
+  id: CollectionsMarshal
+  parent: SF.Utilities.InteropServices
+  children:
+  - SF.Utilities.InteropServices.CollectionsMarshal.AsSpan``1(System.Collections.Generic.List{``0})
+  langs:
+  - csharp
+  - vb
+  name: CollectionsMarshal
+  nameWithType: CollectionsMarshal
+  fullName: SF.Utilities.InteropServices.CollectionsMarshal
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.InteropServices
+  syntax:
+    content: public static class CollectionsMarshal
+    content.vb: Public Module CollectionsMarshal
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan``1(System.Collections.Generic.List{``0})
+  commentId: M:SF.Utilities.InteropServices.CollectionsMarshal.AsSpan``1(System.Collections.Generic.List{``0})
+  id: AsSpan``1(System.Collections.Generic.List{``0})
+  parent: SF.Utilities.InteropServices.CollectionsMarshal
+  langs:
+  - csharp
+  - vb
+  name: AsSpan<T>(List<T>)
+  nameWithType: CollectionsMarshal.AsSpan<T>(List<T>)
+  fullName: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan<T>(System.Collections.Generic.List<T>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.InteropServices
+  syntax:
+    content: public static Span<T> AsSpan<T>(List<T> list)
+    parameters:
+    - id: list
+      type: System.Collections.Generic.List{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.Span{{T}}
+    content.vb: Public Shared Function AsSpan(Of T)(list As List(Of T)) As Span(Of T)
+  overload: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan*
+  nameWithType.vb: CollectionsMarshal.AsSpan(Of T)(List(Of T))
+  fullName.vb: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan(Of T)(System.Collections.Generic.List(Of T))
+  name.vb: AsSpan(Of T)(List(Of T))
+references:
+- uid: SF.Utilities.InteropServices
+  commentId: N:SF.Utilities.InteropServices
+  href: SF.html
+  name: SF.Utilities.InteropServices
+  nameWithType: SF.Utilities.InteropServices
+  fullName: SF.Utilities.InteropServices
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.InteropServices
+    name: InteropServices
+    href: SF.Utilities.InteropServices.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.InteropServices
+    name: InteropServices
+    href: SF.Utilities.InteropServices.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan*
+  commentId: Overload:SF.Utilities.InteropServices.CollectionsMarshal.AsSpan
+  href: SF.Utilities.InteropServices.CollectionsMarshal.html#SF_Utilities_InteropServices_CollectionsMarshal_AsSpan__1_System_Collections_Generic_List___0__
+  name: AsSpan
+  nameWithType: CollectionsMarshal.AsSpan
+  fullName: SF.Utilities.InteropServices.CollectionsMarshal.AsSpan
+- uid: System.Collections.Generic.List{{T}}
+  commentId: T:System.Collections.Generic.List{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Span{{T}}
+  commentId: T:System.Span{``0}
+  parent: System
+  definition: System.Span`1
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

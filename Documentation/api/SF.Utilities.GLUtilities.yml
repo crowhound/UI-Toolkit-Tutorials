@@ -1,0 +1,712 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.GLUtilities
+  commentId: T:SF.Utilities.GLUtilities
+  id: GLUtilities
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.GLUtilities.ApplyHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  - SF.Utilities.GLUtilities.ClipViewPort(UnityEngine.Rect,UnityEngine.Vector2)
+  - SF.Utilities.GLUtilities.DrawBatchedHorizontalLine(System.Single,System.Single,System.Single)
+  - SF.Utilities.GLUtilities.DrawBatchedLine(UnityEngine.Vector3,UnityEngine.Vector3)
+  - SF.Utilities.GLUtilities.DrawBatchedVerticalLine(System.Single,System.Single,System.Single)
+  - SF.Utilities.GLUtilities.DrawBox(UnityEngine.Rect,System.Int32)
+  - SF.Utilities.GLUtilities.DrawGridMarquee(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  - SF.Utilities.GLUtilities.DrawHandleMaterial
+  - SF.Utilities.GLUtilities.DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - SF.Utilities.GLUtilities.DrawSelectedHexGridArea(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  - SF.Utilities.GLUtilities.DrawTriangle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  - SF.Utilities.GLUtilities.EndDrawing
+  - SF.Utilities.GLUtilities.GLColor
+  - SF.Utilities.GLUtilities.InitHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  - SF.Utilities.GLUtilities.RestorePreClippedViewRect
+  - SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,System.Int32)
+  - SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,UnityEngine.Color,System.Int32)
+  - SF.Utilities.GLUtilities.StartDrawingOrtho(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: GLUtilities
+  nameWithType: GLUtilities
+  fullName: SF.Utilities.GLUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static class GLUtilities
+    content.vb: Public Module GLUtilities
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.GLUtilities.GLColor
+  commentId: F:SF.Utilities.GLUtilities.GLColor
+  id: GLColor
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: GLColor
+  nameWithType: GLUtilities.GLColor
+  fullName: SF.Utilities.GLUtilities.GLColor
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Color GLColor
+    return:
+      type: UnityEngine.Color
+    content.vb: Public Shared GLColor As Color
+- uid: SF.Utilities.GLUtilities.DrawHandleMaterial
+  commentId: F:SF.Utilities.GLUtilities.DrawHandleMaterial
+  id: DrawHandleMaterial
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawHandleMaterial
+  nameWithType: GLUtilities.DrawHandleMaterial
+  fullName: SF.Utilities.GLUtilities.DrawHandleMaterial
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Material DrawHandleMaterial
+    return:
+      type: UnityEngine.Material
+    content.vb: Public Shared DrawHandleMaterial As Material
+- uid: SF.Utilities.GLUtilities.InitHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  commentId: M:SF.Utilities.GLUtilities.InitHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  id: InitHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: InitHandleMaterial(CompareFunction)
+  nameWithType: GLUtilities.InitHandleMaterial(CompareFunction)
+  fullName: SF.Utilities.GLUtilities.InitHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void InitHandleMaterial(CompareFunction zTest = CompareFunction.Always)
+    parameters:
+    - id: zTest
+      type: UnityEngine.Rendering.CompareFunction
+    content.vb: Public Shared Sub InitHandleMaterial(zTest As CompareFunction = CompareFunction.Always)
+  overload: SF.Utilities.GLUtilities.InitHandleMaterial*
+- uid: SF.Utilities.GLUtilities.ApplyHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  commentId: M:SF.Utilities.GLUtilities.ApplyHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  id: ApplyHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: ApplyHandleMaterial(CompareFunction)
+  nameWithType: GLUtilities.ApplyHandleMaterial(CompareFunction)
+  fullName: SF.Utilities.GLUtilities.ApplyHandleMaterial(UnityEngine.Rendering.CompareFunction)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void ApplyHandleMaterial(CompareFunction zTest = CompareFunction.Always)
+    parameters:
+    - id: zTest
+      type: UnityEngine.Rendering.CompareFunction
+    content.vb: Public Shared Sub ApplyHandleMaterial(zTest As CompareFunction = CompareFunction.Always)
+  overload: SF.Utilities.GLUtilities.ApplyHandleMaterial*
+- uid: SF.Utilities.GLUtilities.ClipViewPort(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:SF.Utilities.GLUtilities.ClipViewPort(UnityEngine.Rect,UnityEngine.Vector2)
+  id: ClipViewPort(UnityEngine.Rect,UnityEngine.Vector2)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: ClipViewPort(Rect, Vector2)
+  nameWithType: GLUtilities.ClipViewPort(Rect, Vector2)
+  fullName: SF.Utilities.GLUtilities.ClipViewPort(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void ClipViewPort(Rect viewPortRect, Vector2 clipOffset)
+    parameters:
+    - id: viewPortRect
+      type: UnityEngine.Rect
+    - id: clipOffset
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Sub ClipViewPort(viewPortRect As Rect, clipOffset As Vector2)
+  overload: SF.Utilities.GLUtilities.ClipViewPort*
+- uid: SF.Utilities.GLUtilities.RestorePreClippedViewRect
+  commentId: M:SF.Utilities.GLUtilities.RestorePreClippedViewRect
+  id: RestorePreClippedViewRect
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: RestorePreClippedViewRect()
+  nameWithType: GLUtilities.RestorePreClippedViewRect()
+  fullName: SF.Utilities.GLUtilities.RestorePreClippedViewRect()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Restores the Viewport rect to the value before it was clipped during any clipping operation.
+  example: []
+  syntax:
+    content: public static void RestorePreClippedViewRect()
+    content.vb: Public Shared Sub RestorePreClippedViewRect()
+  overload: SF.Utilities.GLUtilities.RestorePreClippedViewRect*
+- uid: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,System.Int32)
+  commentId: M:SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,System.Int32)
+  id: StartDrawing(UnityEngine.Matrix4x4,System.Int32)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: StartDrawing(Matrix4x4, int)
+  nameWithType: GLUtilities.StartDrawing(Matrix4x4, int)
+  fullName: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void StartDrawing(Matrix4x4 matrix, int drawMode = 1)
+    parameters:
+    - id: matrix
+      type: UnityEngine.Matrix4x4
+    - id: drawMode
+      type: System.Int32
+    content.vb: Public Shared Sub StartDrawing(matrix As Matrix4x4, drawMode As Integer = 1)
+  overload: SF.Utilities.GLUtilities.StartDrawing*
+  nameWithType.vb: GLUtilities.StartDrawing(Matrix4x4, Integer)
+  fullName.vb: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4, Integer)
+  name.vb: StartDrawing(Matrix4x4, Integer)
+- uid: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,UnityEngine.Color,System.Int32)
+  commentId: M:SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4,UnityEngine.Color,System.Int32)
+  id: StartDrawing(UnityEngine.Matrix4x4,UnityEngine.Color,System.Int32)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: StartDrawing(Matrix4x4, Color, int)
+  nameWithType: GLUtilities.StartDrawing(Matrix4x4, Color, int)
+  fullName: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4, UnityEngine.Color, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void StartDrawing(Matrix4x4 matrix, Color color, int drawMode = 1)
+    parameters:
+    - id: matrix
+      type: UnityEngine.Matrix4x4
+    - id: color
+      type: UnityEngine.Color
+    - id: drawMode
+      type: System.Int32
+    content.vb: Public Shared Sub StartDrawing(matrix As Matrix4x4, color As Color, drawMode As Integer = 1)
+  overload: SF.Utilities.GLUtilities.StartDrawing*
+  nameWithType.vb: GLUtilities.StartDrawing(Matrix4x4, Color, Integer)
+  fullName.vb: SF.Utilities.GLUtilities.StartDrawing(UnityEngine.Matrix4x4, UnityEngine.Color, Integer)
+  name.vb: StartDrawing(Matrix4x4, Color, Integer)
+- uid: SF.Utilities.GLUtilities.StartDrawingOrtho(System.Int32)
+  commentId: M:SF.Utilities.GLUtilities.StartDrawingOrtho(System.Int32)
+  id: StartDrawingOrtho(System.Int32)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: StartDrawingOrtho(int)
+  nameWithType: GLUtilities.StartDrawingOrtho(int)
+  fullName: SF.Utilities.GLUtilities.StartDrawingOrtho(int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void StartDrawingOrtho(int drawMode = 1)
+    parameters:
+    - id: drawMode
+      type: System.Int32
+    content.vb: Public Shared Sub StartDrawingOrtho(drawMode As Integer = 1)
+  overload: SF.Utilities.GLUtilities.StartDrawingOrtho*
+  nameWithType.vb: GLUtilities.StartDrawingOrtho(Integer)
+  fullName.vb: SF.Utilities.GLUtilities.StartDrawingOrtho(Integer)
+  name.vb: StartDrawingOrtho(Integer)
+- uid: SF.Utilities.GLUtilities.EndDrawing
+  commentId: M:SF.Utilities.GLUtilities.EndDrawing
+  id: EndDrawing
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: EndDrawing()
+  nameWithType: GLUtilities.EndDrawing()
+  fullName: SF.Utilities.GLUtilities.EndDrawing()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void EndDrawing()
+    content.vb: Public Shared Sub EndDrawing()
+  overload: SF.Utilities.GLUtilities.EndDrawing*
+- uid: SF.Utilities.GLUtilities.DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:SF.Utilities.GLUtilities.DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawLine(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawLine(Vector3, Vector3, float)
+  nameWithType: GLUtilities.DrawLine(Vector3, Vector3, float)
+  fullName: SF.Utilities.GLUtilities.DrawLine(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawLine(Vector3 p1, Vector3 p2, float width = 1)
+    parameters:
+    - id: p1
+      type: UnityEngine.Vector3
+    - id: p2
+      type: UnityEngine.Vector3
+    - id: width
+      type: System.Single
+    content.vb: Public Shared Sub DrawLine(p1 As Vector3, p2 As Vector3, width As Single = 1)
+  overload: SF.Utilities.GLUtilities.DrawLine*
+  nameWithType.vb: GLUtilities.DrawLine(Vector3, Vector3, Single)
+  fullName.vb: SF.Utilities.GLUtilities.DrawLine(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  name.vb: DrawLine(Vector3, Vector3, Single)
+- uid: SF.Utilities.GLUtilities.DrawBatchedLine(UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:SF.Utilities.GLUtilities.DrawBatchedLine(UnityEngine.Vector3,UnityEngine.Vector3)
+  id: DrawBatchedLine(UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawBatchedLine(Vector3, Vector3)
+  nameWithType: GLUtilities.DrawBatchedLine(Vector3, Vector3)
+  fullName: SF.Utilities.GLUtilities.DrawBatchedLine(UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawBatchedLine(Vector3 p1, Vector3 p2)
+    parameters:
+    - id: p1
+      type: UnityEngine.Vector3
+    - id: p2
+      type: UnityEngine.Vector3
+    content.vb: Public Shared Sub DrawBatchedLine(p1 As Vector3, p2 As Vector3)
+  overload: SF.Utilities.GLUtilities.DrawBatchedLine*
+- uid: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine(System.Single,System.Single,System.Single)
+  commentId: M:SF.Utilities.GLUtilities.DrawBatchedHorizontalLine(System.Single,System.Single,System.Single)
+  id: DrawBatchedHorizontalLine(System.Single,System.Single,System.Single)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawBatchedHorizontalLine(float, float, float)
+  nameWithType: GLUtilities.DrawBatchedHorizontalLine(float, float, float)
+  fullName: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine(float, float, float)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawBatchedHorizontalLine(float x1, float x2, float y)
+    parameters:
+    - id: x1
+      type: System.Single
+    - id: x2
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: Public Shared Sub DrawBatchedHorizontalLine(x1 As Single, x2 As Single, y As Single)
+  overload: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine*
+  nameWithType.vb: GLUtilities.DrawBatchedHorizontalLine(Single, Single, Single)
+  fullName.vb: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine(Single, Single, Single)
+  name.vb: DrawBatchedHorizontalLine(Single, Single, Single)
+- uid: SF.Utilities.GLUtilities.DrawBatchedVerticalLine(System.Single,System.Single,System.Single)
+  commentId: M:SF.Utilities.GLUtilities.DrawBatchedVerticalLine(System.Single,System.Single,System.Single)
+  id: DrawBatchedVerticalLine(System.Single,System.Single,System.Single)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawBatchedVerticalLine(float, float, float)
+  nameWithType: GLUtilities.DrawBatchedVerticalLine(float, float, float)
+  fullName: SF.Utilities.GLUtilities.DrawBatchedVerticalLine(float, float, float)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawBatchedVerticalLine(float y1, float y2, float x)
+    parameters:
+    - id: y1
+      type: System.Single
+    - id: y2
+      type: System.Single
+    - id: x
+      type: System.Single
+    content.vb: Public Shared Sub DrawBatchedVerticalLine(y1 As Single, y2 As Single, x As Single)
+  overload: SF.Utilities.GLUtilities.DrawBatchedVerticalLine*
+  nameWithType.vb: GLUtilities.DrawBatchedVerticalLine(Single, Single, Single)
+  fullName.vb: SF.Utilities.GLUtilities.DrawBatchedVerticalLine(Single, Single, Single)
+  name.vb: DrawBatchedVerticalLine(Single, Single, Single)
+- uid: SF.Utilities.GLUtilities.DrawBox(UnityEngine.Rect,System.Int32)
+  commentId: M:SF.Utilities.GLUtilities.DrawBox(UnityEngine.Rect,System.Int32)
+  id: DrawBox(UnityEngine.Rect,System.Int32)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawBox(Rect, int)
+  nameWithType: GLUtilities.DrawBox(Rect, int)
+  fullName: SF.Utilities.GLUtilities.DrawBox(UnityEngine.Rect, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawBox(Rect position, int width = 1)
+    parameters:
+    - id: position
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Int32
+    content.vb: Public Shared Sub DrawBox(position As Rect, width As Integer = 1)
+  overload: SF.Utilities.GLUtilities.DrawBox*
+  nameWithType.vb: GLUtilities.DrawBox(Rect, Integer)
+  fullName.vb: SF.Utilities.GLUtilities.DrawBox(UnityEngine.Rect, Integer)
+  name.vb: DrawBox(Rect, Integer)
+- uid: SF.Utilities.GLUtilities.DrawTriangle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:SF.Utilities.GLUtilities.DrawTriangle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  id: DrawTriangle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawTriangle(Vector3, Vector3, Vector3)
+  nameWithType: GLUtilities.DrawTriangle(Vector3, Vector3, Vector3)
+  fullName: SF.Utilities.GLUtilities.DrawTriangle(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Draws a triangle using Unity's GL (Graphics Library) API.
+  example: []
+  syntax:
+    content: public static void DrawTriangle(Vector3 p1, Vector3 p2, Vector3 p3)
+    parameters:
+    - id: p1
+      type: UnityEngine.Vector3
+      description: ''
+    - id: p2
+      type: UnityEngine.Vector3
+      description: ''
+    - id: p3
+      type: UnityEngine.Vector3
+      description: ''
+    content.vb: Public Shared Sub DrawTriangle(p1 As Vector3, p2 As Vector3, p3 As Vector3)
+  overload: SF.Utilities.GLUtilities.DrawTriangle*
+- uid: SF.Utilities.GLUtilities.DrawGridMarquee(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  commentId: M:SF.Utilities.GLUtilities.DrawGridMarquee(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  id: DrawGridMarquee(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawGridMarquee(GridLayout, BoundsInt, Color)
+  nameWithType: GLUtilities.DrawGridMarquee(GridLayout, BoundsInt, Color)
+  fullName: SF.Utilities.GLUtilities.DrawGridMarquee(UnityEngine.GridLayout, UnityEngine.BoundsInt, UnityEngine.Color)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawGridMarquee(GridLayout gridLayout, BoundsInt area, Color color)
+    parameters:
+    - id: gridLayout
+      type: UnityEngine.GridLayout
+    - id: area
+      type: UnityEngine.BoundsInt
+    - id: color
+      type: UnityEngine.Color
+    content.vb: Public Shared Sub DrawGridMarquee(gridLayout As GridLayout, area As BoundsInt, color As Color)
+  overload: SF.Utilities.GLUtilities.DrawGridMarquee*
+- uid: SF.Utilities.GLUtilities.DrawSelectedHexGridArea(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  commentId: M:SF.Utilities.GLUtilities.DrawSelectedHexGridArea(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  id: DrawSelectedHexGridArea(UnityEngine.GridLayout,UnityEngine.BoundsInt,UnityEngine.Color)
+  parent: SF.Utilities.GLUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawSelectedHexGridArea(GridLayout, BoundsInt, Color)
+  nameWithType: GLUtilities.DrawSelectedHexGridArea(GridLayout, BoundsInt, Color)
+  fullName: SF.Utilities.GLUtilities.DrawSelectedHexGridArea(UnityEngine.GridLayout, UnityEngine.BoundsInt, UnityEngine.Color)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static void DrawSelectedHexGridArea(GridLayout gridLayout, BoundsInt area, Color color)
+    parameters:
+    - id: gridLayout
+      type: UnityEngine.GridLayout
+    - id: area
+      type: UnityEngine.BoundsInt
+    - id: color
+      type: UnityEngine.Color
+    content.vb: Public Shared Sub DrawSelectedHexGridArea(gridLayout As GridLayout, area As BoundsInt, color As Color)
+  overload: SF.Utilities.GLUtilities.DrawSelectedHexGridArea*
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Material
+  commentId: T:UnityEngine.Material
+  parent: UnityEngine
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: UnityEngine.Material
+- uid: SF.Utilities.GLUtilities.InitHandleMaterial*
+  commentId: Overload:SF.Utilities.GLUtilities.InitHandleMaterial
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_InitHandleMaterial_UnityEngine_Rendering_CompareFunction_
+  name: InitHandleMaterial
+  nameWithType: GLUtilities.InitHandleMaterial
+  fullName: SF.Utilities.GLUtilities.InitHandleMaterial
+- uid: UnityEngine.Rendering.CompareFunction
+  commentId: T:UnityEngine.Rendering.CompareFunction
+  parent: UnityEngine.Rendering
+  isExternal: true
+  name: CompareFunction
+  nameWithType: CompareFunction
+  fullName: UnityEngine.Rendering.CompareFunction
+- uid: UnityEngine.Rendering
+  commentId: N:UnityEngine.Rendering
+  isExternal: true
+  name: UnityEngine.Rendering
+  nameWithType: UnityEngine.Rendering
+  fullName: UnityEngine.Rendering
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Rendering
+    name: Rendering
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Rendering
+    name: Rendering
+    isExternal: true
+- uid: SF.Utilities.GLUtilities.ApplyHandleMaterial*
+  commentId: Overload:SF.Utilities.GLUtilities.ApplyHandleMaterial
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_ApplyHandleMaterial_UnityEngine_Rendering_CompareFunction_
+  name: ApplyHandleMaterial
+  nameWithType: GLUtilities.ApplyHandleMaterial
+  fullName: SF.Utilities.GLUtilities.ApplyHandleMaterial
+- uid: SF.Utilities.GLUtilities.ClipViewPort*
+  commentId: Overload:SF.Utilities.GLUtilities.ClipViewPort
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_ClipViewPort_UnityEngine_Rect_UnityEngine_Vector2_
+  name: ClipViewPort
+  nameWithType: GLUtilities.ClipViewPort
+  fullName: SF.Utilities.GLUtilities.ClipViewPort
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: SF.Utilities.GLUtilities.RestorePreClippedViewRect*
+  commentId: Overload:SF.Utilities.GLUtilities.RestorePreClippedViewRect
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_RestorePreClippedViewRect
+  name: RestorePreClippedViewRect
+  nameWithType: GLUtilities.RestorePreClippedViewRect
+  fullName: SF.Utilities.GLUtilities.RestorePreClippedViewRect
+- uid: SF.Utilities.GLUtilities.StartDrawing*
+  commentId: Overload:SF.Utilities.GLUtilities.StartDrawing
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_StartDrawing_UnityEngine_Matrix4x4_System_Int32_
+  name: StartDrawing
+  nameWithType: GLUtilities.StartDrawing
+  fullName: SF.Utilities.GLUtilities.StartDrawing
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.Utilities.GLUtilities.StartDrawingOrtho*
+  commentId: Overload:SF.Utilities.GLUtilities.StartDrawingOrtho
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_StartDrawingOrtho_System_Int32_
+  name: StartDrawingOrtho
+  nameWithType: GLUtilities.StartDrawingOrtho
+  fullName: SF.Utilities.GLUtilities.StartDrawingOrtho
+- uid: SF.Utilities.GLUtilities.EndDrawing*
+  commentId: Overload:SF.Utilities.GLUtilities.EndDrawing
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_EndDrawing
+  name: EndDrawing
+  nameWithType: GLUtilities.EndDrawing
+  fullName: SF.Utilities.GLUtilities.EndDrawing
+- uid: SF.Utilities.GLUtilities.DrawLine*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawLine
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawLine_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  name: DrawLine
+  nameWithType: GLUtilities.DrawLine
+  fullName: SF.Utilities.GLUtilities.DrawLine
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: SF.Utilities.GLUtilities.DrawBatchedLine*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawBatchedLine
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawBatchedLine_UnityEngine_Vector3_UnityEngine_Vector3_
+  name: DrawBatchedLine
+  nameWithType: GLUtilities.DrawBatchedLine
+  fullName: SF.Utilities.GLUtilities.DrawBatchedLine
+- uid: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawBatchedHorizontalLine
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawBatchedHorizontalLine_System_Single_System_Single_System_Single_
+  name: DrawBatchedHorizontalLine
+  nameWithType: GLUtilities.DrawBatchedHorizontalLine
+  fullName: SF.Utilities.GLUtilities.DrawBatchedHorizontalLine
+- uid: SF.Utilities.GLUtilities.DrawBatchedVerticalLine*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawBatchedVerticalLine
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawBatchedVerticalLine_System_Single_System_Single_System_Single_
+  name: DrawBatchedVerticalLine
+  nameWithType: GLUtilities.DrawBatchedVerticalLine
+  fullName: SF.Utilities.GLUtilities.DrawBatchedVerticalLine
+- uid: SF.Utilities.GLUtilities.DrawBox*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawBox
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawBox_UnityEngine_Rect_System_Int32_
+  name: DrawBox
+  nameWithType: GLUtilities.DrawBox
+  fullName: SF.Utilities.GLUtilities.DrawBox
+- uid: SF.Utilities.GLUtilities.DrawTriangle*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawTriangle
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawTriangle_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
+  name: DrawTriangle
+  nameWithType: GLUtilities.DrawTriangle
+  fullName: SF.Utilities.GLUtilities.DrawTriangle
+- uid: SF.Utilities.GLUtilities.DrawGridMarquee*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawGridMarquee
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawGridMarquee_UnityEngine_GridLayout_UnityEngine_BoundsInt_UnityEngine_Color_
+  name: DrawGridMarquee
+  nameWithType: GLUtilities.DrawGridMarquee
+  fullName: SF.Utilities.GLUtilities.DrawGridMarquee
+- uid: UnityEngine.GridLayout
+  commentId: T:UnityEngine.GridLayout
+  parent: UnityEngine
+  isExternal: true
+  name: GridLayout
+  nameWithType: GridLayout
+  fullName: UnityEngine.GridLayout
+- uid: UnityEngine.BoundsInt
+  commentId: T:UnityEngine.BoundsInt
+  parent: UnityEngine
+  isExternal: true
+  name: BoundsInt
+  nameWithType: BoundsInt
+  fullName: UnityEngine.BoundsInt
+- uid: SF.Utilities.GLUtilities.DrawSelectedHexGridArea*
+  commentId: Overload:SF.Utilities.GLUtilities.DrawSelectedHexGridArea
+  href: SF.Utilities.GLUtilities.html#SF_Utilities_GLUtilities_DrawSelectedHexGridArea_UnityEngine_GridLayout_UnityEngine_BoundsInt_UnityEngine_Color_
+  name: DrawSelectedHexGridArea
+  nameWithType: GLUtilities.DrawSelectedHexGridArea
+  fullName: SF.Utilities.GLUtilities.DrawSelectedHexGridArea

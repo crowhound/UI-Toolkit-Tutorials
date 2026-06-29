@@ -1,0 +1,328 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialogueEntry
+  commentId: T:SF.DialogueModule.DialogueEntry
+  id: DialogueEntry
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialogueEntry.#ctor
+  - SF.DialogueModule.DialogueEntry.#ctor(SF.DialogueModule.Nodes.ConversationEntryRuntimeNode@)
+  - SF.DialogueModule.DialogueEntry.#ctor(System.String,System.String)
+  - SF.DialogueModule.DialogueEntry.EmptyEntry
+  - SF.DialogueModule.DialogueEntry.EndAction
+  - SF.DialogueModule.DialogueEntry.SpeakerName
+  - SF.DialogueModule.DialogueEntry.StartAction
+  - SF.DialogueModule.DialogueEntry.Text
+  langs:
+  - csharp
+  - vb
+  name: DialogueEntry
+  nameWithType: DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The individual parts of a full dialogue conversations including events to activate once the dialogue happens, starts, or ends.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DialogueEntry
+    content.vb: >-
+      <Serializable>
+
+      Public Class DialogueEntry
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SF.DialogueModule.TimedDialogueEntry
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueEntry.Text
+  commentId: F:SF.DialogueModule.DialogueEntry.Text
+  id: Text
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: DialogueEntry.Text
+  fullName: SF.DialogueModule.DialogueEntry.Text
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public string Text
+    return:
+      type: System.String
+    content.vb: Public Text As String
+- uid: SF.DialogueModule.DialogueEntry.SpeakerName
+  commentId: F:SF.DialogueModule.DialogueEntry.SpeakerName
+  id: SpeakerName
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: SpeakerName
+  nameWithType: DialogueEntry.SpeakerName
+  fullName: SF.DialogueModule.DialogueEntry.SpeakerName
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The name of the current speaker.
+  example: []
+  syntax:
+    content: public string SpeakerName
+    return:
+      type: System.String
+    content.vb: Public SpeakerName As String
+- uid: SF.DialogueModule.DialogueEntry.StartAction
+  commentId: F:SF.DialogueModule.DialogueEntry.StartAction
+  id: StartAction
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: StartAction
+  nameWithType: DialogueEntry.StartAction
+  fullName: SF.DialogueModule.DialogueEntry.StartAction
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: An action that can be invoked when the Dialogue Entry starts.
+  example: []
+  syntax:
+    content: public Action StartAction
+    return:
+      type: System.Action
+    content.vb: Public StartAction As Action
+- uid: SF.DialogueModule.DialogueEntry.EndAction
+  commentId: F:SF.DialogueModule.DialogueEntry.EndAction
+  id: EndAction
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: EndAction
+  nameWithType: DialogueEntry.EndAction
+  fullName: SF.DialogueModule.DialogueEntry.EndAction
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: >-
+    An action that can be invoked when the Dialogue Entry ends.
+
+    This finishes running before the next DialogueEntries StartAction is invoked.
+  example: []
+  syntax:
+    content: public Action EndAction
+    return:
+      type: System.Action
+    content.vb: Public EndAction As Action
+- uid: SF.DialogueModule.DialogueEntry.#ctor
+  commentId: M:SF.DialogueModule.DialogueEntry.#ctor
+  id: '#ctor'
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: DialogueEntry()
+  nameWithType: DialogueEntry.DialogueEntry()
+  fullName: SF.DialogueModule.DialogueEntry.DialogueEntry()
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueEntry()
+    content.vb: Public Sub New()
+  overload: SF.DialogueModule.DialogueEntry.#ctor*
+  nameWithType.vb: DialogueEntry.New()
+  fullName.vb: SF.DialogueModule.DialogueEntry.New()
+  name.vb: New()
+- uid: SF.DialogueModule.DialogueEntry.#ctor(System.String,System.String)
+  commentId: M:SF.DialogueModule.DialogueEntry.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: DialogueEntry(string, string)
+  nameWithType: DialogueEntry.DialogueEntry(string, string)
+  fullName: SF.DialogueModule.DialogueEntry.DialogueEntry(string, string)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueEntry(string text, string speakerName = "")
+    parameters:
+    - id: text
+      type: System.String
+    - id: speakerName
+      type: System.String
+    content.vb: Public Sub New(text As String, speakerName As String = "")
+  overload: SF.DialogueModule.DialogueEntry.#ctor*
+  nameWithType.vb: DialogueEntry.New(String, String)
+  fullName.vb: SF.DialogueModule.DialogueEntry.New(String, String)
+  name.vb: New(String, String)
+- uid: SF.DialogueModule.DialogueEntry.#ctor(SF.DialogueModule.Nodes.ConversationEntryRuntimeNode@)
+  commentId: M:SF.DialogueModule.DialogueEntry.#ctor(SF.DialogueModule.Nodes.ConversationEntryRuntimeNode@)
+  id: '#ctor(SF.DialogueModule.Nodes.ConversationEntryRuntimeNode@)'
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: DialogueEntry(in ConversationEntryRuntimeNode)
+  nameWithType: DialogueEntry.DialogueEntry(in ConversationEntryRuntimeNode)
+  fullName: SF.DialogueModule.DialogueEntry.DialogueEntry(in SF.DialogueModule.Nodes.ConversationEntryRuntimeNode)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueEntry(in ConversationEntryRuntimeNode entryNode)
+    parameters:
+    - id: entryNode
+      type: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+    content.vb: Public Sub New(entryNode As ConversationEntryRuntimeNode)
+  overload: SF.DialogueModule.DialogueEntry.#ctor*
+  nameWithType.vb: DialogueEntry.New(ConversationEntryRuntimeNode)
+  fullName.vb: SF.DialogueModule.DialogueEntry.New(SF.DialogueModule.Nodes.ConversationEntryRuntimeNode)
+  name.vb: New(ConversationEntryRuntimeNode)
+- uid: SF.DialogueModule.DialogueEntry.EmptyEntry
+  commentId: F:SF.DialogueModule.DialogueEntry.EmptyEntry
+  id: EmptyEntry
+  parent: SF.DialogueModule.DialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: EmptyEntry
+  nameWithType: DialogueEntry.EmptyEntry
+  fullName: SF.DialogueModule.DialogueEntry.EmptyEntry
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static readonly DialogueEntry EmptyEntry
+    return:
+      type: SF.DialogueModule.DialogueEntry
+    content.vb: Public Shared ReadOnly EmptyEntry As DialogueEntry
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SF.DialogueModule.DialogueEntry.#ctor*
+  commentId: Overload:SF.DialogueModule.DialogueEntry.#ctor
+  href: SF.DialogueModule.DialogueEntry.html#SF_DialogueModule_DialogueEntry__ctor
+  name: DialogueEntry
+  nameWithType: DialogueEntry.DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry.DialogueEntry
+  nameWithType.vb: DialogueEntry.New
+  fullName.vb: SF.DialogueModule.DialogueEntry.New
+  name.vb: New
+- uid: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode.html
+  name: ConversationEntryRuntimeNode
+  nameWithType: ConversationEntryRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.DialogueEntry
+  commentId: T:SF.DialogueModule.DialogueEntry
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueEntry.html
+  name: DialogueEntry
+  nameWithType: DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry

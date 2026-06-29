@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  id: SFEditor.Utilities
+  children:
+  - SFEditor.Utilities.AssetDatabaseEditorUtilities
+  - SFEditor.Utilities.FileUtility
+  - SFEditor.Utilities.FillRenderMode
+  - SFEditor.Utilities.HandlesUtilities
+  - SFEditor.Utilities.OutlineRenderMode
+  - SFEditor.Utilities.SFEditorTypeUtilities
+  - SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  - SFEditor.Utilities.UnityEditorTypeUtilities
+  - SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SFEditor.Utilities.FileUtility
+  commentId: T:SFEditor.Utilities.FileUtility
+  href: SFEditor.Utilities.FileUtility.html
+  name: FileUtility
+  nameWithType: FileUtility
+  fullName: SFEditor.Utilities.FileUtility
+- uid: SFEditor.Utilities.OutlineRenderMode
+  commentId: T:SFEditor.Utilities.OutlineRenderMode
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.OutlineRenderMode.html
+  name: OutlineRenderMode
+  nameWithType: OutlineRenderMode
+  fullName: SFEditor.Utilities.OutlineRenderMode
+- uid: SFEditor.Utilities.FillRenderMode
+  commentId: T:SFEditor.Utilities.FillRenderMode
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.FillRenderMode.html
+  name: FillRenderMode
+  nameWithType: FillRenderMode
+  fullName: SFEditor.Utilities.FillRenderMode
+- uid: SFEditor.Utilities.HandlesUtilities
+  commentId: T:SFEditor.Utilities.HandlesUtilities
+  href: SFEditor.Utilities.HandlesUtilities.html
+  name: HandlesUtilities
+  nameWithType: HandlesUtilities
+  fullName: SFEditor.Utilities.HandlesUtilities
+- uid: SFEditor.Utilities.AssetDatabaseEditorUtilities
+  commentId: T:SFEditor.Utilities.AssetDatabaseEditorUtilities
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.AssetDatabaseEditorUtilities.html
+  name: AssetDatabaseEditorUtilities
+  nameWithType: AssetDatabaseEditorUtilities
+  fullName: SFEditor.Utilities.AssetDatabaseEditorUtilities
+- uid: SFEditor.Utilities.UnityEditorTypeUtilities
+  commentId: T:SFEditor.Utilities.UnityEditorTypeUtilities
+  href: SFEditor.Utilities.UnityEditorTypeUtilities.html
+  name: UnityEditorTypeUtilities
+  nameWithType: UnityEditorTypeUtilities
+  fullName: SFEditor.Utilities.UnityEditorTypeUtilities
+- uid: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  commentId: T:SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.UnityEditorTypeUtilities.html
+  name: UnityEditorTypeUtilities.ReferenceUpdater
+  nameWithType: UnityEditorTypeUtilities.ReferenceUpdater
+  fullName: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+  spec.csharp:
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities
+    name: UnityEditorTypeUtilities
+    href: SFEditor.Utilities.UnityEditorTypeUtilities.html
+  - name: .
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+    name: ReferenceUpdater
+    href: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater.html
+  spec.vb:
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities
+    name: UnityEditorTypeUtilities
+    href: SFEditor.Utilities.UnityEditorTypeUtilities.html
+  - name: .
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+    name: ReferenceUpdater
+    href: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater.html
+- uid: SFEditor.Utilities.SFEditorTypeUtilities
+  commentId: T:SFEditor.Utilities.SFEditorTypeUtilities
+  href: SFEditor.Utilities.SFEditorTypeUtilities.html
+  name: SFEditorTypeUtilities
+  nameWithType: SFEditorTypeUtilities
+  fullName: SFEditor.Utilities.SFEditorTypeUtilities
+- uid: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  commentId: T:SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.SFEditorTypeUtilities.html
+  name: SFEditorTypeUtilities.ReferenceUpdater
+  nameWithType: SFEditorTypeUtilities.ReferenceUpdater
+  fullName: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  spec.csharp:
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities
+    name: SFEditorTypeUtilities
+    href: SFEditor.Utilities.SFEditorTypeUtilities.html
+  - name: .
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+    name: ReferenceUpdater
+    href: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater.html
+  spec.vb:
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities
+    name: SFEditorTypeUtilities
+    href: SFEditor.Utilities.SFEditorTypeUtilities.html
+  - name: .
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+    name: ReferenceUpdater
+    href: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater.html
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html

@@ -1,0 +1,265 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.ManagerBase`1
+  commentId: T:SF.ManagerBase`1
+  id: ManagerBase`1
+  parent: SF
+  children:
+  - SF.ManagerBase`1.Manager
+  - SF.ManagerBase`1._instance
+  langs:
+  - csharp
+  - vb
+  name: ManagerBase<T>
+  nameWithType: ManagerBase<T>
+  fullName: SF.ManagerBase<T>
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  summary: >-
+    Base class for manager types in scene that don't have their static instance cleaned up between
+
+    entering and exiting playmode.
+  example: []
+  syntax:
+    content: 'public abstract class ManagerBase<T> : MonoBehaviour'
+    typeParameters:
+    - id: T
+      description: ''
+    content.vb: Public MustInherit Class ManagerBase(Of T) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.ManagerBase`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  nameWithType.vb: ManagerBase(Of T)
+  fullName.vb: SF.ManagerBase(Of T)
+  name.vb: ManagerBase(Of T)
+- uid: SF.ManagerBase`1._instance
+  commentId: F:SF.ManagerBase`1._instance
+  id: _instance
+  parent: SF.ManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: ManagerBase<T>._instance
+  fullName: SF.ManagerBase<T>._instance
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: >-
+      [NoAutoStaticsCleanup]
+
+      protected static T _instance
+    return:
+      type: '{T}'
+    content.vb: >-
+      <NoAutoStaticsCleanup>
+
+      Protected Shared _instance As T
+  attributes:
+  - type: Unity.Scripting.LifecycleManagement.NoAutoStaticsCleanupAttribute
+    ctor: Unity.Scripting.LifecycleManagement.NoAutoStaticsCleanupAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ManagerBase(Of T)._instance
+  fullName.vb: SF.ManagerBase(Of T)._instance
+- uid: SF.ManagerBase`1.Manager
+  commentId: P:SF.ManagerBase`1.Manager
+  id: Manager
+  parent: SF.ManagerBase`1
+  langs:
+  - csharp
+  - vb
+  name: Manager
+  nameWithType: ManagerBase<T>.Manager
+  fullName: SF.ManagerBase<T>.Manager
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: public static T Manager { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared Property Manager As T
+  overload: SF.ManagerBase`1.Manager*
+  nameWithType.vb: ManagerBase(Of T).Manager
+  fullName.vb: SF.ManagerBase(Of T).Manager
+references:
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.ManagerBase`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<ManagerBase<T>>(ManagerBase<T>)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<ManagerBase<T>>(ManagerBase<T>)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.ManagerBase<T>>(SF.ManagerBase<T>)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of ManagerBase(Of T))(ManagerBase(Of T))
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.ManagerBase(Of T))(SF.ManagerBase(Of T))
+  name.vb: IsActiveEnabledAndNotNull(Of ManagerBase(Of T))(ManagerBase(Of T))
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.ManagerBase{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.ManagerBase{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+  - name: (
+  - uid: SF.ManagerBase`1
+    name: ManagerBase
+    href: SF.ManagerBase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SF.ManagerBase`1.Manager*
+  commentId: Overload:SF.ManagerBase`1.Manager
+  href: SF.ManagerBase-1.html#SF_ManagerBase_1_Manager
+  name: Manager
+  nameWithType: ManagerBase<T>.Manager
+  fullName: SF.ManagerBase<T>.Manager
+  nameWithType.vb: ManagerBase(Of T).Manager
+  fullName.vb: SF.ManagerBase(Of T).Manager

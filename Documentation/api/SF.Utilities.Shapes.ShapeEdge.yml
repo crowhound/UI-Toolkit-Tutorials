@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes.ShapeEdge
+  commentId: T:SF.Utilities.Shapes.ShapeEdge
+  id: ShapeEdge
+  parent: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.ShapeEdge.EndPoint
+  - SF.Utilities.Shapes.ShapeEdge.StartPoint
+  langs:
+  - csharp
+  - vb
+  name: ShapeEdge
+  nameWithType: ShapeEdge
+  fullName: SF.Utilities.Shapes.ShapeEdge
+  type: Struct
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  summary: >-
+    This keeps tracks of all the connections between two points in a shape.
+
+    Useful for mesh generation, rendering shape creation, and custom physics shape making.
+
+    Example UnityEngine.PhysicsShape2D
+  example: []
+  syntax:
+    content: public struct ShapeEdge
+    content.vb: Public Structure ShapeEdge
+- uid: SF.Utilities.Shapes.ShapeEdge.StartPoint
+  commentId: F:SF.Utilities.Shapes.ShapeEdge.StartPoint
+  id: StartPoint
+  parent: SF.Utilities.Shapes.ShapeEdge
+  langs:
+  - csharp
+  - vb
+  name: StartPoint
+  nameWithType: ShapeEdge.StartPoint
+  fullName: SF.Utilities.Shapes.ShapeEdge.StartPoint
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapePoint StartPoint
+    return:
+      type: SF.Utilities.Shapes.ShapePoint
+    content.vb: Public StartPoint As ShapePoint
+- uid: SF.Utilities.Shapes.ShapeEdge.EndPoint
+  commentId: F:SF.Utilities.Shapes.ShapeEdge.EndPoint
+  id: EndPoint
+  parent: SF.Utilities.Shapes.ShapeEdge
+  langs:
+  - csharp
+  - vb
+  name: EndPoint
+  nameWithType: ShapeEdge.EndPoint
+  fullName: SF.Utilities.Shapes.ShapeEdge.EndPoint
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapePoint EndPoint
+    return:
+      type: SF.Utilities.Shapes.ShapePoint
+    content.vb: Public EndPoint As ShapePoint
+references:
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+- uid: SF.Utilities.Shapes.ShapePoint
+  commentId: T:SF.Utilities.Shapes.ShapePoint
+  parent: SF.Utilities.Shapes
+  href: SF.Utilities.Shapes.ShapePoint.html
+  name: ShapePoint
+  nameWithType: ShapePoint
+  fullName: SF.Utilities.Shapes.ShapePoint

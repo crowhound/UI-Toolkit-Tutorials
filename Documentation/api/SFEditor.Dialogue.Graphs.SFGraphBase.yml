@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase
+  commentId: T:SFEditor.Dialogue.Graphs.SFGraphBase
+  id: SFGraphBase
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  - SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  - SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  langs:
+  - csharp
+  - vb
+  name: SFGraphBase
+  nameWithType: SFGraphBase
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class SFGraphBase : Graph
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class SFGraphBase Inherits Graph
+  inheritance:
+  - System.Object
+  - Unity.GraphToolkit.Editor.Graph
+  derivedClasses:
+  - SFEditor.Dialogue.Graphs.DialogueGraph
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  commentId: F:SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  id: HasGraphChanged
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  langs:
+  - csharp
+  - vb
+  name: HasGraphChanged
+  nameWithType: SFGraphBase.HasGraphChanged
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: If the graph has changed we need to update it during the next graph importer.
+  example: []
+  syntax:
+    content: public bool HasGraphChanged
+    return:
+      type: System.Boolean
+    content.vb: Public HasGraphChanged As Boolean
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  commentId: F:SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  id: HasInitialized
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  langs:
+  - csharp
+  - vb
+  name: HasInitialized
+  nameWithType: SFGraphBase.HasInitialized
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public bool HasInitialized
+    return:
+      type: System.Boolean
+    content.vb: Public HasInitialized As Boolean
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  commentId: M:SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  id: OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  langs:
+  - csharp
+  - vb
+  name: OnGraphChanged(GraphLogger)
+  nameWithType: SFGraphBase.OnGraphChanged(GraphLogger)
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: >-
+    <p>
+
+    Called after the graph has changed.
+
+    </p>
+  example: []
+  syntax:
+    content: public override void OnGraphChanged(GraphLogger graphLogger)
+    parameters:
+    - id: graphLogger
+      type: Unity.GraphToolkit.Editor.GraphLogger
+      description: The Unity.GraphToolkit.Editor.GraphLogger that receives any errors or warnings related to the graph.
+    content.vb: Public Overrides Sub OnGraphChanged(graphLogger As GraphLogger)
+  overridden: Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  overload: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged*
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Unity.GraphToolkit.Editor.Graph
+  commentId: T:Unity.GraphToolkit.Editor.Graph
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Graph
+  nameWithType: Graph
+  fullName: Unity.GraphToolkit.Editor.Graph
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.GraphToolkit.Editor
+  commentId: N:Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Unity.GraphToolkit.Editor
+  nameWithType: Unity.GraphToolkit.Editor
+  fullName: Unity.GraphToolkit.Editor
+  spec.csharp:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+  spec.vb:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  commentId: M:Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  parent: Unity.GraphToolkit.Editor.Graph
+  isExternal: true
+  name: OnGraphChanged(GraphLogger)
+  nameWithType: Graph.OnGraphChanged(GraphLogger)
+  fullName: Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+    name: OnGraphChanged
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.GraphLogger
+    name: GraphLogger
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Graph.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+    name: OnGraphChanged
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.GraphLogger
+    name: GraphLogger
+    isExternal: true
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged*
+  commentId: Overload:SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged
+  href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_OnGraphChanged_Unity_GraphToolkit_Editor_GraphLogger_
+  name: OnGraphChanged
+  nameWithType: SFGraphBase.OnGraphChanged
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged
+- uid: Unity.GraphToolkit.Editor.GraphLogger
+  commentId: T:Unity.GraphToolkit.Editor.GraphLogger
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: GraphLogger
+  nameWithType: GraphLogger
+  fullName: Unity.GraphToolkit.Editor.GraphLogger

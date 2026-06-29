@@ -1,0 +1,537 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Managers.GameManager
+  commentId: T:SF.Managers.GameManager
+  id: GameManager
+  parent: SF.Managers
+  children:
+  - SF.Managers.GameManager.ControlState
+  - SF.Managers.GameManager.ExitGame
+  - SF.Managers.GameManager.GamePausedHandler
+  - SF.Managers.GameManager.GameUnpausedHandler
+  - SF.Managers.GameManager.Instance
+  - SF.Managers.GameManager.OnDisable
+  - SF.Managers.GameManager.OnEnable
+  - SF.Managers.GameManager.OnGameControlStateChanged
+  - SF.Managers.GameManager.OnPausedToggle
+  - SF.Managers.GameManager.Pause
+  - SF.Managers.GameManager.Unpause
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: SF.Managers.GameManager
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  summary: The current play state of the game loop that describes what type of logic loop is being updated.
+  example: []
+  syntax:
+    content: >-
+      [DefaultExecutionOrder(-5)]
+
+      public class GameManager : MonoBehaviour
+    content.vb: >-
+      <DefaultExecutionOrder(-5)>
+
+      Public Class GameManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.Managers.GameManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  attributes:
+  - type: UnityEngine.DefaultExecutionOrder
+    ctor: UnityEngine.DefaultExecutionOrder.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: -5
+- uid: SF.Managers.GameManager.ControlState
+  commentId: P:SF.Managers.GameManager.ControlState
+  id: ControlState
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ControlState
+  nameWithType: GameManager.ControlState
+  fullName: SF.Managers.GameManager.ControlState
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public GameControlState ControlState { get; set; }
+    parameters: []
+    return:
+      type: SF.Managers.GameControlState
+    content.vb: Public Property ControlState As GameControlState
+  overload: SF.Managers.GameManager.ControlState*
+- uid: SF.Managers.GameManager.Instance
+  commentId: F:SF.Managers.GameManager.Instance
+  id: Instance
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: GameManager.Instance
+  fullName: SF.Managers.GameManager.Instance
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public static GameManager Instance
+    return:
+      type: SF.Managers.GameManager
+    content.vb: Public Shared Instance As GameManager
+- uid: SF.Managers.GameManager.OnGameControlStateChanged
+  commentId: F:SF.Managers.GameManager.OnGameControlStateChanged
+  id: OnGameControlStateChanged
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: OnGameControlStateChanged
+  nameWithType: GameManager.OnGameControlStateChanged
+  fullName: SF.Managers.GameManager.OnGameControlStateChanged
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public Action<GameControlState> OnGameControlStateChanged
+    return:
+      type: System.Action{SF.Managers.GameControlState}
+    content.vb: Public OnGameControlStateChanged As Action(Of GameControlState)
+- uid: SF.Managers.GameManager.GamePausedHandler
+  commentId: E:SF.Managers.GameManager.GamePausedHandler
+  id: GamePausedHandler
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: GamePausedHandler
+  nameWithType: GameManager.GamePausedHandler
+  fullName: SF.Managers.GameManager.GamePausedHandler
+  type: Event
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public static event Action GamePausedHandler
+    return:
+      type: System.Action
+    content.vb: Public Shared Event GamePausedHandler As Action
+- uid: SF.Managers.GameManager.GameUnpausedHandler
+  commentId: E:SF.Managers.GameManager.GameUnpausedHandler
+  id: GameUnpausedHandler
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: GameUnpausedHandler
+  nameWithType: GameManager.GameUnpausedHandler
+  fullName: SF.Managers.GameManager.GameUnpausedHandler
+  type: Event
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public static event Action GameUnpausedHandler
+    return:
+      type: System.Action
+    content.vb: Public Shared Event GameUnpausedHandler As Action
+- uid: SF.Managers.GameManager.OnEnable
+  commentId: M:SF.Managers.GameManager.OnEnable
+  id: OnEnable
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: GameManager.OnEnable()
+  fullName: SF.Managers.GameManager.OnEnable()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: protected void OnEnable()
+    content.vb: Protected Sub OnEnable()
+  overload: SF.Managers.GameManager.OnEnable*
+- uid: SF.Managers.GameManager.OnDisable
+  commentId: M:SF.Managers.GameManager.OnDisable
+  id: OnDisable
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: GameManager.OnDisable()
+  fullName: SF.Managers.GameManager.OnDisable()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: protected void OnDisable()
+    content.vb: Protected Sub OnDisable()
+  overload: SF.Managers.GameManager.OnDisable*
+- uid: SF.Managers.GameManager.ExitGame
+  commentId: M:SF.Managers.GameManager.ExitGame
+  id: ExitGame
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: ExitGame()
+  nameWithType: GameManager.ExitGame()
+  fullName: SF.Managers.GameManager.ExitGame()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  summary: Exits the game and closes all related computer processes.
+  example: []
+  syntax:
+    content: public static void ExitGame()
+    content.vb: Public Shared Sub ExitGame()
+  overload: SF.Managers.GameManager.ExitGame*
+- uid: SF.Managers.GameManager.OnPausedToggle
+  commentId: M:SF.Managers.GameManager.OnPausedToggle
+  id: OnPausedToggle
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: OnPausedToggle()
+  nameWithType: GameManager.OnPausedToggle()
+  fullName: SF.Managers.GameManager.OnPausedToggle()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: public static void OnPausedToggle()
+    content.vb: Public Shared Sub OnPausedToggle()
+  overload: SF.Managers.GameManager.OnPausedToggle*
+- uid: SF.Managers.GameManager.Pause
+  commentId: M:SF.Managers.GameManager.Pause
+  id: Pause
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Pause()
+  nameWithType: GameManager.Pause()
+  fullName: SF.Managers.GameManager.Pause()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: protected static void Pause()
+    content.vb: Protected Shared Sub Pause()
+  overload: SF.Managers.GameManager.Pause*
+- uid: SF.Managers.GameManager.Unpause
+  commentId: M:SF.Managers.GameManager.Unpause
+  id: Unpause
+  parent: SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: Unpause()
+  nameWithType: GameManager.Unpause()
+  fullName: SF.Managers.GameManager.Unpause()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Managers
+  syntax:
+    content: protected static void Unpause()
+    content.vb: Protected Shared Sub Unpause()
+  overload: SF.Managers.GameManager.Unpause*
+references:
+- uid: SF.Managers
+  commentId: N:SF.Managers
+  href: SF.html
+  name: SF.Managers
+  nameWithType: SF.Managers
+  fullName: SF.Managers
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.Managers.GameManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<GameManager>(GameManager)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<GameManager>(GameManager)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.Managers.GameManager>(SF.Managers.GameManager)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of GameManager)(GameManager)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.Managers.GameManager)(SF.Managers.GameManager)
+  name.vb: IsActiveEnabledAndNotNull(Of GameManager)(GameManager)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Managers.GameManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.Managers.GameManager
+    name: GameManager
+    href: SF.Managers.GameManager.html
+  - name: '>'
+  - name: (
+  - uid: SF.Managers.GameManager
+    name: GameManager
+    href: SF.Managers.GameManager.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Managers.GameManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Managers.GameManager
+    name: GameManager
+    href: SF.Managers.GameManager.html
+  - name: )
+  - name: (
+  - uid: SF.Managers.GameManager
+    name: GameManager
+    href: SF.Managers.GameManager.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: SF.Managers.GameManager.ControlState*
+  commentId: Overload:SF.Managers.GameManager.ControlState
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_ControlState
+  name: ControlState
+  nameWithType: GameManager.ControlState
+  fullName: SF.Managers.GameManager.ControlState
+- uid: SF.Managers.GameControlState
+  commentId: T:SF.Managers.GameControlState
+  parent: SF.Managers
+  href: SF.Managers.GameControlState.html
+  name: GameControlState
+  nameWithType: GameControlState
+  fullName: SF.Managers.GameControlState
+- uid: SF.Managers.GameManager
+  commentId: T:SF.Managers.GameManager
+  parent: SF.Managers
+  href: SF.Managers.GameManager.html
+  name: GameManager
+  nameWithType: GameManager
+  fullName: SF.Managers.GameManager
+- uid: System.Action{SF.Managers.GameControlState}
+  commentId: T:System.Action{SF.Managers.GameControlState}
+  parent: System
+  definition: System.Action`1
+  href: SF.Managers.GameControlState.html
+  name: Action<GameControlState>
+  nameWithType: Action<GameControlState>
+  fullName: System.Action<SF.Managers.GameControlState>
+  nameWithType.vb: Action(Of GameControlState)
+  fullName.vb: System.Action(Of SF.Managers.GameControlState)
+  name.vb: Action(Of GameControlState)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: SF.Managers.GameControlState
+    name: GameControlState
+    href: SF.Managers.GameControlState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Managers.GameControlState
+    name: GameControlState
+    href: SF.Managers.GameControlState.html
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SF.Managers.GameManager.OnEnable*
+  commentId: Overload:SF.Managers.GameManager.OnEnable
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_OnEnable
+  name: OnEnable
+  nameWithType: GameManager.OnEnable
+  fullName: SF.Managers.GameManager.OnEnable
+- uid: SF.Managers.GameManager.OnDisable*
+  commentId: Overload:SF.Managers.GameManager.OnDisable
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_OnDisable
+  name: OnDisable
+  nameWithType: GameManager.OnDisable
+  fullName: SF.Managers.GameManager.OnDisable
+- uid: SF.Managers.GameManager.ExitGame*
+  commentId: Overload:SF.Managers.GameManager.ExitGame
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_ExitGame
+  name: ExitGame
+  nameWithType: GameManager.ExitGame
+  fullName: SF.Managers.GameManager.ExitGame
+- uid: SF.Managers.GameManager.OnPausedToggle*
+  commentId: Overload:SF.Managers.GameManager.OnPausedToggle
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_OnPausedToggle
+  name: OnPausedToggle
+  nameWithType: GameManager.OnPausedToggle
+  fullName: SF.Managers.GameManager.OnPausedToggle
+- uid: SF.Managers.GameManager.Pause*
+  commentId: Overload:SF.Managers.GameManager.Pause
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_Pause
+  name: Pause
+  nameWithType: GameManager.Pause
+  fullName: SF.Managers.GameManager.Pause
+- uid: SF.Managers.GameManager.Unpause*
+  commentId: Overload:SF.Managers.GameManager.Unpause
+  href: SF.Managers.GameManager.html#SF_Managers_GameManager_Unpause
+  name: Unpause
+  nameWithType: GameManager.Unpause
+  fullName: SF.Managers.GameManager.Unpause

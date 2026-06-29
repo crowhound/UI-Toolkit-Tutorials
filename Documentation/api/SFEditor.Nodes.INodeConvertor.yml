@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Nodes.INodeConvertor
+  commentId: T:SFEditor.Nodes.INodeConvertor
+  id: INodeConvertor
+  parent: SFEditor.Nodes
+  children:
+  - SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: INodeConvertor
+  nameWithType: INodeConvertor
+  fullName: SFEditor.Nodes.INodeConvertor
+  type: Interface
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Nodes
+  summary: Describes how to convert an editor node to a runtime node for processing.
+  example: []
+  syntax:
+    content: public interface INodeConvertor
+    content.vb: Public Interface INodeConvertor
+  derivedClasses:
+  - SFEditor.Dialogue.Graphs.AnimatorNode
+  - SFEditor.Dialogue.Graphs.BranchingContextNode
+  - SFEditor.Dialogue.Graphs.ConversationContextNode
+  - SFEditor.Dialogue.Graphs.ConversationEntryBlockNode
+  - SFEditor.Dialogue.Graphs.ConversationExtensionNode
+  - SFEditor.Dialogue.Graphs.ConversationIndexBlockNode
+  - SFEditor.Dialogue.Graphs.IntCompareBlockNode
+  - SFEditor.Dialogue.Graphs.SFXBlockNode
+- uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  commentId: M:SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  id: ConvertToRuntimeNode
+  parent: SFEditor.Nodes.INodeConvertor
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRuntimeNode()
+  nameWithType: INodeConvertor.ConvertToRuntimeNode()
+  fullName: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Nodes
+  summary: Tells how a graph importing class should convert editor nodes to runtime nodes.
+  example: []
+  syntax:
+    content: IRuntimeNode ConvertToRuntimeNode()
+    return:
+      type: SF.DialogueModule.Nodes.IRuntimeNode
+      description: Returns the converted runtime node.
+    content.vb: Function ConvertToRuntimeNode() As IRuntimeNode
+  overload: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode*
+references:
+- uid: SFEditor.Nodes
+  commentId: N:SFEditor.Nodes
+  href: SFEditor.html
+  name: SFEditor.Nodes
+  nameWithType: SFEditor.Nodes
+  fullName: SFEditor.Nodes
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+- uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode*
+  commentId: Overload:SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  name: ConvertToRuntimeNode
+  nameWithType: INodeConvertor.ConvertToRuntimeNode
+  fullName: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html

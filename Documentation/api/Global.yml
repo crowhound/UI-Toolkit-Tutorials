@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.EditorWindowBase
+  langs:
+  - csharp
+  - vb
+  name: ''
+  nameWithType: ''
+  fullName: ''
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: Global.EditorWindowBase
+  commentId: T:Global.EditorWindowBase
+  href: EditorWindowBase.html
+  name: EditorWindowBase
+  nameWithType: EditorWindowBase
+  fullName: EditorWindowBase

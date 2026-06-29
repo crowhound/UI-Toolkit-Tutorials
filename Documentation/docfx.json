@@ -1,0 +1,75 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../",
+          "files": [
+            "Assembly-CSharp.csproj"
+          ]
+        },
+        {
+          "src": "../",
+          "files": [
+            "SF.Packages.csproj"
+          ]
+        },
+        {
+          "src": "../",
+          "files": [
+            "SFeditor.Packages.csproj"
+          ]
+        }
+      ],
+      "globalNamespaceId": "Global",
+      "filter": "filterConfig.yml",
+      "dest": "api",
+      "disableGitFeatures": true
+    }
+  ],
+  "build": 
+  {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "index.md"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      },
+      {
+        "src": "api",
+        "files": [
+          "*.yml"
+        ],
+        "dest": "api"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**/*",
+          "resources/images/*"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appName": "SF UI Toolkit Tutorials",
+      "_appTitle": "SF UI Toolkit Tutorials"
+    },
+    "sitemap": {    "baseUrl": "https://shatter-fantasy.github.io/SF-UI-Toolkit-Tutorials"},
+    "template": [ "default" ],
+    "xref": 
+    [
+      "https://normanderwan.github.io/UnityXrefMaps/6000.0/xrefmap.yml",
+      "https://learn.microsoft.com/en-us/dotnet/.xrefmap.json"
+    ],
+    "xrefService": [
+      "https://learn.microsoft.com/api/xref/query?uid={uid}"
+    ],
+    "dest": "../_site",
+    "output": "../_site"
+  }
+}

@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.PlayerHUD
+  commentId: T:SF.UIModule.PlayerHUD
+  id: PlayerHUD
+  parent: SF.UIModule
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlayerHUD
+  nameWithType: PlayerHUD
+  fullName: SF.UIModule.PlayerHUD
+  type: Class
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.UIModule
+  summary: >-
+    Simple PlayerHUD with a <xref href="SF.UIModule.PlayerHUD._healthBarRef" data-throw-if-not-resolved="false"></xref> that has data binding to allow button to decrease/increase
+
+    the player health bar fill as the health changes.
+
+    See <xref href="SF.Damageable.HealthBase" data-throw-if-not-resolved="false"></xref> for the class used as the data source for the binding.
+  example: []
+  syntax:
+    content: 'public class PlayerHUD : MonoBehaviour'
+    content.vb: Public Class PlayerHUD Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.UIModule.PlayerHUD.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+references:
+- uid: SF.UIModule.PlayerHUD._healthBarRef
+  commentId: F:SF.UIModule.PlayerHUD._healthBarRef
+  name: _healthBarRef
+  nameWithType: PlayerHUD._healthBarRef
+  fullName: SF.UIModule.PlayerHUD._healthBarRef
+- uid: SF.Damageable.HealthBase
+  commentId: T:SF.Damageable.HealthBase
+  href: SF.Damageable.HealthBase.html
+  name: HealthBase
+  nameWithType: HealthBase
+  fullName: SF.Damageable.HealthBase
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.UIModule.PlayerHUD.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<PlayerHUD>(PlayerHUD)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<PlayerHUD>(PlayerHUD)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.UIModule.PlayerHUD>(SF.UIModule.PlayerHUD)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of PlayerHUD)(PlayerHUD)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.UIModule.PlayerHUD)(SF.UIModule.PlayerHUD)
+  name.vb: IsActiveEnabledAndNotNull(Of PlayerHUD)(PlayerHUD)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.PlayerHUD)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.UIModule.PlayerHUD
+    name: PlayerHUD
+    href: SF.UIModule.PlayerHUD.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIModule.PlayerHUD
+    name: PlayerHUD
+    href: SF.UIModule.PlayerHUD.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.PlayerHUD)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIModule.PlayerHUD
+    name: PlayerHUD
+    href: SF.UIModule.PlayerHUD.html
+  - name: )
+  - name: (
+  - uid: SF.UIModule.PlayerHUD
+    name: PlayerHUD
+    href: SF.UIModule.PlayerHUD.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF

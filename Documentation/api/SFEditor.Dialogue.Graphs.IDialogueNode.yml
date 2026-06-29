@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode
+  commentId: T:SFEditor.Dialogue.Graphs.IDialogueNode
+  id: IDialogueNode
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  langs:
+  - csharp
+  - vb
+  name: IDialogueNode
+  nameWithType: IDialogueNode
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode
+  type: Interface
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public interface IDialogueNode
+    content.vb: Public Interface IDialogueNode
+  derivedClasses:
+  - SFEditor.Dialogue.Graphs.BranchingContextNode
+  - SFEditor.Dialogue.Graphs.ConversationContextNode
+  - SFEditor.Dialogue.Graphs.ConversationEntryBlockNode
+  - SFEditor.Dialogue.Graphs.DialogueNode
+  - SFEditor.Dialogue.Graphs.StartDialogueNode
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  commentId: P:SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  id: ExecutionPortName
+  parent: SFEditor.Dialogue.Graphs.IDialogueNode
+  langs:
+  - csharp
+  - vb
+  name: ExecutionPortName
+  nameWithType: IDialogueNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  type: Property
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: string ExecutionPortName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ExecutionPortName As String
+  overload: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName*
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName*
+  commentId: Overload:SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  href: SFEditor.Dialogue.Graphs.IDialogueNode.html#SFEditor_Dialogue_Graphs_IDialogueNode_ExecutionPortName
+  name: ExecutionPortName
+  nameWithType: IDialogueNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

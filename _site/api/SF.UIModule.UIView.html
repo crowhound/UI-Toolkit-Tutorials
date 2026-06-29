@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class UIView | SF UI Toolkit Tutorials </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class UIView | SF UI Toolkit Tutorials ">
+    
+    <meta name="description" content="Initializes the uxml/visual element assets for a set of UI elements that make up a UI menu/view and registers the needed events in them.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="SF UI Toolkit Tutorials">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SF.UIModule.UIView">
+
+
+
+  <h1 id="SF_UIModule_UIView" data-uid="SF.UIModule.UIView" class="text-break">Class UIView</h1>
+  <div class="markdown level0 summary"><p>Initializes the uxml/visual element assets for a set of UI elements that make up a UI menu/view
+and registers the needed events in them.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">UIView</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SF.UIModule.IUIView.html">IUIView</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SF.html">SF</a>.<a class="xref" href="SF.UIModule.html">UIModule</a></h6>
+  <h6><strong>Assembly</strong>: SF.Packages.dll</h6>
+  <h5 id="SF_UIModule_UIView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class UIView : IUIView</code></pre>
+  </div>
+  <h5 id="SF_UIModule_UIView_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Multiple views are able to be on screen at once. Each UI View can have UI views in them as sub views.
+Each UIView can be seen as an organized set of UI elements that focus on a certain feature or function.
+Examples: Each view of the setting menu, the main menu contains several UI views, title screen, and overlays.</p>
+<p>Each UI View has an <a class="xref" href="SF.UIModule.UIController.html">UIController</a> for logic that contains the events the UIViews register listens for.
+Note each <a class="xref" href="SF.UIModule.UIController.html">UIController</a> can control multiple UIViews. Think about the main menu and how it has logic for the side
+buttons to open different sub views like inventory, settings, and journal.</p>
+</div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="SF_UIModule_UIView_IsInstancedUXMLTemplate" data-uid="SF.UIModule.UIView.IsInstancedUXMLTemplate">IsInstancedUXMLTemplate</h4>
+  <div class="markdown level1 summary"><p>If the UView's uxml structure is being instantiated via Templates inside an uxml file.
+If this is set to true the parent of the passed in root object will be used for show/hide
+by declaring the <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UIElements.TemplateContainer.html">TemplateContainer</a> in the initialize as the root object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NonSerialized]
+public bool IsInstancedUXMLTemplate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="SF_UIModule_UIView_IsInstancedUXMLTemplate_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>When <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UIElements.TemplateContainer.html">TemplateContainer</a> are used it is sometimes better to set the <a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UIElements.TemplateContainer.html">TemplateContainer</a> as the root object.</p>
+</div>
+
+
+  <h4 id="SF_UIModule_UIView__hideOnAwake" data-uid="SF.UIModule.UIView._hideOnAwake">_hideOnAwake</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected bool _hideOnAwake</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="SF_UIModule_UIView__uiController" data-uid="SF.UIModule.UIView._uiController">_uiController</h4>
+  <div class="markdown level1 summary"><p>The UI Controller that has the logic for the UI View.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected UIController _uiController</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SF.UIModule.UIController.html">UIController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="SF_UIModule_UIView_IsHidden_" data-uid="SF.UIModule.UIView.IsHidden*"></a>
+  <h4 id="SF_UIModule_UIView_IsHidden" data-uid="SF.UIModule.UIView.IsHidden">IsHidden</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHidden { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SF_UIModule_UIView_RootElement_" data-uid="SF.UIModule.UIView.RootElement*"></a>
+  <h4 id="SF_UIModule_UIView_RootElement" data-uid="SF.UIModule.UIView.RootElement">RootElement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VisualElement RootElement { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="SF_UIModule_UIView_Dispose_" data-uid="SF.UIModule.UIView.Dispose*"></a>
+  <h4 id="SF_UIModule_UIView_Dispose" data-uid="SF.UIModule.UIView.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Unregisters any callbacks or event handlers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Dispose()</code></pre>
+  </div>
+
+
+  <a id="SF_UIModule_UIView_Hide_" data-uid="SF.UIModule.UIView.Hide*"></a>
+  <h4 id="SF_UIModule_UIView_Hide" data-uid="SF.UIModule.UIView.Hide">Hide()</h4>
+  <div class="markdown level1 summary"><p>Hides the defined root element of the <a class="xref" href="SF.UIModule.UIView.html">UIView</a>.
+/// This sets the root element's style display to none.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Hide()</code></pre>
+  </div>
+
+
+  <a id="SF_UIModule_UIView_Initialize_" data-uid="SF.UIModule.UIView.Initialize*"></a>
+  <h4 id="SF_UIModule_UIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_" data-uid="SF.UIModule.UIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)">Initialize(VisualElement, UIController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Initialize(VisualElement rootElement, UIController uiController = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/6000.0/Documentation/ScriptReference/UIElements.VisualElement.html">VisualElement</a></td>
+        <td><span class="parametername">rootElement</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="SF.UIModule.UIController.html">UIController</a></td>
+        <td><span class="parametername">uiController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SF_UIModule_UIView_RegisterEventCallbacks_" data-uid="SF.UIModule.UIView.RegisterEventCallbacks*"></a>
+  <h4 id="SF_UIModule_UIView_RegisterEventCallbacks" data-uid="SF.UIModule.UIView.RegisterEventCallbacks">RegisterEventCallbacks()</h4>
+  <div class="markdown level1 summary"><p>Registers callbacks for buttons in the UI. Override to customize.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void RegisterEventCallbacks()</code></pre>
+  </div>
+
+
+  <a id="SF_UIModule_UIView_SetVisualElements_" data-uid="SF.UIModule.UIView.SetVisualElements*"></a>
+  <h4 id="SF_UIModule_UIView_SetVisualElements" data-uid="SF.UIModule.UIView.SetVisualElements">SetVisualElements()</h4>
+  <div class="markdown level1 summary"><p>Sets up the VisualElements for the UI. Override to customize.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void SetVisualElements()</code></pre>
+  </div>
+
+
+  <a id="SF_UIModule_UIView_Show_" data-uid="SF.UIModule.UIView.Show*"></a>
+  <h4 id="SF_UIModule_UIView_Show" data-uid="SF.UIModule.UIView.Show">Show()</h4>
+  <div class="markdown level1 summary"><p>Shows the defined root element of the <a class="xref" href="SF.UIModule.UIView.html">UIView</a>.
+This sets the root element's style display to flex.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Show()</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SF.UIModule.IUIView.html">IUIView</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

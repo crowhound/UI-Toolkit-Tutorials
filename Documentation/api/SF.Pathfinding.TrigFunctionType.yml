@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Pathfinding.TrigFunctionType
+  commentId: T:SF.Pathfinding.TrigFunctionType
+  id: TrigFunctionType
+  parent: SF.Pathfinding
+  children:
+  - SF.Pathfinding.TrigFunctionType.Cos
+  - SF.Pathfinding.TrigFunctionType.Sin
+  - SF.Pathfinding.TrigFunctionType.Tan
+  langs:
+  - csharp
+  - vb
+  name: TrigFunctionType
+  nameWithType: TrigFunctionType
+  fullName: SF.Pathfinding.TrigFunctionType
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: public enum TrigFunctionType
+    content.vb: Public Enum TrigFunctionType
+- uid: SF.Pathfinding.TrigFunctionType.Sin
+  commentId: F:SF.Pathfinding.TrigFunctionType.Sin
+  id: Sin
+  parent: SF.Pathfinding.TrigFunctionType
+  langs:
+  - csharp
+  - vb
+  name: Sin
+  nameWithType: TrigFunctionType.Sin
+  fullName: SF.Pathfinding.TrigFunctionType.Sin
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: Sin = 0
+    return:
+      type: SF.Pathfinding.TrigFunctionType
+- uid: SF.Pathfinding.TrigFunctionType.Cos
+  commentId: F:SF.Pathfinding.TrigFunctionType.Cos
+  id: Cos
+  parent: SF.Pathfinding.TrigFunctionType
+  langs:
+  - csharp
+  - vb
+  name: Cos
+  nameWithType: TrigFunctionType.Cos
+  fullName: SF.Pathfinding.TrigFunctionType.Cos
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: Cos = 1
+    return:
+      type: SF.Pathfinding.TrigFunctionType
+- uid: SF.Pathfinding.TrigFunctionType.Tan
+  commentId: F:SF.Pathfinding.TrigFunctionType.Tan
+  id: Tan
+  parent: SF.Pathfinding.TrigFunctionType
+  langs:
+  - csharp
+  - vb
+  name: Tan
+  nameWithType: TrigFunctionType.Tan
+  fullName: SF.Pathfinding.TrigFunctionType.Tan
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: Tan = 2
+    return:
+      type: SF.Pathfinding.TrigFunctionType
+references:
+- uid: SF.Pathfinding
+  commentId: N:SF.Pathfinding
+  href: SF.html
+  name: SF.Pathfinding
+  nameWithType: SF.Pathfinding
+  fullName: SF.Pathfinding
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html
+- uid: SF.Pathfinding.TrigFunctionType
+  commentId: T:SF.Pathfinding.TrigFunctionType
+  parent: SF.Pathfinding
+  href: SF.Pathfinding.TrigFunctionType.html
+  name: TrigFunctionType
+  nameWithType: TrigFunctionType
+  fullName: SF.Pathfinding.TrigFunctionType

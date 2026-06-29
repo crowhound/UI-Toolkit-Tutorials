@@ -1,0 +1,798 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.BoundExtensions
+  commentId: T:SF.Utilities.BoundExtensions
+  id: BoundExtensions
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.BottomRight(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.BottomRight(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.Deconstruct(UnityEngine.Vector3Int,System.Int32@,System.Int32@,System.Int32@)
+  - SF.Utilities.BoundExtensions.GetBoundsMinInt(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.GetBoundsSizeInt(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.ToBounds(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.ToBoundsInt(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.TopCenter(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.TopCenter(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.TopLeft(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.TopLeft(UnityEngine.BoundsInt)
+  - SF.Utilities.BoundExtensions.TopRight(UnityEngine.Bounds)
+  - SF.Utilities.BoundExtensions.TopRight(UnityEngine.BoundsInt)
+  langs:
+  - csharp
+  - vb
+  name: BoundExtensions
+  nameWithType: BoundExtensions
+  fullName: SF.Utilities.BoundExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: A set of helper functions and extensions methods for Unity's Bounds structs of different types. Bounds and BoundsInt.
+  example: []
+  syntax:
+    content: public static class BoundExtensions
+    content.vb: Public Module BoundExtensions
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.BoundExtensions.TopRight(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.TopRight(UnityEngine.Bounds)
+  id: TopRight(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopRight(Bounds)
+  nameWithType: BoundExtensions.TopRight(Bounds)
+  fullName: SF.Utilities.BoundExtensions.TopRight(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopRight(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopRight(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopRight*
+- uid: SF.Utilities.BoundExtensions.TopCenter(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.TopCenter(UnityEngine.Bounds)
+  id: TopCenter(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopCenter(Bounds)
+  nameWithType: BoundExtensions.TopCenter(Bounds)
+  fullName: SF.Utilities.BoundExtensions.TopCenter(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopCenter(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopCenter(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopCenter*
+- uid: SF.Utilities.BoundExtensions.TopLeft(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.TopLeft(UnityEngine.Bounds)
+  id: TopLeft(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopLeft(Bounds)
+  nameWithType: BoundExtensions.TopLeft(Bounds)
+  fullName: SF.Utilities.BoundExtensions.TopLeft(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopLeft(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopLeft(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopLeft*
+- uid: SF.Utilities.BoundExtensions.BottomRight(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.BottomRight(UnityEngine.Bounds)
+  id: BottomRight(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomRight(Bounds)
+  nameWithType: BoundExtensions.BottomRight(Bounds)
+  fullName: SF.Utilities.BoundExtensions.BottomRight(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomRight(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomRight(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomRight*
+- uid: SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.Bounds)
+  id: BottomCenter(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomCenter(Bounds)
+  nameWithType: BoundExtensions.BottomCenter(Bounds)
+  fullName: SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomCenter(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomCenter(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomCenter*
+- uid: SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.Bounds)
+  id: BottomLeft(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft(Bounds)
+  nameWithType: BoundExtensions.BottomLeft(Bounds)
+  fullName: SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomLeft(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomLeft(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomLeft*
+- uid: SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.Bounds)
+  id: MiddleRight(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight(Bounds)
+  nameWithType: BoundExtensions.MiddleRight(Bounds)
+  fullName: SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleRight(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleRight(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleRight*
+- uid: SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.Bounds)
+  id: MiddleCenter(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleCenter(Bounds)
+  nameWithType: BoundExtensions.MiddleCenter(Bounds)
+  fullName: SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleCenter(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleCenter(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleCenter*
+- uid: SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.Bounds)
+  id: MiddleLeft(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft(Bounds)
+  nameWithType: BoundExtensions.MiddleLeft(Bounds)
+  fullName: SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleLeft(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleLeft(bounds As Bounds) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleLeft*
+- uid: SF.Utilities.BoundExtensions.TopRight(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.TopRight(UnityEngine.BoundsInt)
+  id: TopRight(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopRight(BoundsInt)
+  nameWithType: BoundExtensions.TopRight(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.TopRight(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopRight(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopRight(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopRight*
+- uid: SF.Utilities.BoundExtensions.TopCenter(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.TopCenter(UnityEngine.BoundsInt)
+  id: TopCenter(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopCenter(BoundsInt)
+  nameWithType: BoundExtensions.TopCenter(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.TopCenter(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopCenter(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopCenter(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopCenter*
+- uid: SF.Utilities.BoundExtensions.TopLeft(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.TopLeft(UnityEngine.BoundsInt)
+  id: TopLeft(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: TopLeft(BoundsInt)
+  nameWithType: BoundExtensions.TopLeft(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.TopLeft(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 TopLeft(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function TopLeft(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.TopLeft*
+- uid: SF.Utilities.BoundExtensions.BottomRight(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.BottomRight(UnityEngine.BoundsInt)
+  id: BottomRight(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomRight(BoundsInt)
+  nameWithType: BoundExtensions.BottomRight(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.BottomRight(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomRight(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomRight(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomRight*
+- uid: SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.BoundsInt)
+  id: BottomCenter(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomCenter(BoundsInt)
+  nameWithType: BoundExtensions.BottomCenter(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.BottomCenter(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomCenter(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomCenter(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomCenter*
+- uid: SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.BoundsInt)
+  id: BottomLeft(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: BottomLeft(BoundsInt)
+  nameWithType: BoundExtensions.BottomLeft(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.BottomLeft(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 BottomLeft(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function BottomLeft(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.BottomLeft*
+- uid: SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.BoundsInt)
+  id: MiddleRight(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleRight(BoundsInt)
+  nameWithType: BoundExtensions.MiddleRight(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.MiddleRight(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleRight(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleRight(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleRight*
+- uid: SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.BoundsInt)
+  id: MiddleCenter(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleCenter(BoundsInt)
+  nameWithType: BoundExtensions.MiddleCenter(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.MiddleCenter(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleCenter(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleCenter(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleCenter*
+- uid: SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.BoundsInt)
+  id: MiddleLeft(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: MiddleLeft(BoundsInt)
+  nameWithType: BoundExtensions.MiddleLeft(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.MiddleLeft(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 MiddleLeft(this BoundsInt bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.BoundsInt
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function MiddleLeft(bounds As BoundsInt) As Vector2
+  overload: SF.Utilities.BoundExtensions.MiddleLeft*
+- uid: SF.Utilities.BoundExtensions.ToBounds(UnityEngine.BoundsInt)
+  commentId: M:SF.Utilities.BoundExtensions.ToBounds(UnityEngine.BoundsInt)
+  id: ToBounds(UnityEngine.BoundsInt)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToBounds(BoundsInt)
+  nameWithType: BoundExtensions.ToBounds(BoundsInt)
+  fullName: SF.Utilities.BoundExtensions.ToBounds(UnityEngine.BoundsInt)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Converts a BoundInt to just a normal Bounds.
+  example: []
+  syntax:
+    content: public static Bounds ToBounds(this BoundsInt boundsInt)
+    parameters:
+    - id: boundsInt
+      type: UnityEngine.BoundsInt
+      description: ''
+    return:
+      type: UnityEngine.Bounds
+      description: ''
+    content.vb: Public Shared Function ToBounds(boundsInt As BoundsInt) As Bounds
+  overload: SF.Utilities.BoundExtensions.ToBounds*
+- uid: SF.Utilities.BoundExtensions.ToBoundsInt(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.ToBoundsInt(UnityEngine.Bounds)
+  id: ToBoundsInt(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToBoundsInt(Bounds)
+  nameWithType: BoundExtensions.ToBoundsInt(Bounds)
+  fullName: SF.Utilities.BoundExtensions.ToBoundsInt(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Converts a Bounds  to a BoundsInt
+  example: []
+  syntax:
+    content: public static BoundsInt ToBoundsInt(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: ''
+    return:
+      type: UnityEngine.BoundsInt
+      description: ''
+    content.vb: Public Shared Function ToBoundsInt(bounds As Bounds) As BoundsInt
+  overload: SF.Utilities.BoundExtensions.ToBoundsInt*
+- uid: SF.Utilities.BoundExtensions.GetBoundsMinInt(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.GetBoundsMinInt(UnityEngine.Bounds)
+  id: GetBoundsMinInt(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetBoundsMinInt(Bounds)
+  nameWithType: BoundExtensions.GetBoundsMinInt(Bounds)
+  fullName: SF.Utilities.BoundExtensions.GetBoundsMinInt(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: >-
+    Gets the min of a Bounds than converts the values to a intgear from a floating point to be put into a returned Vector3Int. 
+
+    This is heavily used in things using Rect, Sprite Borders, and TileMaps with the grid functions.
+  example: []
+  syntax:
+    content: public static Vector3Int GetBoundsMinInt(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: ''
+    return:
+      type: UnityEngine.Vector3Int
+      description: ''
+    content.vb: Public Shared Function GetBoundsMinInt(bounds As Bounds) As Vector3Int
+  overload: SF.Utilities.BoundExtensions.GetBoundsMinInt*
+- uid: SF.Utilities.BoundExtensions.GetBoundsSizeInt(UnityEngine.Bounds)
+  commentId: M:SF.Utilities.BoundExtensions.GetBoundsSizeInt(UnityEngine.Bounds)
+  id: GetBoundsSizeInt(UnityEngine.Bounds)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetBoundsSizeInt(Bounds)
+  nameWithType: BoundExtensions.GetBoundsSizeInt(Bounds)
+  fullName: SF.Utilities.BoundExtensions.GetBoundsSizeInt(UnityEngine.Bounds)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Gets the size of a normal Bounds while converting the sizes to be integears. Than returns a Vector3Int with the converted size values.
+  example: []
+  syntax:
+    content: public static Vector3Int GetBoundsSizeInt(this Bounds bounds)
+    parameters:
+    - id: bounds
+      type: UnityEngine.Bounds
+      description: ''
+    return:
+      type: UnityEngine.Vector3Int
+      description: ''
+    content.vb: Public Shared Function GetBoundsSizeInt(bounds As Bounds) As Vector3Int
+  overload: SF.Utilities.BoundExtensions.GetBoundsSizeInt*
+- uid: SF.Utilities.BoundExtensions.Deconstruct(UnityEngine.Vector3Int,System.Int32@,System.Int32@,System.Int32@)
+  commentId: M:SF.Utilities.BoundExtensions.Deconstruct(UnityEngine.Vector3Int,System.Int32@,System.Int32@,System.Int32@)
+  id: Deconstruct(UnityEngine.Vector3Int,System.Int32@,System.Int32@,System.Int32@)
+  isExtensionMethod: true
+  parent: SF.Utilities.BoundExtensions
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(Vector3Int, out int, out int, out int)
+  nameWithType: BoundExtensions.Deconstruct(Vector3Int, out int, out int, out int)
+  fullName: SF.Utilities.BoundExtensions.Deconstruct(UnityEngine.Vector3Int, out int, out int, out int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: A decontructor that allows users to out the three values of a Vector3Int into three seperate int values.
+  example: []
+  syntax:
+    content: public static void Deconstruct(this Vector3Int vector3Int, out int x, out int y, out int z)
+    parameters:
+    - id: vector3Int
+      type: UnityEngine.Vector3Int
+      description: ''
+    - id: x
+      type: System.Int32
+      description: ''
+    - id: y
+      type: System.Int32
+      description: ''
+    - id: z
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub Deconstruct(vector3Int As Vector3Int, x As Integer, y As Integer, z As Integer)
+  overload: SF.Utilities.BoundExtensions.Deconstruct*
+  nameWithType.vb: BoundExtensions.Deconstruct(Vector3Int, Integer, Integer, Integer)
+  fullName.vb: SF.Utilities.BoundExtensions.Deconstruct(UnityEngine.Vector3Int, Integer, Integer, Integer)
+  name.vb: Deconstruct(Vector3Int, Integer, Integer, Integer)
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.BoundExtensions.TopRight*
+  commentId: Overload:SF.Utilities.BoundExtensions.TopRight
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_TopRight_UnityEngine_Bounds_
+  name: TopRight
+  nameWithType: BoundExtensions.TopRight
+  fullName: SF.Utilities.BoundExtensions.TopRight
+- uid: UnityEngine.Bounds
+  commentId: T:UnityEngine.Bounds
+  parent: UnityEngine
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: UnityEngine.Bounds
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.Utilities.BoundExtensions.TopCenter*
+  commentId: Overload:SF.Utilities.BoundExtensions.TopCenter
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_TopCenter_UnityEngine_Bounds_
+  name: TopCenter
+  nameWithType: BoundExtensions.TopCenter
+  fullName: SF.Utilities.BoundExtensions.TopCenter
+- uid: SF.Utilities.BoundExtensions.TopLeft*
+  commentId: Overload:SF.Utilities.BoundExtensions.TopLeft
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_TopLeft_UnityEngine_Bounds_
+  name: TopLeft
+  nameWithType: BoundExtensions.TopLeft
+  fullName: SF.Utilities.BoundExtensions.TopLeft
+- uid: SF.Utilities.BoundExtensions.BottomRight*
+  commentId: Overload:SF.Utilities.BoundExtensions.BottomRight
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_BottomRight_UnityEngine_Bounds_
+  name: BottomRight
+  nameWithType: BoundExtensions.BottomRight
+  fullName: SF.Utilities.BoundExtensions.BottomRight
+- uid: SF.Utilities.BoundExtensions.BottomCenter*
+  commentId: Overload:SF.Utilities.BoundExtensions.BottomCenter
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_BottomCenter_UnityEngine_Bounds_
+  name: BottomCenter
+  nameWithType: BoundExtensions.BottomCenter
+  fullName: SF.Utilities.BoundExtensions.BottomCenter
+- uid: SF.Utilities.BoundExtensions.BottomLeft*
+  commentId: Overload:SF.Utilities.BoundExtensions.BottomLeft
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_BottomLeft_UnityEngine_Bounds_
+  name: BottomLeft
+  nameWithType: BoundExtensions.BottomLeft
+  fullName: SF.Utilities.BoundExtensions.BottomLeft
+- uid: SF.Utilities.BoundExtensions.MiddleRight*
+  commentId: Overload:SF.Utilities.BoundExtensions.MiddleRight
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_MiddleRight_UnityEngine_Bounds_
+  name: MiddleRight
+  nameWithType: BoundExtensions.MiddleRight
+  fullName: SF.Utilities.BoundExtensions.MiddleRight
+- uid: SF.Utilities.BoundExtensions.MiddleCenter*
+  commentId: Overload:SF.Utilities.BoundExtensions.MiddleCenter
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_MiddleCenter_UnityEngine_Bounds_
+  name: MiddleCenter
+  nameWithType: BoundExtensions.MiddleCenter
+  fullName: SF.Utilities.BoundExtensions.MiddleCenter
+- uid: SF.Utilities.BoundExtensions.MiddleLeft*
+  commentId: Overload:SF.Utilities.BoundExtensions.MiddleLeft
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_MiddleLeft_UnityEngine_Bounds_
+  name: MiddleLeft
+  nameWithType: BoundExtensions.MiddleLeft
+  fullName: SF.Utilities.BoundExtensions.MiddleLeft
+- uid: UnityEngine.BoundsInt
+  commentId: T:UnityEngine.BoundsInt
+  parent: UnityEngine
+  isExternal: true
+  name: BoundsInt
+  nameWithType: BoundsInt
+  fullName: UnityEngine.BoundsInt
+- uid: SF.Utilities.BoundExtensions.ToBounds*
+  commentId: Overload:SF.Utilities.BoundExtensions.ToBounds
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_ToBounds_UnityEngine_BoundsInt_
+  name: ToBounds
+  nameWithType: BoundExtensions.ToBounds
+  fullName: SF.Utilities.BoundExtensions.ToBounds
+- uid: SF.Utilities.BoundExtensions.ToBoundsInt*
+  commentId: Overload:SF.Utilities.BoundExtensions.ToBoundsInt
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_ToBoundsInt_UnityEngine_Bounds_
+  name: ToBoundsInt
+  nameWithType: BoundExtensions.ToBoundsInt
+  fullName: SF.Utilities.BoundExtensions.ToBoundsInt
+- uid: SF.Utilities.BoundExtensions.GetBoundsMinInt*
+  commentId: Overload:SF.Utilities.BoundExtensions.GetBoundsMinInt
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_GetBoundsMinInt_UnityEngine_Bounds_
+  name: GetBoundsMinInt
+  nameWithType: BoundExtensions.GetBoundsMinInt
+  fullName: SF.Utilities.BoundExtensions.GetBoundsMinInt
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: SF.Utilities.BoundExtensions.GetBoundsSizeInt*
+  commentId: Overload:SF.Utilities.BoundExtensions.GetBoundsSizeInt
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_GetBoundsSizeInt_UnityEngine_Bounds_
+  name: GetBoundsSizeInt
+  nameWithType: BoundExtensions.GetBoundsSizeInt
+  fullName: SF.Utilities.BoundExtensions.GetBoundsSizeInt
+- uid: SF.Utilities.BoundExtensions.Deconstruct*
+  commentId: Overload:SF.Utilities.BoundExtensions.Deconstruct
+  href: SF.Utilities.BoundExtensions.html#SF_Utilities_BoundExtensions_Deconstruct_UnityEngine_Vector3Int_System_Int32__System_Int32__System_Int32__
+  name: Deconstruct
+  nameWithType: BoundExtensions.Deconstruct
+  fullName: SF.Utilities.BoundExtensions.Deconstruct
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

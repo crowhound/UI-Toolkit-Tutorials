@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor
+  commentId: N:SFEditor
+  id: SFEditor
+  children:
+  - SFEditor.SFEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: SFEditor
+  nameWithType: SFEditor
+  fullName: SFEditor
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: SFEditor.SFEditorUtilities
+  commentId: T:SFEditor.SFEditorUtilities
+  href: SFEditor.SFEditorUtilities.html
+  name: SFEditorUtilities
+  nameWithType: SFEditorUtilities
+  fullName: SFEditor.SFEditorUtilities

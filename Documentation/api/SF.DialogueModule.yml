@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  id: SF.DialogueModule
+  children:
+  - SF.DialogueModule.ConversationIndexExtension
+  - SF.DialogueModule.ConversationPropertyPair
+  - SF.DialogueModule.ConversationStage
+  - SF.DialogueModule.ConversationTimelineExtension
+  - SF.DialogueModule.ConversationUnityEventExtension
+  - SF.DialogueModule.DialogueConversation
+  - SF.DialogueModule.DialogueDatabase
+  - SF.DialogueModule.DialogueEntry
+  - SF.DialogueModule.DialogueExtensionBase
+  - SF.DialogueModule.DialogueManager
+  - SF.DialogueModule.DialoguePropertiesExtension
+  - SF.DialogueModule.DialogueUIManager
+  - SF.DialogueModule.TimedDialogueEntry
+  langs:
+  - csharp
+  - vb
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.DialogueModule.DialogueManager
+  commentId: T:SF.DialogueModule.DialogueManager
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueManager.html
+  name: DialogueManager
+  nameWithType: DialogueManager
+  fullName: SF.DialogueModule.DialogueManager
+- uid: SF.DialogueModule.ConversationUnityEventExtension
+  commentId: T:SF.DialogueModule.ConversationUnityEventExtension
+  href: SF.DialogueModule.ConversationUnityEventExtension.html
+  name: ConversationUnityEventExtension
+  nameWithType: ConversationUnityEventExtension
+  fullName: SF.DialogueModule.ConversationUnityEventExtension
+- uid: SF.DialogueModule.DialogueUIManager
+  commentId: T:SF.DialogueModule.DialogueUIManager
+  href: SF.DialogueModule.DialogueUIManager.html
+  name: DialogueUIManager
+  nameWithType: DialogueUIManager
+  fullName: SF.DialogueModule.DialogueUIManager
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: SF.DialogueModule.ConversationIndexExtension
+  commentId: T:SF.DialogueModule.ConversationIndexExtension
+  href: SF.DialogueModule.ConversationIndexExtension.html
+  name: ConversationIndexExtension
+  nameWithType: ConversationIndexExtension
+  fullName: SF.DialogueModule.ConversationIndexExtension
+- uid: SF.DialogueModule.ConversationTimelineExtension
+  commentId: T:SF.DialogueModule.ConversationTimelineExtension
+  href: SF.DialogueModule.ConversationTimelineExtension.html
+  name: ConversationTimelineExtension
+  nameWithType: ConversationTimelineExtension
+  fullName: SF.DialogueModule.ConversationTimelineExtension
+- uid: SF.DialogueModule.DialogueEntry
+  commentId: T:SF.DialogueModule.DialogueEntry
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueEntry.html
+  name: DialogueEntry
+  nameWithType: DialogueEntry
+  fullName: SF.DialogueModule.DialogueEntry
+- uid: SF.DialogueModule.TimedDialogueEntry
+  commentId: T:SF.DialogueModule.TimedDialogueEntry
+  href: SF.DialogueModule.TimedDialogueEntry.html
+  name: TimedDialogueEntry
+  nameWithType: TimedDialogueEntry
+  fullName: SF.DialogueModule.TimedDialogueEntry
+- uid: SF.DialogueModule.DialoguePropertiesExtension
+  commentId: T:SF.DialogueModule.DialoguePropertiesExtension
+  href: SF.DialogueModule.DialoguePropertiesExtension.html
+  name: DialoguePropertiesExtension
+  nameWithType: DialoguePropertiesExtension
+  fullName: SF.DialogueModule.DialoguePropertiesExtension
+- uid: SF.DialogueModule.ConversationPropertyPair
+  commentId: T:SF.DialogueModule.ConversationPropertyPair
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.ConversationPropertyPair.html
+  name: ConversationPropertyPair
+  nameWithType: ConversationPropertyPair
+  fullName: SF.DialogueModule.ConversationPropertyPair
+- uid: SF.DialogueModule.ConversationStage
+  commentId: T:SF.DialogueModule.ConversationStage
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.ConversationStage.html
+  name: ConversationStage
+  nameWithType: ConversationStage
+  fullName: SF.DialogueModule.ConversationStage
+- uid: SF.DialogueModule.DialogueExtensionBase
+  commentId: T:SF.DialogueModule.DialogueExtensionBase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueExtensionBase.html
+  name: DialogueExtensionBase
+  nameWithType: DialogueExtensionBase
+  fullName: SF.DialogueModule.DialogueExtensionBase
+- uid: SF.DialogueModule.DialogueDatabase
+  commentId: T:SF.DialogueModule.DialogueDatabase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueDatabase.html
+  name: DialogueDatabase
+  nameWithType: DialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html

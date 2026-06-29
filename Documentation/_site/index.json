@@ -1,0 +1,47 @@
+{
+  "changelog/change-log.html": {
+    "href": "changelog/change-log.html",
+    "title": "Changelog | SF UI Toolkit Tutorials",
+    "summary": "Changelog Important Notice: During the alpha the first couple releases alphas changelogs were removed because of switching to the low level physics 2D API. Current Alpha Seven Added:"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | SF UI Toolkit Tutorials",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  },
+  "manual/install-instructions/install.html": {
+    "href": "manual/install-instructions/install.html",
+    "title": "Install Instructions | SF UI Toolkit Tutorials",
+    "summary": "Install Instructions There are two ways to install the package. Install via Unity Package Manager This package was built with the idea of using Unity's built in package manager to help make installing and choosing which version of the package you want to use easier. Here is the official Unity documentation page if you want to do a full read through instead of reading the short answer below. Unity Git Package Documentation Step-by-step instructions Open up Unity's package manager editor window and click the button with a plus sign at the top left of the package manager window. It should have a small dropdown arrow icon by the button with a plus sign on it. Choose install package from git url and paste in the following. Note the current Metroidvania package is being worked on in the alpha-one branch. I would advise following the optional steps below to grab it. https://github.com/Shatter-Fantasy/SF-Metroidvania.git Optional for choosing a specific version of the SF Platformer package to install. Unity supports git revision syntax allowing you to add options at the end of the Git url to customize your package download. All options are added onto the git url after the pound symbol # is added to the end. The options are as followed: Specific branch - #name-of-branch Specific version for package release. Note the letter v before the numbers - #v0.0.1 would give you the first alpha release while for pre-alphas you would type #pre-alpha.9 A specific commit if you want to try out a commit with a feature that hasn't been published in a release yet - #git-commit-hash Example for the specific commit hash #76c6efb35ac8d4226a22f974939f300231a3637f. This is the hash for the commit added right before pre-alpha 9 release. Full example for wanting to get the SF Package that is a release version https://github.com/Shatter-Fantasy/SF-Metroidvania.git#v0.0.1 Full example for wanting to get the SF Package that is being worked on in the alphas/alpha-five branch https://github.com/crowhound/SF-Platformer.git#alpha-one"
+  },
+  "manual/install-instructions/package-dependencies.html": {
+    "href": "manual/install-instructions/package-dependencies.html",
+    "title": "Package Dependencies | SF UI Toolkit Tutorials",
+    "summary": "Package Dependencies Unity Packages Inside the SF Metroidvania package there is an automatic system that installs the required packages if you don't have them already instlled. There are two scripts called SFHubPackageSystem and SFPackageData. They help install other SF packages that they rely on. Cinemachine Version 3.1.4 We use 3.1.4 for everyone's sanity. There are several bugs in the previous versions with Confiner2D and a combination of the Input System package that made . Other SF Packages Important Notice Alpha Five is adding auto package set up implementating packages automatically. Some packages requirements are being removed by adding Compilation Branching checks via scripting defines to allow the package to work without needing all of the other SF packages. Most of the SF packages are utility packages with performance and quality of life functionality that makes adding new stuff easier. Mainly the SF Utilities and the SF UI Elements. SF Utilities As of writing this documentation out the main branch will be used, but moving to a specific branch system for making updates more stable once the package goes public. https://github.com/Shatter-Fantasy/SF-Utilities SF Sprite Tools - Warning the most wip of them all. This one has a lot of TileMap utilities and a wip custom tile map editor and also a custom Sprite Editor with one click create animation clip support. This is used for high performance operations with the TileMapShape component inside of the SF Metroidvania toolkit. https://github.com/crowhound/SF-Sprite-Tools SF UI Elements Heavily used for the custom item and enemy data editor. Has a system being worked on to create custom editors for database with little code need. Also used in the WIP Sprite Editor and WIP TileMap Editor. https://github.com/Shatter-Fantasy/SF-UI-Elements"
+  },
+  "manual/install-process.html": {
+    "href": "manual/install-process.html",
+    "title": "Install Process and things to know. | SF UI Toolkit Tutorials",
+    "summary": "Install Process and things to know. Requirements Unity Version This package was built with Unity 6 and newer version in mind. Most things will work out of box for older versions, but I will mainly focus on improving stuff for Unity 6 and newer editors. Unity Package Dependencies Before installing the SF Metroidvania do consider I rely on a couple of Unity's packages for performance, game mechanic systems, and so forth. See linked page below to see the full set of Unity's Packages I used in making this and why they were used. package-dependencies Installing the package See linked page below for how to install different versions of the package from GitHUb directly into Unity. install"
+  },
+  "manual/manual.html": {
+    "href": "manual/manual.html",
+    "title": "| SF UI Toolkit Tutorials",
+    "summary": "Important Notes: Toolkit requires Unity 6.3 as a minimum version and has support for Unity 6.4 and 6.5 API already. SF Metroidvania Toolkit This is a toolkit to help make Side Scrolling Metroidvanias easier to develop. The toolkit has a range of features including, but not limited to: Character controls Custom physics using Unity's Low Level Physics 2D API for customization and better performance. Ability System Save/load System with optional encrypted files. Item Database Room Management Low Level Physics 2D API The toolkit uses PhysicsShape and PhysicsBody. There is no Collider2D or Rigidbodoy2D components in any of the project. If you have no used the Low Level Physics 2D API. Don't worry there are custom components in the toolkit that replaces the components. The base class is called SFShapeComponent. How to section This goes over how to do commonly needed things and the basics. Later more advance examples will be done. It will include stuff like the following: Character controller set up for physics. Room System set up for Metroidvania style room logic. The different types of databases for rooms, items, and characters. How to create your own custom abilities for the player and non-controllable characters. Project Physics Settings advice. Advice on how to use layers for really easy collision filtering. Physics2D set up for preventing ghost collisions in Unity 6 and newer. This is mainly stuff like the contact threshold and iteration settings for velocity and position. How to debug physics issues using the Controller2D custom gizmos. Release Notes This will include release notes per package build used for stable releases."
+  },
+  "manual/physics-overview/physics-core-2d/physics-core-2d.html": {
+    "href": "manual/physics-overview/physics-core-2d/physics-core-2d.html",
+    "title": "| SF UI Toolkit Tutorials",
+    "summary": "Unity's Physics Core 2D API Important Originally Unity called the Physics Core 2D API the low level physics 2d API when it was released in Unity 6.3. In Unity 6.5 the API was made as the new core physics 2D api for Unity and it was renamed from Low Level Physics 2D to Physics Core 2D API. They also updated the namespaces as well to Unity.U2D.Physics. This page goes over the Unity's Physics Core 2D API and how it is used in the SF Metroidvania Toolkit."
+  },
+  "manual/physics-overview/sf-physics-2d-module/controller-body-2d/controller-body-2d.html": {
+    "href": "manual/physics-overview/sf-physics-2d-module/controller-body-2d/controller-body-2d.html",
+    "title": "| SF UI Toolkit Tutorials",
+    "summary": "Have a character controller This is a test"
+  },
+  "manual/physics-overview/sf-physics-2d-module/sf-physics-2d-module.html": {
+    "href": "manual/physics-overview/sf-physics-2d-module/sf-physics-2d-module.html",
+    "title": "| SF UI Toolkit Tutorials",
+    "summary": "Shatter Fantasy Physics Module This page gives an overview for the physics 2D module used inside of the SF Metroidvania package."
+  }
+}

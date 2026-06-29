@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DataModule.SFDatabase`1
+  commentId: T:SF.DataModule.SFDatabase`1
+  id: SFDatabase`1
+  parent: SF.DataModule
+  children:
+  - SF.DataModule.SFDatabase`1.AddData(`0)
+  - SF.DataModule.SFDatabase`1.DataEntries
+  - SF.DataModule.SFDatabase`1.Item(System.Int32)
+  - SF.DataModule.SFDatabase`1.RemoveData(`0)
+  langs:
+  - csharp
+  - vb
+  name: SFDatabase<TDTOBase>
+  nameWithType: SFDatabase<TDTOBase>
+  fullName: SF.DataModule.SFDatabase<TDTOBase>
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: A generic database class for storing data about DTOBase classes or sub classes.
+  example: []
+  syntax:
+    content: 'public abstract class SFDatabase<TDTOBase> : SFDatabase where TDTOBase : DTOBase'
+    typeParameters:
+    - id: TDTOBase
+    content.vb: Public MustInherit Class SFDatabase(Of TDTOBase As DTOBase) Inherits SFDatabase
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - SF.DataModule.SFDatabase
+  inheritedMembers:
+  - SF.DataModule.SFDatabase.DatabaseLoadOrder
+  - SF.DataModule.SFDatabase.OnRegisterDatabase
+  - SF.DataModule.SFDatabase.OnDeregisterDatabase
+  nameWithType.vb: SFDatabase(Of TDTOBase)
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase)
+  name.vb: SFDatabase(Of TDTOBase)
+- uid: SF.DataModule.SFDatabase`1.DataEntries
+  commentId: F:SF.DataModule.SFDatabase`1.DataEntries
+  id: DataEntries
+  parent: SF.DataModule.SFDatabase`1
+  langs:
+  - csharp
+  - vb
+  name: DataEntries
+  nameWithType: SFDatabase<TDTOBase>.DataEntries
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.DataEntries
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: >-
+      [SerializeReference]
+
+      public List<TDTOBase> DataEntries
+    return:
+      type: System.Collections.Generic.List{{TDTOBase}}
+    content.vb: >-
+      <SerializeReference>
+
+      Public DataEntries As List(Of TDTOBase)
+  attributes:
+  - type: UnityEngine.SerializeReference
+    ctor: UnityEngine.SerializeReference.#ctor
+    arguments: []
+  nameWithType.vb: SFDatabase(Of TDTOBase).DataEntries
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).DataEntries
+- uid: SF.DataModule.SFDatabase`1.AddData(`0)
+  commentId: M:SF.DataModule.SFDatabase`1.AddData(`0)
+  id: AddData(`0)
+  parent: SF.DataModule.SFDatabase`1
+  langs:
+  - csharp
+  - vb
+  name: AddData(TDTOBase)
+  nameWithType: SFDatabase<TDTOBase>.AddData(TDTOBase)
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.AddData(TDTOBase)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public virtual void AddData(TDTOBase dataEntry)
+    parameters:
+    - id: dataEntry
+      type: '{TDTOBase}'
+    content.vb: Public Overridable Sub AddData(dataEntry As TDTOBase)
+  overload: SF.DataModule.SFDatabase`1.AddData*
+  nameWithType.vb: SFDatabase(Of TDTOBase).AddData(TDTOBase)
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).AddData(TDTOBase)
+- uid: SF.DataModule.SFDatabase`1.RemoveData(`0)
+  commentId: M:SF.DataModule.SFDatabase`1.RemoveData(`0)
+  id: RemoveData(`0)
+  parent: SF.DataModule.SFDatabase`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveData(TDTOBase)
+  nameWithType: SFDatabase<TDTOBase>.RemoveData(TDTOBase)
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.RemoveData(TDTOBase)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public void RemoveData(TDTOBase dataEntry)
+    parameters:
+    - id: dataEntry
+      type: '{TDTOBase}'
+    content.vb: Public Sub RemoveData(dataEntry As TDTOBase)
+  overload: SF.DataModule.SFDatabase`1.RemoveData*
+  nameWithType.vb: SFDatabase(Of TDTOBase).RemoveData(TDTOBase)
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).RemoveData(TDTOBase)
+- uid: SF.DataModule.SFDatabase`1.Item(System.Int32)
+  commentId: P:SF.DataModule.SFDatabase`1.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SF.DataModule.SFDatabase`1
+  langs:
+  - csharp
+  - vb
+  name: this[int]
+  nameWithType: SFDatabase<TDTOBase>.this[int]
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.this[int]
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public TDTOBase this[int index] { get; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{TDTOBase}'
+    content.vb: Public ReadOnly Default Property this[](index As Integer) As TDTOBase
+  overload: SF.DataModule.SFDatabase`1.Item*
+  nameWithType.vb: SFDatabase(Of TDTOBase).this[](Integer)
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).this[](Integer)
+  name.vb: this[](Integer)
+references:
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: SF.DataModule.SFDatabase
+  commentId: T:SF.DataModule.SFDatabase
+  parent: SF.DataModule
+  href: SF.DataModule.SFDatabase.html
+  name: SFDatabase
+  nameWithType: SFDatabase
+  fullName: SF.DataModule.SFDatabase
+- uid: SF.DataModule.SFDatabase.DatabaseLoadOrder
+  commentId: F:SF.DataModule.SFDatabase.DatabaseLoadOrder
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_DatabaseLoadOrder
+  name: DatabaseLoadOrder
+  nameWithType: SFDatabase.DatabaseLoadOrder
+  fullName: SF.DataModule.SFDatabase.DatabaseLoadOrder
+- uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnRegisterDatabase
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  name: OnRegisterDatabase()
+  nameWithType: SFDatabase.OnRegisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnRegisterDatabase()
+  spec.csharp:
+  - uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+    name: OnRegisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+    name: OnRegisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  - name: (
+  - name: )
+- uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnDeregisterDatabase
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  name: OnDeregisterDatabase()
+  nameWithType: SFDatabase.OnDeregisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnDeregisterDatabase()
+  spec.csharp:
+  - uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+    name: OnDeregisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+    name: OnDeregisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.List{{TDTOBase}}
+  commentId: T:System.Collections.Generic.List{`0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<TDTOBase>
+  nameWithType: List<TDTOBase>
+  fullName: System.Collections.Generic.List<TDTOBase>
+  nameWithType.vb: List(Of TDTOBase)
+  fullName.vb: System.Collections.Generic.List(Of TDTOBase)
+  name.vb: List(Of TDTOBase)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: TDTOBase
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDTOBase
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.DataModule.SFDatabase`1.AddData*
+  commentId: Overload:SF.DataModule.SFDatabase`1.AddData
+  href: SF.DataModule.SFDatabase-1.html#SF_DataModule_SFDatabase_1_AddData__0_
+  name: AddData
+  nameWithType: SFDatabase<TDTOBase>.AddData
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.AddData
+  nameWithType.vb: SFDatabase(Of TDTOBase).AddData
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).AddData
+- uid: '{TDTOBase}'
+  commentId: '!:TDTOBase'
+  definition: TDTOBase
+  name: TDTOBase
+  nameWithType: TDTOBase
+  fullName: TDTOBase
+- uid: TDTOBase
+  name: TDTOBase
+  nameWithType: TDTOBase
+  fullName: TDTOBase
+- uid: SF.DataModule.SFDatabase`1.RemoveData*
+  commentId: Overload:SF.DataModule.SFDatabase`1.RemoveData
+  href: SF.DataModule.SFDatabase-1.html#SF_DataModule_SFDatabase_1_RemoveData__0_
+  name: RemoveData
+  nameWithType: SFDatabase<TDTOBase>.RemoveData
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.RemoveData
+  nameWithType.vb: SFDatabase(Of TDTOBase).RemoveData
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).RemoveData
+- uid: SF.DataModule.SFDatabase`1.Item*
+  commentId: Overload:SF.DataModule.SFDatabase`1.Item
+  href: SF.DataModule.SFDatabase-1.html#SF_DataModule_SFDatabase_1_Item_System_Int32_
+  name: this
+  nameWithType: SFDatabase<TDTOBase>.this
+  fullName: SF.DataModule.SFDatabase<TDTOBase>.this
+  nameWithType.vb: SFDatabase(Of TDTOBase).this[]
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase).this[]
+  name.vb: this[]
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

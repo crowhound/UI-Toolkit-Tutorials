@@ -1,0 +1,752 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialogueDatabase
+  commentId: T:SF.DialogueModule.DialogueDatabase
+  id: DialogueDatabase
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialogueDatabase.ActiveDialogueDatabase
+  - SF.DialogueModule.DialogueDatabase.GetConversation(System.Int32,SF.DialogueModule.DialogueConversation@)
+  - SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase
+  - SF.DialogueModule.DialogueDatabase.OnRegisterDatabase
+  langs:
+  - csharp
+  - vb
+  name: DialogueDatabase
+  nameWithType: DialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "Dialogue Database", menuName = "SF/Dialogue System/Dialogue Database")]
+
+      public class DialogueDatabase : SFAssetDatabase<DialogueConversation>
+    content.vb: >-
+      <CreateAssetMenu(fileName:="Dialogue Database", menuName:="SF/Dialogue System/Dialogue Database")>
+
+      Public Class DialogueDatabase Inherits SFAssetDatabase(Of DialogueConversation)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - SF.DataModule.SFDatabase
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  inheritedMembers:
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.DataEntries
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.AddData(SF.DialogueModule.DialogueConversation)
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.RemoveData(SF.DialogueModule.DialogueConversation)
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32)
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32,SF.DialogueModule.DialogueConversation@)
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+  - SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.Item(System.Int32)
+  - SF.DataModule.SFDatabase.DatabaseLoadOrder
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: Dialogue Database
+    - name: menuName
+      type: System.String
+      value: SF/Dialogue System/Dialogue Database
+- uid: SF.DialogueModule.DialogueDatabase.ActiveDialogueDatabase
+  commentId: F:SF.DialogueModule.DialogueDatabase.ActiveDialogueDatabase
+  id: ActiveDialogueDatabase
+  parent: SF.DialogueModule.DialogueDatabase
+  langs:
+  - csharp
+  - vb
+  name: ActiveDialogueDatabase
+  nameWithType: DialogueDatabase.ActiveDialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase.ActiveDialogueDatabase
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public static DialogueDatabase ActiveDialogueDatabase
+    return:
+      type: SF.DialogueModule.DialogueDatabase
+    content.vb: Public Shared ActiveDialogueDatabase As DialogueDatabase
+- uid: SF.DialogueModule.DialogueDatabase.GetConversation(System.Int32,SF.DialogueModule.DialogueConversation@)
+  commentId: M:SF.DialogueModule.DialogueDatabase.GetConversation(System.Int32,SF.DialogueModule.DialogueConversation@)
+  id: GetConversation(System.Int32,SF.DialogueModule.DialogueConversation@)
+  parent: SF.DialogueModule.DialogueDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetConversation(int, out DialogueConversation)
+  nameWithType: DialogueDatabase.GetConversation(int, out DialogueConversation)
+  fullName: SF.DialogueModule.DialogueDatabase.GetConversation(int, out SF.DialogueModule.DialogueConversation)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public bool GetConversation(int guid, out DialogueConversation conversation)
+    parameters:
+    - id: guid
+      type: System.Int32
+    - id: conversation
+      type: SF.DialogueModule.DialogueConversation
+    return:
+      type: System.Boolean
+    content.vb: Public Function GetConversation(guid As Integer, conversation As DialogueConversation) As Boolean
+  overload: SF.DialogueModule.DialogueDatabase.GetConversation*
+  nameWithType.vb: DialogueDatabase.GetConversation(Integer, DialogueConversation)
+  fullName.vb: SF.DialogueModule.DialogueDatabase.GetConversation(Integer, SF.DialogueModule.DialogueConversation)
+  name.vb: GetConversation(Integer, DialogueConversation)
+- uid: SF.DialogueModule.DialogueDatabase.OnRegisterDatabase
+  commentId: M:SF.DialogueModule.DialogueDatabase.OnRegisterDatabase
+  id: OnRegisterDatabase
+  parent: SF.DialogueModule.DialogueDatabase
+  langs:
+  - csharp
+  - vb
+  name: OnRegisterDatabase()
+  nameWithType: DialogueDatabase.OnRegisterDatabase()
+  fullName: SF.DialogueModule.DialogueDatabase.OnRegisterDatabase()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: >-
+    SFDatabases are registered by the <xref href="SF.DataModule.DatabaseRegistry" data-throw-if-not-resolved="false"></xref> which is loaded during the player start up
+
+    as part of the preloaded assets set in the project's PlayerSettings via SetPreloadedAssets.
+
+    So there OnEnable runs when the runtime player starts and is guaranteed to run before anything scene related.
+  example: []
+  syntax:
+    content: public override void OnRegisterDatabase()
+    content.vb: Public Overrides Sub OnRegisterDatabase()
+  overridden: SF.DataModule.SFDatabase.OnRegisterDatabase
+  overload: SF.DialogueModule.DialogueDatabase.OnRegisterDatabase*
+- uid: SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase
+  commentId: M:SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase
+  id: OnDeregisterDatabase
+  parent: SF.DialogueModule.DialogueDatabase
+  langs:
+  - csharp
+  - vb
+  name: OnDeregisterDatabase()
+  nameWithType: DialogueDatabase.OnDeregisterDatabase()
+  fullName: SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  example: []
+  syntax:
+    content: public override void OnDeregisterDatabase()
+    content.vb: Public Overrides Sub OnDeregisterDatabase()
+  overridden: SF.DataModule.SFDatabase.OnDeregisterDatabase
+  overload: SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: SF.DataModule.SFDatabase
+  commentId: T:SF.DataModule.SFDatabase
+  parent: SF.DataModule
+  href: SF.DataModule.SFDatabase.html
+  name: SFDatabase
+  nameWithType: SFDatabase
+  fullName: SF.DataModule.SFDatabase
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  commentId: T:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  parent: SF.DataModule
+  definition: SF.DataModule.SFAssetDatabase`1
+  href: SF.DataModule.SFAssetDatabase-1.html
+  name: SFAssetDatabase<DialogueConversation>
+  nameWithType: SFAssetDatabase<DialogueConversation>
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation)
+  name.vb: SFAssetDatabase(Of DialogueConversation)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: <
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: '>'
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.DataEntries
+  commentId: F:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.DataEntries
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.DataEntries
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_DataEntries
+  name: DataEntries
+  nameWithType: SFAssetDatabase<DialogueConversation>.DataEntries
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.DataEntries
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).DataEntries
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).DataEntries
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.AddData(SF.DialogueModule.DialogueConversation)
+  commentId: M:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.AddData(SF.DialogueModule.DialogueConversation)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.AddData(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  name: AddData(DialogueConversation)
+  nameWithType: SFAssetDatabase<DialogueConversation>.AddData(DialogueConversation)
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.AddData(SF.DialogueModule.DialogueConversation)
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).AddData(DialogueConversation)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).AddData(SF.DialogueModule.DialogueConversation)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.AddData(SF.DialogueModule.DialogueConversation)
+    name: AddData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.AddData(SF.DialogueModule.DialogueConversation)
+    name: AddData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.RemoveData(SF.DialogueModule.DialogueConversation)
+  commentId: M:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.RemoveData(SF.DialogueModule.DialogueConversation)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.RemoveData(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  name: RemoveData(DialogueConversation)
+  nameWithType: SFAssetDatabase<DialogueConversation>.RemoveData(DialogueConversation)
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.RemoveData(SF.DialogueModule.DialogueConversation)
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).RemoveData(DialogueConversation)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).RemoveData(SF.DialogueModule.DialogueConversation)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.RemoveData(SF.DialogueModule.DialogueConversation)
+    name: RemoveData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.RemoveData(SF.DialogueModule.DialogueConversation)
+    name: RemoveData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32)
+  commentId: M:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  name: GetDataByID(int)
+  nameWithType: SFAssetDatabase<DialogueConversation>.GetDataByID(int)
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.GetDataByID(int)
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).GetDataByID(Integer)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).GetDataByID(Integer)
+  name.vb: GetDataByID(Integer)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32,SF.DialogueModule.DialogueConversation@)
+  commentId: M:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32,SF.DialogueModule.DialogueConversation@)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32,`0@)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  name: GetDataByID(int, out DialogueConversation)
+  nameWithType: SFAssetDatabase<DialogueConversation>.GetDataByID(int, out DialogueConversation)
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.GetDataByID(int, out SF.DialogueModule.DialogueConversation)
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).GetDataByID(Integer, DialogueConversation)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).GetDataByID(Integer, SF.DialogueModule.DialogueConversation)
+  name.vb: GetDataByID(Integer, DialogueConversation)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32,SF.DialogueModule.DialogueConversation@)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataByID(System.Int32,SF.DialogueModule.DialogueConversation@)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+  commentId: M:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.GetDataIndexInDB(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  name: GetDataIndexInDB(DialogueConversation)
+  nameWithType: SFAssetDatabase<DialogueConversation>.GetDataIndexInDB(DialogueConversation)
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).GetDataIndexInDB(DialogueConversation)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+    name: GetDataIndexInDB
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.GetDataIndexInDB(SF.DialogueModule.DialogueConversation)
+    name: GetDataIndexInDB
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.Item(System.Int32)
+  commentId: P:SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.Item(System.Int32)
+  parent: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}
+  definition: SF.DataModule.SFAssetDatabase`1.Item(System.Int32)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_Item_System_Int32_
+  name: this[int]
+  nameWithType: SFAssetDatabase<DialogueConversation>.this[int]
+  fullName: SF.DataModule.SFAssetDatabase<SF.DialogueModule.DialogueConversation>.this[int]
+  nameWithType.vb: SFAssetDatabase(Of DialogueConversation).this[](Integer)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of SF.DialogueModule.DialogueConversation).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ']'
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase{SF.DialogueModule.DialogueConversation}.Item(System.Int32)
+    name: this[]
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.DataModule.SFDatabase.DatabaseLoadOrder
+  commentId: F:SF.DataModule.SFDatabase.DatabaseLoadOrder
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_DatabaseLoadOrder
+  name: DatabaseLoadOrder
+  nameWithType: SFDatabase.DatabaseLoadOrder
+  fullName: SF.DataModule.SFDatabase.DatabaseLoadOrder
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: SF.DataModule.SFAssetDatabase`1
+  commentId: T:SF.DataModule.SFAssetDatabase`1
+  href: SF.DataModule.SFAssetDatabase-1.html
+  name: SFAssetDatabase<T>
+  nameWithType: SFAssetDatabase<T>
+  fullName: SF.DataModule.SFAssetDatabase<T>
+  nameWithType.vb: SFAssetDatabase(Of T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T)
+  name.vb: SFAssetDatabase(Of T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.DataEntries
+  commentId: F:SF.DataModule.SFAssetDatabase`1.DataEntries
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_DataEntries
+  name: DataEntries
+  nameWithType: SFAssetDatabase<T>.DataEntries
+  fullName: SF.DataModule.SFAssetDatabase<T>.DataEntries
+  nameWithType.vb: SFAssetDatabase(Of T).DataEntries
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).DataEntries
+- uid: SF.DataModule.SFAssetDatabase`1.AddData(`0)
+  commentId: M:SF.DataModule.SFAssetDatabase`1.AddData(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  name: AddData(T)
+  nameWithType: SFAssetDatabase<T>.AddData(T)
+  fullName: SF.DataModule.SFAssetDatabase<T>.AddData(T)
+  nameWithType.vb: SFAssetDatabase(Of T).AddData(T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).AddData(T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1.AddData(`0)
+    name: AddData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.AddData(`0)
+    name: AddData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_AddData__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.RemoveData(`0)
+  commentId: M:SF.DataModule.SFAssetDatabase`1.RemoveData(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  name: RemoveData(T)
+  nameWithType: SFAssetDatabase<T>.RemoveData(T)
+  fullName: SF.DataModule.SFAssetDatabase<T>.RemoveData(T)
+  nameWithType.vb: SFAssetDatabase(Of T).RemoveData(T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).RemoveData(T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1.RemoveData(`0)
+    name: RemoveData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.RemoveData(`0)
+    name: RemoveData
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_RemoveData__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32)
+  commentId: M:SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32)
+  isExternal: true
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  name: GetDataByID(int)
+  nameWithType: SFAssetDatabase<T>.GetDataByID(int)
+  fullName: SF.DataModule.SFAssetDatabase<T>.GetDataByID(int)
+  nameWithType.vb: SFAssetDatabase(Of T).GetDataByID(Integer)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).GetDataByID(Integer)
+  name.vb: GetDataByID(Integer)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32,`0@)
+  commentId: M:SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32,`0@)
+  isExternal: true
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  name: GetDataByID(int, out T)
+  nameWithType: SFAssetDatabase<T>.GetDataByID(int, out T)
+  fullName: SF.DataModule.SFAssetDatabase<T>.GetDataByID(int, out T)
+  nameWithType.vb: SFAssetDatabase(Of T).GetDataByID(Integer, T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).GetDataByID(Integer, T)
+  name.vb: GetDataByID(Integer, T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32,`0@)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: out
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataByID(System.Int32,`0@)
+    name: GetDataByID
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataByID_System_Int32__0__
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.GetDataIndexInDB(`0)
+  commentId: M:SF.DataModule.SFAssetDatabase`1.GetDataIndexInDB(`0)
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  name: GetDataIndexInDB(T)
+  nameWithType: SFAssetDatabase<T>.GetDataIndexInDB(T)
+  fullName: SF.DataModule.SFAssetDatabase<T>.GetDataIndexInDB(T)
+  nameWithType.vb: SFAssetDatabase(Of T).GetDataIndexInDB(T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).GetDataIndexInDB(T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataIndexInDB(`0)
+    name: GetDataIndexInDB
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.GetDataIndexInDB(`0)
+    name: GetDataIndexInDB
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_GetDataIndexInDB__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFAssetDatabase`1.Item(System.Int32)
+  commentId: P:SF.DataModule.SFAssetDatabase`1.Item(System.Int32)
+  isExternal: true
+  href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_Item_System_Int32_
+  name: this[int]
+  nameWithType: SFAssetDatabase<T>.this[int]
+  fullName: SF.DataModule.SFAssetDatabase<T>.this[int]
+  nameWithType.vb: SFAssetDatabase(Of T).this[](Integer)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ']'
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1.Item(System.Int32)
+    name: this[]
+    href: SF.DataModule.SFAssetDatabase-1.html#SF_DataModule_SFAssetDatabase_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.DialogueModule.DialogueDatabase
+  commentId: T:SF.DialogueModule.DialogueDatabase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueDatabase.html
+  name: DialogueDatabase
+  nameWithType: DialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase
+- uid: SF.DialogueModule.DialogueDatabase.GetConversation*
+  commentId: Overload:SF.DialogueModule.DialogueDatabase.GetConversation
+  href: SF.DialogueModule.DialogueDatabase.html#SF_DialogueModule_DialogueDatabase_GetConversation_System_Int32_SF_DialogueModule_DialogueConversation__
+  name: GetConversation
+  nameWithType: DialogueDatabase.GetConversation
+  fullName: SF.DialogueModule.DialogueDatabase.GetConversation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SF.DataModule.DatabaseRegistry
+  commentId: T:SF.DataModule.DatabaseRegistry
+  parent: SF.DataModule
+  href: SF.DataModule.DatabaseRegistry.html
+  name: DatabaseRegistry
+  nameWithType: DatabaseRegistry
+  fullName: SF.DataModule.DatabaseRegistry
+- uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnRegisterDatabase
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  name: OnRegisterDatabase()
+  nameWithType: SFDatabase.OnRegisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnRegisterDatabase()
+  spec.csharp:
+  - uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+    name: OnRegisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+    name: OnRegisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.DialogueDatabase.OnRegisterDatabase*
+  commentId: Overload:SF.DialogueModule.DialogueDatabase.OnRegisterDatabase
+  href: SF.DialogueModule.DialogueDatabase.html#SF_DialogueModule_DialogueDatabase_OnRegisterDatabase
+  name: OnRegisterDatabase
+  nameWithType: DialogueDatabase.OnRegisterDatabase
+  fullName: SF.DialogueModule.DialogueDatabase.OnRegisterDatabase
+- uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnDeregisterDatabase
+  parent: SF.DataModule.SFDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  name: OnDeregisterDatabase()
+  nameWithType: SFDatabase.OnDeregisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnDeregisterDatabase()
+  spec.csharp:
+  - uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+    name: OnDeregisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+    name: OnDeregisterDatabase
+    href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase*
+  commentId: Overload:SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase
+  href: SF.DialogueModule.DialogueDatabase.html#SF_DialogueModule_DialogueDatabase_OnDeregisterDatabase
+  name: OnDeregisterDatabase
+  nameWithType: DialogueDatabase.OnDeregisterDatabase
+  fullName: SF.DialogueModule.DialogueDatabase.OnDeregisterDatabase

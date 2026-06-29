@@ -1,0 +1,349 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialogueExtensionBase
+  commentId: T:SF.DialogueModule.DialogueExtensionBase
+  id: DialogueExtensionBase
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  - SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  - SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  - SF.DialogueModule.DialogueExtensionBase.Stage
+  langs:
+  - csharp
+  - vb
+  name: DialogueExtensionBase
+  nameWithType: DialogueExtensionBase
+  fullName: SF.DialogueModule.DialogueExtensionBase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Base class to help allow easily created custom code for any type of Dialogue managers.
+  example: []
+  syntax:
+    content: 'public abstract class DialogueExtensionBase : MonoBehaviour'
+    content.vb: Public MustInherit Class DialogueExtensionBase Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  derivedClasses:
+  - SF.DialogueModule.ConversationIndexExtension
+  - SF.DialogueModule.ConversationTimelineExtension
+  - SF.DialogueModule.ConversationUnityEventExtension
+  - SF.DialogueModule.DialoguePropertiesExtension
+  extensionMethods:
+  - SF.DialogueModule.DialogueExtensionBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  id: RuntimeGraph
+  parent: SF.DialogueModule.DialogueExtensionBase
+  langs:
+  - csharp
+  - vb
+  name: RuntimeGraph
+  nameWithType: DialogueExtensionBase.RuntimeGraph
+  fullName: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The runtime graph the extension is being called from.
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public DialogueRuntimeGraph RuntimeGraph
+    return:
+      type: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+    content.vb: >-
+      <NonSerialized>
+
+      Public RuntimeGraph As DialogueRuntimeGraph
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueExtensionBase.Stage
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.Stage
+  id: Stage
+  parent: SF.DialogueModule.DialogueExtensionBase
+  langs:
+  - csharp
+  - vb
+  name: Stage
+  nameWithType: DialogueExtensionBase.Stage
+  fullName: SF.DialogueModule.DialogueExtensionBase.Stage
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public ConversationStage Stage
+    return:
+      type: SF.DialogueModule.ConversationStage
+    content.vb: Public Stage As ConversationStage
+- uid: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  id: NodeCallerID
+  parent: SF.DialogueModule.DialogueExtensionBase
+  langs:
+  - csharp
+  - vb
+  name: NodeCallerID
+  nameWithType: DialogueExtensionBase.NodeCallerID
+  fullName: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: If the ConversationStage is set to ConversaNode this id will be used to link to the conversa node.
+  example: []
+  syntax:
+    content: public string NodeCallerID
+    return:
+      type: System.String
+    content.vb: Public NodeCallerID As String
+- uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  commentId: M:SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  id: ControlFlow
+  parent: SF.DialogueModule.DialogueExtensionBase
+  langs:
+  - csharp
+  - vb
+  name: ControlFlow()
+  nameWithType: DialogueExtensionBase.ControlFlow()
+  fullName: SF.DialogueModule.DialogueExtensionBase.ControlFlow()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Called from the ConversationRunner before it starts a conversation.
+  remarks: Called Control flow because this is a form of a Pipeline Paradigm
+  example: []
+  syntax:
+    content: public abstract void ControlFlow()
+    content.vb: Public MustOverride Sub ControlFlow()
+  overload: SF.DialogueModule.DialogueExtensionBase.ControlFlow*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.DialogueModule.DialogueExtensionBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<DialogueExtensionBase>(DialogueExtensionBase)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<DialogueExtensionBase>(DialogueExtensionBase)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.DialogueModule.DialogueExtensionBase>(SF.DialogueModule.DialogueExtensionBase)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of DialogueExtensionBase)(DialogueExtensionBase)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.DialogueModule.DialogueExtensionBase)(SF.DialogueModule.DialogueExtensionBase)
+  name.vb: IsActiveEnabledAndNotNull(Of DialogueExtensionBase)(DialogueExtensionBase)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialogueExtensionBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: '>'
+  - name: (
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialogueExtensionBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: )
+  - name: (
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    href: SF.DialogueModule.DialogueExtensionBase.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  commentId: T:SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.DialogueRuntimeGraph.html
+  name: DialogueRuntimeGraph
+  nameWithType: DialogueRuntimeGraph
+  fullName: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.ConversationStage
+  commentId: T:SF.DialogueModule.ConversationStage
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.ConversationStage.html
+  name: ConversationStage
+  nameWithType: ConversationStage
+  fullName: SF.DialogueModule.ConversationStage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow*
+  commentId: Overload:SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  name: ControlFlow
+  nameWithType: DialogueExtensionBase.ControlFlow
+  fullName: SF.DialogueModule.DialogueExtensionBase.ControlFlow

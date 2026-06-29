@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Damageable
+  commentId: N:SF.Damageable
+  id: SF.Damageable
+  children:
+  - SF.Damageable.HealthBase
+  langs:
+  - csharp
+  - vb
+  name: SF.Damageable
+  nameWithType: SF.Damageable
+  fullName: SF.Damageable
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: SF.Damageable.HealthBase
+  commentId: T:SF.Damageable.HealthBase
+  href: SF.Damageable.HealthBase.html
+  name: HealthBase
+  nameWithType: HealthBase
+  fullName: SF.Damageable.HealthBase

@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DataModule.SFDatabase
+  commentId: T:SF.DataModule.SFDatabase
+  id: SFDatabase
+  parent: SF.DataModule
+  children:
+  - SF.DataModule.SFDatabase.DatabaseLoadOrder
+  - SF.DataModule.SFDatabase.OnDeregisterDatabase
+  - SF.DataModule.SFDatabase.OnRegisterDatabase
+  langs:
+  - csharp
+  - vb
+  name: SFDatabase
+  nameWithType: SFDatabase
+  fullName: SF.DataModule.SFDatabase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: >-
+    Wrapper class for SFDatabases to make it easier to register different database types.
+
+    <xref href="SF.DataModule.DatabaseRegistry" data-throw-if-not-resolved="false"></xref> for example uses.
+  example: []
+  syntax:
+    content: 'public abstract class SFDatabase : ScriptableObject'
+    content.vb: Public MustInherit Class SFDatabase Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  derivedClasses:
+  - SF.DataModule.SFAssetDatabase`1
+  - SF.DataModule.SFDatabase`1
+- uid: SF.DataModule.SFDatabase.DatabaseLoadOrder
+  commentId: F:SF.DataModule.SFDatabase.DatabaseLoadOrder
+  id: DatabaseLoadOrder
+  parent: SF.DataModule.SFDatabase
+  langs:
+  - csharp
+  - vb
+  name: DatabaseLoadOrder
+  nameWithType: SFDatabase.DatabaseLoadOrder
+  fullName: SF.DataModule.SFDatabase.DatabaseLoadOrder
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: >-
+    The order of important in which databases are loaded. Allows making sure certain databases are loaded first.
+
+    The lower the number the earlier it is loaded.
+  example: []
+  syntax:
+    content: public int DatabaseLoadOrder
+    return:
+      type: System.Int32
+    content.vb: Public DatabaseLoadOrder As Integer
+- uid: SF.DataModule.SFDatabase.OnRegisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnRegisterDatabase
+  id: OnRegisterDatabase
+  parent: SF.DataModule.SFDatabase
+  langs:
+  - csharp
+  - vb
+  name: OnRegisterDatabase()
+  nameWithType: SFDatabase.OnRegisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnRegisterDatabase()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: >-
+    SFDatabases are registered by the <xref href="SF.DataModule.DatabaseRegistry" data-throw-if-not-resolved="false"></xref> which is loaded during the player start up
+
+    as part of the preloaded assets set in the project's PlayerSettings via SetPreloadedAssets.
+
+    So there OnEnable runs when the runtime player starts and is guaranteed to run before anything scene related.
+  example: []
+  syntax:
+    content: public virtual void OnRegisterDatabase()
+    content.vb: Public Overridable Sub OnRegisterDatabase()
+  overload: SF.DataModule.SFDatabase.OnRegisterDatabase*
+- uid: SF.DataModule.SFDatabase.OnDeregisterDatabase
+  commentId: M:SF.DataModule.SFDatabase.OnDeregisterDatabase
+  id: OnDeregisterDatabase
+  parent: SF.DataModule.SFDatabase
+  langs:
+  - csharp
+  - vb
+  name: OnDeregisterDatabase()
+  nameWithType: SFDatabase.OnDeregisterDatabase()
+  fullName: SF.DataModule.SFDatabase.OnDeregisterDatabase()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public virtual void OnDeregisterDatabase()
+    content.vb: Public Overridable Sub OnDeregisterDatabase()
+  overload: SF.DataModule.SFDatabase.OnDeregisterDatabase*
+references:
+- uid: SF.DataModule.DatabaseRegistry
+  commentId: T:SF.DataModule.DatabaseRegistry
+  parent: SF.DataModule
+  href: SF.DataModule.DatabaseRegistry.html
+  name: DatabaseRegistry
+  nameWithType: DatabaseRegistry
+  fullName: SF.DataModule.DatabaseRegistry
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.DataModule.SFDatabase.OnRegisterDatabase*
+  commentId: Overload:SF.DataModule.SFDatabase.OnRegisterDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnRegisterDatabase
+  name: OnRegisterDatabase
+  nameWithType: SFDatabase.OnRegisterDatabase
+  fullName: SF.DataModule.SFDatabase.OnRegisterDatabase
+- uid: SF.DataModule.SFDatabase.OnDeregisterDatabase*
+  commentId: Overload:SF.DataModule.SFDatabase.OnDeregisterDatabase
+  href: SF.DataModule.SFDatabase.html#SF_DataModule_SFDatabase_OnDeregisterDatabase
+  name: OnDeregisterDatabase
+  nameWithType: SFDatabase.OnDeregisterDatabase
+  fullName: SF.DataModule.SFDatabase.OnDeregisterDatabase

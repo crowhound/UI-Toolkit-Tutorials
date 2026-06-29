@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.RectExtensions
+  commentId: T:SF.Utilities.RectExtensions
+  id: RectExtensions
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.RectExtensions.AbsoluteRect(UnityEngine.Rect)
+  - SF.Utilities.RectExtensions.GetArea(UnityEngine.Rect)
+  - SF.Utilities.RectExtensions.GetMarqueeRect(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  langs:
+  - csharp
+  - vb
+  name: RectExtensions
+  nameWithType: RectExtensions
+  fullName: SF.Utilities.RectExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static class RectExtensions
+    content.vb: Public Module RectExtensions
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.RectExtensions.AbsoluteRect(UnityEngine.Rect)
+  commentId: M:SF.Utilities.RectExtensions.AbsoluteRect(UnityEngine.Rect)
+  id: AbsoluteRect(UnityEngine.Rect)
+  isExtensionMethod: true
+  parent: SF.Utilities.RectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AbsoluteRect(Rect)
+  nameWithType: RectExtensions.AbsoluteRect(Rect)
+  fullName: SF.Utilities.RectExtensions.AbsoluteRect(UnityEngine.Rect)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: >-
+    Makes sure if the rect has a negative width or height to readjust it's values to make them positive without moving the rect's occupied space.
+
+    This will move the starting points of the rect in some cases but the occupied space will be the same in the end.
+  example: []
+  syntax:
+    content: public static Rect AbsoluteRect(this Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: ''
+    return:
+      type: UnityEngine.Rect
+      description: ''
+    content.vb: Public Shared Function AbsoluteRect(rect As Rect) As Rect
+  overload: SF.Utilities.RectExtensions.AbsoluteRect*
+- uid: SF.Utilities.RectExtensions.GetArea(UnityEngine.Rect)
+  commentId: M:SF.Utilities.RectExtensions.GetArea(UnityEngine.Rect)
+  id: GetArea(UnityEngine.Rect)
+  isExtensionMethod: true
+  parent: SF.Utilities.RectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetArea(Rect)
+  nameWithType: RectExtensions.GetArea(Rect)
+  fullName: SF.Utilities.RectExtensions.GetArea(UnityEngine.Rect)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Gets the area of the Rect from it's width and height.
+  example: []
+  syntax:
+    content: public static float GetArea(this Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: ''
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Shared Function GetArea(rect As Rect) As Single
+  overload: SF.Utilities.RectExtensions.GetArea*
+- uid: SF.Utilities.RectExtensions.GetMarqueeRect(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  commentId: M:SF.Utilities.RectExtensions.GetMarqueeRect(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  id: GetMarqueeRect(UnityEngine.Vector2Int,UnityEngine.Vector2Int)
+  parent: SF.Utilities.RectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetMarqueeRect(Vector2Int, Vector2Int)
+  nameWithType: RectExtensions.GetMarqueeRect(Vector2Int, Vector2Int)
+  fullName: SF.Utilities.RectExtensions.GetMarqueeRect(UnityEngine.Vector2Int, UnityEngine.Vector2Int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static RectInt GetMarqueeRect(Vector2Int p1, Vector2Int p2)
+    parameters:
+    - id: p1
+      type: UnityEngine.Vector2Int
+    - id: p2
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.RectInt
+    content.vb: Public Shared Function GetMarqueeRect(p1 As Vector2Int, p2 As Vector2Int) As RectInt
+  overload: SF.Utilities.RectExtensions.GetMarqueeRect*
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.RectExtensions.AbsoluteRect*
+  commentId: Overload:SF.Utilities.RectExtensions.AbsoluteRect
+  href: SF.Utilities.RectExtensions.html#SF_Utilities_RectExtensions_AbsoluteRect_UnityEngine_Rect_
+  name: AbsoluteRect
+  nameWithType: RectExtensions.AbsoluteRect
+  fullName: SF.Utilities.RectExtensions.AbsoluteRect
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.Utilities.RectExtensions.GetArea*
+  commentId: Overload:SF.Utilities.RectExtensions.GetArea
+  href: SF.Utilities.RectExtensions.html#SF_Utilities_RectExtensions_GetArea_UnityEngine_Rect_
+  name: GetArea
+  nameWithType: RectExtensions.GetArea
+  fullName: SF.Utilities.RectExtensions.GetArea
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: SF.Utilities.RectExtensions.GetMarqueeRect*
+  commentId: Overload:SF.Utilities.RectExtensions.GetMarqueeRect
+  href: SF.Utilities.RectExtensions.html#SF_Utilities_RectExtensions_GetMarqueeRect_UnityEngine_Vector2Int_UnityEngine_Vector2Int_
+  name: GetMarqueeRect
+  nameWithType: RectExtensions.GetMarqueeRect
+  fullName: SF.Utilities.RectExtensions.GetMarqueeRect
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine.RectInt
+  commentId: T:UnityEngine.RectInt
+  parent: UnityEngine
+  isExternal: true
+  name: RectInt
+  nameWithType: RectInt
+  fullName: UnityEngine.RectInt

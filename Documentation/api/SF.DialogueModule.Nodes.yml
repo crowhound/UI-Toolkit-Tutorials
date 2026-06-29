@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  id: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.AnimatorRuntimeNode
+  - SF.DialogueModule.Nodes.BranchingRuntimeNode
+  - SF.DialogueModule.Nodes.ComparisonNodeType
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  - SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+  - SF.DialogueModule.Nodes.ConversationIndexNodeType
+  - SF.DialogueModule.Nodes.ConversationIndexRuntimeNode
+  - SF.DialogueModule.Nodes.ConversationRuntimeNode
+  - SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  - SF.DialogueModule.Nodes.IComparisonNode
+  - SF.DialogueModule.Nodes.IComparisonNode`1
+  - SF.DialogueModule.Nodes.IRuntimeNode
+  - SF.DialogueModule.Nodes.RuntimeNode
+  - SF.DialogueModule.Nodes.SFXRuntimeNode
+  - SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.RuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.RuntimeNode.html
+  name: RuntimeNode
+  nameWithType: RuntimeNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode
+- uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  commentId: T:SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.DialogueRuntimeGraph.html
+  name: DialogueRuntimeGraph
+  nameWithType: DialogueRuntimeGraph
+  fullName: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+- uid: SF.DialogueModule.Nodes.ComparisonNodeType
+  commentId: T:SF.DialogueModule.Nodes.ComparisonNodeType
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ComparisonNodeType.html
+  name: ComparisonNodeType
+  nameWithType: ComparisonNodeType
+  fullName: SF.DialogueModule.Nodes.ComparisonNodeType
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IComparisonNode.html
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode`1
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  name: IComparisonNode<TValueType>
+  nameWithType: IComparisonNode<TValueType>
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>
+  nameWithType.vb: IComparisonNode(Of TValueType)
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType)
+  name.vb: IComparisonNode(Of TValueType)
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: <
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  href: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.html
+  name: StartDialogueRuntimeNode
+  nameWithType: StartDialogueRuntimeNode
+  fullName: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.SFXRuntimeNode
+  href: SF.DialogueModule.Nodes.SFXRuntimeNode.html
+  name: SFXRuntimeNode
+  nameWithType: SFXRuntimeNode
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode
+- uid: SF.DialogueModule.Nodes.AnimatorRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.AnimatorRuntimeNode
+  href: SF.DialogueModule.Nodes.AnimatorRuntimeNode.html
+  name: AnimatorRuntimeNode
+  nameWithType: AnimatorRuntimeNode
+  fullName: SF.DialogueModule.Nodes.AnimatorRuntimeNode
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html
+  name: ComparisonRuntimeNode
+  nameWithType: ComparisonRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+- uid: SF.DialogueModule.Nodes.ConversationRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ConversationRuntimeNode
+  href: SF.DialogueModule.Nodes.ConversationRuntimeNode.html
+  name: ConversationRuntimeNode
+  nameWithType: ConversationRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ConversationRuntimeNode
+- uid: SF.DialogueModule.Nodes.BranchingRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.BranchingRuntimeNode
+  href: SF.DialogueModule.Nodes.BranchingRuntimeNode.html
+  name: BranchingRuntimeNode
+  nameWithType: BranchingRuntimeNode
+  fullName: SF.DialogueModule.Nodes.BranchingRuntimeNode
+- uid: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  commentId: T:SF.DialogueModule.Nodes.ConversationIndexNodeType
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ConversationIndexNodeType.html
+  name: ConversationIndexNodeType
+  nameWithType: ConversationIndexNodeType
+  fullName: SF.DialogueModule.Nodes.ConversationIndexNodeType
+- uid: SF.DialogueModule.Nodes.ConversationIndexRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ConversationIndexRuntimeNode
+  href: SF.DialogueModule.Nodes.ConversationIndexRuntimeNode.html
+  name: ConversationIndexRuntimeNode
+  nameWithType: ConversationIndexRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ConversationIndexRuntimeNode
+- uid: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode.html
+  name: ConversationEntryRuntimeNode
+  nameWithType: ConversationEntryRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html

@@ -1,0 +1,335 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.SFXRuntimeNode
+  id: SFXRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  - SF.DialogueModule.Nodes.SFXRuntimeNode.AudioSource
+  - SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode
+  langs:
+  - csharp
+  - vb
+  name: SFXRuntimeNode
+  nameWithType: SFXRuntimeNode
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: A runtime node used to play and control sfx.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SFXRuntimeNode : RuntimeNode, IRuntimeNode
+    content.vb: >-
+      <Serializable>
+
+      Public Class SFXRuntimeNode Inherits RuntimeNode Implements IRuntimeNode
+  inheritance:
+  - System.Object
+  - SF.DialogueModule.Nodes.RuntimeNode
+  implements:
+  - SF.DialogueModule.Nodes.IRuntimeNode
+  inheritedMembers:
+  - SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  - SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  - SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  - SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  - SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  commentId: F:SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  id: AudioResource
+  parent: SF.DialogueModule.Nodes.SFXRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: AudioResource
+  nameWithType: SFXRuntimeNode.AudioResource
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    The <xref href="SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource" data-throw-if-not-resolved="false"></xref> to play.This can be an audio clip, <xref href="UnityEngine.Audio.AudioRandomContainer" data-throw-if-not-resolved="false"></xref>,
+
+    or if using Unity 6.3 or newer the new Audio Scriptable Processors.
+  example: []
+  syntax:
+    content: public AudioResource AudioResource
+    return:
+      type: UnityEngine.Audio.AudioResource
+    content.vb: Public AudioResource As AudioResource
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioSource
+  commentId: F:SF.DialogueModule.Nodes.SFXRuntimeNode.AudioSource
+  id: AudioSource
+  parent: SF.DialogueModule.Nodes.SFXRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: AudioSource
+  nameWithType: SFXRuntimeNode.AudioSource
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioSource
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: The in scene audio source to be played.
+  example: []
+  syntax:
+    content: public AudioSource AudioSource
+    return:
+      type: UnityEngine.AudioSource
+    content.vb: Public AudioSource As AudioSource
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode
+  id: ProcessNode
+  parent: SF.DialogueModule.Nodes.SFXRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ProcessNode()
+  nameWithType: SFXRuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: Processes the logic for custom nodes.
+  example: []
+  syntax:
+    content: public override void ProcessNode()
+    content.vb: Public Overrides Sub ProcessNode()
+  overridden: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  overload: SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode*
+references:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SF.DialogueModule.Nodes.RuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.RuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.RuntimeNode.html
+  name: RuntimeNode
+  nameWithType: RuntimeNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShouldPauseGraphProcessing
+  name: ShouldPauseGraphProcessing
+  nameWithType: RuntimeNode.ShouldPauseGraphProcessing
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+- uid: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_Conversation
+  name: Conversation
+  nameWithType: RuntimeNode.Conversation
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+- uid: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_IsBlockNode
+  name: IsBlockNode
+  nameWithType: RuntimeNode.IsBlockNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  isExternal: true
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  name: TraverseNode(in List<RuntimeNode>)
+  nameWithType: RuntimeNode.TraverseNode(in List<RuntimeNode>)
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(in System.Collections.Generic.List<SF.DialogueModule.Nodes.RuntimeNode>)
+  nameWithType.vb: RuntimeNode.TraverseNode(List(Of RuntimeNode))
+  fullName.vb: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.RuntimeNode))
+  name.vb: TraverseNode(List(Of RuntimeNode))
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: )
+  - name: )
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  name: ShallowCopy()
+  nameWithType: RuntimeNode.ShallowCopy()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  commentId: F:SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+  href: SF.DialogueModule.Nodes.SFXRuntimeNode.html#SF_DialogueModule_Nodes_SFXRuntimeNode_AudioResource
+  name: AudioResource
+  nameWithType: SFXRuntimeNode.AudioResource
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode.AudioResource
+- uid: UnityEngine.Audio.AudioRandomContainer
+  commentId: T:UnityEngine.Audio.AudioRandomContainer
+  isExternal: true
+  name: AudioRandomContainer
+  nameWithType: AudioRandomContainer
+  fullName: UnityEngine.Audio.AudioRandomContainer
+- uid: UnityEngine.Audio.AudioResource
+  commentId: T:UnityEngine.Audio.AudioResource
+  parent: UnityEngine.Audio
+  isExternal: true
+  name: AudioResource
+  nameWithType: AudioResource
+  fullName: UnityEngine.Audio.AudioResource
+- uid: UnityEngine.Audio
+  commentId: N:UnityEngine.Audio
+  isExternal: true
+  name: UnityEngine.Audio
+  nameWithType: UnityEngine.Audio
+  fullName: UnityEngine.Audio
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Audio
+    name: Audio
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Audio
+    name: Audio
+    isExternal: true
+- uid: UnityEngine.AudioSource
+  commentId: T:UnityEngine.AudioSource
+  parent: UnityEngine
+  isExternal: true
+  name: AudioSource
+  nameWithType: AudioSource
+  fullName: UnityEngine.AudioSource
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  name: ProcessNode()
+  nameWithType: RuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode*
+  commentId: Overload:SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode
+  href: SF.DialogueModule.Nodes.SFXRuntimeNode.html#SF_DialogueModule_Nodes_SFXRuntimeNode_ProcessNode
+  name: ProcessNode
+  nameWithType: SFXRuntimeNode.ProcessNode
+  fullName: SF.DialogueModule.Nodes.SFXRuntimeNode.ProcessNode

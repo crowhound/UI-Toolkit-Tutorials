@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  commentId: T:SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  id: ComparisonBlockNode
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  - SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+  - SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode
+  - SFEditor.Dialogue.Graphs.ComparisonBlockNode._executionNode
+  langs:
+  - csharp
+  - vb
+  name: ComparisonBlockNode
+  nameWithType: ComparisonBlockNode
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class ComparisonBlockNode : BlockNode, IComparisonNode
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class ComparisonBlockNode Inherits BlockNode Implements IComparisonNode
+  inheritance:
+  - System.Object
+  - Unity.GraphToolkit.Editor.Node
+  - Unity.GraphToolkit.Editor.BlockNode
+  derivedClasses:
+  - SFEditor.Dialogue.Graphs.IntCompareBlockNode
+  implements:
+  - SF.DialogueModule.Nodes.IComparisonNode
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+  commentId: P:SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+  id: ExecutionPortName
+  parent: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  langs:
+  - csharp
+  - vb
+  name: ExecutionPortName
+  nameWithType: ComparisonBlockNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+  type: Property
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public string ExecutionPortName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ExecutionPortName As String
+  overload: SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName*
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode._executionNode
+  commentId: F:SFEditor.Dialogue.Graphs.ComparisonBlockNode._executionNode
+  id: _executionNode
+  parent: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  langs:
+  - csharp
+  - vb
+  name: _executionNode
+  nameWithType: ComparisonBlockNode._executionNode
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode._executionNode
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: The node to go to next if <xref href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare" data-throw-if-not-resolved="false"></xref> returns true.
+  example: []
+  syntax:
+    content: protected INode _executionNode
+    return:
+      type: Unity.GraphToolkit.Editor.INode
+    content.vb: Protected _executionNode As INode
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode
+  commentId: M:SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode
+  id: GetExecutionNode
+  parent: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  langs:
+  - csharp
+  - vb
+  name: GetExecutionNode()
+  nameWithType: ComparisonBlockNode.GetExecutionNode()
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public INode GetExecutionNode()
+    return:
+      type: Unity.GraphToolkit.Editor.INode
+    content.vb: Public Function GetExecutionNode() As INode
+  overload: SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode*
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  commentId: M:SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  id: Compare
+  parent: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  langs:
+  - csharp
+  - vb
+  name: Compare()
+  nameWithType: ComparisonBlockNode.Compare()
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: public abstract bool Compare()
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride Function Compare() As Boolean
+  overload: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare*
+  implements:
+  - SF.DialogueModule.Nodes.IComparisonNode.Compare
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Unity.GraphToolkit.Editor.Node
+  commentId: T:Unity.GraphToolkit.Editor.Node
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node
+  nameWithType: Node
+  fullName: Unity.GraphToolkit.Editor.Node
+- uid: Unity.GraphToolkit.Editor.BlockNode
+  commentId: T:Unity.GraphToolkit.Editor.BlockNode
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: BlockNode
+  nameWithType: BlockNode
+  fullName: Unity.GraphToolkit.Editor.BlockNode
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IComparisonNode.html
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.GraphToolkit.Editor
+  commentId: N:Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Unity.GraphToolkit.Editor
+  nameWithType: Unity.GraphToolkit.Editor
+  fullName: Unity.GraphToolkit.Editor
+  spec.csharp:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+  spec.vb:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+  href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_ExecutionPortName
+  name: ExecutionPortName
+  nameWithType: ComparisonBlockNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.ExecutionPortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  commentId: M:SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  parent: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_Compare
+  name: Compare()
+  nameWithType: ComparisonBlockNode.Compare()
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare()
+  spec.csharp:
+  - uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+    name: Compare
+    href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_Compare
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+    name: Compare
+    href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_Compare
+  - name: (
+  - name: )
+- uid: Unity.GraphToolkit.Editor.INode
+  commentId: T:Unity.GraphToolkit.Editor.INode
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: INode
+  nameWithType: INode
+  fullName: Unity.GraphToolkit.Editor.INode
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  commentId: T:SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html
+  name: ComparisonBlockNode
+  nameWithType: ComparisonBlockNode
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode
+  href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_GetExecutionNode
+  name: GetExecutionNode
+  nameWithType: ComparisonBlockNode.GetExecutionNode
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.GetExecutionNode
+- uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+  href: SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_Compare
+  name: Compare
+  nameWithType: ComparisonBlockNode.Compare
+  fullName: SFEditor.Dialogue.Graphs.ComparisonBlockNode.Compare
+- uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+  commentId: M:SF.DialogueModule.Nodes.IComparisonNode.Compare
+  parent: SF.DialogueModule.Nodes.IComparisonNode
+  href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  name: Compare()
+  nameWithType: IComparisonNode.Compare()
+  fullName: SF.DialogueModule.Nodes.IComparisonNode.Compare()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

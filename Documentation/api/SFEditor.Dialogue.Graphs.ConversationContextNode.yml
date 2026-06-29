@@ -1,0 +1,733 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode
+  commentId: T:SFEditor.Dialogue.Graphs.ConversationContextNode
+  id: ConversationContextNode
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.Conversation
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.ConversationTitleName
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionNode
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  - SFEditor.Dialogue.Graphs.ConversationContextNode.RuntimeNodes
+  langs:
+  - csharp
+  - vb
+  name: ConversationContextNode
+  nameWithType: ConversationContextNode
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: >-
+      [Serializable]
+
+      [UseWithGraph(new Type[] { typeof(DialogueGraph) })]
+
+      public class ConversationContextNode : ContextNode, IDialogueNode, IContextNodeConvertor, INodeConvertor
+    content.vb: >-
+      <Serializable>
+
+      <UseWithGraph(New Type() { GetType(DialogueGraph) })>
+
+      Public Class ConversationContextNode Inherits ContextNode Implements IDialogueNode, IContextNodeConvertor, INodeConvertor
+  inheritance:
+  - System.Object
+  - Unity.GraphToolkit.Editor.Node
+  - Unity.GraphToolkit.Editor.ContextNode
+  implements:
+  - SFEditor.Dialogue.Graphs.IDialogueNode
+  - SFEditor.Nodes.IContextNodeConvertor
+  - SFEditor.Nodes.INodeConvertor
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+  commentId: P:SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+  id: ExecutionPortName
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: ExecutionPortName
+  nameWithType: ConversationContextNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+  type: Property
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: public string ExecutionPortName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ExecutionPortName As String
+  overload: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName*
+  implements:
+  - SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ConversationTitleName
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationContextNode.ConversationTitleName
+  id: ConversationTitleName
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: ConversationTitleName
+  nameWithType: ConversationContextNode.ConversationTitleName
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ConversationTitleName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public const string ConversationTitleName = "Conversation Name"
+    return:
+      type: System.String
+    content.vb: Public Const ConversationTitleName As String = "Conversation Name"
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.RuntimeNodes
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationContextNode.RuntimeNodes
+  id: RuntimeNodes
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: RuntimeNodes
+  nameWithType: ConversationContextNode.RuntimeNodes
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.RuntimeNodes
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public List<IRuntimeNode> RuntimeNodes
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+    content.vb: Public RuntimeNodes As List(Of IRuntimeNode)
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.Conversation
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationContextNode.Conversation
+  id: Conversation
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: Conversation
+  nameWithType: ConversationContextNode.Conversation
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.Conversation
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: Conversation that is only set and used during the DialogueGraphImporter processing.
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public DialogueConversation Conversation
+    return:
+      type: SF.DialogueModule.DialogueConversation
+    content.vb: >-
+      <NonSerialized>
+
+      Public Conversation As DialogueConversation
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionNode
+  commentId: F:SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionNode
+  id: ExecutionNode
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: ExecutionNode
+  nameWithType: ConversationContextNode.ExecutionNode
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionNode
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public IRuntimeNode ExecutionNode
+    return:
+      type: SF.DialogueModule.Nodes.IRuntimeNode
+    content.vb: Public ExecutionNode As IRuntimeNode
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  id: OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: OnDefineOptions(IOptionDefinitionContext)
+  nameWithType: ConversationContextNode.OnDefineOptions(Node.IOptionDefinitionContext)
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: protected override void OnDefineOptions(Node.IOptionDefinitionContext context)
+    parameters:
+    - id: context
+      type: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    content.vb: Protected Overrides Sub OnDefineOptions(context As Node.IOptionDefinitionContext)
+  overridden: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  overload: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions*
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  id: OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: OnDefinePorts(IPortDefinitionContext)
+  nameWithType: ConversationContextNode.OnDefinePorts(Node.IPortDefinitionContext)
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  example: []
+  syntax:
+    content: protected override void OnDefinePorts(Node.IPortDefinitionContext context)
+    parameters:
+    - id: context
+      type: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    content.vb: Protected Overrides Sub OnDefinePorts(context As Node.IPortDefinitionContext)
+  overridden: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  overload: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts*
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode
+  id: ConvertToRuntimeNode
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRuntimeNode()
+  nameWithType: ConversationContextNode.ConvertToRuntimeNode()
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: Tells how a graph importing class should convert editor nodes to runtime nodes.
+  example: []
+  syntax:
+    content: public IRuntimeNode ConvertToRuntimeNode()
+    return:
+      type: SF.DialogueModule.Nodes.IRuntimeNode
+      description: Returns the converted runtime node.
+    content.vb: Public Function ConvertToRuntimeNode() As IRuntimeNode
+  overload: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode*
+  implements:
+  - SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  commentId: M:SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  id: ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  parent: SFEditor.Dialogue.Graphs.ConversationContextNode
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRuntimeNodes(DialogueConversation)
+  nameWithType: ConversationContextNode.ConvertToRuntimeNodes(DialogueConversation)
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: Tells how a graph importing class should convert editor nodes to runtime nodes.
+  example: []
+  syntax:
+    content: public List<IRuntimeNode> ConvertToRuntimeNodes(DialogueConversation dialogueConversation)
+    parameters:
+    - id: dialogueConversation
+      type: SF.DialogueModule.DialogueConversation
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+      description: Returns the converted runtime node.
+    content.vb: Public Function ConvertToRuntimeNodes(dialogueConversation As DialogueConversation) As List(Of IRuntimeNode)
+  overload: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes*
+  implements:
+  - SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Unity.GraphToolkit.Editor.Node
+  commentId: T:Unity.GraphToolkit.Editor.Node
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node
+  nameWithType: Node
+  fullName: Unity.GraphToolkit.Editor.Node
+- uid: Unity.GraphToolkit.Editor.ContextNode
+  commentId: T:Unity.GraphToolkit.Editor.ContextNode
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: ContextNode
+  nameWithType: ContextNode
+  fullName: Unity.GraphToolkit.Editor.ContextNode
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode
+  commentId: T:SFEditor.Dialogue.Graphs.IDialogueNode
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.IDialogueNode.html
+  name: IDialogueNode
+  nameWithType: IDialogueNode
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode
+- uid: SFEditor.Nodes.IContextNodeConvertor
+  commentId: T:SFEditor.Nodes.IContextNodeConvertor
+  parent: SFEditor.Nodes
+  href: SFEditor.Nodes.IContextNodeConvertor.html
+  name: IContextNodeConvertor
+  nameWithType: IContextNodeConvertor
+  fullName: SFEditor.Nodes.IContextNodeConvertor
+- uid: SFEditor.Nodes.INodeConvertor
+  commentId: T:SFEditor.Nodes.INodeConvertor
+  parent: SFEditor.Nodes
+  href: SFEditor.Nodes.INodeConvertor.html
+  name: INodeConvertor
+  nameWithType: INodeConvertor
+  fullName: SFEditor.Nodes.INodeConvertor
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.GraphToolkit.Editor
+  commentId: N:Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Unity.GraphToolkit.Editor
+  nameWithType: Unity.GraphToolkit.Editor
+  fullName: Unity.GraphToolkit.Editor
+  spec.csharp:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+  spec.vb:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+- uid: SFEditor.Nodes
+  commentId: N:SFEditor.Nodes
+  href: SFEditor.html
+  name: SFEditor.Nodes
+  nameWithType: SFEditor.Nodes
+  fullName: SFEditor.Nodes
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+  href: SFEditor.Dialogue.Graphs.ConversationContextNode.html#SFEditor_Dialogue_Graphs_ConversationContextNode_ExecutionPortName
+  name: ExecutionPortName
+  nameWithType: ConversationContextNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ExecutionPortName
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  commentId: P:SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+  parent: SFEditor.Dialogue.Graphs.IDialogueNode
+  href: SFEditor.Dialogue.Graphs.IDialogueNode.html#SFEditor_Dialogue_Graphs_IDialogueNode_ExecutionPortName
+  name: ExecutionPortName
+  nameWithType: IDialogueNode.ExecutionPortName
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode.ExecutionPortName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: List<IRuntimeNode>
+  nameWithType: List<IRuntimeNode>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.Nodes.IRuntimeNode>
+  nameWithType.vb: List(Of IRuntimeNode)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.Nodes.IRuntimeNode)
+  name.vb: List(Of IRuntimeNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  commentId: M:Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  parent: Unity.GraphToolkit.Editor.Node
+  isExternal: true
+  name: OnDefineOptions(IOptionDefinitionContext)
+  nameWithType: Node.OnDefineOptions(Node.IOptionDefinitionContext)
+  fullName: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+    name: OnDefineOptions
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)
+    name: OnDefineOptions
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions
+  href: SFEditor.Dialogue.Graphs.ConversationContextNode.html#SFEditor_Dialogue_Graphs_ConversationContextNode_OnDefineOptions_Unity_GraphToolkit_Editor_Node_IOptionDefinitionContext_
+  name: OnDefineOptions
+  nameWithType: ConversationContextNode.OnDefineOptions
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefineOptions
+- uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  commentId: T:Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node.IOptionDefinitionContext
+  nameWithType: Node.IOptionDefinitionContext
+  fullName: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext
+    name: IOptionDefinitionContext
+    isExternal: true
+- uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  commentId: M:Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  parent: Unity.GraphToolkit.Editor.Node
+  isExternal: true
+  name: OnDefinePorts(IPortDefinitionContext)
+  nameWithType: Node.OnDefinePorts(Node.IPortDefinitionContext)
+  fullName: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+    name: OnDefinePorts
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)
+    name: OnDefinePorts
+    isExternal: true
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts
+  href: SFEditor.Dialogue.Graphs.ConversationContextNode.html#SFEditor_Dialogue_Graphs_ConversationContextNode_OnDefinePorts_Unity_GraphToolkit_Editor_Node_IPortDefinitionContext_
+  name: OnDefinePorts
+  nameWithType: ConversationContextNode.OnDefinePorts
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.OnDefinePorts
+- uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  commentId: T:Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Node.IPortDefinitionContext
+  nameWithType: Node.IPortDefinitionContext
+  fullName: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+  spec.csharp:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+  spec.vb:
+  - uid: Unity.GraphToolkit.Editor.Node
+    name: Node
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor.Node.IPortDefinitionContext
+    name: IPortDefinitionContext
+    isExternal: true
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode
+  href: SFEditor.Dialogue.Graphs.ConversationContextNode.html#SFEditor_Dialogue_Graphs_ConversationContextNode_ConvertToRuntimeNode
+  name: ConvertToRuntimeNode
+  nameWithType: ConversationContextNode.ConvertToRuntimeNode
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNode
+- uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  commentId: M:SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  parent: SFEditor.Nodes.INodeConvertor
+  href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  name: ConvertToRuntimeNode()
+  nameWithType: INodeConvertor.ConvertToRuntimeNode()
+  fullName: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode()
+  spec.csharp:
+  - uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+    name: ConvertToRuntimeNode
+    href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+    name: ConvertToRuntimeNode
+    href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  - name: (
+  - name: )
+- uid: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes*
+  commentId: Overload:SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes
+  href: SFEditor.Dialogue.Graphs.ConversationContextNode.html#SFEditor_Dialogue_Graphs_ConversationContextNode_ConvertToRuntimeNodes_SF_DialogueModule_DialogueConversation_
+  name: ConvertToRuntimeNodes
+  nameWithType: ConversationContextNode.ConvertToRuntimeNodes
+  fullName: SFEditor.Dialogue.Graphs.ConversationContextNode.ConvertToRuntimeNodes
+- uid: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  commentId: M:SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  parent: SFEditor.Nodes.IContextNodeConvertor
+  href: SFEditor.Nodes.IContextNodeConvertor.html#SFEditor_Nodes_IContextNodeConvertor_ConvertToRuntimeNodes_SF_DialogueModule_DialogueConversation_
+  name: ConvertToRuntimeNodes(DialogueConversation)
+  nameWithType: IContextNodeConvertor.ConvertToRuntimeNodes(DialogueConversation)
+  fullName: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  spec.csharp:
+  - uid: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+    name: ConvertToRuntimeNodes
+    href: SFEditor.Nodes.IContextNodeConvertor.html#SFEditor_Nodes_IContextNodeConvertor_ConvertToRuntimeNodes_SF_DialogueModule_DialogueConversation_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+  - name: )
+  spec.vb:
+  - uid: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+    name: ConvertToRuntimeNodes
+    href: SFEditor.Nodes.IContextNodeConvertor.html#SFEditor_Nodes_IContextNodeConvertor_ConvertToRuntimeNodes_SF_DialogueModule_DialogueConversation_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+  - name: )

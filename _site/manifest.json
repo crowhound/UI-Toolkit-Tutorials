@@ -1,0 +1,2384 @@
+{
+  "sitemap": {
+    "baseUrl": "https://shatter-fantasy.github.io/SF-UI-Toolkit-Tutorials/"
+  },
+  "source_base_path": "D:/Unity/Unity Tutorial Projects/UI Toolkit Worktree/Documentation/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EditorWindowBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EditorWindowBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "EditorWindowBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.AppUI.SFAppUIFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.AppUI.SFAppUIFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.AppUI.SFAppUIFactory",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.AppUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.AppUI.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.AppUI",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.ComponentUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.ComponentUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.ComponentUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Core.ConditionalShowAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Core.ConditionalShowAttribute.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Core.ConditionalShowAttribute",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Core.TypeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Core.TypeExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Core.TypeExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Core.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Core",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Damageable.HealthBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Damageable.HealthBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Damageable.HealthBase",
+      "Summary": "<p sourcefile=\"api/SF.Damageable.HealthBase.yml\" sourcestartlinenumber=\"1\">The base class for holding health data that is used inside of tutorials with data bindings.</p>\n<example>\nFor an example see the PlayerHUDBars.uxml file to see how a binding is used to change the health bar fill as the <xref href=\"SF.Damageable.HealthBase.CurrentHealth\" data-throw-if-not-resolved=\"false\"></xref> values changes.\n</example>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Damageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Damageable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Damageable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.DTOAssetBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.DTOAssetBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.DTOAssetBase",
+      "Summary": "<p sourcefile=\"api/SF.DataModule.DTOAssetBase.yml\" sourcestartlinenumber=\"1\">This is a DTOBase that can be used as a scriptable object where needed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.DTOBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.DTOBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.DTOBase",
+      "Summary": "<p sourcefile=\"api/SF.DataModule.DTOBase.yml\" sourcestartlinenumber=\"1\">This is a DTOBase that can be used for normal class object where needed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.DatabaseRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.DatabaseRegistry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.DatabaseRegistry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.SFAssetDatabase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.SFAssetDatabase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.SFAssetDatabase<T>",
+      "Summary": "<p sourcefile=\"api/SF.DataModule.SFAssetDatabase-1.yml\" sourcestartlinenumber=\"1\">A generic database class for storing data about DTOAssetBase Scriptable objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.SFDatabase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.SFDatabase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.SFDatabase<TDTOBase>",
+      "Summary": "<p sourcefile=\"api/SF.DataModule.SFDatabase-1.yml\" sourcestartlinenumber=\"1\">A generic database class for storing data about DTOBase classes or sub classes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.SFDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.SFDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule.SFDatabase",
+      "Summary": "<p sourcefile=\"api/SF.DataModule.SFDatabase.yml\" sourcestartlinenumber=\"1\">Wrapper class for SFDatabases to make it easier to register different database types.\n<xref href=\"SF.DataModule.DatabaseRegistry\" data-throw-if-not-resolved=\"false\"></xref> for example uses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DataModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DataModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DataModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.ConversationIndexExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.ConversationIndexExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.ConversationIndexExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.ConversationPropertyPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.ConversationPropertyPair.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.ConversationPropertyPair",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.ConversationStage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.ConversationStage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.ConversationStage",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.ConversationStage.yml\" sourcestartlinenumber=\"1\">Controls when the Conversation extension injects custom logic into the conversation flow.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.ConversationTimelineExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.ConversationTimelineExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.ConversationTimelineExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.ConversationUnityEventExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.ConversationUnityEventExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.ConversationUnityEventExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueConversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueConversation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueConversation",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.DialogueConversation.yml\" sourcestartlinenumber=\"1\">Data container for an entire conversation of a dialogue sequence.\nIncluding dialogue entries, actor data, and event details related to the dialogue.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueDatabase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueDatabase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueEntry",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.DialogueEntry.yml\" sourcestartlinenumber=\"1\">The individual parts of a full dialogue conversations including events to activate once the dialogue happens, starts, or ends.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueExtensionBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueExtensionBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueExtensionBase",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.DialogueExtensionBase.yml\" sourcestartlinenumber=\"1\">Base class to help allow easily created custom code for any type of Dialogue managers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueManager",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.DialogueManager.yml\" sourcestartlinenumber=\"1\">The in scene manager that controls the way DialogueConversations are run and set up.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialoguePropertiesExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialoguePropertiesExtension.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialoguePropertiesExtension",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.DialogueUIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.DialogueUIManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.DialogueUIManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.AnimatorRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.AnimatorRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.AnimatorRuntimeNode",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.AnimatorRuntimeNode.yml\" sourcestartlinenumber=\"1\">A runtime node used to play and control animations on the passed in animator.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.BranchingRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.BranchingRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.BranchingRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ComparisonNodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ComparisonNodeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ComparisonNodeType",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.ComparisonNodeType.yml\" sourcestartlinenumber=\"1\">Informs a DialogueGraph about what type of comparison is being done\non a <xref href=\"SF.DialogueModule.Nodes.IComparisonNode\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ComparisonRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ComparisonRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ComparisonRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ConversationEntryRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ConversationEntryRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ConversationEntryRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ConversationIndexNodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ConversationIndexNodeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ConversationIndexNodeType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ConversationIndexRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ConversationIndexRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ConversationIndexRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.ConversationRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.ConversationRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.ConversationRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.DialogueRuntimeGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.DialogueRuntimeGraph.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.DialogueRuntimeGraph",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.DialogueRuntimeGraph.yml\" sourcestartlinenumber=\"1\">The runtime representation of a dialogue graph.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.IComparisonNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.IComparisonNode-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.IComparisonNode<TValueType>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.IComparisonNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.IComparisonNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.IComparisonNode",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.IComparisonNode.yml\" sourcestartlinenumber=\"1\">Implement to inform a <xref href=\"SF.DialogueModule.Nodes.DialogueRuntimeGraph\" data-throw-if-not-resolved=\"false\"></xref> a node is\nused for comparing a type of value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.IRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.IRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.IRuntimeNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.RuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.RuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.RuntimeNode",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.RuntimeNode.yml\" sourcestartlinenumber=\"1\">The data representation of a Dialogue Node for runtime execution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.SFXRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.SFXRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.SFXRuntimeNode",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.SFXRuntimeNode.yml\" sourcestartlinenumber=\"1\">A runtime node used to play and control sfx.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.StartDialogueRuntimeNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.StartDialogueRuntimeNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes.StartDialogueRuntimeNode",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.Nodes.StartDialogueRuntimeNode.yml\" sourcestartlinenumber=\"1\">I might not need this. I could just use the StartDialogueNode (editor) just to get the start of a conversation.\nMight not need to know about it.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.Nodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.TimedDialogueEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.TimedDialogueEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule.TimedDialogueEntry",
+      "Summary": "<p sourcefile=\"api/SF.DialogueModule.TimedDialogueEntry.yml\" sourcestartlinenumber=\"1\">A class to allow DialogueEntries can have an action that can be called if\nthe user stays on the dialogue for a set amount of time.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DialogueModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DialogueModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DialogueModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.DragAndDropManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.DragAndDropManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.DragAndDropManipulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.InputModule.SFInputManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.InputModule.SFInputManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.InputModule.SFInputManager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.InputModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.InputModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.InputModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.ManagerBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.ManagerBase-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.ManagerBase<T>",
+      "Summary": "<p sourcefile=\"api/SF.ManagerBase-1.yml\" sourcestartlinenumber=\"1\">Base class for manager types in scene that don't have their static instance cleaned up between\nentering and exiting playmode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.ManagerBaseStaticCleanUp-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.ManagerBaseStaticCleanUp-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.ManagerBaseStaticCleanUp<T>",
+      "Summary": "<p sourcefile=\"api/SF.ManagerBaseStaticCleanUp-1.yml\" sourcestartlinenumber=\"1\">Base class for manager types in scene that cleans their static instance between entering and exiting playmode.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Managers.GameControlState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Managers.GameControlState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Managers.GameControlState",
+      "Summary": "<p sourcefile=\"api/SF.Managers.GameControlState.yml\" sourcestartlinenumber=\"1\">The current state that is controlling the games input and actions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Managers.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Managers.GameManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Managers.GameManager",
+      "Summary": "<p sourcefile=\"api/SF.Managers.GameManager.yml\" sourcestartlinenumber=\"1\">The current play state of the game loop that describes what type of logic loop is being updated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Managers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Managers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Managers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Pathfinding.MathGraphMovement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Pathfinding.MathGraphMovement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Pathfinding.MathGraphMovement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Pathfinding.TrigFunctionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Pathfinding.TrigFunctionType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Pathfinding.TrigFunctionType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Pathfinding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Pathfinding.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Pathfinding",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.ListViewUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.ListViewUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.ListViewUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFAutoFitLabel.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFAutoFitLabel.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFAutoFitLabel.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFAutoFitLabel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFAutoFitLabel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFAutoFitLabel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFButtonGroup.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFButtonGroup.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFButtonGroup.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFButtonGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFButtonGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFButtonGroup",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFCard.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFCard.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFCard.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFCard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFCard",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFContainer.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFContainer.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFContainer.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFContainer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFContainer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFRow.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFRow.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFRow.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFRow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFRow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFRow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFVisualElementBase.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFVisualElementBase.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFVisualElementBase.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SFVisualElementBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SFVisualElementBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SFVisualElementBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SideBarLayout.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SideBarLayout.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SideBarLayout.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.SideBarLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.SideBarLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.SideBarLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.Utilities.BorderSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.Utilities.BorderSide.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.Utilities.BorderSide",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.Utilities.ButtonElementsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.Utilities.ButtonElementsExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.Utilities.ButtonElementsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.Utilities.SFCommonStyleClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.Utilities.SFCommonStyleClasses.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.Utilities.SFCommonStyleClasses",
+      "Summary": "<p sourcefile=\"api/SF.UIElements.Utilities.SFCommonStyleClasses.yml\" sourcestartlinenumber=\"1\">The USS style class names are from the CommonUss.uss style asset.\nThis class holds a list of commonly used USS style class names.\nIt is intended to just help not have to memorize the names of certain USS classes.\nIt also has certain combo of commonly used together USS classes names like a two column row.\nRead the remark in the file to see a nice clean way to not have to type out the full class name when using them.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.Utilities.VisualElementsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.Utilities.VisualElementsExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.Utilities.VisualElementsExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIElements.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIElements",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.FillBar.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.FillBar.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.FillBar.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.FillBar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.FillBar.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.FillBar",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.FillBarDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.FillBarDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.FillBarDirection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.FillBarEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.FillBarEvent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.FillBarEvent",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.IUIView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.IUIView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.IUIView",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.PlayerHUD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.PlayerHUD.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.PlayerHUD",
+      "Summary": "<p sourcefile=\"api/SF.UIModule.PlayerHUD.yml\" sourcestartlinenumber=\"1\">Simple PlayerHUD with a <xref href=\"SF.UIModule.PlayerHUD._healthBarRef\" data-throw-if-not-resolved=\"false\"></xref> that has data binding to allow button to decrease/increase\nthe player health bar fill as the health changes.\nSee <xref href=\"SF.Damageable.HealthBase\" data-throw-if-not-resolved=\"false\"></xref> for the class used as the data source for the binding.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIController",
+      "Summary": "<p sourcefile=\"api/SF.UIModule.UIController.yml\" sourcestartlinenumber=\"1\">The wrapper class for anything that controls the logic of an <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref> or a class that inherits from <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref>.\n<remarks>\nThere can be multiple UIController using the same <xref href=\"UnityEngine.UIElements.UIDocument\" data-throw-if-not-resolved=\"false\"></xref>.\nExample the main menu has sub <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref> that display a specific menu like inventory, options, and ect.\nDepending on the submenu it might have its own UIController class for its logic.\n</remarks></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIControllerBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIControllerBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIControllerBase",
+      "Summary": "<p sourcefile=\"api/SF.UIModule.UIControllerBase.yml\" sourcestartlinenumber=\"1\">The wrapper class for anything that controls the logic of an <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref> or a class that inherits from <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref>.\n<remarks>\nThere can be multiple UIController using the same <xref href=\"UnityEngine.UIElements.UIDocument\" data-throw-if-not-resolved=\"false\"></xref>.\nExample the main menu has sub <xref href=\"SF.UIModule.UIView\" data-throw-if-not-resolved=\"false\"></xref> that display a specific menu like inventory, options, and ect.\nDepending on the submenu it might have its own UIController class for its logic.\n</remarks></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIOverlayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIOverlayView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIOverlayView",
+      "Summary": "<p sourcefile=\"api/SF.UIModule.UIOverlayView.yml\" sourcestartlinenumber=\"1\">Base class for any overlay that needs to be displayed for runtime.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIView.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIView",
+      "Summary": "<p sourcefile=\"api/SF.UIModule.UIView.yml\" sourcestartlinenumber=\"1\">Initializes the uxml/visual element assets for a set of UI elements that make up a UI menu/view\nand registers the needed events in them.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIViewElement.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIViewElement.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIViewElement.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.UIViewElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.UIViewElement.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule.UIViewElement",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.UIModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.UIModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.UIModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.AttributeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.AttributeUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.AttributeUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.BoundExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.BoundExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.BoundExtensions",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.BoundExtensions.yml\" sourcestartlinenumber=\"1\">A set of helper functions and extensions methods for Unity's Bounds structs of different types. Bounds and BoundsInt.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.FileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.FileUtility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.FileUtility",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.GLUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.GLUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.GLUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.GridUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.GridUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.GridUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.InteropServices.CollectionsMarshal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.InteropServices.CollectionsMarshal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.InteropServices.CollectionsMarshal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.InteropServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.InteropServices.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.InteropServices",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.MathUtilities.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.MathUtilities.TransformExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.MathUtilities.TransformExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.MathUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.MathUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.MathUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.RectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.RectExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.RectExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.ReflectionUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.ReflectionUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.ReflectionUtilities",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.ReflectionUtilities.yml\" sourcestartlinenumber=\"1\">A collection of utility methods for general C# reflection.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.SFMeshUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.SFMeshUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes.SFMeshUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.SFRendererUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.SFRendererUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes.SFRendererUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.ShapeEdge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.ShapeEdge.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes.ShapeEdge",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.Shapes.ShapeEdge.yml\" sourcestartlinenumber=\"1\">This keeps tracks of all the connections between two points in a shape.\nUseful for mesh generation, rendering shape creation, and custom physics shape making.\nExample UnityEngine.PhysicsShape2D</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.ShapeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.ShapeFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes.ShapeFactory",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.Shapes.ShapeFactory.yml\" sourcestartlinenumber=\"1\">The base class for all SF Shapes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.ShapePoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.ShapePoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes.ShapePoint",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.Shapes.ShapePoint.yml\" sourcestartlinenumber=\"1\">Shape data struct that keeps track of the position of the single point and all the <xref href=\"SF.Utilities.Shapes.ShapeEdge\" data-throw-if-not-resolved=\"false\"></xref>\nit is a part of.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.Shapes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.Shapes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.Shapes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.SingletonBehavior-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.SingletonBehavior-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.SingletonBehavior<TSingleton>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.VectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.VectorExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities.VectorExtensions",
+      "Summary": "<p sourcefile=\"api/SF.Utilities.VectorExtensions.yml\" sourcestartlinenumber=\"1\">This contains functions for converting Vectors to other vector types, pulling out Vector values, and making arrays of Vectors.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SF.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SF",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.AnimatorNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.AnimatorNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.AnimatorNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.AnimatorNodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.AnimatorNodeType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.AnimatorNodeType",
+      "Summary": "<p sourcefile=\"api/SFEditor.Dialogue.Graphs.AnimatorNodeType.yml\" sourcestartlinenumber=\"1\">The type of animation value an <xref href=\"SFEditor.Dialogue.Graphs.AnimatorNode\" data-throw-if-not-resolved=\"false\"></xref> is setting.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.BranchingContextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.BranchingContextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.BranchingContextNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ComparisonBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ComparisonBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ComparisonBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationChoiceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationChoiceNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationChoiceNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationContextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationContextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationContextNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationEntryBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationEntryBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationEntryBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationExtensionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationExtensionNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationExtensionNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.ConversationIndexBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.ConversationIndexBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.ConversationIndexBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.DialogueGraph.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.DialogueGraph.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.DialogueGraph",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.DialogueInterruptionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.DialogueInterruptionNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.DialogueInterruptionNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.DialogueNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.DialogueNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.DialogueNode",
+      "Summary": "<p sourcefile=\"api/SFEditor.Dialogue.Graphs.DialogueNode.yml\" sourcestartlinenumber=\"1\">The base class containing runtime data for dialogue nodes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.DialoguePersonalityBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.DialoguePersonalityBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.DialoguePersonalityBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.DialoguePersonalityContextNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.DialoguePersonalityContextNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.DialoguePersonalityContextNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.IDialogueNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.IDialogueNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.IDialogueNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.IntCompareBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.IntCompareBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.IntCompareBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.PersonalityTraits.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.PersonalityTraits.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.PersonalityTraits",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.SFGraphBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.SFGraphBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.SFGraphBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.SFXBlockNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.SFXBlockNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.SFXBlockNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.SpriteNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.SpriteNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.SpriteNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.SpriteRenderNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.SpriteRenderNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.SpriteRenderNode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.StartDialogueNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.StartDialogueNode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs.StartDialogueNode",
+      "Summary": "<p sourcefile=\"api/SFEditor.Dialogue.Graphs.StartDialogueNode.yml\" sourcestartlinenumber=\"1\">Defines a possible starting point for a Dialogue Graph.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Dialogue.Graphs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Dialogue.Graphs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Dialogue.Graphs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.DialogueModule.DialogueAssetPostProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.DialogueModule.DialogueAssetPostProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.DialogueModule.DialogueAssetPostProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.DialogueModule.DialogueNodeProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.DialogueModule.DialogueNodeProcessor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.DialogueModule.DialogueNodeProcessor",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.DialogueModule.DialogueNodeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.DialogueModule.DialogueNodeUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.DialogueModule.DialogueNodeUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.DialogueModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.DialogueModule.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.DialogueModule",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Nodes.IContextNodeConvertor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Nodes.IContextNodeConvertor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Nodes.IContextNodeConvertor",
+      "Summary": "<p sourcefile=\"api/SFEditor.Nodes.IContextNodeConvertor.yml\" sourcestartlinenumber=\"1\">Describes how to convert an editor node to a runtime node for processing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Nodes.INodeConvertor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Nodes.INodeConvertor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Nodes.INodeConvertor",
+      "Summary": "<p sourcefile=\"api/SFEditor.Nodes.INodeConvertor.yml\" sourcestartlinenumber=\"1\">Describes how to convert an editor node to a runtime node for processing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Nodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Nodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Nodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.SFEditorUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.SFEditorUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.SFEditorUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.ObjectPickerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.ObjectPickerExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.ObjectPickerExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.SFImageField.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.SFImageField.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.SFImageField.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.SFImageField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.SFImageField.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.SFImageField",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.SFTypeDropdownMenu-1.UxmlSerializedData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.SFTypeDropdownMenu-1.UxmlSerializedData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.SFTypeDropdownMenu<TOption>.UxmlSerializedData",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.SFTypeDropdownMenu-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.SFTypeDropdownMenu-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.SFTypeDropdownMenu<TOption>",
+      "Summary": "<p sourcefile=\"api/SFEditor.UIElements.SFTypeDropdownMenu-1.yml\" sourcestartlinenumber=\"1\">An editor only dropdown menu that displays options for c# types that meet the pass in predicate when calling the constructor.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.Utilities.MouseRectDragManipulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.Utilities.MouseRectDragManipulator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.Utilities.MouseRectDragManipulator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.Utilities.SFUIElementsFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.Utilities.SFUIElementsFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.Utilities.SFUIElementsFactory",
+      "Summary": "<p sourcefile=\"api/SFEditor.UIElements.Utilities.SFUIElementsFactory.yml\" sourcestartlinenumber=\"1\">This is a factory class to help quickly set up new UI elements in the editor like inspectors, editor windows, and any other custom editor class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.Utilities.UIElementsEditorUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.Utilities.UIElementsEditorUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.Utilities.UIElementsEditorUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.UIElements.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.UIElements.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.UIElements",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.AssetDatabaseEditorUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.AssetDatabaseEditorUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.AssetDatabaseEditorUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.FileUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.FileUtility.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.FileUtility",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.FillRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.FillRenderMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.FillRenderMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.HandlesUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.HandlesUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.HandlesUtilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.OutlineRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.OutlineRenderMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.OutlineRenderMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater",
+      "Summary": "<p sourcefile=\"api/SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater.yml\" sourcestartlinenumber=\"1\">Used to update references in scripts when a type was changed for a serialized value that was a MonoBehavior.\n<remarks>\nIf you ever deleted a script for a scriptable object without deleting the scriptable object from your Unity project,\nthan went and clicked the scriptable object to see in the inspector a warning that the type is missing,\nthat is Unity's internal version of this delegate.\n</remarks></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.SFEditorTypeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.SFEditorTypeUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.SFEditorTypeUtilities",
+      "Summary": "<p sourcefile=\"api/SFEditor.Utilities.SFEditorTypeUtilities.yml\" sourcestartlinenumber=\"1\">A collection of helper methods that uses Unity's built in <xref href=\"UnityEditor.TypeCache\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.UnityEditorTypeUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.UnityEditorTypeUtilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities.UnityEditorTypeUtilities",
+      "Summary": "<p sourcefile=\"api/SFEditor.Utilities.UnityEditorTypeUtilities.yml\" sourcestartlinenumber=\"1\">A collection of helper methods that uses Unity's built in <xref href=\"UnityEditor.TypeCache\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SFEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SFEditor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "SFEditor",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/images/Unity GitHub Package.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "resources/images/Unity GitHub Package.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

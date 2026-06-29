@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.ObjectPickerExtensions
+  commentId: T:SFEditor.UIElements.ObjectPickerExtensions
+  id: ObjectPickerExtensions
+  parent: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[])
+  - SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[],System.Object@)
+  - SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(System.Action{UnityEngine.Object},System.Action{UnityEngine.Object},``0)
+  - SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(``0,System.Action{UnityEngine.Object},System.Action{UnityEngine.Object})
+  langs:
+  - csharp
+  - vb
+  name: ObjectPickerExtensions
+  nameWithType: ObjectPickerExtensions
+  fullName: SFEditor.UIElements.ObjectPickerExtensions
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public static class ObjectPickerExtensions
+    content.vb: Public Module ObjectPickerExtensions
+  inheritance:
+  - System.Object
+- uid: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(``0,System.Action{UnityEngine.Object},System.Action{UnityEngine.Object})
+  commentId: M:SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(``0,System.Action{UnityEngine.Object},System.Action{UnityEngine.Object})
+  id: ShowObjectPicker``1(``0,System.Action{UnityEngine.Object},System.Action{UnityEngine.Object})
+  isExtensionMethod: true
+  parent: SFEditor.UIElements.ObjectPickerExtensions
+  langs:
+  - csharp
+  - vb
+  name: ShowObjectPicker<T>(T, Action<Object>, Action<Object>)
+  nameWithType: ObjectPickerExtensions.ShowObjectPicker<T>(T, Action<Object>, Action<Object>)
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker<T>(T, System.Action<UnityEngine.Object>, System.Action<UnityEngine.Object>)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: 'public static void ShowObjectPicker<T>(this T initialValue, Action<Object> OnSelectorClosed, Action<Object> OnSelectionChanged) where T : Object'
+    parameters:
+    - id: initialValue
+      type: '{T}'
+    - id: OnSelectorClosed
+      type: System.Action{UnityEngine.Object}
+    - id: OnSelectionChanged
+      type: System.Action{UnityEngine.Object}
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub ShowObjectPicker(Of T As [Object])(initialValue As T, OnSelectorClosed As Action(Of [Object]), OnSelectionChanged As Action(Of [Object]))
+  overload: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker*
+  nameWithType.vb: ObjectPickerExtensions.ShowObjectPicker(Of T)(T, Action(Of Object), Action(Of Object))
+  fullName.vb: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker(Of T)(T, System.Action(Of UnityEngine.Object), System.Action(Of UnityEngine.Object))
+  name.vb: ShowObjectPicker(Of T)(T, Action(Of Object), Action(Of Object))
+- uid: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(System.Action{UnityEngine.Object},System.Action{UnityEngine.Object},``0)
+  commentId: M:SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker``1(System.Action{UnityEngine.Object},System.Action{UnityEngine.Object},``0)
+  id: ShowObjectPicker``1(System.Action{UnityEngine.Object},System.Action{UnityEngine.Object},``0)
+  parent: SFEditor.UIElements.ObjectPickerExtensions
+  langs:
+  - csharp
+  - vb
+  name: ShowObjectPicker<T>(Action<Object>, Action<Object>, T)
+  nameWithType: ObjectPickerExtensions.ShowObjectPicker<T>(Action<Object>, Action<Object>, T)
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker<T>(System.Action<UnityEngine.Object>, System.Action<UnityEngine.Object>, T)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: 'public static void ShowObjectPicker<T>(Action<Object> OnSelectorClosed, Action<Object> OnSelectionChanged, T initialValueOrNull = null) where T : Object'
+    parameters:
+    - id: OnSelectorClosed
+      type: System.Action{UnityEngine.Object}
+    - id: OnSelectionChanged
+      type: System.Action{UnityEngine.Object}
+    - id: initialValueOrNull
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub ShowObjectPicker(Of T As [Object])(OnSelectorClosed As Action(Of [Object]), OnSelectionChanged As Action(Of [Object]), initialValueOrNull As T = Nothing)
+  overload: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker*
+  nameWithType.vb: ObjectPickerExtensions.ShowObjectPicker(Of T)(Action(Of Object), Action(Of Object), T)
+  fullName.vb: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker(Of T)(System.Action(Of UnityEngine.Object), System.Action(Of UnityEngine.Object), T)
+  name.vb: ShowObjectPicker(Of T)(Action(Of Object), Action(Of Object), T)
+- uid: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[],System.Object@)
+  commentId: M:SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[],System.Object@)
+  id: GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[],System.Object@)
+  parent: SFEditor.UIElements.ObjectPickerExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHiddenMethodInfo(Assembly, string, string, string, Type[], out object)
+  nameWithType: ObjectPickerExtensions.GetHiddenMethodInfo(Assembly, string, string, string, Type[], out object)
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly, string, string, string, System.Type[], out object)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  summary: Retrives the method info of any method or getter of a property, found inside the containing class that exists in the namesapce located in an assembly that has the parameters that match the array of types being passed in.
+  example: []
+  syntax:
+    content: public static MethodInfo GetHiddenMethodInfo(Assembly assembly, string classNamespace, string className, string methodName, Type[] parameterTypes, out object os)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+      description: This is the assembly of the class that contains the method you want to call.
+    - id: classNamespace
+      type: System.String
+      description: The namesapce of the class containing your method.
+    - id: className
+      type: System.String
+      description: The name of the class that contains the method you are calling.
+    - id: methodName
+      type: System.String
+      description: The method you want to call.
+    - id: parameterTypes
+      type: System.Type[]
+      description: An array of parameters that are in the overload for the method you want call. This has to be exact in the order in the parameter overload.
+    - id: os
+      type: System.Object
+      description: This gets the values of the getter if the method is actual a property being called. It gets a value by the object class.
+    return:
+      type: System.Reflection.MethodInfo
+      description: Return a method info object that can have invoke be called on  to invoke the hidden method while passing in any <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/set">set</a>of parameters for that method.
+    content.vb: Public Shared Function GetHiddenMethodInfo(assembly As Assembly, classNamespace As String, className As String, methodName As String, parameterTypes As Type(), os As Object) As MethodInfo
+  overload: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo*
+  nameWithType.vb: ObjectPickerExtensions.GetHiddenMethodInfo(Assembly, String, String, String, Type(), Object)
+  fullName.vb: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly, String, String, String, System.Type(), Object)
+  name.vb: GetHiddenMethodInfo(Assembly, String, String, String, Type(), Object)
+- uid: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[])
+  commentId: M:SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[])
+  id: GetHiddenMethodInfo(System.Reflection.Assembly,System.String,System.String,System.String,System.Type[])
+  parent: SFEditor.UIElements.ObjectPickerExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetHiddenMethodInfo(Assembly, string, string, string, Type[])
+  nameWithType: ObjectPickerExtensions.GetHiddenMethodInfo(Assembly, string, string, string, Type[])
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly, string, string, string, System.Type[])
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public static MethodInfo GetHiddenMethodInfo(Assembly assembly, string classNamespace, string className, string methodName, Type[] parameterTypes)
+    parameters:
+    - id: assembly
+      type: System.Reflection.Assembly
+    - id: classNamespace
+      type: System.String
+    - id: className
+      type: System.String
+    - id: methodName
+      type: System.String
+    - id: parameterTypes
+      type: System.Type[]
+    return:
+      type: System.Reflection.MethodInfo
+    content.vb: Public Shared Function GetHiddenMethodInfo(assembly As Assembly, classNamespace As String, className As String, methodName As String, parameterTypes As Type()) As MethodInfo
+  overload: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo*
+  nameWithType.vb: ObjectPickerExtensions.GetHiddenMethodInfo(Assembly, String, String, String, Type())
+  fullName.vb: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo(System.Reflection.Assembly, String, String, String, System.Type())
+  name.vb: GetHiddenMethodInfo(Assembly, String, String, String, Type())
+references:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  href: SFEditor.html
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker*
+  commentId: Overload:SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker
+  href: SFEditor.UIElements.ObjectPickerExtensions.html#SFEditor_UIElements_ObjectPickerExtensions_ShowObjectPicker__1___0_System_Action_UnityEngine_Object__System_Action_UnityEngine_Object__
+  name: ShowObjectPicker
+  nameWithType: ObjectPickerExtensions.ShowObjectPicker
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.ShowObjectPicker
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action{UnityEngine.Object}
+  commentId: T:System.Action{UnityEngine.Object}
+  parent: System
+  definition: System.Action`1
+  name: Action<Object>
+  nameWithType: Action<Object>
+  fullName: System.Action<UnityEngine.Object>
+  nameWithType.vb: Action(Of Object)
+  fullName.vb: System.Action(Of UnityEngine.Object)
+  name.vb: Action(Of Object)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo*
+  commentId: Overload:SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo
+  href: SFEditor.UIElements.ObjectPickerExtensions.html#SFEditor_UIElements_ObjectPickerExtensions_GetHiddenMethodInfo_System_Reflection_Assembly_System_String_System_String_System_String_System_Type___System_Object__
+  name: GetHiddenMethodInfo
+  nameWithType: ObjectPickerExtensions.GetHiddenMethodInfo
+  fullName: SFEditor.UIElements.ObjectPickerExtensions.GetHiddenMethodInfo
+- uid: System.Reflection.Assembly
+  commentId: T:System.Reflection.Assembly
+  parent: System.Reflection
+  isExternal: true
+  name: Assembly
+  nameWithType: Assembly
+  fullName: System.Reflection.Assembly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Reflection.MethodInfo
+  commentId: T:System.Reflection.MethodInfo
+  parent: System.Reflection
+  isExternal: true
+  name: MethodInfo
+  nameWithType: MethodInfo
+  fullName: System.Reflection.MethodInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Reflection
+    name: Reflection
+    isExternal: true

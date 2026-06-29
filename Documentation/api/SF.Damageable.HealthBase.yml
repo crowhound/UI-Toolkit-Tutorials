@@ -1,0 +1,320 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Damageable.HealthBase
+  commentId: T:SF.Damageable.HealthBase
+  id: HealthBase
+  parent: SF.Damageable
+  children:
+  - SF.Damageable.HealthBase.CurrentHealth
+  - SF.Damageable.HealthBase.MaxHealth
+  - SF.Damageable.HealthBase.RestoreHealth(System.Int32)
+  - SF.Damageable.HealthBase.TakeDamage(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: HealthBase
+  nameWithType: HealthBase
+  fullName: SF.Damageable.HealthBase
+  type: Class
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.Damageable
+  summary: >-
+    The base class for holding health data that is used inside of tutorials with data bindings.
+
+
+    <example>
+
+    For an example see the PlayerHUDBars.uxml file to see how a binding is used to change the health bar fill as the <xref href="SF.Damageable.HealthBase.CurrentHealth" data-throw-if-not-resolved="false"></xref> values changes.
+
+    </example>
+  example: []
+  syntax:
+    content: 'public class HealthBase : MonoBehaviour'
+    content.vb: Public Class HealthBase Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.Damageable.HealthBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.Damageable.HealthBase.CurrentHealth
+  commentId: F:SF.Damageable.HealthBase.CurrentHealth
+  id: CurrentHealth
+  parent: SF.Damageable.HealthBase
+  langs:
+  - csharp
+  - vb
+  name: CurrentHealth
+  nameWithType: HealthBase.CurrentHealth
+  fullName: SF.Damageable.HealthBase.CurrentHealth
+  type: Field
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.Damageable
+  syntax:
+    content: public int CurrentHealth
+    return:
+      type: System.Int32
+    content.vb: Public CurrentHealth As Integer
+- uid: SF.Damageable.HealthBase.MaxHealth
+  commentId: F:SF.Damageable.HealthBase.MaxHealth
+  id: MaxHealth
+  parent: SF.Damageable.HealthBase
+  langs:
+  - csharp
+  - vb
+  name: MaxHealth
+  nameWithType: HealthBase.MaxHealth
+  fullName: SF.Damageable.HealthBase.MaxHealth
+  type: Field
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.Damageable
+  syntax:
+    content: public int MaxHealth
+    return:
+      type: System.Int32
+    content.vb: Public MaxHealth As Integer
+- uid: SF.Damageable.HealthBase.RestoreHealth(System.Int32)
+  commentId: M:SF.Damageable.HealthBase.RestoreHealth(System.Int32)
+  id: RestoreHealth(System.Int32)
+  parent: SF.Damageable.HealthBase
+  langs:
+  - csharp
+  - vb
+  name: RestoreHealth(int)
+  nameWithType: HealthBase.RestoreHealth(int)
+  fullName: SF.Damageable.HealthBase.RestoreHealth(int)
+  type: Method
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.Damageable
+  summary: Increases the <xref href="SF.Damageable.HealthBase.CurrentHealth" data-throw-if-not-resolved="false"></xref> value and prevents it from going over the max health value.
+  example: []
+  syntax:
+    content: public void RestoreHealth(int amount)
+    parameters:
+    - id: amount
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub RestoreHealth(amount As Integer)
+  overload: SF.Damageable.HealthBase.RestoreHealth*
+  nameWithType.vb: HealthBase.RestoreHealth(Integer)
+  fullName.vb: SF.Damageable.HealthBase.RestoreHealth(Integer)
+  name.vb: RestoreHealth(Integer)
+- uid: SF.Damageable.HealthBase.TakeDamage(System.Int32)
+  commentId: M:SF.Damageable.HealthBase.TakeDamage(System.Int32)
+  id: TakeDamage(System.Int32)
+  parent: SF.Damageable.HealthBase
+  langs:
+  - csharp
+  - vb
+  name: TakeDamage(int)
+  nameWithType: HealthBase.TakeDamage(int)
+  fullName: SF.Damageable.HealthBase.TakeDamage(int)
+  type: Method
+  assemblies:
+  - Assembly-CSharp
+  namespace: SF.Damageable
+  summary: Decreases the <xref href="SF.Damageable.HealthBase.CurrentHealth" data-throw-if-not-resolved="false"></xref> value and prevents it from going under a value of zero.
+  example: []
+  syntax:
+    content: public void TakeDamage(int amount)
+    parameters:
+    - id: amount
+      type: System.Int32
+      description: ''
+    content.vb: Public Sub TakeDamage(amount As Integer)
+  overload: SF.Damageable.HealthBase.TakeDamage*
+  nameWithType.vb: HealthBase.TakeDamage(Integer)
+  fullName.vb: SF.Damageable.HealthBase.TakeDamage(Integer)
+  name.vb: TakeDamage(Integer)
+references:
+- uid: SF.Damageable.HealthBase.CurrentHealth
+  commentId: F:SF.Damageable.HealthBase.CurrentHealth
+  href: SF.Damageable.HealthBase.html#SF_Damageable_HealthBase_CurrentHealth
+  name: CurrentHealth
+  nameWithType: HealthBase.CurrentHealth
+  fullName: SF.Damageable.HealthBase.CurrentHealth
+- uid: SF.Damageable
+  commentId: N:SF.Damageable
+  href: SF.html
+  name: SF.Damageable
+  nameWithType: SF.Damageable
+  fullName: SF.Damageable
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Damageable
+    name: Damageable
+    href: SF.Damageable.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Damageable
+    name: Damageable
+    href: SF.Damageable.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.Damageable.HealthBase.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<HealthBase>(HealthBase)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<HealthBase>(HealthBase)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.Damageable.HealthBase>(SF.Damageable.HealthBase)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of HealthBase)(HealthBase)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.Damageable.HealthBase)(SF.Damageable.HealthBase)
+  name.vb: IsActiveEnabledAndNotNull(Of HealthBase)(HealthBase)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Damageable.HealthBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.Damageable.HealthBase
+    name: HealthBase
+    href: SF.Damageable.HealthBase.html
+  - name: '>'
+  - name: (
+  - uid: SF.Damageable.HealthBase
+    name: HealthBase
+    href: SF.Damageable.HealthBase.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Damageable.HealthBase)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Damageable.HealthBase
+    name: HealthBase
+    href: SF.Damageable.HealthBase.html
+  - name: )
+  - name: (
+  - uid: SF.Damageable.HealthBase
+    name: HealthBase
+    href: SF.Damageable.HealthBase.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.Damageable.HealthBase.RestoreHealth*
+  commentId: Overload:SF.Damageable.HealthBase.RestoreHealth
+  href: SF.Damageable.HealthBase.html#SF_Damageable_HealthBase_RestoreHealth_System_Int32_
+  name: RestoreHealth
+  nameWithType: HealthBase.RestoreHealth
+  fullName: SF.Damageable.HealthBase.RestoreHealth
+- uid: SF.Damageable.HealthBase.TakeDamage*
+  commentId: Overload:SF.Damageable.HealthBase.TakeDamage
+  href: SF.Damageable.HealthBase.html#SF_Damageable_HealthBase_TakeDamage_System_Int32_
+  name: TakeDamage
+  nameWithType: HealthBase.TakeDamage
+  fullName: SF.Damageable.HealthBase.TakeDamage

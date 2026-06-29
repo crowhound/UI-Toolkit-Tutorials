@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.ReflectionUtilities
+  commentId: T:SF.Utilities.ReflectionUtilities
+  id: ReflectionUtilities
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.ReflectionUtilities.AccessInternalField``1(System.Type,System.Object,System.String)
+  - SF.Utilities.ReflectionUtilities.GetFieldPath``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  - SF.Utilities.ReflectionUtilities.GetParentObject(System.String,System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ReflectionUtilities
+  nameWithType: ReflectionUtilities
+  fullName: SF.Utilities.ReflectionUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: A collection of utility methods for general C# reflection.
+  remarks: For Unity specific Type utilities to use in editor scripts look at UnityEditorTypeUtilities inside the SFEditor assembly.
+  example: []
+  syntax:
+    content: public static class ReflectionUtilities
+    content.vb: Public Module ReflectionUtilities
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.ReflectionUtilities.AccessInternalField``1(System.Type,System.Object,System.String)
+  commentId: M:SF.Utilities.ReflectionUtilities.AccessInternalField``1(System.Type,System.Object,System.String)
+  id: AccessInternalField``1(System.Type,System.Object,System.String)
+  isExtensionMethod: true
+  parent: SF.Utilities.ReflectionUtilities
+  langs:
+  - csharp
+  - vb
+  name: AccessInternalField<T>(Type, object, string)
+  nameWithType: ReflectionUtilities.AccessInternalField<T>(Type, object, string)
+  fullName: SF.Utilities.ReflectionUtilities.AccessInternalField<T>(System.Type, object, string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Cheater extension to access internal field of an object
+  example: []
+  syntax:
+    content: public static T AccessInternalField<T>(this Type type, object obj, string memberName)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type of the field
+    - id: obj
+      type: System.Object
+      description: The object to access
+    - id: memberName
+      type: System.String
+      description: The string name of the field to access
+    typeParameters:
+    - id: T
+      description: The field type
+    return:
+      type: '{T}'
+      description: The value of the field in the objects
+    content.vb: Public Shared Function AccessInternalField(Of T)(type As Type, obj As Object, memberName As String) As T
+  overload: SF.Utilities.ReflectionUtilities.AccessInternalField*
+  nameWithType.vb: ReflectionUtilities.AccessInternalField(Of T)(Type, Object, String)
+  fullName.vb: SF.Utilities.ReflectionUtilities.AccessInternalField(Of T)(System.Type, Object, String)
+  name.vb: AccessInternalField(Of T)(Type, Object, String)
+- uid: SF.Utilities.ReflectionUtilities.GetParentObject(System.String,System.Object)
+  commentId: M:SF.Utilities.ReflectionUtilities.GetParentObject(System.String,System.Object)
+  id: GetParentObject(System.String,System.Object)
+  parent: SF.Utilities.ReflectionUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetParentObject(string, object)
+  nameWithType: ReflectionUtilities.GetParentObject(string, object)
+  fullName: SF.Utilities.ReflectionUtilities.GetParentObject(string, object)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: >-
+    Get the object owner of a field.  This method processes
+        the '.' separator to get from the object that owns the compound field
+        to the object that owns the leaf field
+  remarks: The type of object mentioned here is C# lowercase object, not Unity's uppercase Object type.
+  example: []
+  syntax:
+    content: public static object GetParentObject(string path, object obj)
+    parameters:
+    - id: path
+      type: System.String
+      description: The name of the field, which may contain '.' separators
+    - id: obj
+      type: System.Object
+      description: the owner of the compound field
+    return:
+      type: System.Object
+      description: The object owner of the field
+    content.vb: Public Shared Function GetParentObject(path As String, obj As Object) As Object
+  overload: SF.Utilities.ReflectionUtilities.GetParentObject*
+  nameWithType.vb: ReflectionUtilities.GetParentObject(String, Object)
+  fullName.vb: SF.Utilities.ReflectionUtilities.GetParentObject(String, Object)
+  name.vb: GetParentObject(String, Object)
+- uid: SF.Utilities.ReflectionUtilities.GetFieldPath``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  commentId: M:SF.Utilities.ReflectionUtilities.GetFieldPath``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  id: GetFieldPath``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  parent: SF.Utilities.ReflectionUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>>)
+  nameWithType: ReflectionUtilities.GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>>)
+  fullName: SF.Utilities.ReflectionUtilities.GetFieldPath<TType, TValue>(System.Linq.Expressions.Expression<System.Func<TType, TValue>>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: >-
+    Returns a string path from an expression - mostly used to retrieve serialized properties
+        without hardcoding the field path. Safer, and allows for proper refactoring.
+  example: []
+  syntax:
+    content: public static string GetFieldPath<TType, TValue>(Expression<Func<TType, TValue>> expr)
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{TType},{TValue}}}
+      description: Magic expression
+    typeParameters:
+    - id: TType
+      description: Magic expression
+    - id: TValue
+      description: Magic expression
+    return:
+      type: System.String
+      description: The string version of the field path
+    content.vb: Public Shared Function GetFieldPath(Of TType, TValue)(expr As Expression(Of Func(Of TType, TValue))) As String
+  overload: SF.Utilities.ReflectionUtilities.GetFieldPath*
+  nameWithType.vb: ReflectionUtilities.GetFieldPath(Of TType, TValue)(Expression(Of Func(Of TType, TValue)))
+  fullName.vb: SF.Utilities.ReflectionUtilities.GetFieldPath(Of TType, TValue)(System.Linq.Expressions.Expression(Of System.Func(Of TType, TValue)))
+  name.vb: GetFieldPath(Of TType, TValue)(Expression(Of Func(Of TType, TValue)))
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.ReflectionUtilities.AccessInternalField*
+  commentId: Overload:SF.Utilities.ReflectionUtilities.AccessInternalField
+  href: SF.Utilities.ReflectionUtilities.html#SF_Utilities_ReflectionUtilities_AccessInternalField__1_System_Type_System_Object_System_String_
+  name: AccessInternalField
+  nameWithType: ReflectionUtilities.AccessInternalField
+  fullName: SF.Utilities.ReflectionUtilities.AccessInternalField
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SF.Utilities.ReflectionUtilities.GetParentObject*
+  commentId: Overload:SF.Utilities.ReflectionUtilities.GetParentObject
+  href: SF.Utilities.ReflectionUtilities.html#SF_Utilities_ReflectionUtilities_GetParentObject_System_String_System_Object_
+  name: GetParentObject
+  nameWithType: ReflectionUtilities.GetParentObject
+  fullName: SF.Utilities.ReflectionUtilities.GetParentObject
+- uid: SF.Utilities.ReflectionUtilities.GetFieldPath*
+  commentId: Overload:SF.Utilities.ReflectionUtilities.GetFieldPath
+  href: SF.Utilities.ReflectionUtilities.html#SF_Utilities_ReflectionUtilities_GetFieldPath__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  name: GetFieldPath
+  nameWithType: ReflectionUtilities.GetFieldPath
+  fullName: SF.Utilities.ReflectionUtilities.GetFieldPath
+- uid: System.Linq.Expressions.Expression{System.Func{{TType},{TValue}}}
+  commentId: T:System.Linq.Expressions.Expression{System.Func{``0,``1}}
+  parent: System.Linq.Expressions
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<TType, TValue>>
+  nameWithType: Expression<Func<TType, TValue>>
+  fullName: System.Linq.Expressions.Expression<System.Func<TType, TValue>>
+  nameWithType.vb: Expression(Of Func(Of TType, TValue))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of TType, TValue))
+  name.vb: Expression(Of Func(Of TType, TValue))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+  - name: <
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: <
+  - name: TType
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TType
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: System.Linq.Expressions.Expression`1
+  commentId: T:System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<TDelegate>
+  nameWithType: Expression<TDelegate>
+  fullName: System.Linq.Expressions.Expression<TDelegate>
+  nameWithType.vb: Expression(Of TDelegate)
+  fullName.vb: System.Linq.Expressions.Expression(Of TDelegate)
+  name.vb: Expression(Of TDelegate)
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+  - name: <
+  - name: TDelegate
+  - name: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDelegate
+  - name: )
+- uid: System.Linq.Expressions
+  commentId: N:System.Linq.Expressions
+  isExternal: true
+  name: System.Linq.Expressions
+  nameWithType: System.Linq.Expressions
+  fullName: System.Linq.Expressions
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Linq
+    name: Linq
+    isExternal: true
+  - name: .
+  - uid: System.Linq.Expressions
+    name: Expressions
+    isExternal: true

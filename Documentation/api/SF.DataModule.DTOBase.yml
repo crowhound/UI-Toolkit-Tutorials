@@ -1,0 +1,103 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DataModule.DTOBase
+  commentId: T:SF.DataModule.DTOBase
+  id: DTOBase
+  parent: SF.DataModule
+  children:
+  - SF.DataModule.DTOBase.ID
+  langs:
+  - csharp
+  - vb
+  name: DTOBase
+  nameWithType: DTOBase
+  fullName: SF.DataModule.DTOBase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: This is a DTOBase that can be used for normal class object where needed.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DTOBase
+    content.vb: >-
+      <Serializable>
+
+      Public Class DTOBase
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DataModule.DTOBase.ID
+  commentId: F:SF.DataModule.DTOBase.ID
+  id: ID
+  parent: SF.DataModule.DTOBase
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: DTOBase.ID
+  fullName: SF.DataModule.DTOBase.ID
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public int ID
+    return:
+      type: System.Int32
+    content.vb: Public ID As Integer
+references:
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

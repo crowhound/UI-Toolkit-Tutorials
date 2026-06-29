@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  id: ComparisonRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor(System.Int32,System.Int32,SF.DialogueModule.Nodes.IRuntimeNode)
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.ExecutionNode
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+  langs:
+  - csharp
+  - vb
+  name: ComparisonRuntimeNode
+  nameWithType: ComparisonRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ComparisonRuntimeNode : RuntimeNode, IRuntimeNode, IComparisonNode<int>, IComparisonNode
+    content.vb: >-
+      <Serializable>
+
+      Public Class ComparisonRuntimeNode Inherits RuntimeNode Implements IRuntimeNode, IComparisonNode(Of Integer), IComparisonNode
+  inheritance:
+  - System.Object
+  - SF.DialogueModule.Nodes.RuntimeNode
+  implements:
+  - SF.DialogueModule.Nodes.IRuntimeNode
+  - SF.DialogueModule.Nodes.IComparisonNode{System.Int32}
+  - SF.DialogueModule.Nodes.IComparisonNode
+  inheritedMembers:
+  - SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  - SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  - SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  - SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+  commentId: P:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+  id: ValueToCheck
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ValueToCheck
+  nameWithType: ComparisonRuntimeNode.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    The value you want to use a the base to check.
+
+    This is set by the <xref href="SF.DialogueModule.Nodes.BranchingRuntimeNode" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: public int ValueToCheck { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ValueToCheck As Integer
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck*
+  implements:
+  - SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ValueToCheck
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+  commentId: P:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+  id: ComparisonValue
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ComparisonValue
+  nameWithType: ComparisonRuntimeNode.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: The value to check against.
+  example: []
+  syntax:
+    content: public int ComparisonValue { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ComparisonValue As Integer
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue*
+  implements:
+  - SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ComparisonValue
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ExecutionNode
+  commentId: F:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ExecutionNode
+  id: ExecutionNode
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ExecutionNode
+  nameWithType: ComparisonRuntimeNode.ExecutionNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ExecutionNode
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: >-
+      [SerializeReference]
+
+      public IRuntimeNode ExecutionNode
+    return:
+      type: SF.DialogueModule.Nodes.IRuntimeNode
+    content.vb: >-
+      <SerializeReference>
+
+      Public ExecutionNode As IRuntimeNode
+  attributes:
+  - type: UnityEngine.SerializeReference
+    ctor: UnityEngine.SerializeReference.#ctor
+    arguments: []
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor(System.Int32,System.Int32,SF.DialogueModule.Nodes.IRuntimeNode)
+  commentId: M:SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor(System.Int32,System.Int32,SF.DialogueModule.Nodes.IRuntimeNode)
+  id: '#ctor(System.Int32,System.Int32,SF.DialogueModule.Nodes.IRuntimeNode)'
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ComparisonRuntimeNode(int, int, IRuntimeNode)
+  nameWithType: ComparisonRuntimeNode.ComparisonRuntimeNode(int, int, IRuntimeNode)
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonRuntimeNode(int, int, SF.DialogueModule.Nodes.IRuntimeNode)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: public ComparisonRuntimeNode(int valueToCheck, int comparisonValue, IRuntimeNode executionNode = null)
+    parameters:
+    - id: valueToCheck
+      type: System.Int32
+    - id: comparisonValue
+      type: System.Int32
+    - id: executionNode
+      type: SF.DialogueModule.Nodes.IRuntimeNode
+    content.vb: Public Sub New(valueToCheck As Integer, comparisonValue As Integer, executionNode As IRuntimeNode = Nothing)
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor*
+  nameWithType.vb: ComparisonRuntimeNode.New(Integer, Integer, IRuntimeNode)
+  fullName.vb: SF.DialogueModule.Nodes.ComparisonRuntimeNode.New(Integer, Integer, SF.DialogueModule.Nodes.IRuntimeNode)
+  name.vb: New(Integer, Integer, IRuntimeNode)
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare
+  commentId: M:SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare
+  id: Compare
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: Compare()
+  nameWithType: ComparisonRuntimeNode.Compare()
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  example: []
+  syntax:
+    content: public bool Compare()
+    return:
+      type: System.Boolean
+    content.vb: Public Function Compare() As Boolean
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare*
+  implements:
+  - SF.DialogueModule.Nodes.IComparisonNode.Compare
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  commentId: M:SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  id: TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: TraverseNode(in List<RuntimeNode>)
+  nameWithType: ComparisonRuntimeNode.TraverseNode(in List<RuntimeNode>)
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode(in System.Collections.Generic.List<SF.DialogueModule.Nodes.RuntimeNode>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: Goes through <xref href="SF.DialogueModule.Nodes.RuntimeNode" data-throw-if-not-resolved="false"></xref> and precalculate the current branch the dialogue should follow.
+  example: []
+  syntax:
+    content: public override void TraverseNode(in List<RuntimeNode> branchNodes)
+    parameters:
+    - id: branchNodes
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}
+    content.vb: Public Overrides Sub TraverseNode(branchNodes As List(Of RuntimeNode))
+  overridden: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode*
+  nameWithType.vb: ComparisonRuntimeNode.TraverseNode(List(Of RuntimeNode))
+  fullName.vb: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.RuntimeNode))
+  name.vb: TraverseNode(List(Of RuntimeNode))
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode
+  id: ProcessNode
+  parent: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ProcessNode()
+  nameWithType: ComparisonRuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: Processes the logic for custom nodes.
+  example: []
+  syntax:
+    content: public override void ProcessNode()
+    content.vb: Public Overrides Sub ProcessNode()
+  overridden: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  overload: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode*
+references:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SF.DialogueModule.Nodes.RuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.RuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.RuntimeNode.html
+  name: RuntimeNode
+  nameWithType: RuntimeNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes.IComparisonNode{System.Int32}
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode{System.Int32}
+  parent: SF.DialogueModule.Nodes
+  definition: SF.DialogueModule.Nodes.IComparisonNode`1
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  name: IComparisonNode<int>
+  nameWithType: IComparisonNode<int>
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<int>
+  nameWithType.vb: IComparisonNode(Of Integer)
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of Integer)
+  name.vb: IComparisonNode(Of Integer)
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IComparisonNode.html
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShouldPauseGraphProcessing
+  name: ShouldPauseGraphProcessing
+  nameWithType: RuntimeNode.ShouldPauseGraphProcessing
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+- uid: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_Conversation
+  name: Conversation
+  nameWithType: RuntimeNode.Conversation
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+- uid: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_IsBlockNode
+  name: IsBlockNode
+  nameWithType: RuntimeNode.IsBlockNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  name: ShallowCopy()
+  nameWithType: RuntimeNode.ShallowCopy()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode`1
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  name: IComparisonNode<TValueType>
+  nameWithType: IComparisonNode<TValueType>
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>
+  nameWithType.vb: IComparisonNode(Of TValueType)
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType)
+  name.vb: IComparisonNode(Of TValueType)
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: <
+  - name: TValueType
+  - name: '>'
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode
+    href: SF.DialogueModule.Nodes.IComparisonNode-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValueType
+  - name: )
+- uid: SF.DialogueModule.Nodes.BranchingRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.BranchingRuntimeNode
+  href: SF.DialogueModule.Nodes.BranchingRuntimeNode.html
+  name: BranchingRuntimeNode
+  nameWithType: BranchingRuntimeNode
+  fullName: SF.DialogueModule.Nodes.BranchingRuntimeNode
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode_ValueToCheck
+  name: ValueToCheck
+  nameWithType: ComparisonRuntimeNode.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ValueToCheck
+- uid: SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ValueToCheck
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ValueToCheck
+  parent: SF.DialogueModule.Nodes.IComparisonNode{System.Int32}
+  definition: SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ValueToCheck
+  name: ValueToCheck
+  nameWithType: IComparisonNode<int>.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<int>.ValueToCheck
+  nameWithType.vb: IComparisonNode(Of Integer).ValueToCheck
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of Integer).ValueToCheck
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ValueToCheck
+  name: ValueToCheck
+  nameWithType: IComparisonNode<TValueType>.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ValueToCheck
+  nameWithType.vb: IComparisonNode(Of TValueType).ValueToCheck
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ValueToCheck
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode_ComparisonValue
+  name: ComparisonValue
+  nameWithType: ComparisonRuntimeNode.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonValue
+- uid: SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ComparisonValue
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode{System.Int32}.ComparisonValue
+  parent: SF.DialogueModule.Nodes.IComparisonNode{System.Int32}
+  definition: SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ComparisonValue
+  name: ComparisonValue
+  nameWithType: IComparisonNode<int>.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<int>.ComparisonValue
+  nameWithType.vb: IComparisonNode(Of Integer).ComparisonValue
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of Integer).ComparisonValue
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ComparisonValue
+  name: ComparisonValue
+  nameWithType: IComparisonNode<TValueType>.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ComparisonValue
+  nameWithType.vb: IComparisonNode(Of TValueType).ComparisonValue
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ComparisonValue
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.#ctor
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode__ctor_System_Int32_System_Int32_SF_DialogueModule_Nodes_IRuntimeNode_
+  name: ComparisonRuntimeNode
+  nameWithType: ComparisonRuntimeNode.ComparisonRuntimeNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ComparisonRuntimeNode
+  nameWithType.vb: ComparisonRuntimeNode.New
+  fullName.vb: SF.DialogueModule.Nodes.ComparisonRuntimeNode.New
+  name.vb: New
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode_Compare
+  name: Compare
+  nameWithType: ComparisonRuntimeNode.Compare
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.Compare
+- uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+  commentId: M:SF.DialogueModule.Nodes.IComparisonNode.Compare
+  parent: SF.DialogueModule.Nodes.IComparisonNode
+  href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  name: Compare()
+  nameWithType: IComparisonNode.Compare()
+  fullName: SF.DialogueModule.Nodes.IComparisonNode.Compare()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  isExternal: true
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  name: TraverseNode(in List<RuntimeNode>)
+  nameWithType: RuntimeNode.TraverseNode(in List<RuntimeNode>)
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(in System.Collections.Generic.List<SF.DialogueModule.Nodes.RuntimeNode>)
+  nameWithType.vb: RuntimeNode.TraverseNode(List(Of RuntimeNode))
+  fullName.vb: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.RuntimeNode))
+  name.vb: TraverseNode(List(Of RuntimeNode))
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: )
+  - name: )
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  name: TraverseNode
+  nameWithType: ComparisonRuntimeNode.TraverseNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.TraverseNode
+- uid: System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.Nodes.RuntimeNode.html
+  name: List<RuntimeNode>
+  nameWithType: List<RuntimeNode>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.Nodes.RuntimeNode>
+  nameWithType.vb: List(Of RuntimeNode)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.Nodes.RuntimeNode)
+  name.vb: List(Of RuntimeNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  name: ProcessNode()
+  nameWithType: RuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode*
+  commentId: Overload:SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode
+  href: SF.DialogueModule.Nodes.ComparisonRuntimeNode.html#SF_DialogueModule_Nodes_ComparisonRuntimeNode_ProcessNode
+  name: ProcessNode
+  nameWithType: ComparisonRuntimeNode.ProcessNode
+  fullName: SF.DialogueModule.Nodes.ComparisonRuntimeNode.ProcessNode

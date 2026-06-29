@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  commentId: T:SFEditor.Dialogue.Graphs.AnimatorNodeType
+  id: AnimatorNodeType
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.AnimatorNodeType.SetBool
+  - SFEditor.Dialogue.Graphs.AnimatorNodeType.SetFloat
+  - SFEditor.Dialogue.Graphs.AnimatorNodeType.SetInteger
+  - SFEditor.Dialogue.Graphs.AnimatorNodeType.SetTrigger
+  langs:
+  - csharp
+  - vb
+  name: AnimatorNodeType
+  nameWithType: AnimatorNodeType
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  type: Enum
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: The type of animation value an <xref href="SFEditor.Dialogue.Graphs.AnimatorNode" data-throw-if-not-resolved="false"></xref> is setting.
+  example: []
+  syntax:
+    content: public enum AnimatorNodeType
+    content.vb: Public Enum AnimatorNodeType
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetTrigger
+  commentId: F:SFEditor.Dialogue.Graphs.AnimatorNodeType.SetTrigger
+  id: SetTrigger
+  parent: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  langs:
+  - csharp
+  - vb
+  name: SetTrigger
+  nameWithType: AnimatorNodeType.SetTrigger
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetTrigger
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: SetTrigger = 0
+    return:
+      type: SFEditor.Dialogue.Graphs.AnimatorNodeType
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetBool
+  commentId: F:SFEditor.Dialogue.Graphs.AnimatorNodeType.SetBool
+  id: SetBool
+  parent: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  langs:
+  - csharp
+  - vb
+  name: SetBool
+  nameWithType: AnimatorNodeType.SetBool
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetBool
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: SetBool = 1
+    return:
+      type: SFEditor.Dialogue.Graphs.AnimatorNodeType
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetFloat
+  commentId: F:SFEditor.Dialogue.Graphs.AnimatorNodeType.SetFloat
+  id: SetFloat
+  parent: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  langs:
+  - csharp
+  - vb
+  name: SetFloat
+  nameWithType: AnimatorNodeType.SetFloat
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetFloat
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: SetFloat = 2
+    return:
+      type: SFEditor.Dialogue.Graphs.AnimatorNodeType
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetInteger
+  commentId: F:SFEditor.Dialogue.Graphs.AnimatorNodeType.SetInteger
+  id: SetInteger
+  parent: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  langs:
+  - csharp
+  - vb
+  name: SetInteger
+  nameWithType: AnimatorNodeType.SetInteger
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType.SetInteger
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: SetInteger = 3
+    return:
+      type: SFEditor.Dialogue.Graphs.AnimatorNodeType
+references:
+- uid: SFEditor.Dialogue.Graphs.AnimatorNode
+  commentId: T:SFEditor.Dialogue.Graphs.AnimatorNode
+  href: SFEditor.Dialogue.Graphs.AnimatorNode.html
+  name: AnimatorNode
+  nameWithType: AnimatorNode
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNode
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: SFEditor.Dialogue.Graphs.AnimatorNodeType
+  commentId: T:SFEditor.Dialogue.Graphs.AnimatorNodeType
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.AnimatorNodeType.html
+  name: AnimatorNodeType
+  nameWithType: AnimatorNodeType
+  fullName: SFEditor.Dialogue.Graphs.AnimatorNodeType

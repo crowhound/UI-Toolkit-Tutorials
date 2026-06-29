@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  commentId: T:SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  id: SFEditorTypeUtilities.ReferenceUpdater
+  parent: SFEditor.Utilities
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SFEditorTypeUtilities.ReferenceUpdater
+  nameWithType: SFEditorTypeUtilities.ReferenceUpdater
+  fullName: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+  type: Delegate
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  summary: >-
+    Used to update references in scripts when a type was changed for a serialized value that was a MonoBehavior.
+
+    <remarks>
+
+    If you ever deleted a script for a scriptable object without deleting the scriptable object from your Unity project,
+
+    than went and clicked the scriptable object to see in the inspector a warning that the type is missing,
+
+    that is Unity's internal version of this delegate. 
+
+    </remarks>
+  example: []
+  syntax:
+    content: public delegate MonoBehaviour SFEditorTypeUtilities.ReferenceUpdater(Type expectedType, MonoBehaviour oldValue)
+    parameters:
+    - id: expectedType
+      type: System.Type
+    - id: oldValue
+      type: UnityEngine.MonoBehaviour
+    return:
+      type: UnityEngine.MonoBehaviour
+    content.vb: Public Delegate Function SFEditorTypeUtilities.ReferenceUpdater(expectedType As Type, oldValue As MonoBehaviour) As MonoBehaviour
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

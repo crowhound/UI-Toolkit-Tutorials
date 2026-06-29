@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  id: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.SFMeshUtilities
+  - SF.Utilities.Shapes.SFRendererUtilities
+  - SF.Utilities.Shapes.ShapeEdge
+  - SF.Utilities.Shapes.ShapeFactory
+  - SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Utilities.Shapes.ShapeFactory
+  commentId: T:SF.Utilities.Shapes.ShapeFactory
+  href: SF.Utilities.Shapes.ShapeFactory.html
+  name: ShapeFactory
+  nameWithType: ShapeFactory
+  fullName: SF.Utilities.Shapes.ShapeFactory
+- uid: SF.Utilities.Shapes.SFMeshUtilities
+  commentId: T:SF.Utilities.Shapes.SFMeshUtilities
+  href: SF.Utilities.Shapes.SFMeshUtilities.html
+  name: SFMeshUtilities
+  nameWithType: SFMeshUtilities
+  fullName: SF.Utilities.Shapes.SFMeshUtilities
+- uid: SF.Utilities.Shapes.SFRendererUtilities
+  commentId: T:SF.Utilities.Shapes.SFRendererUtilities
+  href: SF.Utilities.Shapes.SFRendererUtilities.html
+  name: SFRendererUtilities
+  nameWithType: SFRendererUtilities
+  fullName: SF.Utilities.Shapes.SFRendererUtilities
+- uid: SF.Utilities.Shapes.ShapePoint
+  commentId: T:SF.Utilities.Shapes.ShapePoint
+  parent: SF.Utilities.Shapes
+  href: SF.Utilities.Shapes.ShapePoint.html
+  name: ShapePoint
+  nameWithType: ShapePoint
+  fullName: SF.Utilities.Shapes.ShapePoint
+- uid: SF.Utilities.Shapes.ShapeEdge
+  commentId: T:SF.Utilities.Shapes.ShapeEdge
+  href: SF.Utilities.Shapes.ShapeEdge.html
+  name: ShapeEdge
+  nameWithType: ShapeEdge
+  fullName: SF.Utilities.Shapes.ShapeEdge
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html

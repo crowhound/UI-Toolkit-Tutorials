@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DataModule.DTOAssetBase
+  commentId: T:SF.DataModule.DTOAssetBase
+  id: DTOAssetBase
+  parent: SF.DataModule
+  children:
+  - SF.DataModule.DTOAssetBase.#ctor
+  - SF.DataModule.DTOAssetBase.BaseData
+  - SF.DataModule.DTOAssetBase.Description
+  - SF.DataModule.DTOAssetBase.ID
+  - SF.DataModule.DTOAssetBase.Name
+  langs:
+  - csharp
+  - vb
+  name: DTOAssetBase
+  nameWithType: DTOAssetBase
+  fullName: SF.DataModule.DTOAssetBase
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  summary: This is a DTOBase that can be used as a scriptable object where needed.
+  example: []
+  syntax:
+    content: 'public class DTOAssetBase : ScriptableObject'
+    content.vb: Public Class DTOAssetBase Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  derivedClasses:
+  - SF.DialogueModule.DialogueConversation
+- uid: SF.DataModule.DTOAssetBase.BaseData
+  commentId: F:SF.DataModule.DTOAssetBase.BaseData
+  id: BaseData
+  parent: SF.DataModule.DTOAssetBase
+  langs:
+  - csharp
+  - vb
+  name: BaseData
+  nameWithType: DTOAssetBase.BaseData
+  fullName: SF.DataModule.DTOAssetBase.BaseData
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public DTOBase BaseData
+    return:
+      type: SF.DataModule.DTOBase
+    content.vb: >-
+      <HideInInspector>
+
+      Public BaseData As DTOBase
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: SF.DataModule.DTOAssetBase.ID
+  commentId: F:SF.DataModule.DTOAssetBase.ID
+  id: ID
+  parent: SF.DataModule.DTOAssetBase
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: DTOAssetBase.ID
+  fullName: SF.DataModule.DTOAssetBase.ID
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public int ID
+    return:
+      type: System.Int32
+    content.vb: Public ID As Integer
+- uid: SF.DataModule.DTOAssetBase.Name
+  commentId: F:SF.DataModule.DTOAssetBase.Name
+  id: Name
+  parent: SF.DataModule.DTOAssetBase
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DTOAssetBase.Name
+  fullName: SF.DataModule.DTOAssetBase.Name
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: SF.DataModule.DTOAssetBase.Description
+  commentId: F:SF.DataModule.DTOAssetBase.Description
+  id: Description
+  parent: SF.DataModule.DTOAssetBase
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DTOAssetBase.Description
+  fullName: SF.DataModule.DTOAssetBase.Description
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+- uid: SF.DataModule.DTOAssetBase.#ctor
+  commentId: M:SF.DataModule.DTOAssetBase.#ctor
+  id: '#ctor'
+  parent: SF.DataModule.DTOAssetBase
+  langs:
+  - csharp
+  - vb
+  name: DTOAssetBase()
+  nameWithType: DTOAssetBase.DTOAssetBase()
+  fullName: SF.DataModule.DTOAssetBase.DTOAssetBase()
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DataModule
+  syntax:
+    content: public DTOAssetBase()
+    content.vb: Public Sub New()
+  overload: SF.DataModule.DTOAssetBase.#ctor*
+  nameWithType.vb: DTOAssetBase.New()
+  fullName.vb: SF.DataModule.DTOAssetBase.New()
+  name.vb: New()
+references:
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.DataModule.DTOBase
+  commentId: T:SF.DataModule.DTOBase
+  parent: SF.DataModule
+  href: SF.DataModule.DTOBase.html
+  name: DTOBase
+  nameWithType: DTOBase
+  fullName: SF.DataModule.DTOBase
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.DataModule.DTOAssetBase.#ctor*
+  commentId: Overload:SF.DataModule.DTOAssetBase.#ctor
+  href: SF.DataModule.DTOAssetBase.html#SF_DataModule_DTOAssetBase__ctor
+  name: DTOAssetBase
+  nameWithType: DTOAssetBase.DTOAssetBase
+  fullName: SF.DataModule.DTOAssetBase.DTOAssetBase
+  nameWithType.vb: DTOAssetBase.New
+  fullName.vb: SF.DataModule.DTOAssetBase.New
+  name.vb: New

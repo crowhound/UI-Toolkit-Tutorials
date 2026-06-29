@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.HandlesUtilities
+  commentId: T:SFEditor.Utilities.HandlesUtilities
+  id: HandlesUtilities
+  parent: SFEditor.Utilities
+  children:
+  - SFEditor.Utilities.HandlesUtilities.DrawArc2D(UnityEngine.Vector2,System.Single,System.Single)
+  - SFEditor.Utilities.HandlesUtilities.DrawCircle2D(UnityEngine.Vector2,System.Single,System.Single,System.Int32)
+  - SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints(UnityEngine.Vector2[]@)
+  langs:
+  - csharp
+  - vb
+  name: HandlesUtilities
+  nameWithType: HandlesUtilities
+  fullName: SFEditor.Utilities.HandlesUtilities
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public static class HandlesUtilities
+    content.vb: Public Module HandlesUtilities
+  inheritance:
+  - System.Object
+- uid: SFEditor.Utilities.HandlesUtilities.DrawCircle2D(UnityEngine.Vector2,System.Single,System.Single,System.Int32)
+  commentId: M:SFEditor.Utilities.HandlesUtilities.DrawCircle2D(UnityEngine.Vector2,System.Single,System.Single,System.Int32)
+  id: DrawCircle2D(UnityEngine.Vector2,System.Single,System.Single,System.Int32)
+  parent: SFEditor.Utilities.HandlesUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawCircle2D(Vector2, float, float, int)
+  nameWithType: HandlesUtilities.DrawCircle2D(Vector2, float, float, int)
+  fullName: SFEditor.Utilities.HandlesUtilities.DrawCircle2D(UnityEngine.Vector2, float, float, int)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public static void DrawCircle2D(Vector2 center, float angle, float radius, int amountOfPoints)
+    parameters:
+    - id: center
+      type: UnityEngine.Vector2
+    - id: angle
+      type: System.Single
+    - id: radius
+      type: System.Single
+    - id: amountOfPoints
+      type: System.Int32
+    content.vb: Public Shared Sub DrawCircle2D(center As Vector2, angle As Single, radius As Single, amountOfPoints As Integer)
+  overload: SFEditor.Utilities.HandlesUtilities.DrawCircle2D*
+  nameWithType.vb: HandlesUtilities.DrawCircle2D(Vector2, Single, Single, Integer)
+  fullName.vb: SFEditor.Utilities.HandlesUtilities.DrawCircle2D(UnityEngine.Vector2, Single, Single, Integer)
+  name.vb: DrawCircle2D(Vector2, Single, Single, Integer)
+- uid: SFEditor.Utilities.HandlesUtilities.DrawArc2D(UnityEngine.Vector2,System.Single,System.Single)
+  commentId: M:SFEditor.Utilities.HandlesUtilities.DrawArc2D(UnityEngine.Vector2,System.Single,System.Single)
+  id: DrawArc2D(UnityEngine.Vector2,System.Single,System.Single)
+  parent: SFEditor.Utilities.HandlesUtilities
+  langs:
+  - csharp
+  - vb
+  name: DrawArc2D(Vector2, float, float)
+  nameWithType: HandlesUtilities.DrawArc2D(Vector2, float, float)
+  fullName: SFEditor.Utilities.HandlesUtilities.DrawArc2D(UnityEngine.Vector2, float, float)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public static void DrawArc2D(Vector2 startingPoint, float angle, float radius)
+    parameters:
+    - id: startingPoint
+      type: UnityEngine.Vector2
+    - id: angle
+      type: System.Single
+    - id: radius
+      type: System.Single
+    content.vb: Public Shared Sub DrawArc2D(startingPoint As Vector2, angle As Single, radius As Single)
+  overload: SFEditor.Utilities.HandlesUtilities.DrawArc2D*
+  nameWithType.vb: HandlesUtilities.DrawArc2D(Vector2, Single, Single)
+  fullName.vb: SFEditor.Utilities.HandlesUtilities.DrawArc2D(UnityEngine.Vector2, Single, Single)
+  name.vb: DrawArc2D(Vector2, Single, Single)
+- uid: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints(UnityEngine.Vector2[]@)
+  commentId: M:SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints(UnityEngine.Vector2[]@)
+  id: GetCircleSectorPoints(UnityEngine.Vector2[]@)
+  parent: SFEditor.Utilities.HandlesUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetCircleSectorPoints(out Vector2[])
+  nameWithType: HandlesUtilities.GetCircleSectorPoints(out Vector2[])
+  fullName: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints(out UnityEngine.Vector2[])
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public static void GetCircleSectorPoints(out Vector2[] points)
+    parameters:
+    - id: points
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared Sub GetCircleSectorPoints(points As Vector2())
+  overload: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints*
+  nameWithType.vb: HandlesUtilities.GetCircleSectorPoints(Vector2())
+  fullName.vb: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints(UnityEngine.Vector2())
+  name.vb: GetCircleSectorPoints(Vector2())
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.Utilities.HandlesUtilities.DrawCircle2D*
+  commentId: Overload:SFEditor.Utilities.HandlesUtilities.DrawCircle2D
+  href: SFEditor.Utilities.HandlesUtilities.html#SFEditor_Utilities_HandlesUtilities_DrawCircle2D_UnityEngine_Vector2_System_Single_System_Single_System_Int32_
+  name: DrawCircle2D
+  nameWithType: HandlesUtilities.DrawCircle2D
+  fullName: SFEditor.Utilities.HandlesUtilities.DrawCircle2D
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SFEditor.Utilities.HandlesUtilities.DrawArc2D*
+  commentId: Overload:SFEditor.Utilities.HandlesUtilities.DrawArc2D
+  href: SFEditor.Utilities.HandlesUtilities.html#SFEditor_Utilities_HandlesUtilities_DrawArc2D_UnityEngine_Vector2_System_Single_System_Single_
+  name: DrawArc2D
+  nameWithType: HandlesUtilities.DrawArc2D
+  fullName: SFEditor.Utilities.HandlesUtilities.DrawArc2D
+- uid: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints*
+  commentId: Overload:SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints
+  href: SFEditor.Utilities.HandlesUtilities.html#SFEditor_Utilities_HandlesUtilities_GetCircleSectorPoints_UnityEngine_Vector2____
+  name: GetCircleSectorPoints
+  nameWithType: HandlesUtilities.GetCircleSectorPoints
+  fullName: SFEditor.Utilities.HandlesUtilities.GetCircleSectorPoints
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: (
+  - name: )

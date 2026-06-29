@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.SFImageField
+  commentId: T:SFEditor.UIElements.SFImageField
+  id: SFImageField
+  parent: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.SFImageField.#ctor
+  - SFEditor.UIElements.SFImageField.#ctor(System.String)
+  - SFEditor.UIElements.SFImageField.CreateUI
+  - SFEditor.UIElements.SFImageField.Icon
+  - SFEditor.UIElements.SFImageField.Label
+  - SFEditor.UIElements.SFImageField.LabelUSSClassName
+  - SFEditor.UIElements.SFImageField.OnSelectionChanged
+  - SFEditor.UIElements.SFImageField.OnSelectorClosed
+  - SFEditor.UIElements.SFImageField.PreviewField
+  - SFEditor.UIElements.SFImageField.PreviewUSSClassName
+  - SFEditor.UIElements.SFImageField.USSClassName
+  langs:
+  - csharp
+  - vb
+  name: SFImageField
+  nameWithType: SFImageField
+  fullName: SFEditor.UIElements.SFImageField
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: >-
+      [UxmlElement]
+
+      public class SFImageField : VisualElement
+    content.vb: >-
+      <UxmlElement>
+
+      Public Class SFImageField Inherits VisualElement
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  attributes:
+  - type: UnityEngine.UIElements.UxmlElementAttribute
+    ctor: UnityEngine.UIElements.UxmlElementAttribute.#ctor
+    arguments: []
+- uid: SFEditor.UIElements.SFImageField.Label
+  commentId: F:SFEditor.UIElements.SFImageField.Label
+  id: Label
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: SFImageField.Label
+  fullName: SFEditor.UIElements.SFImageField.Label
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public Label Label
+    return:
+      type: UnityEngine.UIElements.Label
+    content.vb: Public Label As Label
+- uid: SFEditor.UIElements.SFImageField.PreviewField
+  commentId: F:SFEditor.UIElements.SFImageField.PreviewField
+  id: PreviewField
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: PreviewField
+  nameWithType: SFImageField.PreviewField
+  fullName: SFEditor.UIElements.SFImageField.PreviewField
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public VisualElement PreviewField
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public PreviewField As VisualElement
+- uid: SFEditor.UIElements.SFImageField.Icon
+  commentId: F:SFEditor.UIElements.SFImageField.Icon
+  id: Icon
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: SFImageField.Icon
+  fullName: SFEditor.UIElements.SFImageField.Icon
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public Sprite Icon
+    return:
+      type: UnityEngine.Sprite
+    content.vb: Public Icon As Sprite
+- uid: SFEditor.UIElements.SFImageField.USSClassName
+  commentId: F:SFEditor.UIElements.SFImageField.USSClassName
+  id: USSClassName
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: USSClassName
+  nameWithType: SFImageField.USSClassName
+  fullName: SFEditor.UIElements.SFImageField.USSClassName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public const string USSClassName = "image-field"
+    return:
+      type: System.String
+    content.vb: Public Const USSClassName As String = "image-field"
+- uid: SFEditor.UIElements.SFImageField.LabelUSSClassName
+  commentId: F:SFEditor.UIElements.SFImageField.LabelUSSClassName
+  id: LabelUSSClassName
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: LabelUSSClassName
+  nameWithType: SFImageField.LabelUSSClassName
+  fullName: SFEditor.UIElements.SFImageField.LabelUSSClassName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public const string LabelUSSClassName = "image-label"
+    return:
+      type: System.String
+    content.vb: Public Const LabelUSSClassName As String = "image-label"
+- uid: SFEditor.UIElements.SFImageField.PreviewUSSClassName
+  commentId: F:SFEditor.UIElements.SFImageField.PreviewUSSClassName
+  id: PreviewUSSClassName
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: PreviewUSSClassName
+  nameWithType: SFImageField.PreviewUSSClassName
+  fullName: SFEditor.UIElements.SFImageField.PreviewUSSClassName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public const string PreviewUSSClassName = "image-preview"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewUSSClassName As String = "image-preview"
+- uid: SFEditor.UIElements.SFImageField.OnSelectionChanged
+  commentId: F:SFEditor.UIElements.SFImageField.OnSelectionChanged
+  id: OnSelectionChanged
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: OnSelectionChanged
+  nameWithType: SFImageField.OnSelectionChanged
+  fullName: SFEditor.UIElements.SFImageField.OnSelectionChanged
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  summary: This action is invoked when the sprite is changed in the selector window for the image field.
+  example: []
+  syntax:
+    content: public Action<Object> OnSelectionChanged
+    return:
+      type: System.Action{UnityEngine.Object}
+    content.vb: Public OnSelectionChanged As Action(Of [Object])
+- uid: SFEditor.UIElements.SFImageField.OnSelectorClosed
+  commentId: F:SFEditor.UIElements.SFImageField.OnSelectorClosed
+  id: OnSelectorClosed
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: OnSelectorClosed
+  nameWithType: SFImageField.OnSelectorClosed
+  fullName: SFEditor.UIElements.SFImageField.OnSelectorClosed
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public Action<Object> OnSelectorClosed
+    return:
+      type: System.Action{UnityEngine.Object}
+    content.vb: Public OnSelectorClosed As Action(Of [Object])
+- uid: SFEditor.UIElements.SFImageField.#ctor
+  commentId: M:SFEditor.UIElements.SFImageField.#ctor
+  id: '#ctor'
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: SFImageField()
+  nameWithType: SFImageField.SFImageField()
+  fullName: SFEditor.UIElements.SFImageField.SFImageField()
+  type: Constructor
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public SFImageField()
+    content.vb: Public Sub New()
+  overload: SFEditor.UIElements.SFImageField.#ctor*
+  nameWithType.vb: SFImageField.New()
+  fullName.vb: SFEditor.UIElements.SFImageField.New()
+  name.vb: New()
+- uid: SFEditor.UIElements.SFImageField.#ctor(System.String)
+  commentId: M:SFEditor.UIElements.SFImageField.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: SFImageField(string)
+  nameWithType: SFImageField.SFImageField(string)
+  fullName: SFEditor.UIElements.SFImageField.SFImageField(string)
+  type: Constructor
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public SFImageField(string label)
+    parameters:
+    - id: label
+      type: System.String
+    content.vb: Public Sub New(label As String)
+  overload: SFEditor.UIElements.SFImageField.#ctor*
+  nameWithType.vb: SFImageField.New(String)
+  fullName.vb: SFEditor.UIElements.SFImageField.New(String)
+  name.vb: New(String)
+- uid: SFEditor.UIElements.SFImageField.CreateUI
+  commentId: M:SFEditor.UIElements.SFImageField.CreateUI
+  id: CreateUI
+  parent: SFEditor.UIElements.SFImageField
+  langs:
+  - csharp
+  - vb
+  name: CreateUI()
+  nameWithType: SFImageField.CreateUI()
+  fullName: SFEditor.UIElements.SFImageField.CreateUI()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements
+  syntax:
+    content: public void CreateUI()
+    content.vb: Public Sub CreateUI()
+  overload: SFEditor.UIElements.SFImageField.CreateUI*
+references:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  href: SFEditor.html
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.Label
+  commentId: T:UnityEngine.UIElements.Label
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Label
+  nameWithType: Label
+  fullName: UnityEngine.UIElements.Label
+- uid: UnityEngine.Sprite
+  commentId: T:UnityEngine.Sprite
+  parent: UnityEngine
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: UnityEngine.Sprite
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action{UnityEngine.Object}
+  commentId: T:System.Action{UnityEngine.Object}
+  parent: System
+  definition: System.Action`1
+  name: Action<Object>
+  nameWithType: Action<Object>
+  fullName: System.Action<UnityEngine.Object>
+  nameWithType.vb: Action(Of Object)
+  fullName.vb: System.Action(Of UnityEngine.Object)
+  name.vb: Action(Of Object)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SFEditor.UIElements.SFImageField.#ctor*
+  commentId: Overload:SFEditor.UIElements.SFImageField.#ctor
+  href: SFEditor.UIElements.SFImageField.html#SFEditor_UIElements_SFImageField__ctor
+  name: SFImageField
+  nameWithType: SFImageField.SFImageField
+  fullName: SFEditor.UIElements.SFImageField.SFImageField
+  nameWithType.vb: SFImageField.New
+  fullName.vb: SFEditor.UIElements.SFImageField.New
+  name.vb: New
+- uid: SFEditor.UIElements.SFImageField.CreateUI*
+  commentId: Overload:SFEditor.UIElements.SFImageField.CreateUI
+  href: SFEditor.UIElements.SFImageField.html#SFEditor_UIElements_SFImageField_CreateUI
+  name: CreateUI
+  nameWithType: SFImageField.CreateUI
+  fullName: SFEditor.UIElements.SFImageField.CreateUI

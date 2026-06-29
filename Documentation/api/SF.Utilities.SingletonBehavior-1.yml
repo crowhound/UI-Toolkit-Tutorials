@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.SingletonBehavior`1
+  commentId: T:SF.Utilities.SingletonBehavior`1
+  id: SingletonBehavior`1
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.SingletonBehavior`1.Awake
+  - SF.Utilities.SingletonBehavior`1.Instance
+  - SF.Utilities.SingletonBehavior`1._instance
+  langs:
+  - csharp
+  - vb
+  name: SingletonBehavior<TSingleton>
+  nameWithType: SingletonBehavior<TSingleton>
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: 'public abstract class SingletonBehavior<TSingleton> : MonoBehaviour where TSingleton : MonoBehaviour'
+    typeParameters:
+    - id: TSingleton
+    content.vb: Public MustInherit Class SingletonBehavior(Of TSingleton As MonoBehaviour) Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.Utilities.SingletonBehavior`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  nameWithType.vb: SingletonBehavior(Of TSingleton)
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton)
+  name.vb: SingletonBehavior(Of TSingleton)
+- uid: SF.Utilities.SingletonBehavior`1._instance
+  commentId: F:SF.Utilities.SingletonBehavior`1._instance
+  id: _instance
+  parent: SF.Utilities.SingletonBehavior`1
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: SingletonBehavior<TSingleton>._instance
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>._instance
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: protected static TSingleton _instance
+    return:
+      type: '{TSingleton}'
+    content.vb: Protected Shared _instance As TSingleton
+  nameWithType.vb: SingletonBehavior(Of TSingleton)._instance
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton)._instance
+- uid: SF.Utilities.SingletonBehavior`1.Instance
+  commentId: P:SF.Utilities.SingletonBehavior`1.Instance
+  id: Instance
+  parent: SF.Utilities.SingletonBehavior`1
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SingletonBehavior<TSingleton>.Instance
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>.Instance
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static TSingleton Instance { get; set; }
+    parameters: []
+    return:
+      type: '{TSingleton}'
+    content.vb: Public Shared Property Instance As TSingleton
+  overload: SF.Utilities.SingletonBehavior`1.Instance*
+  nameWithType.vb: SingletonBehavior(Of TSingleton).Instance
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton).Instance
+- uid: SF.Utilities.SingletonBehavior`1.Awake
+  commentId: M:SF.Utilities.SingletonBehavior`1.Awake
+  id: Awake
+  parent: SF.Utilities.SingletonBehavior`1
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SingletonBehavior<TSingleton>.Awake()
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>.Awake()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake()
+  overload: SF.Utilities.SingletonBehavior`1.Awake*
+  nameWithType.vb: SingletonBehavior(Of TSingleton).Awake()
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton).Awake()
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.Utilities.SingletonBehavior`1.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<SingletonBehavior<TSingleton>>(SingletonBehavior<TSingleton>)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<SingletonBehavior<TSingleton>>(SingletonBehavior<TSingleton>)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.Utilities.SingletonBehavior<TSingleton>>(SF.Utilities.SingletonBehavior<TSingleton>)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of SingletonBehavior(Of TSingleton))(SingletonBehavior(Of TSingleton))
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.Utilities.SingletonBehavior(Of TSingleton))(SF.Utilities.SingletonBehavior(Of TSingleton))
+  name.vb: IsActiveEnabledAndNotNull(Of SingletonBehavior(Of TSingleton))(SingletonBehavior(Of TSingleton))
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Utilities.SingletonBehavior{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: <
+  - name: TSingleton
+  - name: '>'
+  - name: '>'
+  - name: (
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: <
+  - name: TSingleton
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Utilities.SingletonBehavior{`0})
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingleton
+  - name: )
+  - name: )
+  - name: (
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingleton
+  - name: )
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: '{TSingleton}'
+  commentId: '!:TSingleton'
+  definition: TSingleton
+  name: TSingleton
+  nameWithType: TSingleton
+  fullName: TSingleton
+- uid: TSingleton
+  name: TSingleton
+  nameWithType: TSingleton
+  fullName: TSingleton
+- uid: SF.Utilities.SingletonBehavior`1.Instance*
+  commentId: Overload:SF.Utilities.SingletonBehavior`1.Instance
+  href: SF.Utilities.SingletonBehavior-1.html#SF_Utilities_SingletonBehavior_1_Instance
+  name: Instance
+  nameWithType: SingletonBehavior<TSingleton>.Instance
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>.Instance
+  nameWithType.vb: SingletonBehavior(Of TSingleton).Instance
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton).Instance
+- uid: SF.Utilities.SingletonBehavior`1.Awake*
+  commentId: Overload:SF.Utilities.SingletonBehavior`1.Awake
+  href: SF.Utilities.SingletonBehavior-1.html#SF_Utilities_SingletonBehavior_1_Awake
+  name: Awake
+  nameWithType: SingletonBehavior<TSingleton>.Awake
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>.Awake
+  nameWithType.vb: SingletonBehavior(Of TSingleton).Awake
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton).Awake

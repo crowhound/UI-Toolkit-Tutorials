@@ -1,0 +1,1032 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities.VisualElementsExtensions
+  commentId: T:SF.UIElements.Utilities.VisualElementsExtensions
+  id: VisualElementsExtensions
+  parent: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  - SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement(System.String)
+  - SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  - SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  - SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  langs:
+  - csharp
+  - vb
+  name: VisualElementsExtensions
+  nameWithType: VisualElementsExtensions
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public static class VisualElementsExtensions
+    content.vb: Public Module VisualElementsExtensions
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement(System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement(System.String)
+  id: AddVisualElement(System.String)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddVisualElement(string)
+  nameWithType: VisualElementsExtensions.AddVisualElement(string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement(string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public static VisualElement AddVisualElement(string name = "")
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Function AddVisualElement(name As String = "") As VisualElement
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement*
+  nameWithType.vb: VisualElementsExtensions.AddVisualElement(String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement(String)
+  name.vb: AddVisualElement(String)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  id: AddRow``1(``0)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddRow<T>(T)
+  nameWithType: VisualElementsExtensions.AddRow<T>(T)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<T>(T)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddRow<T>(this T parent) where T : VisualElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddRow(Of T As VisualElement)(parent As T) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddRow*
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of T)(T)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of T)(T)
+  name.vb: AddRow(Of T)(T)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  id: AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddRow<T>(T, VisualElement)
+  nameWithType: VisualElementsExtensions.AddRow<T>(T, VisualElement)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<T>(T, UnityEngine.UIElements.VisualElement)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddRow<T>(this T parent, VisualElement child) where T : VisualElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+    - id: child
+      type: UnityEngine.UIElements.VisualElement
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddRow(Of T As VisualElement)(parent As T, child As VisualElement) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddRow*
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of T)(T, VisualElement)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of T)(T, UnityEngine.UIElements.VisualElement)
+  name.vb: AddRow(Of T)(T, VisualElement)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  id: SetChildrenAsRowItems``1(``0)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetChildrenAsRowItems<T>(T)
+  nameWithType: VisualElementsExtensions.SetChildrenAsRowItems<T>(T)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems<T>(T)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  summary: Adds the sf-row--item uss class name to the first depth children.
+  example: []
+  syntax:
+    content: 'public static T SetChildrenAsRowItems<T>(this T parent) where T : VisualElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function SetChildrenAsRowItems(Of T As VisualElement)(parent As T) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems*
+  nameWithType.vb: VisualElementsExtensions.SetChildrenAsRowItems(Of T)(T)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems(Of T)(T)
+  name.vb: SetChildrenAsRowItems(Of T)(T)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  id: AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddChild<T>(T, VisualElement, string)
+  nameWithType: VisualElementsExtensions.AddChild<T>(T, VisualElement, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<T>(T, UnityEngine.UIElements.VisualElement, string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddChild<T>(this T parent, VisualElement child, string className = "") where T : VisualElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+    - id: child
+      type: UnityEngine.UIElements.VisualElement
+    - id: className
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddChild(Of T As VisualElement)(parent As T, child As VisualElement, className As String = "") As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddChild*
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of T)(T, VisualElement, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of T)(T, UnityEngine.UIElements.VisualElement, String)
+  name.vb: AddChild(Of T)(T, VisualElement, String)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  id: AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddChild<T>(T, VisualElement, string[])
+  nameWithType: VisualElementsExtensions.AddChild<T>(T, VisualElement, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<T>(T, UnityEngine.UIElements.VisualElement, string[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddChild<T>(this T parent, VisualElement child, string[] classNames) where T : VisualElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+    - id: child
+      type: UnityEngine.UIElements.VisualElement
+    - id: classNames
+      type: System.String[]
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddChild(Of T As VisualElement)(parent As T, child As VisualElement, classNames As String()) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddChild*
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of T)(T, VisualElement, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of T)(T, UnityEngine.UIElements.VisualElement, String())
+  name.vb: AddChild(Of T)(T, VisualElement, String())
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  id: AddBindableChild``2(``0,``1,System.String,System.String)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddBindableChild<T, U>(T, U, string, string)
+  nameWithType: VisualElementsExtensions.AddBindableChild<T, U>(T, U, string, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild<T, U>(T, U, string, string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  summary: >-
+    Will log an error if either the child or parent UI Element is null.
+
+    Doesn't stop the sequence of method chaining in progress. You have to do that in the calling method.
+  example: []
+  syntax:
+    content: 'public static T AddBindableChild<T, U>(this T parent, U child, string bindingPath, string className = "") where T : VisualElement where U : BindableElement'
+    parameters:
+    - id: parent
+      type: '{T}'
+      description: ''
+    - id: child
+      type: '{U}'
+      description: ''
+    - id: bindingPath
+      type: System.String
+      description: ''
+    - id: className
+      type: System.String
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    - id: U
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function AddBindableChild(Of T As VisualElement, U As BindableElement)(parent As T, child As U, bindingPath As String, className As String = "") As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild*
+  nameWithType.vb: VisualElementsExtensions.AddBindableChild(Of T, U)(T, U, String, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild(Of T, U)(T, U, String, String)
+  name.vb: AddBindableChild(Of T, U)(T, U, String, String)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  id: AddClass``1(``0,System.String)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddClass<T>(T, string)
+  nameWithType: VisualElementsExtensions.AddClass<T>(T, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<T>(T, string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddClass<T>(this T target, string className) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: className
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddClass(Of T As VisualElement)(target As T, className As String) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddClass*
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of T)(T, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of T)(T, String)
+  name.vb: AddClass(Of T)(T, String)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  id: AddClass``1(``0,System.String[])
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddClass<T>(T, string[])
+  nameWithType: VisualElementsExtensions.AddClass<T>(T, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<T>(T, string[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  summary: Adds every class name in the passed array to the class name list for the targetted visual element.
+  example: []
+  syntax:
+    content: 'public static T AddClass<T>(this T target, string[] classNames) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+      description: ''
+    - id: classNames
+      type: System.String[]
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function AddClass(Of T As VisualElement)(target As T, classNames As String()) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddClass*
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of T)(T, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of T)(T, String())
+  name.vb: AddClass(Of T)(T, String())
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  id: Rename``1(``0,System.String)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Rename<T>(T, string)
+  nameWithType: VisualElementsExtensions.Rename<T>(T, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Rename<T>(T, string)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T Rename<T>(this T target, string newName) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: newName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Rename(Of T As VisualElement)(target As T, newName As String) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.Rename*
+  nameWithType.vb: VisualElementsExtensions.Rename(Of T)(T, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Rename(Of T)(T, String)
+  name.vb: Rename(Of T)(T, String)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  id: SetFontSize``1(``0,System.Int32)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetFontSize<T>(T, int)
+  nameWithType: VisualElementsExtensions.SetFontSize<T>(T, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize<T>(T, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetFontSize<T>(this T target, int fontSize) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: fontSize
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetFontSize(Of T As VisualElement)(target As T, fontSize As Integer) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize*
+  nameWithType.vb: VisualElementsExtensions.SetFontSize(Of T)(T, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize(Of T)(T, Integer)
+  name.vb: SetFontSize(Of T)(T, Integer)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  id: SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetWidth<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetWidth<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetWidth<T>(this T target, int width, LengthUnit lengthUnit) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: width
+      type: System.Int32
+    - id: lengthUnit
+      type: UnityEngine.UIElements.LengthUnit
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetWidth(Of T As VisualElement)(target As T, width As Integer, lengthUnit As LengthUnit) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth*
+  nameWithType.vb: VisualElementsExtensions.SetWidth(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetWidth(Of T)(T, Integer, LengthUnit)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  id: SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAllMargin<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllMargin<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetAllMargin<T>(this T target, int margin, LengthUnit lengthUnit = LengthUnit.Pixel) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: margin
+      type: System.Int32
+    - id: lengthUnit
+      type: UnityEngine.UIElements.LengthUnit
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetAllMargin(Of T As VisualElement)(target As T, margin As Integer, lengthUnit As LengthUnit = LengthUnit.Pixel) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin*
+  nameWithType.vb: VisualElementsExtensions.SetAllMargin(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllMargin(Of T)(T, Integer, LengthUnit)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  id: SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAllPadding<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllPadding<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetAllPadding<T>(this T target, int padding, LengthUnit lengthUnit = LengthUnit.Pixel) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: padding
+      type: System.Int32
+    - id: lengthUnit
+      type: UnityEngine.UIElements.LengthUnit
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetAllPadding(Of T As VisualElement)(target As T, padding As Integer, lengthUnit As LengthUnit = LengthUnit.Pixel) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding*
+  nameWithType.vb: VisualElementsExtensions.SetAllPadding(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllPadding(Of T)(T, Integer, LengthUnit)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  id: SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetBorder<T>(T, int, Color, BorderSide)
+  nameWithType: VisualElementsExtensions.SetBorder<T>(T, int, Color, BorderSide)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder<T>(T, int, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetBorder<T>(this T target, int borderWidth, Color borderColor, BorderSide borderSide = BorderSide.TopSide) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: borderWidth
+      type: System.Int32
+    - id: borderColor
+      type: UnityEngine.Color
+    - id: borderSide
+      type: SF.UIElements.Utilities.BorderSide
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetBorder(Of T As VisualElement)(target As T, borderWidth As Integer, borderColor As Color, borderSide As BorderSide = BorderSide.TopSide) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder*
+  nameWithType.vb: VisualElementsExtensions.SetBorder(Of T)(T, Integer, Color, BorderSide)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder(Of T)(T, Integer, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  name.vb: SetBorder(Of T)(T, Integer, Color, BorderSide)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  id: SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAllBorders<T>(T, int, Color)
+  nameWithType: VisualElementsExtensions.SetAllBorders<T>(T, int, Color)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders<T>(T, int, UnityEngine.Color)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetAllBorders<T>(this T target, int borderWidth, Color borderColor) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: borderWidth
+      type: System.Int32
+    - id: borderColor
+      type: UnityEngine.Color
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetAllBorders(Of T As VisualElement)(target As T, borderWidth As Integer, borderColor As Color) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders*
+  nameWithType.vb: VisualElementsExtensions.SetAllBorders(Of T)(T, Integer, Color)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders(Of T)(T, Integer, UnityEngine.Color)
+  name.vb: SetAllBorders(Of T)(T, Integer, Color)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  id: SetAllBordersRadius``1(``0,System.Int32)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetAllBordersRadius<T>(T, int)
+  nameWithType: VisualElementsExtensions.SetAllBordersRadius<T>(T, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius<T>(T, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T SetAllBordersRadius<T>(this T target, int borderRadius) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: borderRadius
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetAllBordersRadius(Of T As VisualElement)(target As T, borderRadius As Integer) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius*
+  nameWithType.vb: VisualElementsExtensions.SetAllBordersRadius(Of T)(T, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius(Of T)(T, Integer)
+  name.vb: SetAllBordersRadius(Of T)(T, Integer)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  id: SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetDisplayStyle<T>(T, DisplayStyle)
+  nameWithType: VisualElementsExtensions.SetDisplayStyle<T>(T, DisplayStyle)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle<T>(T, UnityEngine.UIElements.DisplayStyle)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  summary: Sets the display style of a Visual Element and returns the element to allow method chaining.
+  remarks: >-
+    Advised to use a null propagation (target?.) check during the method chaining to always make sure
+
+    you don't try chaining on a null value.
+  example: []
+  syntax:
+    content: 'public static T SetDisplayStyle<T>(this T target, DisplayStyle displayStyle) where T : VisualElement'
+    parameters:
+    - id: target
+      type: '{T}'
+      description: ''
+    - id: displayStyle
+      type: UnityEngine.UIElements.DisplayStyle
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: Public Shared Function SetDisplayStyle(Of T As VisualElement)(target As T, displayStyle As DisplayStyle) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle*
+  nameWithType.vb: VisualElementsExtensions.SetDisplayStyle(Of T)(T, DisplayStyle)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle(Of T)(T, UnityEngine.UIElements.DisplayStyle)
+  name.vb: SetDisplayStyle(Of T)(T, DisplayStyle)
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  id: AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddCallback<T, TEventType>(T, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.AddCallback<T, TEventType>(T, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback<T, TEventType>(T, UnityEngine.UIElements.EventCallback<TEventType>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T AddCallback<T, TEventType>(this T target, EventCallback<TEventType> callback) where T : VisualElement where TEventType : EventBase<TEventType>, new()'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: callback
+      type: UnityEngine.UIElements.EventCallback{{TEventType}}
+    typeParameters:
+    - id: T
+    - id: TEventType
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AddCallback(Of T As VisualElement, TEventType As {EventBase(Of TEventType), New})(target As T, callback As EventCallback(Of TEventType)) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback*
+  nameWithType.vb: VisualElementsExtensions.AddCallback(Of T, TEventType)(T, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback(Of T, TEventType)(T, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: AddCallback(Of T, TEventType)(T, EventCallback(Of TEventType))
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  id: Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: Register<T, TEventType>(T, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.Register<T, TEventType>(T, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Register<T, TEventType>(T, UnityEngine.UIElements.EventCallback<TEventType>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T Register<T, TEventType>(this T target, EventCallback<TEventType> callback) where T : VisualElement where TEventType : EventBase<TEventType>, new()'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: callback
+      type: UnityEngine.UIElements.EventCallback{{TEventType}}
+    typeParameters:
+    - id: T
+    - id: TEventType
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Register(Of T As VisualElement, TEventType As {EventBase(Of TEventType), New})(target As T, callback As EventCallback(Of TEventType)) As T
+  overload: SF.UIElements.Utilities.VisualElementsExtensions.Register*
+  nameWithType.vb: VisualElementsExtensions.Register(Of T, TEventType)(T, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Register(Of T, TEventType)(T, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: Register(Of T, TEventType)(T, EventCallback(Of TEventType))
+references:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddVisualElement_System_String_
+  name: AddVisualElement
+  nameWithType: VisualElementsExtensions.AddVisualElement
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddVisualElement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddRow
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  name: AddRow
+  nameWithType: VisualElementsExtensions.AddRow
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  name: SetChildrenAsRowItems
+  nameWithType: VisualElementsExtensions.SetChildrenAsRowItems
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddChild
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  name: AddChild
+  nameWithType: VisualElementsExtensions.AddChild
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild
+- uid: System.String[]
+  isExternal: true
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  name: AddBindableChild
+  nameWithType: VisualElementsExtensions.AddBindableChild
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild
+- uid: '{U}'
+  commentId: '!:U'
+  definition: U
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: U
+  commentId: '!:U'
+  name: U
+  nameWithType: U
+  fullName: U
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddClass
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  name: AddClass
+  nameWithType: VisualElementsExtensions.AddClass
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.Rename
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  name: Rename
+  nameWithType: VisualElementsExtensions.Rename
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Rename
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  name: SetFontSize
+  nameWithType: VisualElementsExtensions.SetFontSize
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetWidth
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetWidth
+  nameWithType: VisualElementsExtensions.SetWidth
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth
+- uid: UnityEngine.UIElements.LengthUnit
+  commentId: T:UnityEngine.UIElements.LengthUnit
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: LengthUnit
+  nameWithType: LengthUnit
+  fullName: UnityEngine.UIElements.LengthUnit
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllMargin
+  nameWithType: VisualElementsExtensions.SetAllMargin
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllPadding
+  nameWithType: VisualElementsExtensions.SetAllPadding
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetBorder
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  name: SetBorder
+  nameWithType: VisualElementsExtensions.SetBorder
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: SF.UIElements.Utilities.BorderSide
+  commentId: T:SF.UIElements.Utilities.BorderSide
+  parent: SF.UIElements.Utilities
+  href: SF.UIElements.Utilities.BorderSide.html
+  name: BorderSide
+  nameWithType: BorderSide
+  fullName: SF.UIElements.Utilities.BorderSide
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  name: SetAllBorders
+  nameWithType: VisualElementsExtensions.SetAllBorders
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  name: SetAllBordersRadius
+  nameWithType: VisualElementsExtensions.SetAllBordersRadius
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  name: SetDisplayStyle
+  nameWithType: VisualElementsExtensions.SetDisplayStyle
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle
+- uid: UnityEngine.UIElements.DisplayStyle
+  commentId: T:UnityEngine.UIElements.DisplayStyle
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: DisplayStyle
+  nameWithType: DisplayStyle
+  fullName: UnityEngine.UIElements.DisplayStyle
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.AddCallback
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: AddCallback
+  nameWithType: VisualElementsExtensions.AddCallback
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback
+- uid: UnityEngine.UIElements.EventCallback{{TEventType}}
+  commentId: T:UnityEngine.UIElements.EventCallback{``1}
+  parent: UnityEngine.UIElements
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<TEventType>
+  nameWithType: EventCallback<TEventType>
+  fullName: UnityEngine.UIElements.EventCallback<TEventType>
+  nameWithType.vb: EventCallback(Of TEventType)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEventType)
+  name.vb: EventCallback(Of TEventType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+- uid: UnityEngine.UIElements.EventCallback`1
+  commentId: T:UnityEngine.UIElements.EventCallback`1
+  isExternal: true
+  name: EventCallback<TEventType>
+  nameWithType: EventCallback<TEventType>
+  fullName: UnityEngine.UIElements.EventCallback<TEventType>
+  nameWithType.vb: EventCallback(Of TEventType)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEventType)
+  name.vb: EventCallback(Of TEventType)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Register*
+  commentId: Overload:SF.UIElements.Utilities.VisualElementsExtensions.Register
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: Register
+  nameWithType: VisualElementsExtensions.Register
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Register

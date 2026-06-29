@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DragAndDropManipulator
+  commentId: T:SF.DragAndDropManipulator
+  id: DragAndDropManipulator
+  parent: SF
+  children:
+  - SF.DragAndDropManipulator.#ctor(UnityEngine.UIElements.VisualElement)
+  - SF.DragAndDropManipulator.RegisterCallbacksOnTarget
+  - SF.DragAndDropManipulator.UnregisterCallbacksFromTarget
+  langs:
+  - csharp
+  - vb
+  name: DragAndDropManipulator
+  nameWithType: DragAndDropManipulator
+  fullName: SF.DragAndDropManipulator
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: 'public class DragAndDropManipulator : PointerManipulator'
+    content.vb: Public Class DragAndDropManipulator Inherits PointerManipulator
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.Manipulator
+  - UnityEngine.UIElements.MouseManipulator
+  - UnityEngine.UIElements.PointerManipulator
+- uid: SF.DragAndDropManipulator.#ctor(UnityEngine.UIElements.VisualElement)
+  commentId: M:SF.DragAndDropManipulator.#ctor(UnityEngine.UIElements.VisualElement)
+  id: '#ctor(UnityEngine.UIElements.VisualElement)'
+  parent: SF.DragAndDropManipulator
+  langs:
+  - csharp
+  - vb
+  name: DragAndDropManipulator(VisualElement)
+  nameWithType: DragAndDropManipulator.DragAndDropManipulator(VisualElement)
+  fullName: SF.DragAndDropManipulator.DragAndDropManipulator(UnityEngine.UIElements.VisualElement)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: public DragAndDropManipulator(VisualElement target)
+    parameters:
+    - id: target
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Sub New(target As VisualElement)
+  overload: SF.DragAndDropManipulator.#ctor*
+  nameWithType.vb: DragAndDropManipulator.New(VisualElement)
+  fullName.vb: SF.DragAndDropManipulator.New(UnityEngine.UIElements.VisualElement)
+  name.vb: New(VisualElement)
+- uid: SF.DragAndDropManipulator.RegisterCallbacksOnTarget
+  commentId: M:SF.DragAndDropManipulator.RegisterCallbacksOnTarget
+  id: RegisterCallbacksOnTarget
+  parent: SF.DragAndDropManipulator
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallbacksOnTarget()
+  nameWithType: DragAndDropManipulator.RegisterCallbacksOnTarget()
+  fullName: SF.DragAndDropManipulator.RegisterCallbacksOnTarget()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  summary: >-
+    <p>
+
+    Called to register event callbacks on the target element.
+
+    </p>
+  example: []
+  syntax:
+    content: protected override void RegisterCallbacksOnTarget()
+    content.vb: Protected Overrides Sub RegisterCallbacksOnTarget()
+  overridden: UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget
+  overload: SF.DragAndDropManipulator.RegisterCallbacksOnTarget*
+- uid: SF.DragAndDropManipulator.UnregisterCallbacksFromTarget
+  commentId: M:SF.DragAndDropManipulator.UnregisterCallbacksFromTarget
+  id: UnregisterCallbacksFromTarget
+  parent: SF.DragAndDropManipulator
+  langs:
+  - csharp
+  - vb
+  name: UnregisterCallbacksFromTarget()
+  nameWithType: DragAndDropManipulator.UnregisterCallbacksFromTarget()
+  fullName: SF.DragAndDropManipulator.UnregisterCallbacksFromTarget()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  summary: >-
+    <p>
+
+    Called to unregister event callbacks from the target element.
+
+    </p>
+  example: []
+  syntax:
+    content: protected override void UnregisterCallbacksFromTarget()
+    content.vb: Protected Overrides Sub UnregisterCallbacksFromTarget()
+  overridden: UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget
+  overload: SF.DragAndDropManipulator.UnregisterCallbacksFromTarget*
+references:
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.Manipulator
+  commentId: T:UnityEngine.UIElements.Manipulator
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Manipulator
+  nameWithType: Manipulator
+  fullName: UnityEngine.UIElements.Manipulator
+- uid: UnityEngine.UIElements.MouseManipulator
+  commentId: T:UnityEngine.UIElements.MouseManipulator
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: MouseManipulator
+  nameWithType: MouseManipulator
+  fullName: UnityEngine.UIElements.MouseManipulator
+- uid: UnityEngine.UIElements.PointerManipulator
+  commentId: T:UnityEngine.UIElements.PointerManipulator
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: PointerManipulator
+  nameWithType: PointerManipulator
+  fullName: UnityEngine.UIElements.PointerManipulator
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SF.DragAndDropManipulator.#ctor*
+  commentId: Overload:SF.DragAndDropManipulator.#ctor
+  href: SF.DragAndDropManipulator.html#SF_DragAndDropManipulator__ctor_UnityEngine_UIElements_VisualElement_
+  name: DragAndDropManipulator
+  nameWithType: DragAndDropManipulator.DragAndDropManipulator
+  fullName: SF.DragAndDropManipulator.DragAndDropManipulator
+  nameWithType.vb: DragAndDropManipulator.New
+  fullName.vb: SF.DragAndDropManipulator.New
+  name.vb: New
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget
+  commentId: M:UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget
+  parent: UnityEngine.UIElements.Manipulator
+  isExternal: true
+  name: RegisterCallbacksOnTarget()
+  nameWithType: Manipulator.RegisterCallbacksOnTarget()
+  fullName: UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget()
+  spec.csharp:
+  - uid: UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget
+    name: RegisterCallbacksOnTarget
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEngine.UIElements.Manipulator.RegisterCallbacksOnTarget
+    name: RegisterCallbacksOnTarget
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.DragAndDropManipulator.RegisterCallbacksOnTarget*
+  commentId: Overload:SF.DragAndDropManipulator.RegisterCallbacksOnTarget
+  href: SF.DragAndDropManipulator.html#SF_DragAndDropManipulator_RegisterCallbacksOnTarget
+  name: RegisterCallbacksOnTarget
+  nameWithType: DragAndDropManipulator.RegisterCallbacksOnTarget
+  fullName: SF.DragAndDropManipulator.RegisterCallbacksOnTarget
+- uid: UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget
+  commentId: M:UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget
+  parent: UnityEngine.UIElements.Manipulator
+  isExternal: true
+  name: UnregisterCallbacksFromTarget()
+  nameWithType: Manipulator.UnregisterCallbacksFromTarget()
+  fullName: UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget()
+  spec.csharp:
+  - uid: UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget
+    name: UnregisterCallbacksFromTarget
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: UnityEngine.UIElements.Manipulator.UnregisterCallbacksFromTarget
+    name: UnregisterCallbacksFromTarget
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.DragAndDropManipulator.UnregisterCallbacksFromTarget*
+  commentId: Overload:SF.DragAndDropManipulator.UnregisterCallbacksFromTarget
+  href: SF.DragAndDropManipulator.html#SF_DragAndDropManipulator_UnregisterCallbacksFromTarget
+  name: UnregisterCallbacksFromTarget
+  nameWithType: DragAndDropManipulator.UnregisterCallbacksFromTarget
+  fullName: SF.DragAndDropManipulator.UnregisterCallbacksFromTarget

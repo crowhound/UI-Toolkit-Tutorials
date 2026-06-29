@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  id: ComponentUtilities
+  parent: SF
+  children:
+  - SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: public static class ComponentUtilities
+    content.vb: Public Module ComponentUtilities
+  inheritance:
+  - System.Object
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  id: IsActiveEnabledAndNotNull``1(``0)
+  isExtensionMethod: true
+  parent: SF.ComponentUtilities
+  langs:
+  - csharp
+  - vb
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF
+  syntax:
+    content: 'public static bool IsActiveEnabledAndNotNull<T>(this T behaviour) where T : Behaviour'
+    parameters:
+    - id: behaviour
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsActiveEnabledAndNotNull(Of T As Behaviour)(behaviour As T) As Boolean
+  overload: SF.ComponentUtilities.IsActiveEnabledAndNotNull*
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+references:
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull*
+  commentId: Overload:SF.ComponentUtilities.IsActiveEnabledAndNotNull
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

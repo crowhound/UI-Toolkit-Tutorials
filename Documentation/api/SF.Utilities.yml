@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  id: SF.Utilities
+  children:
+  - SF.Utilities.AttributeUtilities
+  - SF.Utilities.BoundExtensions
+  - SF.Utilities.FileUtility
+  - SF.Utilities.GLUtilities
+  - SF.Utilities.GridUtilities
+  - SF.Utilities.RectExtensions
+  - SF.Utilities.ReflectionUtilities
+  - SF.Utilities.SingletonBehavior`1
+  - SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Utilities.BoundExtensions
+  commentId: T:SF.Utilities.BoundExtensions
+  href: SF.Utilities.BoundExtensions.html
+  name: BoundExtensions
+  nameWithType: BoundExtensions
+  fullName: SF.Utilities.BoundExtensions
+- uid: SF.Utilities.VectorExtensions
+  commentId: T:SF.Utilities.VectorExtensions
+  href: SF.Utilities.VectorExtensions.html
+  name: VectorExtensions
+  nameWithType: VectorExtensions
+  fullName: SF.Utilities.VectorExtensions
+- uid: SF.Utilities.GridUtilities
+  commentId: T:SF.Utilities.GridUtilities
+  href: SF.Utilities.GridUtilities.html
+  name: GridUtilities
+  nameWithType: GridUtilities
+  fullName: SF.Utilities.GridUtilities
+- uid: SF.Utilities.ReflectionUtilities
+  commentId: T:SF.Utilities.ReflectionUtilities
+  href: SF.Utilities.ReflectionUtilities.html
+  name: ReflectionUtilities
+  nameWithType: ReflectionUtilities
+  fullName: SF.Utilities.ReflectionUtilities
+- uid: SF.Utilities.RectExtensions
+  commentId: T:SF.Utilities.RectExtensions
+  href: SF.Utilities.RectExtensions.html
+  name: RectExtensions
+  nameWithType: RectExtensions
+  fullName: SF.Utilities.RectExtensions
+- uid: SF.Utilities.GLUtilities
+  commentId: T:SF.Utilities.GLUtilities
+  href: SF.Utilities.GLUtilities.html
+  name: GLUtilities
+  nameWithType: GLUtilities
+  fullName: SF.Utilities.GLUtilities
+- uid: SF.Utilities.AttributeUtilities
+  commentId: T:SF.Utilities.AttributeUtilities
+  href: SF.Utilities.AttributeUtilities.html
+  name: AttributeUtilities
+  nameWithType: AttributeUtilities
+  fullName: SF.Utilities.AttributeUtilities
+- uid: SF.Utilities.SingletonBehavior`1
+  commentId: T:SF.Utilities.SingletonBehavior`1
+  href: SF.Utilities.SingletonBehavior-1.html
+  name: SingletonBehavior<TSingleton>
+  nameWithType: SingletonBehavior<TSingleton>
+  fullName: SF.Utilities.SingletonBehavior<TSingleton>
+  nameWithType.vb: SingletonBehavior(Of TSingleton)
+  fullName.vb: SF.Utilities.SingletonBehavior(Of TSingleton)
+  name.vb: SingletonBehavior(Of TSingleton)
+  spec.csharp:
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: <
+  - name: TSingleton
+  - name: '>'
+  spec.vb:
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior
+    href: SF.Utilities.SingletonBehavior-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSingleton
+  - name: )
+- uid: SF.Utilities.FileUtility
+  commentId: T:SF.Utilities.FileUtility
+  href: SF.Utilities.FileUtility.html
+  name: FileUtility
+  nameWithType: FileUtility
+  fullName: SF.Utilities.FileUtility

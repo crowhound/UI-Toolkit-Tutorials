@@ -1,0 +1,526 @@
+### YamlMime:TableOfContent
+items:
+- uid: Global
+  name: ''
+  type: Namespace
+  items:
+  - uid: Global.EditorWindowBase
+    name: EditorWindowBase
+    type: Class
+- uid: SF
+  name: SF
+  type: Namespace
+  items:
+  - uid: SF.ComponentUtilities
+    name: ComponentUtilities
+    type: Class
+  - uid: SF.DragAndDropManipulator
+    name: DragAndDropManipulator
+    type: Class
+  - uid: SF.ManagerBaseStaticCleanUp`1
+    name: ManagerBaseStaticCleanUp<T>
+    type: Class
+  - uid: SF.ManagerBase`1
+    name: ManagerBase<T>
+    type: Class
+- uid: SF.AppUI
+  name: SF.AppUI
+  type: Namespace
+  items:
+  - uid: SF.AppUI.SFAppUIFactory
+    name: SFAppUIFactory
+    type: Class
+- uid: SF.Core
+  name: SF.Core
+  type: Namespace
+  items:
+  - uid: SF.Core.ConditionalShowAttribute
+    name: ConditionalShowAttribute
+    type: Class
+  - uid: SF.Core.TypeExtensions
+    name: TypeExtensions
+    type: Class
+- uid: SF.Damageable
+  name: SF.Damageable
+  type: Namespace
+  items:
+  - uid: SF.Damageable.HealthBase
+    name: HealthBase
+    type: Class
+- uid: SF.DataModule
+  name: SF.DataModule
+  type: Namespace
+  items:
+  - uid: SF.DataModule.DTOAssetBase
+    name: DTOAssetBase
+    type: Class
+  - uid: SF.DataModule.DTOBase
+    name: DTOBase
+    type: Class
+  - uid: SF.DataModule.DatabaseRegistry
+    name: DatabaseRegistry
+    type: Class
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase<T>
+    type: Class
+  - uid: SF.DataModule.SFDatabase
+    name: SFDatabase
+    type: Class
+  - uid: SF.DataModule.SFDatabase`1
+    name: SFDatabase<TDTOBase>
+    type: Class
+- uid: SF.DialogueModule
+  name: SF.DialogueModule
+  type: Namespace
+  items:
+  - uid: SF.DialogueModule.ConversationIndexExtension
+    name: ConversationIndexExtension
+    type: Class
+  - uid: SF.DialogueModule.ConversationPropertyPair
+    name: ConversationPropertyPair
+    type: Class
+  - uid: SF.DialogueModule.ConversationStage
+    name: ConversationStage
+    type: Enum
+  - uid: SF.DialogueModule.ConversationTimelineExtension
+    name: ConversationTimelineExtension
+    type: Class
+  - uid: SF.DialogueModule.ConversationUnityEventExtension
+    name: ConversationUnityEventExtension
+    type: Class
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    type: Class
+  - uid: SF.DialogueModule.DialogueDatabase
+    name: DialogueDatabase
+    type: Class
+  - uid: SF.DialogueModule.DialogueEntry
+    name: DialogueEntry
+    type: Class
+  - uid: SF.DialogueModule.DialogueExtensionBase
+    name: DialogueExtensionBase
+    type: Class
+  - uid: SF.DialogueModule.DialogueManager
+    name: DialogueManager
+    type: Class
+  - uid: SF.DialogueModule.DialoguePropertiesExtension
+    name: DialoguePropertiesExtension
+    type: Class
+  - uid: SF.DialogueModule.DialogueUIManager
+    name: DialogueUIManager
+    type: Class
+  - uid: SF.DialogueModule.TimedDialogueEntry
+    name: TimedDialogueEntry
+    type: Class
+- uid: SF.DialogueModule.Nodes
+  name: SF.DialogueModule.Nodes
+  type: Namespace
+  items:
+  - uid: SF.DialogueModule.Nodes.AnimatorRuntimeNode
+    name: AnimatorRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.BranchingRuntimeNode
+    name: BranchingRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.ComparisonNodeType
+    name: ComparisonNodeType
+    type: Enum
+  - uid: SF.DialogueModule.Nodes.ComparisonRuntimeNode
+    name: ComparisonRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.ConversationEntryRuntimeNode
+    name: ConversationEntryRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.ConversationIndexNodeType
+    name: ConversationIndexNodeType
+    type: Enum
+  - uid: SF.DialogueModule.Nodes.ConversationIndexRuntimeNode
+    name: ConversationIndexRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.ConversationRuntimeNode
+    name: ConversationRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+    name: DialogueRuntimeGraph
+    type: Class
+  - uid: SF.DialogueModule.Nodes.IComparisonNode
+    name: IComparisonNode
+    type: Interface
+  - uid: SF.DialogueModule.Nodes.IComparisonNode`1
+    name: IComparisonNode<TValueType>
+    type: Interface
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    type: Interface
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.SFXRuntimeNode
+    name: SFXRuntimeNode
+    type: Class
+  - uid: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+    name: StartDialogueRuntimeNode
+    type: Class
+- uid: SF.InputModule
+  name: SF.InputModule
+  type: Namespace
+  items:
+  - uid: SF.InputModule.SFInputManager
+    name: SFInputManager
+    type: Class
+- uid: SF.Managers
+  name: SF.Managers
+  type: Namespace
+  items:
+  - uid: SF.Managers.GameControlState
+    name: GameControlState
+    type: Enum
+  - uid: SF.Managers.GameManager
+    name: GameManager
+    type: Class
+- uid: SF.Pathfinding
+  name: SF.Pathfinding
+  type: Namespace
+  items:
+  - uid: SF.Pathfinding.MathGraphMovement
+    name: MathGraphMovement
+    type: Class
+  - uid: SF.Pathfinding.TrigFunctionType
+    name: TrigFunctionType
+    type: Enum
+- uid: SF.UIElements
+  name: SF.UIElements
+  type: Namespace
+  items:
+  - uid: SF.UIElements.ListViewUtilities
+    name: ListViewUtilities
+    type: Class
+  - uid: SF.UIElements.SFAutoFitLabel
+    name: SFAutoFitLabel
+    type: Class
+  - uid: SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+    name: SFAutoFitLabel.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    type: Class
+  - uid: SF.UIElements.SFButtonGroup.UxmlSerializedData
+    name: SFButtonGroup.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SFCard
+    name: SFCard
+    type: Class
+  - uid: SF.UIElements.SFCard.UxmlSerializedData
+    name: SFCard.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SFContainer
+    name: SFContainer
+    type: Class
+  - uid: SF.UIElements.SFContainer.UxmlSerializedData
+    name: SFContainer.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SFRow
+    name: SFRow
+    type: Class
+  - uid: SF.UIElements.SFRow.UxmlSerializedData
+    name: SFRow.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SFVisualElementBase
+    name: SFVisualElementBase
+    type: Class
+  - uid: SF.UIElements.SFVisualElementBase.UxmlSerializedData
+    name: SFVisualElementBase.UxmlSerializedData
+    type: Class
+  - uid: SF.UIElements.SideBarLayout
+    name: SideBarLayout
+    type: Class
+  - uid: SF.UIElements.SideBarLayout.UxmlSerializedData
+    name: SideBarLayout.UxmlSerializedData
+    type: Class
+- uid: SF.UIElements.Utilities
+  name: SF.UIElements.Utilities
+  type: Namespace
+  items:
+  - uid: SF.UIElements.Utilities.BorderSide
+    name: BorderSide
+    type: Enum
+  - uid: SF.UIElements.Utilities.ButtonElementsExtensions
+    name: ButtonElementsExtensions
+    type: Class
+  - uid: SF.UIElements.Utilities.SFCommonStyleClasses
+    name: SFCommonStyleClasses
+    type: Class
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions
+    name: VisualElementsExtensions
+    type: Class
+- uid: SF.UIModule
+  name: SF.UIModule
+  type: Namespace
+  items:
+  - uid: SF.UIModule.FillBar
+    name: FillBar
+    type: Class
+  - uid: SF.UIModule.FillBar.UxmlSerializedData
+    name: FillBar.UxmlSerializedData
+    type: Class
+  - uid: SF.UIModule.FillBarDirection
+    name: FillBarDirection
+    type: Enum
+  - uid: SF.UIModule.FillBarEvent
+    name: FillBarEvent
+    type: Class
+  - uid: SF.UIModule.IUIView
+    name: IUIView
+    type: Interface
+  - uid: SF.UIModule.PlayerHUD
+    name: PlayerHUD
+    type: Class
+  - uid: SF.UIModule.UIController
+    name: UIController
+    type: Class
+  - uid: SF.UIModule.UIControllerBase
+    name: UIControllerBase
+    type: Class
+  - uid: SF.UIModule.UIOverlayView
+    name: UIOverlayView
+    type: Class
+  - uid: SF.UIModule.UIView
+    name: UIView
+    type: Class
+  - uid: SF.UIModule.UIViewElement
+    name: UIViewElement
+    type: Class
+  - uid: SF.UIModule.UIViewElement.UxmlSerializedData
+    name: UIViewElement.UxmlSerializedData
+    type: Class
+- uid: SF.Utilities
+  name: SF.Utilities
+  type: Namespace
+  items:
+  - uid: SF.Utilities.AttributeUtilities
+    name: AttributeUtilities
+    type: Class
+  - uid: SF.Utilities.BoundExtensions
+    name: BoundExtensions
+    type: Class
+  - uid: SF.Utilities.FileUtility
+    name: FileUtility
+    type: Class
+  - uid: SF.Utilities.GLUtilities
+    name: GLUtilities
+    type: Class
+  - uid: SF.Utilities.GridUtilities
+    name: GridUtilities
+    type: Class
+  - uid: SF.Utilities.RectExtensions
+    name: RectExtensions
+    type: Class
+  - uid: SF.Utilities.ReflectionUtilities
+    name: ReflectionUtilities
+    type: Class
+  - uid: SF.Utilities.SingletonBehavior`1
+    name: SingletonBehavior<TSingleton>
+    type: Class
+  - uid: SF.Utilities.VectorExtensions
+    name: VectorExtensions
+    type: Class
+- uid: SF.Utilities.InteropServices
+  name: SF.Utilities.InteropServices
+  type: Namespace
+  items:
+  - uid: SF.Utilities.InteropServices.CollectionsMarshal
+    name: CollectionsMarshal
+    type: Class
+- uid: SF.Utilities.MathUtilities
+  name: SF.Utilities.MathUtilities
+  type: Namespace
+  items:
+  - uid: SF.Utilities.MathUtilities.TransformExtensions
+    name: TransformExtensions
+    type: Class
+- uid: SF.Utilities.Shapes
+  name: SF.Utilities.Shapes
+  type: Namespace
+  items:
+  - uid: SF.Utilities.Shapes.SFMeshUtilities
+    name: SFMeshUtilities
+    type: Class
+  - uid: SF.Utilities.Shapes.SFRendererUtilities
+    name: SFRendererUtilities
+    type: Class
+  - uid: SF.Utilities.Shapes.ShapeEdge
+    name: ShapeEdge
+    type: Struct
+  - uid: SF.Utilities.Shapes.ShapeFactory
+    name: ShapeFactory
+    type: Class
+  - uid: SF.Utilities.Shapes.ShapePoint
+    name: ShapePoint
+    type: Struct
+- uid: SFEditor
+  name: SFEditor
+  type: Namespace
+  items:
+  - uid: SFEditor.SFEditorUtilities
+    name: SFEditorUtilities
+    type: Class
+- uid: SFEditor.Dialogue.Graphs
+  name: SFEditor.Dialogue.Graphs
+  type: Namespace
+  items:
+  - uid: SFEditor.Dialogue.Graphs.AnimatorNode
+    name: AnimatorNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.AnimatorNodeType
+    name: AnimatorNodeType
+    type: Enum
+  - uid: SFEditor.Dialogue.Graphs.BranchingContextNode
+    name: BranchingContextNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ComparisonBlockNode
+    name: ComparisonBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationChoiceBlockNode
+    name: ConversationChoiceBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationChoiceNode
+    name: ConversationChoiceNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationContextNode
+    name: ConversationContextNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationEntryBlockNode
+    name: ConversationEntryBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationExtensionNode
+    name: ConversationExtensionNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.ConversationIndexBlockNode
+    name: ConversationIndexBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.DialogueGraph
+    name: DialogueGraph
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.DialogueInterruptionNode
+    name: DialogueInterruptionNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.DialogueNode
+    name: DialogueNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.DialoguePersonalityBlockNode
+    name: DialoguePersonalityBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.DialoguePersonalityContextNode
+    name: DialoguePersonalityContextNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.IDialogueNode
+    name: IDialogueNode
+    type: Interface
+  - uid: SFEditor.Dialogue.Graphs.IntCompareBlockNode
+    name: IntCompareBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.PersonalityTraits
+    name: PersonalityTraits
+    type: Enum
+  - uid: SFEditor.Dialogue.Graphs.SFGraphBase
+    name: SFGraphBase
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.SFXBlockNode
+    name: SFXBlockNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.SpriteNode
+    name: SpriteNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.SpriteRenderNode
+    name: SpriteRenderNode
+    type: Class
+  - uid: SFEditor.Dialogue.Graphs.StartDialogueNode
+    name: StartDialogueNode
+    type: Class
+- uid: SFEditor.DialogueModule
+  name: SFEditor.DialogueModule
+  type: Namespace
+  items:
+  - uid: SFEditor.DialogueModule.DialogueAssetPostProcessor
+    name: DialogueAssetPostProcessor
+    type: Class
+  - uid: SFEditor.DialogueModule.DialogueNodeProcessor
+    name: DialogueNodeProcessor
+    type: Class
+  - uid: SFEditor.DialogueModule.DialogueNodeUtilities
+    name: DialogueNodeUtilities
+    type: Class
+- uid: SFEditor.Nodes
+  name: SFEditor.Nodes
+  type: Namespace
+  items:
+  - uid: SFEditor.Nodes.IContextNodeConvertor
+    name: IContextNodeConvertor
+    type: Interface
+  - uid: SFEditor.Nodes.INodeConvertor
+    name: INodeConvertor
+    type: Interface
+- uid: SFEditor.UIElements
+  name: SFEditor.UIElements
+  type: Namespace
+  items:
+  - uid: SFEditor.UIElements.ObjectPickerExtensions
+    name: ObjectPickerExtensions
+    type: Class
+  - uid: SFEditor.UIElements.SFImageField
+    name: SFImageField
+    type: Class
+  - uid: SFEditor.UIElements.SFImageField.UxmlSerializedData
+    name: SFImageField.UxmlSerializedData
+    type: Class
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+    name: SFTypeDropdownMenu<TOption>
+    type: Class
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+    name: SFTypeDropdownMenu<TOption>.UxmlSerializedData
+    type: Class
+- uid: SFEditor.UIElements.Utilities
+  name: SFEditor.UIElements.Utilities
+  type: Namespace
+  items:
+  - uid: SFEditor.UIElements.Utilities.MouseRectDragManipulator
+    name: MouseRectDragManipulator
+    type: Class
+  - uid: SFEditor.UIElements.Utilities.SFUIElementsFactory
+    name: SFUIElementsFactory
+    type: Class
+  - uid: SFEditor.UIElements.Utilities.UIElementsEditorUtilities
+    name: UIElementsEditorUtilities
+    type: Class
+- uid: SFEditor.Utilities
+  name: SFEditor.Utilities
+  type: Namespace
+  items:
+  - uid: SFEditor.Utilities.AssetDatabaseEditorUtilities
+    name: AssetDatabaseEditorUtilities
+    type: Class
+  - uid: SFEditor.Utilities.FileUtility
+    name: FileUtility
+    type: Class
+  - uid: SFEditor.Utilities.FillRenderMode
+    name: FillRenderMode
+    type: Enum
+  - uid: SFEditor.Utilities.HandlesUtilities
+    name: HandlesUtilities
+    type: Class
+  - uid: SFEditor.Utilities.OutlineRenderMode
+    name: OutlineRenderMode
+    type: Enum
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities
+    name: SFEditorTypeUtilities
+    type: Class
+  - uid: SFEditor.Utilities.SFEditorTypeUtilities.ReferenceUpdater
+    name: SFEditorTypeUtilities.ReferenceUpdater
+    type: Delegate
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities
+    name: UnityEditorTypeUtilities
+    type: Class
+  - uid: SFEditor.Utilities.UnityEditorTypeUtilities.ReferenceUpdater
+    name: UnityEditorTypeUtilities.ReferenceUpdater
+    type: Delegate
+memberLayout: SamePage

@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  id: SF.DataModule
+  children:
+  - SF.DataModule.DTOAssetBase
+  - SF.DataModule.DTOBase
+  - SF.DataModule.DatabaseRegistry
+  - SF.DataModule.SFAssetDatabase`1
+  - SF.DataModule.SFDatabase
+  - SF.DataModule.SFDatabase`1
+  langs:
+  - csharp
+  - vb
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.DataModule.DTOBase
+  commentId: T:SF.DataModule.DTOBase
+  parent: SF.DataModule
+  href: SF.DataModule.DTOBase.html
+  name: DTOBase
+  nameWithType: DTOBase
+  fullName: SF.DataModule.DTOBase
+- uid: SF.DataModule.DTOAssetBase
+  commentId: T:SF.DataModule.DTOAssetBase
+  parent: SF.DataModule
+  href: SF.DataModule.DTOAssetBase.html
+  name: DTOAssetBase
+  nameWithType: DTOAssetBase
+  fullName: SF.DataModule.DTOAssetBase
+- uid: SF.DataModule.DatabaseRegistry
+  commentId: T:SF.DataModule.DatabaseRegistry
+  parent: SF.DataModule
+  href: SF.DataModule.DatabaseRegistry.html
+  name: DatabaseRegistry
+  nameWithType: DatabaseRegistry
+  fullName: SF.DataModule.DatabaseRegistry
+- uid: SF.DataModule.SFDatabase
+  commentId: T:SF.DataModule.SFDatabase
+  parent: SF.DataModule
+  href: SF.DataModule.SFDatabase.html
+  name: SFDatabase
+  nameWithType: SFDatabase
+  fullName: SF.DataModule.SFDatabase
+- uid: SF.DataModule.SFAssetDatabase`1
+  commentId: T:SF.DataModule.SFAssetDatabase`1
+  href: SF.DataModule.SFAssetDatabase-1.html
+  name: SFAssetDatabase<T>
+  nameWithType: SFAssetDatabase<T>
+  fullName: SF.DataModule.SFAssetDatabase<T>
+  nameWithType.vb: SFAssetDatabase(Of T)
+  fullName.vb: SF.DataModule.SFAssetDatabase(Of T)
+  name.vb: SFAssetDatabase(Of T)
+  spec.csharp:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: SF.DataModule.SFAssetDatabase`1
+    name: SFAssetDatabase
+    href: SF.DataModule.SFAssetDatabase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SF.DataModule.SFDatabase`1
+  commentId: T:SF.DataModule.SFDatabase`1
+  href: SF.DataModule.SFDatabase-1.html
+  name: SFDatabase<TDTOBase>
+  nameWithType: SFDatabase<TDTOBase>
+  fullName: SF.DataModule.SFDatabase<TDTOBase>
+  nameWithType.vb: SFDatabase(Of TDTOBase)
+  fullName.vb: SF.DataModule.SFDatabase(Of TDTOBase)
+  name.vb: SFDatabase(Of TDTOBase)
+  spec.csharp:
+  - uid: SF.DataModule.SFDatabase`1
+    name: SFDatabase
+    href: SF.DataModule.SFDatabase-1.html
+  - name: <
+  - name: TDTOBase
+  - name: '>'
+  spec.vb:
+  - uid: SF.DataModule.SFDatabase`1
+    name: SFDatabase
+    href: SF.DataModule.SFDatabase-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TDTOBase
+  - name: )
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html

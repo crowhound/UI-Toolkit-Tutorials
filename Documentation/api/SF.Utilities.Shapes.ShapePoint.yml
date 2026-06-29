@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.Shapes.ShapePoint
+  commentId: T:SF.Utilities.Shapes.ShapePoint
+  id: ShapePoint
+  parent: SF.Utilities.Shapes
+  children:
+  - SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3)
+  - SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3,System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge})
+  - SF.Utilities.Shapes.ShapePoint.ConnectedEdges
+  - SF.Utilities.Shapes.ShapePoint.Position
+  - SF.Utilities.Shapes.ShapePoint.ShapePointToVector3(SF.Utilities.Shapes.ShapePoint)
+  - SF.Utilities.Shapes.ShapePoint.op_Explicit(UnityEngine.Vector3)~SF.Utilities.Shapes.ShapePoint
+  - SF.Utilities.Shapes.ShapePoint.op_Implicit(SF.Utilities.Shapes.ShapePoint)~UnityEngine.Vector3
+  langs:
+  - csharp
+  - vb
+  name: ShapePoint
+  nameWithType: ShapePoint
+  fullName: SF.Utilities.Shapes.ShapePoint
+  type: Struct
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  summary: >-
+    Shape data struct that keeps track of the position of the single point and all the <xref href="SF.Utilities.Shapes.ShapeEdge" data-throw-if-not-resolved="false"></xref>
+
+    it is a part of.
+  example: []
+  syntax:
+    content: public struct ShapePoint
+    content.vb: Public Structure ShapePoint
+- uid: SF.Utilities.Shapes.ShapePoint.Position
+  commentId: F:SF.Utilities.Shapes.ShapePoint.Position
+  id: Position
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: ShapePoint.Position
+  fullName: SF.Utilities.Shapes.ShapePoint.Position
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public Vector3 Position
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Position As Vector3
+- uid: SF.Utilities.Shapes.ShapePoint.ConnectedEdges
+  commentId: F:SF.Utilities.Shapes.ShapePoint.ConnectedEdges
+  id: ConnectedEdges
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: ConnectedEdges
+  nameWithType: ShapePoint.ConnectedEdges
+  fullName: SF.Utilities.Shapes.ShapePoint.ConnectedEdges
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public List<ShapeEdge> ConnectedEdges
+    return:
+      type: System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge}
+    content.vb: Public ConnectedEdges As List(Of ShapeEdge)
+- uid: SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3)
+  commentId: M:SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3)
+  id: '#ctor(UnityEngine.Vector3)'
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: ShapePoint(Vector3)
+  nameWithType: ShapePoint.ShapePoint(Vector3)
+  fullName: SF.Utilities.Shapes.ShapePoint.ShapePoint(UnityEngine.Vector3)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapePoint(Vector3 position)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+    content.vb: Public Sub New(position As Vector3)
+  overload: SF.Utilities.Shapes.ShapePoint.#ctor*
+  nameWithType.vb: ShapePoint.New(Vector3)
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.New(UnityEngine.Vector3)
+  name.vb: New(Vector3)
+- uid: SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3,System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge})
+  commentId: M:SF.Utilities.Shapes.ShapePoint.#ctor(UnityEngine.Vector3,System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge})
+  id: '#ctor(UnityEngine.Vector3,System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge})'
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: ShapePoint(Vector3, List<ShapeEdge>)
+  nameWithType: ShapePoint.ShapePoint(Vector3, List<ShapeEdge>)
+  fullName: SF.Utilities.Shapes.ShapePoint.ShapePoint(UnityEngine.Vector3, System.Collections.Generic.List<SF.Utilities.Shapes.ShapeEdge>)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public ShapePoint(Vector3 position, List<ShapeEdge> connectedEdges)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+    - id: connectedEdges
+      type: System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge}
+    content.vb: Public Sub New(position As Vector3, connectedEdges As List(Of ShapeEdge))
+  overload: SF.Utilities.Shapes.ShapePoint.#ctor*
+  nameWithType.vb: ShapePoint.New(Vector3, List(Of ShapeEdge))
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.New(UnityEngine.Vector3, System.Collections.Generic.List(Of SF.Utilities.Shapes.ShapeEdge))
+  name.vb: New(Vector3, List(Of ShapeEdge))
+- uid: SF.Utilities.Shapes.ShapePoint.ShapePointToVector3(SF.Utilities.Shapes.ShapePoint)
+  commentId: M:SF.Utilities.Shapes.ShapePoint.ShapePointToVector3(SF.Utilities.Shapes.ShapePoint)
+  id: ShapePointToVector3(SF.Utilities.Shapes.ShapePoint)
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: ShapePointToVector3(ShapePoint)
+  nameWithType: ShapePoint.ShapePointToVector3(ShapePoint)
+  fullName: SF.Utilities.Shapes.ShapePoint.ShapePointToVector3(SF.Utilities.Shapes.ShapePoint)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static Vector3 ShapePointToVector3(ShapePoint shapePoint)
+    parameters:
+    - id: shapePoint
+      type: SF.Utilities.Shapes.ShapePoint
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Shared Function ShapePointToVector3(shapePoint As ShapePoint) As Vector3
+  overload: SF.Utilities.Shapes.ShapePoint.ShapePointToVector3*
+- uid: SF.Utilities.Shapes.ShapePoint.op_Implicit(SF.Utilities.Shapes.ShapePoint)~UnityEngine.Vector3
+  commentId: M:SF.Utilities.Shapes.ShapePoint.op_Implicit(SF.Utilities.Shapes.ShapePoint)~UnityEngine.Vector3
+  id: op_Implicit(SF.Utilities.Shapes.ShapePoint)~UnityEngine.Vector3
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: implicit operator Vector3(ShapePoint)
+  nameWithType: ShapePoint.implicit operator Vector3(ShapePoint)
+  fullName: SF.Utilities.Shapes.ShapePoint.implicit operator UnityEngine.Vector3(SF.Utilities.Shapes.ShapePoint)
+  type: Operator
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static implicit operator Vector3(ShapePoint shapePoint)
+    parameters:
+    - id: shapePoint
+      type: SF.Utilities.Shapes.ShapePoint
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Shared Widening Operator CType(shapePoint As ShapePoint) As Vector3
+  overload: SF.Utilities.Shapes.ShapePoint.op_Implicit*
+  nameWithType.vb: ShapePoint.CType(ShapePoint)
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.CType(SF.Utilities.Shapes.ShapePoint)
+  name.vb: CType(ShapePoint)
+- uid: SF.Utilities.Shapes.ShapePoint.op_Explicit(UnityEngine.Vector3)~SF.Utilities.Shapes.ShapePoint
+  commentId: M:SF.Utilities.Shapes.ShapePoint.op_Explicit(UnityEngine.Vector3)~SF.Utilities.Shapes.ShapePoint
+  id: op_Explicit(UnityEngine.Vector3)~SF.Utilities.Shapes.ShapePoint
+  parent: SF.Utilities.Shapes.ShapePoint
+  langs:
+  - csharp
+  - vb
+  name: explicit operator ShapePoint(Vector3)
+  nameWithType: ShapePoint.explicit operator ShapePoint(Vector3)
+  fullName: SF.Utilities.Shapes.ShapePoint.explicit operator SF.Utilities.Shapes.ShapePoint(UnityEngine.Vector3)
+  type: Operator
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities.Shapes
+  syntax:
+    content: public static explicit operator ShapePoint(Vector3 position)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+    return:
+      type: SF.Utilities.Shapes.ShapePoint
+    content.vb: Public Shared Narrowing Operator CType(position As Vector3) As ShapePoint
+  overload: SF.Utilities.Shapes.ShapePoint.op_Explicit*
+  nameWithType.vb: ShapePoint.CType(Vector3)
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.CType(UnityEngine.Vector3)
+  name.vb: CType(Vector3)
+references:
+- uid: SF.Utilities.Shapes.ShapeEdge
+  commentId: T:SF.Utilities.Shapes.ShapeEdge
+  href: SF.Utilities.Shapes.ShapeEdge.html
+  name: ShapeEdge
+  nameWithType: ShapeEdge
+  fullName: SF.Utilities.Shapes.ShapeEdge
+- uid: SF.Utilities.Shapes
+  commentId: N:SF.Utilities.Shapes
+  href: SF.html
+  name: SF.Utilities.Shapes
+  nameWithType: SF.Utilities.Shapes
+  fullName: SF.Utilities.Shapes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  - name: .
+  - uid: SF.Utilities.Shapes
+    name: Shapes
+    href: SF.Utilities.Shapes.html
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge}
+  commentId: T:System.Collections.Generic.List{SF.Utilities.Shapes.ShapeEdge}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.Utilities.Shapes.ShapeEdge.html
+  name: List<ShapeEdge>
+  nameWithType: List<ShapeEdge>
+  fullName: System.Collections.Generic.List<SF.Utilities.Shapes.ShapeEdge>
+  nameWithType.vb: List(Of ShapeEdge)
+  fullName.vb: System.Collections.Generic.List(Of SF.Utilities.Shapes.ShapeEdge)
+  name.vb: List(Of ShapeEdge)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.Utilities.Shapes.ShapeEdge
+    name: ShapeEdge
+    href: SF.Utilities.Shapes.ShapeEdge.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Utilities.Shapes.ShapeEdge
+    name: ShapeEdge
+    href: SF.Utilities.Shapes.ShapeEdge.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.Utilities.Shapes.ShapePoint.#ctor*
+  commentId: Overload:SF.Utilities.Shapes.ShapePoint.#ctor
+  href: SF.Utilities.Shapes.ShapePoint.html#SF_Utilities_Shapes_ShapePoint__ctor_UnityEngine_Vector3_
+  name: ShapePoint
+  nameWithType: ShapePoint.ShapePoint
+  fullName: SF.Utilities.Shapes.ShapePoint.ShapePoint
+  nameWithType.vb: ShapePoint.New
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.New
+  name.vb: New
+- uid: SF.Utilities.Shapes.ShapePoint.ShapePointToVector3*
+  commentId: Overload:SF.Utilities.Shapes.ShapePoint.ShapePointToVector3
+  href: SF.Utilities.Shapes.ShapePoint.html#SF_Utilities_Shapes_ShapePoint_ShapePointToVector3_SF_Utilities_Shapes_ShapePoint_
+  name: ShapePointToVector3
+  nameWithType: ShapePoint.ShapePointToVector3
+  fullName: SF.Utilities.Shapes.ShapePoint.ShapePointToVector3
+- uid: SF.Utilities.Shapes.ShapePoint
+  commentId: T:SF.Utilities.Shapes.ShapePoint
+  parent: SF.Utilities.Shapes
+  href: SF.Utilities.Shapes.ShapePoint.html
+  name: ShapePoint
+  nameWithType: ShapePoint
+  fullName: SF.Utilities.Shapes.ShapePoint
+- uid: SF.Utilities.Shapes.ShapePoint.op_Implicit*
+  commentId: Overload:SF.Utilities.Shapes.ShapePoint.op_Implicit
+  name: implicit operator
+  nameWithType: ShapePoint.implicit operator
+  fullName: SF.Utilities.Shapes.ShapePoint.implicit operator
+  nameWithType.vb: ShapePoint.CType
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.CType
+  name.vb: CType
+  spec.csharp:
+  - name: implicit
+  - name: " "
+  - name: operator
+- uid: SF.Utilities.Shapes.ShapePoint.op_Explicit*
+  commentId: Overload:SF.Utilities.Shapes.ShapePoint.op_Explicit
+  name: explicit operator
+  nameWithType: ShapePoint.explicit operator
+  fullName: SF.Utilities.Shapes.ShapePoint.explicit operator
+  nameWithType.vb: ShapePoint.CType
+  fullName.vb: SF.Utilities.Shapes.ShapePoint.CType
+  name.vb: CType
+  spec.csharp:
+  - name: explicit
+  - name: " "
+  - name: operator

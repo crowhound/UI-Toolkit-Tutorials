@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  id: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.BorderSide
+  - SF.UIElements.Utilities.ButtonElementsExtensions
+  - SF.UIElements.Utilities.SFCommonStyleClasses
+  - SF.UIElements.Utilities.VisualElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.UIElements.Utilities.BorderSide
+  commentId: T:SF.UIElements.Utilities.BorderSide
+  parent: SF.UIElements.Utilities
+  href: SF.UIElements.Utilities.BorderSide.html
+  name: BorderSide
+  nameWithType: BorderSide
+  fullName: SF.UIElements.Utilities.BorderSide
+- uid: SF.UIElements.Utilities.VisualElementsExtensions
+  commentId: T:SF.UIElements.Utilities.VisualElementsExtensions
+  parent: SF.UIElements.Utilities
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html
+  name: VisualElementsExtensions
+  nameWithType: VisualElementsExtensions
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions
+- uid: SF.UIElements.Utilities.ButtonElementsExtensions
+  commentId: T:SF.UIElements.Utilities.ButtonElementsExtensions
+  href: SF.UIElements.Utilities.ButtonElementsExtensions.html
+  name: ButtonElementsExtensions
+  nameWithType: ButtonElementsExtensions
+  fullName: SF.UIElements.Utilities.ButtonElementsExtensions
+- uid: SF.UIElements.Utilities.SFCommonStyleClasses
+  commentId: T:SF.UIElements.Utilities.SFCommonStyleClasses
+  href: SF.UIElements.Utilities.SFCommonStyleClasses.html
+  name: SFCommonStyleClasses
+  nameWithType: SFCommonStyleClasses
+  fullName: SF.UIElements.Utilities.SFCommonStyleClasses
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html

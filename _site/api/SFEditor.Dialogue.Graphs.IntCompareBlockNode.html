@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class IntCompareBlockNode | SF UI Toolkit Tutorials </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class IntCompareBlockNode | SF UI Toolkit Tutorials ">
+    
+    
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="SF UI Toolkit Tutorials">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode">
+
+
+
+  <h1 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode" class="text-break">Class IntCompareBlockNode</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">Node</span></div>
+    <div class="level2"><span class="xref">BlockNode</span></div>
+    <div class="level3"><a class="xref" href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.html">ComparisonBlockNode</a></div>
+    <div class="level4"><span class="xref">IntCompareBlockNode</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="SF.DialogueModule.Nodes.IComparisonNode.html">IComparisonNode</a></div>
+    <div><a class="xref" href="SFEditor.Nodes.INodeConvertor.html">INodeConvertor</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_ExecutionPortName">ComparisonBlockNode.ExecutionPortName</a>
+    </div>
+    <div>
+      <a class="xref" href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode__executionNode">ComparisonBlockNode._executionNode</a>
+    </div>
+    <div>
+      <a class="xref" href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_GetExecutionNode">ComparisonBlockNode.GetExecutionNode()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SFEditor.html">SFEditor</a>.<a class="xref" href="SFEditor.Dialogue.html">Dialogue</a>.<a class="xref" href="SFEditor.Dialogue.Graphs.html">Graphs</a></h6>
+  <h6><strong>Assembly</strong>: SFeditor.Packages.dll</h6>
+  <h5 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serializable]
+[UseWithContext(new Type[] { typeof(BranchingContextNode) })]
+[UseWithGraph(new Type[] { typeof(DialogueGraph) })]
+public class IntCompareBlockNode : ComparisonBlockNode, IComparisonNode, INodeConvertor</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ComparisonNodeType" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ComparisonNodeType">ComparisonNodeType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ComparisonNodeType ComparisonNodeType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SF.DialogueModule.Nodes.ComparisonNodeType.html">ComparisonNodeType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ComparisonValue" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ComparisonValue">ComparisonValue</h4>
+  <div class="markdown level1 summary"><p>The value to check against.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ComparisonValue</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ValueToCheck" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ValueToCheck">ValueToCheck</h4>
+  <div class="markdown level1 summary"><p>The value you want to use a the base to check.
+This is set by the <a class="xref" href="SFEditor.Dialogue.Graphs.BranchingContextNode.html">BranchingContextNode</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ValueToCheck</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ComparisonValueOptionsName_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ComparisonValueOptionsName*"></a>
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ComparisonValueOptionsName" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ComparisonValueOptionsName">ComparisonValueOptionsName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ComparisonValueOptionsName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_Compare_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.Compare*"></a>
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_Compare" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.Compare">Compare()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Compare()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="SFEditor.Dialogue.Graphs.ComparisonBlockNode.html#SFEditor_Dialogue_Graphs_ComparisonBlockNode_Compare">ComparisonBlockNode.Compare()</a></div>
+
+
+  <a id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ConvertToRuntimeNode_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ConvertToRuntimeNode*"></a>
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_ConvertToRuntimeNode" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.ConvertToRuntimeNode">ConvertToRuntimeNode()</h4>
+  <div class="markdown level1 summary"><p>Tells how a graph importing class should convert editor nodes to runtime nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRuntimeNode ConvertToRuntimeNode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="SF.DialogueModule.Nodes.IRuntimeNode.html">IRuntimeNode</a></td>
+        <td><p>Returns the converted runtime node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_OnDefineOptions_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.OnDefineOptions*"></a>
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_OnDefineOptions_Unity_GraphToolkit_Editor_Node_IOptionDefinitionContext_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)">OnDefineOptions(IOptionDefinitionContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDefineOptions(Node.IOptionDefinitionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Node</span>.<span class="xref">IOptionDefinitionContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Unity.GraphToolkit.Editor.Node.OnDefineOptions(Unity.GraphToolkit.Editor.Node.IOptionDefinitionContext)</span></div>
+
+
+  <a id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_OnDefinePorts_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.OnDefinePorts*"></a>
+  <h4 id="SFEditor_Dialogue_Graphs_IntCompareBlockNode_OnDefinePorts_Unity_GraphToolkit_Editor_Node_IPortDefinitionContext_" data-uid="SFEditor.Dialogue.Graphs.IntCompareBlockNode.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)">OnDefinePorts(IPortDefinitionContext)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnDefinePorts(Node.IPortDefinitionContext context)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Node</span>.<span class="xref">IPortDefinitionContext</span></td>
+        <td><span class="parametername">context</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Unity.GraphToolkit.Editor.Node.OnDefinePorts(Unity.GraphToolkit.Editor.Node.IPortDefinitionContext)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="SF.DialogueModule.Nodes.IComparisonNode.html">IComparisonNode</a>
+  </div>
+  <div>
+      <a class="xref" href="SFEditor.Nodes.INodeConvertor.html">INodeConvertor</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

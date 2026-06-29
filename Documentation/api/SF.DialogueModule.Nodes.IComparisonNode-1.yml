@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode`1
+  id: IComparisonNode`1
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  - SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  langs:
+  - csharp
+  - vb
+  name: IComparisonNode<TValueType>
+  nameWithType: IComparisonNode<TValueType>
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>
+  type: Interface
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: 'public interface IComparisonNode<TValueType> : IComparisonNode'
+    typeParameters:
+    - id: TValueType
+    content.vb: Public Interface IComparisonNode(Of TValueType) Inherits IComparisonNode
+  derivedClasses:
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  inheritedMembers:
+  - SF.DialogueModule.Nodes.IComparisonNode.Compare
+  nameWithType.vb: IComparisonNode(Of TValueType)
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType)
+  name.vb: IComparisonNode(Of TValueType)
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  id: ValueToCheck
+  parent: SF.DialogueModule.Nodes.IComparisonNode`1
+  langs:
+  - csharp
+  - vb
+  name: ValueToCheck
+  nameWithType: IComparisonNode<TValueType>.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ValueToCheck
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    The value you want to use a the base to check.
+
+    This is set by the <xref href="SF.DialogueModule.Nodes.BranchingRuntimeNode" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: TValueType ValueToCheck { get; set; }
+    parameters: []
+    return:
+      type: '{TValueType}'
+    content.vb: Property ValueToCheck As TValueType
+  overload: SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck*
+  nameWithType.vb: IComparisonNode(Of TValueType).ValueToCheck
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ValueToCheck
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  commentId: P:SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  id: ComparisonValue
+  parent: SF.DialogueModule.Nodes.IComparisonNode`1
+  langs:
+  - csharp
+  - vb
+  name: ComparisonValue
+  nameWithType: IComparisonNode<TValueType>.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ComparisonValue
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: The value to check against.
+  example: []
+  syntax:
+    content: TValueType ComparisonValue { get; set; }
+    parameters: []
+    return:
+      type: '{TValueType}'
+    content.vb: Property ComparisonValue As TValueType
+  overload: SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue*
+  nameWithType.vb: IComparisonNode(Of TValueType).ComparisonValue
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ComparisonValue
+references:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+  commentId: M:SF.DialogueModule.Nodes.IComparisonNode.Compare
+  parent: SF.DialogueModule.Nodes.IComparisonNode
+  href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  name: Compare()
+  nameWithType: IComparisonNode.Compare()
+  fullName: SF.DialogueModule.Nodes.IComparisonNode.Compare()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+    name: Compare
+    href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IComparisonNode.html
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+- uid: SF.DialogueModule.Nodes.BranchingRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.BranchingRuntimeNode
+  href: SF.DialogueModule.Nodes.BranchingRuntimeNode.html
+  name: BranchingRuntimeNode
+  nameWithType: BranchingRuntimeNode
+  fullName: SF.DialogueModule.Nodes.BranchingRuntimeNode
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck*
+  commentId: Overload:SF.DialogueModule.Nodes.IComparisonNode`1.ValueToCheck
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ValueToCheck
+  name: ValueToCheck
+  nameWithType: IComparisonNode<TValueType>.ValueToCheck
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ValueToCheck
+  nameWithType.vb: IComparisonNode(Of TValueType).ValueToCheck
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ValueToCheck
+- uid: '{TValueType}'
+  commentId: '!:TValueType'
+  definition: TValueType
+  name: TValueType
+  nameWithType: TValueType
+  fullName: TValueType
+- uid: TValueType
+  name: TValueType
+  nameWithType: TValueType
+  fullName: TValueType
+- uid: SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue*
+  commentId: Overload:SF.DialogueModule.Nodes.IComparisonNode`1.ComparisonValue
+  href: SF.DialogueModule.Nodes.IComparisonNode-1.html#SF_DialogueModule_Nodes_IComparisonNode_1_ComparisonValue
+  name: ComparisonValue
+  nameWithType: IComparisonNode<TValueType>.ComparisonValue
+  fullName: SF.DialogueModule.Nodes.IComparisonNode<TValueType>.ComparisonValue
+  nameWithType.vb: IComparisonNode(Of TValueType).ComparisonValue
+  fullName.vb: SF.DialogueModule.Nodes.IComparisonNode(Of TValueType).ComparisonValue

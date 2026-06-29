@@ -1,0 +1,595 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  id: UIView
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.UIView.Dispose
+  - SF.UIModule.UIView.Hide
+  - SF.UIModule.UIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  - SF.UIModule.UIView.IsHidden
+  - SF.UIModule.UIView.IsInstancedUXMLTemplate
+  - SF.UIModule.UIView.RegisterEventCallbacks
+  - SF.UIModule.UIView.RootElement
+  - SF.UIModule.UIView.SetVisualElements
+  - SF.UIModule.UIView.Show
+  - SF.UIModule.UIView._hideOnAwake
+  - SF.UIModule.UIView._uiController
+  langs:
+  - csharp
+  - vb
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Initializes the uxml/visual element assets for a set of UI elements that make up a UI menu/view
+
+    and registers the needed events in them.
+  remarks: >-
+    Multiple views are able to be on screen at once. Each UI View can have UI views in them as sub views.
+
+    Each UIView can be seen as an organized set of UI elements that focus on a certain feature or function.
+
+    Examples: Each view of the setting menu, the main menu contains several UI views, title screen, and overlays.
+
+
+    Each UI View has an <xref href="SF.UIModule.UIController" data-throw-if-not-resolved="false"></xref> for logic that contains the events the UIViews register listens for.
+
+    Note each <xref href="SF.UIModule.UIController" data-throw-if-not-resolved="false"></xref> can control multiple UIViews. Think about the main menu and how it has logic for the side
+
+    buttons to open different sub views like inventory, settings, and journal.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class UIView : IUIView
+    content.vb: >-
+      <Serializable>
+
+      Public Class UIView Implements IUIView
+  inheritance:
+  - System.Object
+  implements:
+  - SF.UIModule.IUIView
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.UIModule.UIView._hideOnAwake
+  commentId: F:SF.UIModule.UIView._hideOnAwake
+  id: _hideOnAwake
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: _hideOnAwake
+  nameWithType: UIView._hideOnAwake
+  fullName: SF.UIModule.UIView._hideOnAwake
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected bool _hideOnAwake
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <SerializeField>
+
+      Protected _hideOnAwake As Boolean
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: SF.UIModule.UIView.RootElement
+  commentId: P:SF.UIModule.UIView.RootElement
+  id: RootElement
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: RootElement
+  nameWithType: UIView.RootElement
+  fullName: SF.UIModule.UIView.RootElement
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  example: []
+  syntax:
+    content: public VisualElement RootElement { get; protected set; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Property RootElement As VisualElement
+  overload: SF.UIModule.UIView.RootElement*
+  implements:
+  - SF.UIModule.IUIView.RootElement
+- uid: SF.UIModule.UIView.IsHidden
+  commentId: P:SF.UIModule.UIView.IsHidden
+  id: IsHidden
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: IsHidden
+  nameWithType: UIView.IsHidden
+  fullName: SF.UIModule.UIView.IsHidden
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  example: []
+  syntax:
+    content: public bool IsHidden { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsHidden As Boolean
+  overload: SF.UIModule.UIView.IsHidden*
+  implements:
+  - SF.UIModule.IUIView.IsHidden
+- uid: SF.UIModule.UIView._uiController
+  commentId: F:SF.UIModule.UIView._uiController
+  id: _uiController
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: _uiController
+  nameWithType: UIView._uiController
+  fullName: SF.UIModule.UIView._uiController
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: The UI Controller that has the logic for the UI View.
+  example: []
+  syntax:
+    content: protected UIController _uiController
+    return:
+      type: SF.UIModule.UIController
+    content.vb: Protected _uiController As UIController
+- uid: SF.UIModule.UIView.IsInstancedUXMLTemplate
+  commentId: F:SF.UIModule.UIView.IsInstancedUXMLTemplate
+  id: IsInstancedUXMLTemplate
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: IsInstancedUXMLTemplate
+  nameWithType: UIView.IsInstancedUXMLTemplate
+  fullName: SF.UIModule.UIView.IsInstancedUXMLTemplate
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    If the UView's uxml structure is being instantiated via Templates inside an uxml file.
+
+    If this is set to true the parent of the passed in root object will be used for show/hide
+
+    by declaring the <xref href="UnityEngine.UIElements.TemplateContainer" data-throw-if-not-resolved="false"></xref> in the initialize as the root object
+  remarks: When <xref href="UnityEngine.UIElements.TemplateContainer" data-throw-if-not-resolved="false"></xref> are used it is sometimes better to set the <xref href="UnityEngine.UIElements.TemplateContainer" data-throw-if-not-resolved="false"></xref> as the root object.
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public bool IsInstancedUXMLTemplate
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NonSerialized>
+
+      Public IsInstancedUXMLTemplate As Boolean
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.UIModule.UIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  commentId: M:SF.UIModule.UIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  id: Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: Initialize(VisualElement, UIController)
+  nameWithType: UIView.Initialize(VisualElement, UIController)
+  fullName: SF.UIModule.UIView.Initialize(UnityEngine.UIElements.VisualElement, SF.UIModule.UIController)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  example: []
+  syntax:
+    content: public virtual void Initialize(VisualElement rootElement, UIController uiController = null)
+    parameters:
+    - id: rootElement
+      type: UnityEngine.UIElements.VisualElement
+    - id: uiController
+      type: SF.UIModule.UIController
+    content.vb: Public Overridable Sub Initialize(rootElement As VisualElement, uiController As UIController = Nothing)
+  overload: SF.UIModule.UIView.Initialize*
+  implements:
+  - SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+- uid: SF.UIModule.UIView.SetVisualElements
+  commentId: M:SF.UIModule.UIView.SetVisualElements
+  id: SetVisualElements
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: SetVisualElements()
+  nameWithType: UIView.SetVisualElements()
+  fullName: SF.UIModule.UIView.SetVisualElements()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: Sets up the VisualElements for the UI. Override to customize.
+  example: []
+  syntax:
+    content: protected virtual void SetVisualElements()
+    content.vb: Protected Overridable Sub SetVisualElements()
+  overload: SF.UIModule.UIView.SetVisualElements*
+- uid: SF.UIModule.UIView.RegisterEventCallbacks
+  commentId: M:SF.UIModule.UIView.RegisterEventCallbacks
+  id: RegisterEventCallbacks
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: RegisterEventCallbacks()
+  nameWithType: UIView.RegisterEventCallbacks()
+  fullName: SF.UIModule.UIView.RegisterEventCallbacks()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: Registers callbacks for buttons in the UI. Override to customize.
+  example: []
+  syntax:
+    content: protected virtual void RegisterEventCallbacks()
+    content.vb: Protected Overridable Sub RegisterEventCallbacks()
+  overload: SF.UIModule.UIView.RegisterEventCallbacks*
+- uid: SF.UIModule.UIView.Show
+  commentId: M:SF.UIModule.UIView.Show
+  id: Show
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: Show()
+  nameWithType: UIView.Show()
+  fullName: SF.UIModule.UIView.Show()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Shows the defined root element of the <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    This sets the root element's style display to flex.
+  example: []
+  syntax:
+    content: public virtual void Show()
+    content.vb: Public Overridable Sub Show()
+  overload: SF.UIModule.UIView.Show*
+  implements:
+  - SF.UIModule.IUIView.Show
+- uid: SF.UIModule.UIView.Hide
+  commentId: M:SF.UIModule.UIView.Hide
+  id: Hide
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: Hide()
+  nameWithType: UIView.Hide()
+  fullName: SF.UIModule.UIView.Hide()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Hides the defined root element of the <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    /// This sets the root element's style display to none.
+  example: []
+  syntax:
+    content: public virtual void Hide()
+    content.vb: Public Overridable Sub Hide()
+  overload: SF.UIModule.UIView.Hide*
+  implements:
+  - SF.UIModule.IUIView.Hide
+- uid: SF.UIModule.UIView.Dispose
+  commentId: M:SF.UIModule.UIView.Dispose
+  id: Dispose
+  parent: SF.UIModule.UIView
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: UIView.Dispose()
+  fullName: SF.UIModule.UIView.Dispose()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: Unregisters any callbacks or event handlers.
+  example: []
+  syntax:
+    content: public virtual void Dispose()
+    content.vb: Public Overridable Sub Dispose()
+  overload: SF.UIModule.UIView.Dispose*
+  implements:
+  - SF.UIModule.IUIView.Dispose
+references:
+- uid: SF.UIModule.UIController
+  commentId: T:SF.UIModule.UIController
+  parent: SF.UIModule
+  href: SF.UIModule.UIController.html
+  name: UIController
+  nameWithType: UIController
+  fullName: SF.UIModule.UIController
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SF.UIModule.IUIView
+  commentId: T:SF.UIModule.IUIView
+  parent: SF.UIModule
+  href: SF.UIModule.IUIView.html
+  name: IUIView
+  nameWithType: IUIView
+  fullName: SF.UIModule.IUIView
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SF.UIModule.UIView.RootElement*
+  commentId: Overload:SF.UIModule.UIView.RootElement
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_RootElement
+  name: RootElement
+  nameWithType: UIView.RootElement
+  fullName: SF.UIModule.UIView.RootElement
+- uid: SF.UIModule.IUIView.RootElement
+  commentId: P:SF.UIModule.IUIView.RootElement
+  parent: SF.UIModule.IUIView
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_RootElement
+  name: RootElement
+  nameWithType: IUIView.RootElement
+  fullName: SF.UIModule.IUIView.RootElement
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SF.UIModule.UIView.IsHidden*
+  commentId: Overload:SF.UIModule.UIView.IsHidden
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_IsHidden
+  name: IsHidden
+  nameWithType: UIView.IsHidden
+  fullName: SF.UIModule.UIView.IsHidden
+- uid: SF.UIModule.IUIView.IsHidden
+  commentId: P:SF.UIModule.IUIView.IsHidden
+  parent: SF.UIModule.IUIView
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_IsHidden
+  name: IsHidden
+  nameWithType: IUIView.IsHidden
+  fullName: SF.UIModule.IUIView.IsHidden
+- uid: UnityEngine.UIElements.TemplateContainer
+  commentId: T:UnityEngine.UIElements.TemplateContainer
+  isExternal: true
+  name: TemplateContainer
+  nameWithType: TemplateContainer
+  fullName: UnityEngine.UIElements.TemplateContainer
+- uid: SF.UIModule.UIView.Initialize*
+  commentId: Overload:SF.UIModule.UIView.Initialize
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_
+  name: Initialize
+  nameWithType: UIView.Initialize
+  fullName: SF.UIModule.UIView.Initialize
+- uid: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  commentId: M:SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+  parent: SF.UIModule.IUIView
+  isExternal: true
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_
+  name: Initialize(VisualElement, UIController)
+  nameWithType: IUIView.Initialize(VisualElement, UIController)
+  fullName: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement, SF.UIModule.UIController)
+  spec.csharp:
+  - uid: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+    name: Initialize
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.IUIView.Initialize(UnityEngine.UIElements.VisualElement,SF.UIModule.UIController)
+    name: Initialize
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Initialize_UnityEngine_UIElements_VisualElement_SF_UIModule_UIController_
+  - name: (
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: )
+- uid: SF.UIModule.UIView.SetVisualElements*
+  commentId: Overload:SF.UIModule.UIView.SetVisualElements
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_SetVisualElements
+  name: SetVisualElements
+  nameWithType: UIView.SetVisualElements
+  fullName: SF.UIModule.UIView.SetVisualElements
+- uid: SF.UIModule.UIView.RegisterEventCallbacks*
+  commentId: Overload:SF.UIModule.UIView.RegisterEventCallbacks
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_RegisterEventCallbacks
+  name: RegisterEventCallbacks
+  nameWithType: UIView.RegisterEventCallbacks
+  fullName: SF.UIModule.UIView.RegisterEventCallbacks
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  href: SF.UIModule.UIView.html
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+- uid: SF.UIModule.UIView.Show*
+  commentId: Overload:SF.UIModule.UIView.Show
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_Show
+  name: Show
+  nameWithType: UIView.Show
+  fullName: SF.UIModule.UIView.Show
+- uid: SF.UIModule.IUIView.Show
+  commentId: M:SF.UIModule.IUIView.Show
+  parent: SF.UIModule.IUIView
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Show
+  name: Show()
+  nameWithType: IUIView.Show()
+  fullName: SF.UIModule.IUIView.Show()
+  spec.csharp:
+  - uid: SF.UIModule.IUIView.Show
+    name: Show
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Show
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.IUIView.Show
+    name: Show
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Show
+  - name: (
+  - name: )
+- uid: SF.UIModule.UIView.Hide*
+  commentId: Overload:SF.UIModule.UIView.Hide
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_Hide
+  name: Hide
+  nameWithType: UIView.Hide
+  fullName: SF.UIModule.UIView.Hide
+- uid: SF.UIModule.IUIView.Hide
+  commentId: M:SF.UIModule.IUIView.Hide
+  parent: SF.UIModule.IUIView
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Hide
+  name: Hide()
+  nameWithType: IUIView.Hide()
+  fullName: SF.UIModule.IUIView.Hide()
+  spec.csharp:
+  - uid: SF.UIModule.IUIView.Hide
+    name: Hide
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Hide
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.IUIView.Hide
+    name: Hide
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Hide
+  - name: (
+  - name: )
+- uid: SF.UIModule.UIView.Dispose*
+  commentId: Overload:SF.UIModule.UIView.Dispose
+  href: SF.UIModule.UIView.html#SF_UIModule_UIView_Dispose
+  name: Dispose
+  nameWithType: UIView.Dispose
+  fullName: SF.UIModule.UIView.Dispose
+- uid: SF.UIModule.IUIView.Dispose
+  commentId: M:SF.UIModule.IUIView.Dispose
+  parent: SF.UIModule.IUIView
+  href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Dispose
+  name: Dispose()
+  nameWithType: IUIView.Dispose()
+  fullName: SF.UIModule.IUIView.Dispose()
+  spec.csharp:
+  - uid: SF.UIModule.IUIView.Dispose
+    name: Dispose
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Dispose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.IUIView.Dispose
+    name: Dispose
+    href: SF.UIModule.IUIView.html#SF_UIModule_IUIView_Dispose
+  - name: (
+  - name: )

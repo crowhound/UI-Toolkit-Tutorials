@@ -1,0 +1,488 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.UIController
+  commentId: T:SF.UIModule.UIController
+  id: UIController
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.UIController.Awake
+  - SF.UIModule.UIController.OnAwake
+  - SF.UIModule.UIController.OnDisable
+  - SF.UIModule.UIController.OnEnable
+  - SF.UIModule.UIController.OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer,UnityEngine.UIElements.VisualElement,System.Int32)
+  - SF.UIModule.UIController._panelRenderer
+  langs:
+  - csharp
+  - vb
+  name: UIController
+  nameWithType: UIController
+  fullName: SF.UIModule.UIController
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    The wrapper class for anything that controls the logic of an <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref> or a class that inherits from <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref>.
+
+    <remarks>
+    	There can be multiple UIController using the same <xref href="UnityEngine.UIElements.UIDocument" data-throw-if-not-resolved="false"></xref>.
+    	Example the main menu has sub <xref href="SF.UIModule.UIView" data-throw-if-not-resolved="false"></xref> that display a specific menu like inventory, options, and ect.
+    	Depending on the submenu it might have its own UIController class for its logic.
+    </remarks>
+  example: []
+  syntax:
+    content: 'public abstract class UIController : UIControllerBase'
+    content.vb: Public MustInherit Class UIController Inherits UIControllerBase
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - SF.UIModule.UIControllerBase
+  inheritedMembers:
+  - SF.UIModule.UIControllerBase.ShowView
+  - SF.UIModule.UIControllerBase.HideView
+  extensionMethods:
+  - SF.UIModule.UIController.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.UIModule.UIController._panelRenderer
+  commentId: F:SF.UIModule.UIController._panelRenderer
+  id: _panelRenderer
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: _panelRenderer
+  nameWithType: UIController._panelRenderer
+  fullName: SF.UIModule.UIController._panelRenderer
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: protected PanelRenderer _panelRenderer
+    return:
+      type: UnityEngine.UIElements.PanelRenderer
+    content.vb: Protected _panelRenderer As PanelRenderer
+- uid: SF.UIModule.UIController.Awake
+  commentId: M:SF.UIModule.UIController.Awake
+  id: Awake
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: UIController.Awake()
+  fullName: SF.UIModule.UIController.Awake()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake()
+  overload: SF.UIModule.UIController.Awake*
+- uid: SF.UIModule.UIController.OnAwake
+  commentId: M:SF.UIModule.UIController.OnAwake
+  id: OnAwake
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: OnAwake()
+  nameWithType: UIController.OnAwake()
+  fullName: SF.UIModule.UIController.OnAwake()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Override this to add custom Awake logic to UIControllers.
+
+    If a class inheriting from the UIController needs to delay the RegisterUIReloadCallback override the OnAwake.
+
+
+    <example>
+
+    Delaying an Inventory RegisterUIReloadCallback till after the inventory database or player inventory has been initiailized.
+
+    </example>
+  example: []
+  syntax:
+    content: protected virtual void OnAwake()
+    content.vb: Protected Overridable Sub OnAwake()
+  overload: SF.UIModule.UIController.OnAwake*
+- uid: SF.UIModule.UIController.OnEnable
+  commentId: M:SF.UIModule.UIController.OnEnable
+  id: OnEnable
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: UIController.OnEnable()
+  fullName: SF.UIModule.UIController.OnEnable()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable()
+  overload: SF.UIModule.UIController.OnEnable*
+- uid: SF.UIModule.UIController.OnDisable
+  commentId: M:SF.UIModule.UIController.OnDisable
+  id: OnDisable
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: UIController.OnDisable()
+  fullName: SF.UIModule.UIController.OnDisable()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: protected virtual void OnDisable()
+    content.vb: Protected Overridable Sub OnDisable()
+  overload: SF.UIModule.UIController.OnDisable*
+- uid: SF.UIModule.UIController.OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer,UnityEngine.UIElements.VisualElement,System.Int32)
+  commentId: M:SF.UIModule.UIController.OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer,UnityEngine.UIElements.VisualElement,System.Int32)
+  id: OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer,UnityEngine.UIElements.VisualElement,System.Int32)
+  parent: SF.UIModule.UIController
+  langs:
+  - csharp
+  - vb
+  name: OnUIControllerUIReloaded(PanelRenderer, VisualElement, int)
+  nameWithType: UIController.OnUIControllerUIReloaded(PanelRenderer, VisualElement, int)
+  fullName: SF.UIModule.UIController.OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer, UnityEngine.UIElements.VisualElement, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: >-
+    Called when the <xref href="SF.UIModule.UIController._panelRenderer" data-throw-if-not-resolved="false"></xref> Panel Settings or properties change, or when the component is enabled.
+
+    Important to prevent double callbacks. Unity also calls this once when the Panel Render is first created during the scene start up they are in.
+
+    So Panel Render calls this once during scene start than again during OnEnable the normal OnEnable only at the first frame of the scene the Panel Render is in.
+
+    So frame one of new scene loaded calls this twice. Be careful to not double any list or collection because of this.
+  example: []
+  syntax:
+    content: protected abstract void OnUIControllerUIReloaded(PanelRenderer panelRenderer, VisualElement rootElement, int version)
+    parameters:
+    - id: panelRenderer
+      type: UnityEngine.UIElements.PanelRenderer
+      description: ''
+    - id: rootElement
+      type: UnityEngine.UIElements.VisualElement
+      description: ''
+    - id: version
+      type: System.Int32
+      description: ''
+    content.vb: Protected MustOverride Sub OnUIControllerUIReloaded(panelRenderer As PanelRenderer, rootElement As VisualElement, version As Integer)
+  overload: SF.UIModule.UIController.OnUIControllerUIReloaded*
+  nameWithType.vb: UIController.OnUIControllerUIReloaded(PanelRenderer, VisualElement, Integer)
+  fullName.vb: SF.UIModule.UIController.OnUIControllerUIReloaded(UnityEngine.UIElements.PanelRenderer, UnityEngine.UIElements.VisualElement, Integer)
+  name.vb: OnUIControllerUIReloaded(PanelRenderer, VisualElement, Integer)
+references:
+- uid: SF.UIModule.UIView
+  commentId: T:SF.UIModule.UIView
+  href: SF.UIModule.UIView.html
+  name: UIView
+  nameWithType: UIView
+  fullName: SF.UIModule.UIView
+- uid: UnityEngine.UIElements.UIDocument
+  commentId: T:UnityEngine.UIElements.UIDocument
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UIDocument
+  nameWithType: UIDocument
+  fullName: UnityEngine.UIElements.UIDocument
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.UIModule.UIControllerBase
+  commentId: T:SF.UIModule.UIControllerBase
+  parent: SF.UIModule
+  href: SF.UIModule.UIControllerBase.html
+  name: UIControllerBase
+  nameWithType: UIControllerBase
+  fullName: SF.UIModule.UIControllerBase
+- uid: SF.UIModule.UIControllerBase.ShowView
+  commentId: M:SF.UIModule.UIControllerBase.ShowView
+  parent: SF.UIModule.UIControllerBase
+  href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_ShowView
+  name: ShowView()
+  nameWithType: UIControllerBase.ShowView()
+  fullName: SF.UIModule.UIControllerBase.ShowView()
+  spec.csharp:
+  - uid: SF.UIModule.UIControllerBase.ShowView
+    name: ShowView
+    href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_ShowView
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.UIControllerBase.ShowView
+    name: ShowView
+    href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_ShowView
+  - name: (
+  - name: )
+- uid: SF.UIModule.UIControllerBase.HideView
+  commentId: M:SF.UIModule.UIControllerBase.HideView
+  parent: SF.UIModule.UIControllerBase
+  href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_HideView
+  name: HideView()
+  nameWithType: UIControllerBase.HideView()
+  fullName: SF.UIModule.UIControllerBase.HideView()
+  spec.csharp:
+  - uid: SF.UIModule.UIControllerBase.HideView
+    name: HideView
+    href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_HideView
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.UIModule.UIControllerBase.HideView
+    name: HideView
+    href: SF.UIModule.UIControllerBase.html#SF_UIModule_UIControllerBase_HideView
+  - name: (
+  - name: )
+- uid: SF.UIModule.UIController.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<UIController>(UIController)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<UIController>(UIController)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.UIModule.UIController>(SF.UIModule.UIController)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of UIController)(UIController)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.UIModule.UIController)(SF.UIModule.UIController)
+  name.vb: IsActiveEnabledAndNotNull(Of UIController)(UIController)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIController)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIController)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: )
+  - name: (
+  - uid: SF.UIModule.UIController
+    name: UIController
+    href: SF.UIModule.UIController.html
+  - name: )
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: UnityEngine.UIElements.PanelRenderer
+  commentId: T:UnityEngine.UIElements.PanelRenderer
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: PanelRenderer
+  nameWithType: PanelRenderer
+  fullName: UnityEngine.UIElements.PanelRenderer
+- uid: SF.UIModule.UIController.Awake*
+  commentId: Overload:SF.UIModule.UIController.Awake
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController_Awake
+  name: Awake
+  nameWithType: UIController.Awake
+  fullName: SF.UIModule.UIController.Awake
+- uid: SF.UIModule.UIController.OnAwake*
+  commentId: Overload:SF.UIModule.UIController.OnAwake
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController_OnAwake
+  name: OnAwake
+  nameWithType: UIController.OnAwake
+  fullName: SF.UIModule.UIController.OnAwake
+- uid: SF.UIModule.UIController.OnEnable*
+  commentId: Overload:SF.UIModule.UIController.OnEnable
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController_OnEnable
+  name: OnEnable
+  nameWithType: UIController.OnEnable
+  fullName: SF.UIModule.UIController.OnEnable
+- uid: SF.UIModule.UIController.OnDisable*
+  commentId: Overload:SF.UIModule.UIController.OnDisable
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController_OnDisable
+  name: OnDisable
+  nameWithType: UIController.OnDisable
+  fullName: SF.UIModule.UIController.OnDisable
+- uid: SF.UIModule.UIController._panelRenderer
+  commentId: F:SF.UIModule.UIController._panelRenderer
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController__panelRenderer
+  name: _panelRenderer
+  nameWithType: UIController._panelRenderer
+  fullName: SF.UIModule.UIController._panelRenderer
+- uid: SF.UIModule.UIController.OnUIControllerUIReloaded*
+  commentId: Overload:SF.UIModule.UIController.OnUIControllerUIReloaded
+  href: SF.UIModule.UIController.html#SF_UIModule_UIController_OnUIControllerUIReloaded_UnityEngine_UIElements_PanelRenderer_UnityEngine_UIElements_VisualElement_System_Int32_
+  name: OnUIControllerUIReloaded
+  nameWithType: UIController.OnUIControllerUIReloaded
+  fullName: SF.UIModule.UIController.OnUIControllerUIReloaded
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

@@ -1,0 +1,373 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialoguePropertiesExtension
+  commentId: T:SF.DialogueModule.DialoguePropertiesExtension
+  id: DialoguePropertiesExtension
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialoguePropertiesExtension.ControlFlow
+  - SF.DialogueModule.DialoguePropertiesExtension.ConversationProperties
+  langs:
+  - csharp
+  - vb
+  name: DialoguePropertiesExtension
+  nameWithType: DialoguePropertiesExtension
+  fullName: SF.DialogueModule.DialoguePropertiesExtension
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: 'public class DialoguePropertiesExtension : DialogueExtensionBase'
+    content.vb: Public Class DialoguePropertiesExtension Inherits DialogueExtensionBase
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - SF.DialogueModule.DialogueExtensionBase
+  inheritedMembers:
+  - SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  - SF.DialogueModule.DialogueExtensionBase.Stage
+  - SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  extensionMethods:
+  - SF.DialogueModule.DialoguePropertiesExtension.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.DialogueModule.DialoguePropertiesExtension.ConversationProperties
+  commentId: F:SF.DialogueModule.DialoguePropertiesExtension.ConversationProperties
+  id: ConversationProperties
+  parent: SF.DialogueModule.DialoguePropertiesExtension
+  langs:
+  - csharp
+  - vb
+  name: ConversationProperties
+  nameWithType: DialoguePropertiesExtension.ConversationProperties
+  fullName: SF.DialogueModule.DialoguePropertiesExtension.ConversationProperties
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public List<ConversationPropertyPair> ConversationProperties
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+    content.vb: Public ConversationProperties As List(Of ConversationPropertyPair)
+- uid: SF.DialogueModule.DialoguePropertiesExtension.ControlFlow
+  commentId: M:SF.DialogueModule.DialoguePropertiesExtension.ControlFlow
+  id: ControlFlow
+  parent: SF.DialogueModule.DialoguePropertiesExtension
+  langs:
+  - csharp
+  - vb
+  name: ControlFlow()
+  nameWithType: DialoguePropertiesExtension.ControlFlow()
+  fullName: SF.DialogueModule.DialoguePropertiesExtension.ControlFlow()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Called from the ConversationRunner before it starts a conversation.
+  remarks: Called Control flow because this is a form of a Pipeline Paradigm
+  example: []
+  syntax:
+    content: public override void ControlFlow()
+    content.vb: Public Overrides Sub ControlFlow()
+  overridden: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  overload: SF.DialogueModule.DialoguePropertiesExtension.ControlFlow*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.DialogueModule.DialogueExtensionBase
+  commentId: T:SF.DialogueModule.DialogueExtensionBase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueExtensionBase.html
+  name: DialogueExtensionBase
+  nameWithType: DialogueExtensionBase
+  fullName: SF.DialogueModule.DialogueExtensionBase
+- uid: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_RuntimeGraph
+  name: RuntimeGraph
+  nameWithType: DialogueExtensionBase.RuntimeGraph
+  fullName: SF.DialogueModule.DialogueExtensionBase.RuntimeGraph
+- uid: SF.DialogueModule.DialogueExtensionBase.Stage
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.Stage
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_Stage
+  name: Stage
+  nameWithType: DialogueExtensionBase.Stage
+  fullName: SF.DialogueModule.DialogueExtensionBase.Stage
+- uid: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  commentId: F:SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_NodeCallerID
+  name: NodeCallerID
+  nameWithType: DialogueExtensionBase.NodeCallerID
+  fullName: SF.DialogueModule.DialogueExtensionBase.NodeCallerID
+- uid: SF.DialogueModule.DialoguePropertiesExtension.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<DialoguePropertiesExtension>(DialoguePropertiesExtension)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<DialoguePropertiesExtension>(DialoguePropertiesExtension)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.DialogueModule.DialoguePropertiesExtension>(SF.DialogueModule.DialoguePropertiesExtension)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of DialoguePropertiesExtension)(DialoguePropertiesExtension)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.DialogueModule.DialoguePropertiesExtension)(SF.DialogueModule.DialoguePropertiesExtension)
+  name.vb: IsActiveEnabledAndNotNull(Of DialoguePropertiesExtension)(DialoguePropertiesExtension)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialoguePropertiesExtension)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.DialogueModule.DialoguePropertiesExtension
+    name: DialoguePropertiesExtension
+    href: SF.DialogueModule.DialoguePropertiesExtension.html
+  - name: '>'
+  - name: (
+  - uid: SF.DialogueModule.DialoguePropertiesExtension
+    name: DialoguePropertiesExtension
+    href: SF.DialogueModule.DialoguePropertiesExtension.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.DialogueModule.DialoguePropertiesExtension)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.DialoguePropertiesExtension
+    name: DialoguePropertiesExtension
+    href: SF.DialogueModule.DialoguePropertiesExtension.html
+  - name: )
+  - name: (
+  - uid: SF.DialogueModule.DialoguePropertiesExtension
+    name: DialoguePropertiesExtension
+    href: SF.DialogueModule.DialoguePropertiesExtension.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.ConversationPropertyPair.html
+  name: List<ConversationPropertyPair>
+  nameWithType: List<ConversationPropertyPair>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.ConversationPropertyPair>
+  nameWithType.vb: List(Of ConversationPropertyPair)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.ConversationPropertyPair)
+  name.vb: List(Of ConversationPropertyPair)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.ConversationPropertyPair
+    name: ConversationPropertyPair
+    href: SF.DialogueModule.ConversationPropertyPair.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.ConversationPropertyPair
+    name: ConversationPropertyPair
+    href: SF.DialogueModule.ConversationPropertyPair.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  commentId: M:SF.DialogueModule.DialogueExtensionBase.ControlFlow
+  parent: SF.DialogueModule.DialogueExtensionBase
+  href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  name: ControlFlow()
+  nameWithType: DialogueExtensionBase.ControlFlow()
+  fullName: SF.DialogueModule.DialogueExtensionBase.ControlFlow()
+  spec.csharp:
+  - uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+    name: ControlFlow
+    href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.DialogueExtensionBase.ControlFlow
+    name: ControlFlow
+    href: SF.DialogueModule.DialogueExtensionBase.html#SF_DialogueModule_DialogueExtensionBase_ControlFlow
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.DialoguePropertiesExtension.ControlFlow*
+  commentId: Overload:SF.DialogueModule.DialoguePropertiesExtension.ControlFlow
+  href: SF.DialogueModule.DialoguePropertiesExtension.html#SF_DialogueModule_DialoguePropertiesExtension_ControlFlow
+  name: ControlFlow
+  nameWithType: DialoguePropertiesExtension.ControlFlow
+  fullName: SF.DialogueModule.DialoguePropertiesExtension.ControlFlow

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Managers
+  commentId: N:SF.Managers
+  id: SF.Managers
+  children:
+  - SF.Managers.GameControlState
+  - SF.Managers.GameManager
+  langs:
+  - csharp
+  - vb
+  name: SF.Managers
+  nameWithType: SF.Managers
+  fullName: SF.Managers
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Managers.GameControlState
+  commentId: T:SF.Managers.GameControlState
+  parent: SF.Managers
+  href: SF.Managers.GameControlState.html
+  name: GameControlState
+  nameWithType: GameControlState
+  fullName: SF.Managers.GameControlState
+- uid: SF.Managers.GameManager
+  commentId: T:SF.Managers.GameManager
+  parent: SF.Managers
+  href: SF.Managers.GameManager.html
+  name: GameManager
+  nameWithType: GameManager
+  fullName: SF.Managers.GameManager
+- uid: SF.Managers
+  commentId: N:SF.Managers
+  href: SF.html
+  name: SF.Managers
+  nameWithType: SF.Managers
+  fullName: SF.Managers
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Managers
+    name: Managers
+    href: SF.Managers.html

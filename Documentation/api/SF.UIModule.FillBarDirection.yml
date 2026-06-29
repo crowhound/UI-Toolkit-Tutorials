@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.FillBarDirection
+  commentId: T:SF.UIModule.FillBarDirection
+  id: FillBarDirection
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.FillBarDirection.DownToUp
+  - SF.UIModule.FillBarDirection.LeftToRight
+  - SF.UIModule.FillBarDirection.RightToLeft
+  - SF.UIModule.FillBarDirection.UpToDown
+  langs:
+  - csharp
+  - vb
+  name: FillBarDirection
+  nameWithType: FillBarDirection
+  fullName: SF.UIModule.FillBarDirection
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: public enum FillBarDirection
+    content.vb: Public Enum FillBarDirection
+- uid: SF.UIModule.FillBarDirection.LeftToRight
+  commentId: F:SF.UIModule.FillBarDirection.LeftToRight
+  id: LeftToRight
+  parent: SF.UIModule.FillBarDirection
+  langs:
+  - csharp
+  - vb
+  name: LeftToRight
+  nameWithType: FillBarDirection.LeftToRight
+  fullName: SF.UIModule.FillBarDirection.LeftToRight
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: LeftToRight = 0
+    return:
+      type: SF.UIModule.FillBarDirection
+- uid: SF.UIModule.FillBarDirection.RightToLeft
+  commentId: F:SF.UIModule.FillBarDirection.RightToLeft
+  id: RightToLeft
+  parent: SF.UIModule.FillBarDirection
+  langs:
+  - csharp
+  - vb
+  name: RightToLeft
+  nameWithType: FillBarDirection.RightToLeft
+  fullName: SF.UIModule.FillBarDirection.RightToLeft
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: RightToLeft = 1
+    return:
+      type: SF.UIModule.FillBarDirection
+- uid: SF.UIModule.FillBarDirection.UpToDown
+  commentId: F:SF.UIModule.FillBarDirection.UpToDown
+  id: UpToDown
+  parent: SF.UIModule.FillBarDirection
+  langs:
+  - csharp
+  - vb
+  name: UpToDown
+  nameWithType: FillBarDirection.UpToDown
+  fullName: SF.UIModule.FillBarDirection.UpToDown
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: UpToDown = 2
+    return:
+      type: SF.UIModule.FillBarDirection
+- uid: SF.UIModule.FillBarDirection.DownToUp
+  commentId: F:SF.UIModule.FillBarDirection.DownToUp
+  id: DownToUp
+  parent: SF.UIModule.FillBarDirection
+  langs:
+  - csharp
+  - vb
+  name: DownToUp
+  nameWithType: FillBarDirection.DownToUp
+  fullName: SF.UIModule.FillBarDirection.DownToUp
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: DownToUp = 3
+    return:
+      type: SF.UIModule.FillBarDirection
+references:
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: SF.UIModule.FillBarDirection
+  commentId: T:SF.UIModule.FillBarDirection
+  parent: SF.UIModule
+  href: SF.UIModule.FillBarDirection.html
+  name: FillBarDirection
+  nameWithType: FillBarDirection
+  fullName: SF.UIModule.FillBarDirection

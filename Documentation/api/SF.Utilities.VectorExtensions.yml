@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Utilities.VectorExtensions
+  commentId: T:SF.Utilities.VectorExtensions
+  id: VectorExtensions
+  parent: SF.Utilities
+  children:
+  - SF.Utilities.VectorExtensions.GetNormalizedDirection(UnityEngine.Vector2,UnityEngine.Vector2)
+  - SF.Utilities.VectorExtensions.SpreadToInts(UnityEngine.Vector3)
+  - SF.Utilities.VectorExtensions.ToVector2Array(UnityEngine.Vector3[])
+  - SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector2)
+  - SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector3Int)
+  - SF.Utilities.VectorExtensions.ToVector2IntRounded(UnityEngine.Vector2,System.Boolean)
+  - SF.Utilities.VectorExtensions.ToVector2List(UnityEngine.Vector3[])
+  - SF.Utilities.VectorExtensions.ToVector3(UnityEngine.Vector2,System.Int32)
+  - SF.Utilities.VectorExtensions.ToVector3Array(UnityEngine.Vector2[])
+  - SF.Utilities.VectorExtensions.ToVector3List(UnityEngine.Vector2[])
+  langs:
+  - csharp
+  - vb
+  name: VectorExtensions
+  nameWithType: VectorExtensions
+  fullName: SF.Utilities.VectorExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: This contains functions for converting Vectors to other vector types, pulling out Vector values, and making arrays of Vectors.
+  example: []
+  syntax:
+    content: public static class VectorExtensions
+    content.vb: Public Module VectorExtensions
+  inheritance:
+  - System.Object
+- uid: SF.Utilities.VectorExtensions.GetNormalizedDirection(UnityEngine.Vector2,UnityEngine.Vector2)
+  commentId: M:SF.Utilities.VectorExtensions.GetNormalizedDirection(UnityEngine.Vector2,UnityEngine.Vector2)
+  id: GetNormalizedDirection(UnityEngine.Vector2,UnityEngine.Vector2)
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetNormalizedDirection(Vector2, Vector2)
+  nameWithType: VectorExtensions.GetNormalizedDirection(Vector2, Vector2)
+  fullName: SF.Utilities.VectorExtensions.GetNormalizedDirection(UnityEngine.Vector2, UnityEngine.Vector2)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2 GetNormalizedDirection(Vector2 fromPosition, Vector2 toPosition)
+    parameters:
+    - id: fromPosition
+      type: UnityEngine.Vector2
+    - id: toPosition
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Shared Function GetNormalizedDirection(fromPosition As Vector2, toPosition As Vector2) As Vector2
+  overload: SF.Utilities.VectorExtensions.GetNormalizedDirection*
+- uid: SF.Utilities.VectorExtensions.ToVector3Array(UnityEngine.Vector2[])
+  commentId: M:SF.Utilities.VectorExtensions.ToVector3Array(UnityEngine.Vector2[])
+  id: ToVector3Array(UnityEngine.Vector2[])
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3Array(Vector2[])
+  nameWithType: VectorExtensions.ToVector3Array(Vector2[])
+  fullName: SF.Utilities.VectorExtensions.ToVector3Array(UnityEngine.Vector2[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector3[] ToVector3Array(this Vector2[] vectors)
+    parameters:
+    - id: vectors
+      type: UnityEngine.Vector2[]
+    return:
+      type: UnityEngine.Vector3[]
+    content.vb: Public Shared Function ToVector3Array(vectors As Vector2()) As Vector3()
+  overload: SF.Utilities.VectorExtensions.ToVector3Array*
+  nameWithType.vb: VectorExtensions.ToVector3Array(Vector2())
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector3Array(UnityEngine.Vector2())
+  name.vb: ToVector3Array(Vector2())
+- uid: SF.Utilities.VectorExtensions.ToVector3List(UnityEngine.Vector2[])
+  commentId: M:SF.Utilities.VectorExtensions.ToVector3List(UnityEngine.Vector2[])
+  id: ToVector3List(UnityEngine.Vector2[])
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3List(Vector2[])
+  nameWithType: VectorExtensions.ToVector3List(Vector2[])
+  fullName: SF.Utilities.VectorExtensions.ToVector3List(UnityEngine.Vector2[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static List<Vector3> ToVector3List(this Vector2[] vectors)
+    parameters:
+    - id: vectors
+      type: UnityEngine.Vector2[]
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector3}
+    content.vb: Public Shared Function ToVector3List(vectors As Vector2()) As List(Of Vector3)
+  overload: SF.Utilities.VectorExtensions.ToVector3List*
+  nameWithType.vb: VectorExtensions.ToVector3List(Vector2())
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector3List(UnityEngine.Vector2())
+  name.vb: ToVector3List(Vector2())
+- uid: SF.Utilities.VectorExtensions.ToVector3(UnityEngine.Vector2,System.Int32)
+  commentId: M:SF.Utilities.VectorExtensions.ToVector3(UnityEngine.Vector2,System.Int32)
+  id: ToVector3(UnityEngine.Vector2,System.Int32)
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(Vector2, int)
+  nameWithType: VectorExtensions.ToVector3(Vector2, int)
+  fullName: SF.Utilities.VectorExtensions.ToVector3(UnityEngine.Vector2, int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Returns a Vector three with the x and y of the Vector2 passed in with another number to set the VectorZvalue.
+  example: []
+  syntax:
+    content: public static Vector3 ToVector3(this Vector2 vector2, int zVector)
+    parameters:
+    - id: vector2
+      type: UnityEngine.Vector2
+      description: ''
+    - id: zVector
+      type: System.Int32
+      description: ''
+    return:
+      type: UnityEngine.Vector3
+      description: ''
+    content.vb: Public Shared Function ToVector3(vector2 As Vector2, zVector As Integer) As Vector3
+  overload: SF.Utilities.VectorExtensions.ToVector3*
+  nameWithType.vb: VectorExtensions.ToVector3(Vector2, Integer)
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector3(UnityEngine.Vector2, Integer)
+  name.vb: ToVector3(Vector2, Integer)
+- uid: SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector2)
+  commentId: M:SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector2)
+  id: ToVector2Int(UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2Int(Vector2)
+  nameWithType: VectorExtensions.ToVector2Int(Vector2)
+  fullName: SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector2)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2Int ToVector2Int(this Vector2 vector2)
+    parameters:
+    - id: vector2
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: Public Shared Function ToVector2Int(vector2 As Vector2) As Vector2Int
+  overload: SF.Utilities.VectorExtensions.ToVector2Int*
+- uid: SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector3Int)
+  commentId: M:SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector3Int)
+  id: ToVector2Int(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2Int(Vector3Int)
+  nameWithType: VectorExtensions.ToVector2Int(Vector3Int)
+  fullName: SF.Utilities.VectorExtensions.ToVector2Int(UnityEngine.Vector3Int)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2Int ToVector2Int(this Vector3Int vector3)
+    parameters:
+    - id: vector3
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: Public Shared Function ToVector2Int(vector3 As Vector3Int) As Vector2Int
+  overload: SF.Utilities.VectorExtensions.ToVector2Int*
+- uid: SF.Utilities.VectorExtensions.ToVector2IntRounded(UnityEngine.Vector2,System.Boolean)
+  commentId: M:SF.Utilities.VectorExtensions.ToVector2IntRounded(UnityEngine.Vector2,System.Boolean)
+  id: ToVector2IntRounded(UnityEngine.Vector2,System.Boolean)
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2IntRounded(Vector2, bool)
+  nameWithType: VectorExtensions.ToVector2IntRounded(Vector2, bool)
+  fullName: SF.Utilities.VectorExtensions.ToVector2IntRounded(UnityEngine.Vector2, bool)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  summary: Allows choosing if the Vector2 is rounded down or rounded up  when converted to a Vector2Int.
+  example: []
+  syntax:
+    content: public static Vector2Int ToVector2IntRounded(this Vector2 vector2, bool roundedDown = true)
+    parameters:
+    - id: vector2
+      type: UnityEngine.Vector2
+      description: ''
+    - id: roundedDown
+      type: System.Boolean
+      description: ''
+    return:
+      type: UnityEngine.Vector2Int
+      description: ''
+    content.vb: Public Shared Function ToVector2IntRounded(vector2 As Vector2, roundedDown As Boolean = True) As Vector2Int
+  overload: SF.Utilities.VectorExtensions.ToVector2IntRounded*
+  nameWithType.vb: VectorExtensions.ToVector2IntRounded(Vector2, Boolean)
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector2IntRounded(UnityEngine.Vector2, Boolean)
+  name.vb: ToVector2IntRounded(Vector2, Boolean)
+- uid: SF.Utilities.VectorExtensions.ToVector2Array(UnityEngine.Vector3[])
+  commentId: M:SF.Utilities.VectorExtensions.ToVector2Array(UnityEngine.Vector3[])
+  id: ToVector2Array(UnityEngine.Vector3[])
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2Array(Vector3[])
+  nameWithType: VectorExtensions.ToVector2Array(Vector3[])
+  fullName: SF.Utilities.VectorExtensions.ToVector2Array(UnityEngine.Vector3[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static Vector2[] ToVector2Array(this Vector3[] vectors)
+    parameters:
+    - id: vectors
+      type: UnityEngine.Vector3[]
+    return:
+      type: UnityEngine.Vector2[]
+    content.vb: Public Shared Function ToVector2Array(vectors As Vector3()) As Vector2()
+  overload: SF.Utilities.VectorExtensions.ToVector2Array*
+  nameWithType.vb: VectorExtensions.ToVector2Array(Vector3())
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector2Array(UnityEngine.Vector3())
+  name.vb: ToVector2Array(Vector3())
+- uid: SF.Utilities.VectorExtensions.ToVector2List(UnityEngine.Vector3[])
+  commentId: M:SF.Utilities.VectorExtensions.ToVector2List(UnityEngine.Vector3[])
+  id: ToVector2List(UnityEngine.Vector3[])
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2List(Vector3[])
+  nameWithType: VectorExtensions.ToVector2List(Vector3[])
+  fullName: SF.Utilities.VectorExtensions.ToVector2List(UnityEngine.Vector3[])
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static List<Vector2> ToVector2List(this Vector3[] vectors)
+    parameters:
+    - id: vectors
+      type: UnityEngine.Vector3[]
+    return:
+      type: System.Collections.Generic.List{UnityEngine.Vector2}
+    content.vb: Public Shared Function ToVector2List(vectors As Vector3()) As List(Of Vector2)
+  overload: SF.Utilities.VectorExtensions.ToVector2List*
+  nameWithType.vb: VectorExtensions.ToVector2List(Vector3())
+  fullName.vb: SF.Utilities.VectorExtensions.ToVector2List(UnityEngine.Vector3())
+  name.vb: ToVector2List(Vector3())
+- uid: SF.Utilities.VectorExtensions.SpreadToInts(UnityEngine.Vector3)
+  commentId: M:SF.Utilities.VectorExtensions.SpreadToInts(UnityEngine.Vector3)
+  id: SpreadToInts(UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: SF.Utilities.VectorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SpreadToInts(Vector3)
+  nameWithType: VectorExtensions.SpreadToInts(Vector3)
+  fullName: SF.Utilities.VectorExtensions.SpreadToInts(UnityEngine.Vector3)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.Utilities
+  syntax:
+    content: public static (int x, int y, int z) SpreadToInts(this Vector3 vector3)
+    parameters:
+    - id: vector3
+      type: UnityEngine.Vector3
+    return:
+      type: System.ValueTuple{System.Int32,System.Int32,System.Int32}
+    content.vb: Public Shared Function SpreadToInts(vector3 As Vector3) As (x As Integer, y As Integer, z As Integer)
+  overload: SF.Utilities.VectorExtensions.SpreadToInts*
+references:
+- uid: SF.Utilities
+  commentId: N:SF.Utilities
+  href: SF.html
+  name: SF.Utilities
+  nameWithType: SF.Utilities
+  fullName: SF.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Utilities
+    name: Utilities
+    href: SF.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.Utilities.VectorExtensions.GetNormalizedDirection*
+  commentId: Overload:SF.Utilities.VectorExtensions.GetNormalizedDirection
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_GetNormalizedDirection_UnityEngine_Vector2_UnityEngine_Vector2_
+  name: GetNormalizedDirection
+  nameWithType: VectorExtensions.GetNormalizedDirection
+  fullName: SF.Utilities.VectorExtensions.GetNormalizedDirection
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.Utilities.VectorExtensions.ToVector3Array*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector3Array
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector3Array_UnityEngine_Vector2___
+  name: ToVector3Array
+  nameWithType: VectorExtensions.ToVector3Array
+  fullName: SF.Utilities.VectorExtensions.ToVector3Array
+- uid: UnityEngine.Vector2[]
+  isExternal: true
+  name: Vector2[]
+  nameWithType: Vector2[]
+  fullName: UnityEngine.Vector2[]
+  nameWithType.vb: Vector2()
+  fullName.vb: UnityEngine.Vector2()
+  name.vb: Vector2()
+  spec.csharp:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: (
+  - name: )
+- uid: UnityEngine.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: UnityEngine.Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: UnityEngine.Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.Utilities.VectorExtensions.ToVector3List*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector3List
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector3List_UnityEngine_Vector2___
+  name: ToVector3List
+  nameWithType: VectorExtensions.ToVector3List
+  fullName: SF.Utilities.VectorExtensions.ToVector3List
+- uid: System.Collections.Generic.List{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector3>
+  nameWithType: List<Vector3>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector3>
+  nameWithType.vb: List(Of Vector3)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector3)
+  name.vb: List(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.Utilities.VectorExtensions.ToVector3*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector3
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector3_UnityEngine_Vector2_System_Int32_
+  name: ToVector3
+  nameWithType: VectorExtensions.ToVector3
+  fullName: SF.Utilities.VectorExtensions.ToVector3
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: SF.Utilities.VectorExtensions.ToVector2Int*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector2Int
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector2Int_UnityEngine_Vector2_
+  name: ToVector2Int
+  nameWithType: VectorExtensions.ToVector2Int
+  fullName: SF.Utilities.VectorExtensions.ToVector2Int
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: SF.Utilities.VectorExtensions.ToVector2IntRounded*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector2IntRounded
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector2IntRounded_UnityEngine_Vector2_System_Boolean_
+  name: ToVector2IntRounded
+  nameWithType: VectorExtensions.ToVector2IntRounded
+  fullName: SF.Utilities.VectorExtensions.ToVector2IntRounded
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SF.Utilities.VectorExtensions.ToVector2Array*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector2Array
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector2Array_UnityEngine_Vector3___
+  name: ToVector2Array
+  nameWithType: VectorExtensions.ToVector2Array
+  fullName: SF.Utilities.VectorExtensions.ToVector2Array
+- uid: SF.Utilities.VectorExtensions.ToVector2List*
+  commentId: Overload:SF.Utilities.VectorExtensions.ToVector2List
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_ToVector2List_UnityEngine_Vector3___
+  name: ToVector2List
+  nameWithType: VectorExtensions.ToVector2List
+  fullName: SF.Utilities.VectorExtensions.ToVector2List
+- uid: System.Collections.Generic.List{UnityEngine.Vector2}
+  commentId: T:System.Collections.Generic.List{UnityEngine.Vector2}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Vector2>
+  nameWithType: List<Vector2>
+  fullName: System.Collections.Generic.List<UnityEngine.Vector2>
+  nameWithType.vb: List(Of Vector2)
+  fullName.vb: System.Collections.Generic.List(Of UnityEngine.Vector2)
+  name.vb: List(Of Vector2)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.Vector2
+    name: Vector2
+    isExternal: true
+  - name: )
+- uid: SF.Utilities.VectorExtensions.SpreadToInts*
+  commentId: Overload:SF.Utilities.VectorExtensions.SpreadToInts
+  href: SF.Utilities.VectorExtensions.html#SF_Utilities_VectorExtensions_SpreadToInts_UnityEngine_Vector3_
+  name: SpreadToInts
+  nameWithType: VectorExtensions.SpreadToInts
+  fullName: SF.Utilities.VectorExtensions.SpreadToInts
+- uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}
+  commentId: T:System.ValueTuple{System.Int32,System.Int32,System.Int32}
+  parent: System
+  definition: System.ValueTuple`3
+  name: (int x, int y, int z)
+  nameWithType: (int x, int y, int z)
+  fullName: (int x, int y, int z)
+  nameWithType.vb: (x As Integer, y As Integer, z As Integer)
+  fullName.vb: (x As Integer, y As Integer, z As Integer)
+  name.vb: (x As Integer, y As Integer, z As Integer)
+  spec.csharp:
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.x
+    name: x
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.y
+    name: y
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.z
+    name: z
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.x
+    name: x
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.y
+    name: y
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.Int32,System.Int32,System.Int32}.z
+    name: z
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: System.ValueTuple`3
+  commentId: T:System.ValueTuple`3
+  name: (T1, T2, T3)
+  nameWithType: (T1, T2, T3)
+  fullName: (T1, T2, T3)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: ','
+  - name: " "
+  - name: T3
+  - name: )

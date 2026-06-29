@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Package Dependencies | SF UI Toolkit Tutorials </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Package Dependencies | SF UI Toolkit Tutorials ">
+      
+      
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="SF UI Toolkit Tutorials">
+            SF UI Toolkit Tutorials
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="package-dependencies">Package Dependencies</h1>
+
+<h2 id="unity-packages">Unity Packages</h2>
+<p>Inside the SF Metroidvania package there is an automatic system that installs the required packages if you don't have them already instlled.
+There are two scripts called SFHubPackageSystem and SFPackageData. They help install other SF packages that they rely on.</p>
+<h3 id="cinemachine">Cinemachine</h3>
+<p>Version 3.1.4</p>
+<blockquote>
+<p>We use 3.1.4 for everyone's sanity. There are several bugs in the previous versions with Confiner2D and a combination of the Input System package that made .</p>
+</blockquote>
+<h2 id="other-sf-packages">Other SF Packages</h2>
+<h3 id="important-notice">Important Notice</h3>
+<p>Alpha Five is adding auto package set up implementating packages automatically.
+Some packages requirements are being removed by adding Compilation Branching checks via scripting defines to allow the package to work without needing all of the other SF packages.
+Most of the SF packages are utility packages with performance and quality of life functionality that makes adding new stuff easier.</p>
+<p>Mainly the SF Utilities and the SF UI Elements.</p>
+<h3 id="sf-utilities">SF Utilities</h3>
+<p>As of writing this documentation out the main branch will be used, but moving to a specific branch system for making updates more stable once the package goes public.</p>
+<p><a href="https://github.com/Shatter-Fantasy/SF-Utilities">https://github.com/Shatter-Fantasy/SF-Utilities</a></p>
+<h3 id="sf-sprite-tools---warning-the-most-wip-of-them-all">SF Sprite Tools - Warning the most wip of them all.</h3>
+<p>This one has a lot of TileMap utilities and a wip custom tile map editor and also a custom Sprite Editor with one click create animation clip support.
+This is used for high performance operations with the TileMapShape component inside of the SF Metroidvania toolkit.</p>
+<p><a href="https://github.com/crowhound/SF-Sprite-Tools">https://github.com/crowhound/SF-Sprite-Tools</a></p>
+<h3 id="sf-ui-elements">SF UI Elements</h3>
+<p>Heavily used for the custom item and enemy data editor. Has a system being worked on to create custom editors for database with little code need.
+Also used in the WIP Sprite Editor and WIP TileMap Editor.</p>
+<p><a href="https://github.com/Shatter-Fantasy/SF-UI-Elements">https://github.com/Shatter-Fantasy/SF-UI-Elements</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

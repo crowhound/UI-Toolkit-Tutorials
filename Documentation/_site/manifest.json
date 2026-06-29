@@ -1,0 +1,161 @@
+{
+  "source_base_path": "D:/Unity/Unity Tutorial Projects/UI Toolkit Worktree/Documentation/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "changelog/change-log.md",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/change-log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "changelog/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/install-instructions/install.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/install-instructions/install.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/install-instructions/package-dependencies.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/install-instructions/package-dependencies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/install-process.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/install-process.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/manual.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/manual.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/physics-overview/physics-core-2d/physics-core-2d.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/physics-overview/physics-core-2d/physics-core-2d.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/physics-overview/physics-core-2d/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/physics-overview/physics-core-2d/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/physics-overview/physics-core-2d/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/physics-overview/sf-physics-2d-module/controller-body-2d/controller-body-2d.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/physics-overview/sf-physics-2d-module/controller-body-2d/controller-body-2d.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/physics-overview/sf-physics-2d-module/sf-physics-2d-module.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/physics-overview/sf-physics-2d-module/sf-physics-2d-module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.DialogueModule.DialogueNodeUtilities
+  commentId: T:SFEditor.DialogueModule.DialogueNodeUtilities
+  id: DialogueNodeUtilities
+  parent: SFEditor.DialogueModule
+  children:
+  - SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: DialogueNodeUtilities
+  nameWithType: DialogueNodeUtilities
+  fullName: SFEditor.DialogueModule.DialogueNodeUtilities
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.DialogueModule
+  syntax:
+    content: public static class DialogueNodeUtilities
+    content.vb: Public Module DialogueNodeUtilities
+  inheritance:
+  - System.Object
+- uid: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode``1(``0)
+  commentId: M:SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode``1(``0)
+  id: GetNextNode``1(``0)
+  parent: SFEditor.DialogueModule.DialogueNodeUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetNextNode<T>(T)
+  nameWithType: DialogueNodeUtilities.GetNextNode<T>(T)
+  fullName: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode<T>(T)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.DialogueModule
+  syntax:
+    content: 'public static IDialogueNode GetNextNode<T>(T currentNode) where T : IDialogueNode'
+    parameters:
+    - id: currentNode
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: SFEditor.Dialogue.Graphs.IDialogueNode
+    content.vb: Public Shared Function GetNextNode(Of T As IDialogueNode)(currentNode As T) As IDialogueNode
+  overload: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode*
+  nameWithType.vb: DialogueNodeUtilities.GetNextNode(Of T)(T)
+  fullName.vb: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode(Of T)(T)
+  name.vb: GetNextNode(Of T)(T)
+references:
+- uid: SFEditor.DialogueModule
+  commentId: N:SFEditor.DialogueModule
+  href: SFEditor.html
+  name: SFEditor.DialogueModule
+  nameWithType: SFEditor.DialogueModule
+  fullName: SFEditor.DialogueModule
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode*
+  commentId: Overload:SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode
+  href: SFEditor.DialogueModule.DialogueNodeUtilities.html#SFEditor_DialogueModule_DialogueNodeUtilities_GetNextNode__1___0_
+  name: GetNextNode
+  nameWithType: DialogueNodeUtilities.GetNextNode
+  fullName: SFEditor.DialogueModule.DialogueNodeUtilities.GetNextNode
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SFEditor.Dialogue.Graphs.IDialogueNode
+  commentId: T:SFEditor.Dialogue.Graphs.IDialogueNode
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.IDialogueNode.html
+  name: IDialogueNode
+  nameWithType: IDialogueNode
+  fullName: SFEditor.Dialogue.Graphs.IDialogueNode
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html

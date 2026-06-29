@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.AppUI.SFAppUIFactory
+  commentId: T:SF.AppUI.SFAppUIFactory
+  id: SFAppUIFactory
+  parent: SF.AppUI
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SFAppUIFactory
+  nameWithType: SFAppUIFactory
+  fullName: SF.AppUI.SFAppUIFactory
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.AppUI
+  syntax:
+    content: public class SFAppUIFactory
+    content.vb: Public Class SFAppUIFactory
+  inheritance:
+  - System.Object
+references:
+- uid: SF.AppUI
+  commentId: N:SF.AppUI
+  href: SF.html
+  name: SF.AppUI
+  nameWithType: SF.AppUI
+  fullName: SF.AppUI
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.AppUI
+    name: AppUI
+    href: SF.AppUI.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.AppUI
+    name: AppUI
+    href: SF.AppUI.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

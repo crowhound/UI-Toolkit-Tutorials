@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.IComparisonNode
+  commentId: T:SF.DialogueModule.Nodes.IComparisonNode
+  id: IComparisonNode
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.IComparisonNode.Compare
+  langs:
+  - csharp
+  - vb
+  name: IComparisonNode
+  nameWithType: IComparisonNode
+  fullName: SF.DialogueModule.Nodes.IComparisonNode
+  type: Interface
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    Implement to inform a <xref href="SF.DialogueModule.Nodes.DialogueRuntimeGraph" data-throw-if-not-resolved="false"></xref> a node is
+
+    used for comparing a type of value.
+  example: []
+  syntax:
+    content: public interface IComparisonNode
+    content.vb: Public Interface IComparisonNode
+  derivedClasses:
+  - SF.DialogueModule.Nodes.ComparisonRuntimeNode
+  - SFEditor.Dialogue.Graphs.ComparisonBlockNode
+  - SFEditor.Dialogue.Graphs.IntCompareBlockNode
+- uid: SF.DialogueModule.Nodes.IComparisonNode.Compare
+  commentId: M:SF.DialogueModule.Nodes.IComparisonNode.Compare
+  id: Compare
+  parent: SF.DialogueModule.Nodes.IComparisonNode
+  langs:
+  - csharp
+  - vb
+  name: Compare()
+  nameWithType: IComparisonNode.Compare()
+  fullName: SF.DialogueModule.Nodes.IComparisonNode.Compare()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: bool Compare()
+    return:
+      type: System.Boolean
+    content.vb: Function Compare() As Boolean
+  overload: SF.DialogueModule.Nodes.IComparisonNode.Compare*
+references:
+- uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  commentId: T:SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.DialogueRuntimeGraph.html
+  name: DialogueRuntimeGraph
+  nameWithType: DialogueRuntimeGraph
+  fullName: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.Nodes.IComparisonNode.Compare*
+  commentId: Overload:SF.DialogueModule.Nodes.IComparisonNode.Compare
+  href: SF.DialogueModule.Nodes.IComparisonNode.html#SF_DialogueModule_Nodes_IComparisonNode_Compare
+  name: Compare
+  nameWithType: IComparisonNode.Compare
+  fullName: SF.DialogueModule.Nodes.IComparisonNode.Compare
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

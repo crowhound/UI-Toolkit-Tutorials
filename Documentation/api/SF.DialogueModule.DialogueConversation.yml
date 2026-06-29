@@ -1,0 +1,852 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  id: DialogueConversation
+  parent: SF.DialogueModule
+  children:
+  - SF.DialogueModule.DialogueConversation.#ctor
+  - SF.DialogueModule.DialogueConversation.#ctor(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  - SF.DialogueModule.DialogueConversation.AddProperty(SF.DialogueModule.ConversationPropertyPair)
+  - SF.DialogueModule.DialogueConversation.AddProperty``1(System.String,``0)
+  - SF.DialogueModule.DialogueConversation.Clone(SF.DialogueModule.DialogueConversation)
+  - SF.DialogueModule.DialogueConversation.ConversationIndex
+  - SF.DialogueModule.DialogueConversation.ConversationName
+  - SF.DialogueModule.DialogueConversation.DialogueEntryIndex
+  - SF.DialogueModule.DialogueConversation.GUID
+  - SF.DialogueModule.DialogueConversation.GetProperty``1(System.String,``0)
+  - SF.DialogueModule.DialogueConversation.Nodes
+  - SF.DialogueModule.DialogueConversation.Properties
+  - SF.DialogueModule.DialogueConversation.RuntimeGraph
+  - SF.DialogueModule.DialogueConversation.StopConversation
+  - SF.DialogueModule.DialogueConversation.UpdateNodes(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  langs:
+  - csharp
+  - vb
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: >-
+    Data container for an entire conversation of a dialogue sequence.
+
+    Including dialogue entries, actor data, and event details related to the dialogue.
+  example: []
+  syntax:
+    content: >-
+      [CreateAssetMenu(menuName = "SF/Dialogue System/Dialogue Conversation", fileName = "SF Conversation")]
+
+      public class DialogueConversation : DTOAssetBase
+    content.vb: >-
+      <CreateAssetMenu(menuName:="SF/Dialogue System/Dialogue Conversation", fileName:="SF Conversation")>
+
+      Public Class DialogueConversation Inherits DTOAssetBase
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - SF.DataModule.DTOAssetBase
+  inheritedMembers:
+  - SF.DataModule.DTOAssetBase.BaseData
+  - SF.DataModule.DTOAssetBase.ID
+  - SF.DataModule.DTOAssetBase.Name
+  - SF.DataModule.DTOAssetBase.Description
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: menuName
+      type: System.String
+      value: SF/Dialogue System/Dialogue Conversation
+    - name: fileName
+      type: System.String
+      value: SF Conversation
+- uid: SF.DialogueModule.DialogueConversation.ConversationName
+  commentId: F:SF.DialogueModule.DialogueConversation.ConversationName
+  id: ConversationName
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: ConversationName
+  nameWithType: DialogueConversation.ConversationName
+  fullName: SF.DialogueModule.DialogueConversation.ConversationName
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The name of this conversation.
+  example: []
+  syntax:
+    content: >-
+      [FormerlySerializedAs("Name")]
+
+      public string ConversationName
+    return:
+      type: System.String
+    content.vb: >-
+      <FormerlySerializedAs("Name")>
+
+      Public ConversationName As String
+  attributes:
+  - type: UnityEngine.Serialization.FormerlySerializedAsAttribute
+    ctor: UnityEngine.Serialization.FormerlySerializedAsAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Name
+- uid: SF.DialogueModule.DialogueConversation.GUID
+  commentId: F:SF.DialogueModule.DialogueConversation.GUID
+  id: GUID
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: GUID
+  nameWithType: DialogueConversation.GUID
+  fullName: SF.DialogueModule.DialogueConversation.GUID
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The unique identifier for a <xref href="SF.DialogueModule.DialogueConversation" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [HideInInspector]
+
+      public int GUID
+    return:
+      type: System.Int32
+    content.vb: >-
+      <HideInInspector>
+
+      Public GUID As Integer
+  attributes:
+  - type: UnityEngine.HideInInspector
+    ctor: UnityEngine.HideInInspector.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueConversation.Nodes
+  commentId: F:SF.DialogueModule.DialogueConversation.Nodes
+  id: Nodes
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: Nodes
+  nameWithType: DialogueConversation.Nodes
+  fullName: SF.DialogueModule.DialogueConversation.Nodes
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: >-
+      [SerializeReference]
+
+      public List<IRuntimeNode> Nodes
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+    content.vb: >-
+      <SerializeReference>
+
+      Public Nodes As List(Of IRuntimeNode)
+  attributes:
+  - type: UnityEngine.SerializeReference
+    ctor: UnityEngine.SerializeReference.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueConversation.RuntimeGraph
+  commentId: F:SF.DialogueModule.DialogueConversation.RuntimeGraph
+  id: RuntimeGraph
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: RuntimeGraph
+  nameWithType: DialogueConversation.RuntimeGraph
+  fullName: SF.DialogueModule.DialogueConversation.RuntimeGraph
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: This is the runtime graph for conversations nodes created from the Dialogue Graph Importer.
+  example: []
+  syntax:
+    content: public DialogueRuntimeGraph RuntimeGraph
+    return:
+      type: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+    content.vb: Public RuntimeGraph As DialogueRuntimeGraph
+- uid: SF.DialogueModule.DialogueConversation.ConversationIndex
+  commentId: F:SF.DialogueModule.DialogueConversation.ConversationIndex
+  id: ConversationIndex
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: ConversationIndex
+  nameWithType: DialogueConversation.ConversationIndex
+  fullName: SF.DialogueModule.DialogueConversation.ConversationIndex
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Index of the current active instance of the conversation. -1 if not the active conversation.
+  example: []
+  syntax:
+    content: public int ConversationIndex
+    return:
+      type: System.Int32
+    content.vb: Public ConversationIndex As Integer
+- uid: SF.DialogueModule.DialogueConversation.DialogueEntryIndex
+  commentId: F:SF.DialogueModule.DialogueConversation.DialogueEntryIndex
+  id: DialogueEntryIndex
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: DialogueEntryIndex
+  nameWithType: DialogueConversation.DialogueEntryIndex
+  fullName: SF.DialogueModule.DialogueConversation.DialogueEntryIndex
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: The index of the current Dialogue Entry being shown for the active conversation if in a conversation.
+  remarks: This is set to zero when a conversation starts from <xref href="SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation%2cUnityEngine.Component)" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public int DialogueEntryIndex
+    return:
+      type: System.Int32
+    content.vb: >-
+      <NonSerialized>
+
+      Public DialogueEntryIndex As Integer
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.DialogueConversation.Properties
+  commentId: F:SF.DialogueModule.DialogueConversation.Properties
+  id: Properties
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: Properties
+  nameWithType: DialogueConversation.Properties
+  fullName: SF.DialogueModule.DialogueConversation.Properties
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public List<ConversationPropertyPair> Properties
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+    content.vb: Public Properties As List(Of ConversationPropertyPair)
+- uid: SF.DialogueModule.DialogueConversation.#ctor
+  commentId: M:SF.DialogueModule.DialogueConversation.#ctor
+  id: '#ctor'
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: DialogueConversation()
+  nameWithType: DialogueConversation.DialogueConversation()
+  fullName: SF.DialogueModule.DialogueConversation.DialogueConversation()
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Blank constructor for allowing new conversations when none in the database is found with a matching guid.
+  example: []
+  syntax:
+    content: public DialogueConversation()
+    content.vb: Public Sub New()
+  overload: SF.DialogueModule.DialogueConversation.#ctor*
+  nameWithType.vb: DialogueConversation.New()
+  fullName.vb: SF.DialogueModule.DialogueConversation.New()
+  name.vb: New()
+- uid: SF.DialogueModule.DialogueConversation.#ctor(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  commentId: M:SF.DialogueModule.DialogueConversation.#ctor(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  id: '#ctor(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})'
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: DialogueConversation(List<IRuntimeNode>)
+  nameWithType: DialogueConversation.DialogueConversation(List<IRuntimeNode>)
+  fullName: SF.DialogueModule.DialogueConversation.DialogueConversation(System.Collections.Generic.List<SF.DialogueModule.Nodes.IRuntimeNode>)
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueConversation(List<IRuntimeNode> nodes)
+    parameters:
+    - id: nodes
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+    content.vb: Public Sub New(nodes As List(Of IRuntimeNode))
+  overload: SF.DialogueModule.DialogueConversation.#ctor*
+  nameWithType.vb: DialogueConversation.New(List(Of IRuntimeNode))
+  fullName.vb: SF.DialogueModule.DialogueConversation.New(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.IRuntimeNode))
+  name.vb: New(List(Of IRuntimeNode))
+- uid: SF.DialogueModule.DialogueConversation.Clone(SF.DialogueModule.DialogueConversation)
+  commentId: M:SF.DialogueModule.DialogueConversation.Clone(SF.DialogueModule.DialogueConversation)
+  id: Clone(SF.DialogueModule.DialogueConversation)
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: Clone(DialogueConversation)
+  nameWithType: DialogueConversation.Clone(DialogueConversation)
+  fullName: SF.DialogueModule.DialogueConversation.Clone(SF.DialogueModule.DialogueConversation)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public DialogueConversation Clone(DialogueConversation conversation)
+    parameters:
+    - id: conversation
+      type: SF.DialogueModule.DialogueConversation
+    return:
+      type: SF.DialogueModule.DialogueConversation
+    content.vb: Public Function Clone(conversation As DialogueConversation) As DialogueConversation
+  overload: SF.DialogueModule.DialogueConversation.Clone*
+- uid: SF.DialogueModule.DialogueConversation.AddProperty(SF.DialogueModule.ConversationPropertyPair)
+  commentId: M:SF.DialogueModule.DialogueConversation.AddProperty(SF.DialogueModule.ConversationPropertyPair)
+  id: AddProperty(SF.DialogueModule.ConversationPropertyPair)
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: AddProperty(ConversationPropertyPair)
+  nameWithType: DialogueConversation.AddProperty(ConversationPropertyPair)
+  fullName: SF.DialogueModule.DialogueConversation.AddProperty(SF.DialogueModule.ConversationPropertyPair)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Set a property inside of the dialogue conversation.
+  example: []
+  syntax:
+    content: public void AddProperty(ConversationPropertyPair propertyPair)
+    parameters:
+    - id: propertyPair
+      type: SF.DialogueModule.ConversationPropertyPair
+      description: ''
+    content.vb: Public Sub AddProperty(propertyPair As ConversationPropertyPair)
+  overload: SF.DialogueModule.DialogueConversation.AddProperty*
+- uid: SF.DialogueModule.DialogueConversation.AddProperty``1(System.String,``0)
+  commentId: M:SF.DialogueModule.DialogueConversation.AddProperty``1(System.String,``0)
+  id: AddProperty``1(System.String,``0)
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: AddProperty<TValue>(string, TValue)
+  nameWithType: DialogueConversation.AddProperty<TValue>(string, TValue)
+  fullName: SF.DialogueModule.DialogueConversation.AddProperty<TValue>(string, TValue)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Set a property inside of the dialogue conversation.
+  example: []
+  syntax:
+    content: public void AddProperty<TValue>(string propertyName, TValue value)
+    parameters:
+    - id: propertyName
+      type: System.String
+      description: ''
+    - id: value
+      type: '{TValue}'
+      description: ''
+    typeParameters:
+    - id: TValue
+    content.vb: Public Sub AddProperty(Of TValue)(propertyName As String, value As TValue)
+  overload: SF.DialogueModule.DialogueConversation.AddProperty*
+  nameWithType.vb: DialogueConversation.AddProperty(Of TValue)(String, TValue)
+  fullName.vb: SF.DialogueModule.DialogueConversation.AddProperty(Of TValue)(String, TValue)
+  name.vb: AddProperty(Of TValue)(String, TValue)
+- uid: SF.DialogueModule.DialogueConversation.GetProperty``1(System.String,``0)
+  commentId: M:SF.DialogueModule.DialogueConversation.GetProperty``1(System.String,``0)
+  id: GetProperty``1(System.String,``0)
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<T>(string, T)
+  nameWithType: DialogueConversation.GetProperty<T>(string, T)
+  fullName: SF.DialogueModule.DialogueConversation.GetProperty<T>(string, T)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public T GetProperty<T>(string propertyName, T value)
+    parameters:
+    - id: propertyName
+      type: System.String
+    - id: value
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetProperty(Of T)(propertyName As String, value As T) As T
+  overload: SF.DialogueModule.DialogueConversation.GetProperty*
+  nameWithType.vb: DialogueConversation.GetProperty(Of T)(String, T)
+  fullName.vb: SF.DialogueModule.DialogueConversation.GetProperty(Of T)(String, T)
+  name.vb: GetProperty(Of T)(String, T)
+- uid: SF.DialogueModule.DialogueConversation.UpdateNodes(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  commentId: M:SF.DialogueModule.DialogueConversation.UpdateNodes(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  id: UpdateNodes(System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode})
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: UpdateNodes(List<IRuntimeNode>)
+  nameWithType: DialogueConversation.UpdateNodes(List<IRuntimeNode>)
+  fullName: SF.DialogueModule.DialogueConversation.UpdateNodes(System.Collections.Generic.List<SF.DialogueModule.Nodes.IRuntimeNode>)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  summary: Used to update the graph nodes without resetting the reference in scriptable object assets.
+  example: []
+  syntax:
+    content: public void UpdateNodes(List<IRuntimeNode> updatedNodes)
+    parameters:
+    - id: updatedNodes
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+    content.vb: Public Sub UpdateNodes(updatedNodes As List(Of IRuntimeNode))
+  overload: SF.DialogueModule.DialogueConversation.UpdateNodes*
+  nameWithType.vb: DialogueConversation.UpdateNodes(List(Of IRuntimeNode))
+  fullName.vb: SF.DialogueModule.DialogueConversation.UpdateNodes(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.IRuntimeNode))
+  name.vb: UpdateNodes(List(Of IRuntimeNode))
+- uid: SF.DialogueModule.DialogueConversation.StopConversation
+  commentId: M:SF.DialogueModule.DialogueConversation.StopConversation
+  id: StopConversation
+  parent: SF.DialogueModule.DialogueConversation
+  langs:
+  - csharp
+  - vb
+  name: StopConversation()
+  nameWithType: DialogueConversation.StopConversation()
+  fullName: SF.DialogueModule.DialogueConversation.StopConversation()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule
+  syntax:
+    content: public void StopConversation()
+    content.vb: Public Sub StopConversation()
+  overload: SF.DialogueModule.DialogueConversation.StopConversation*
+references:
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: SF.DataModule.DTOAssetBase
+  commentId: T:SF.DataModule.DTOAssetBase
+  parent: SF.DataModule
+  href: SF.DataModule.DTOAssetBase.html
+  name: DTOAssetBase
+  nameWithType: DTOAssetBase
+  fullName: SF.DataModule.DTOAssetBase
+- uid: SF.DataModule.DTOAssetBase.BaseData
+  commentId: F:SF.DataModule.DTOAssetBase.BaseData
+  parent: SF.DataModule.DTOAssetBase
+  href: SF.DataModule.DTOAssetBase.html#SF_DataModule_DTOAssetBase_BaseData
+  name: BaseData
+  nameWithType: DTOAssetBase.BaseData
+  fullName: SF.DataModule.DTOAssetBase.BaseData
+- uid: SF.DataModule.DTOAssetBase.ID
+  commentId: F:SF.DataModule.DTOAssetBase.ID
+  parent: SF.DataModule.DTOAssetBase
+  href: SF.DataModule.DTOAssetBase.html#SF_DataModule_DTOAssetBase_ID
+  name: ID
+  nameWithType: DTOAssetBase.ID
+  fullName: SF.DataModule.DTOAssetBase.ID
+- uid: SF.DataModule.DTOAssetBase.Name
+  commentId: F:SF.DataModule.DTOAssetBase.Name
+  parent: SF.DataModule.DTOAssetBase
+  href: SF.DataModule.DTOAssetBase.html#SF_DataModule_DTOAssetBase_Name
+  name: Name
+  nameWithType: DTOAssetBase.Name
+  fullName: SF.DataModule.DTOAssetBase.Name
+- uid: SF.DataModule.DTOAssetBase.Description
+  commentId: F:SF.DataModule.DTOAssetBase.Description
+  parent: SF.DataModule.DTOAssetBase
+  href: SF.DataModule.DTOAssetBase.html#SF_DataModule_DTOAssetBase_Description
+  name: Description
+  nameWithType: DTOAssetBase.Description
+  fullName: SF.DataModule.DTOAssetBase.Description
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.DataModule
+  commentId: N:SF.DataModule
+  href: SF.html
+  name: SF.DataModule
+  nameWithType: SF.DataModule
+  fullName: SF.DataModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DataModule
+    name: DataModule
+    href: SF.DataModule.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: List<IRuntimeNode>
+  nameWithType: List<IRuntimeNode>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.Nodes.IRuntimeNode>
+  nameWithType.vb: List(Of IRuntimeNode)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.Nodes.IRuntimeNode)
+  name.vb: List(Of IRuntimeNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+- uid: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  commentId: T:SF.DialogueModule.Nodes.DialogueRuntimeGraph
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.DialogueRuntimeGraph.html
+  name: DialogueRuntimeGraph
+  nameWithType: DialogueRuntimeGraph
+  fullName: SF.DialogueModule.Nodes.DialogueRuntimeGraph
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  commentId: M:SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+  isExternal: true
+  href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_TriggerConversation_SF_DialogueModule_DialogueConversation_UnityEngine_Component_
+  name: TriggerConversation(DialogueConversation, Component)
+  nameWithType: DialogueManager.TriggerConversation(DialogueConversation, Component)
+  fullName: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation, UnityEngine.Component)
+  spec.csharp:
+  - uid: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+    name: TriggerConversation
+    href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_TriggerConversation_SF_DialogueModule_DialogueConversation_UnityEngine_Component_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Component
+    name: Component
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.DialogueManager.TriggerConversation(SF.DialogueModule.DialogueConversation,UnityEngine.Component)
+    name: TriggerConversation
+    href: SF.DialogueModule.DialogueManager.html#SF_DialogueModule_DialogueManager_TriggerConversation_SF_DialogueModule_DialogueConversation_UnityEngine_Component_
+  - name: (
+  - uid: SF.DialogueModule.DialogueConversation
+    name: DialogueConversation
+    href: SF.DialogueModule.DialogueConversation.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Component
+    name: Component
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.ConversationPropertyPair}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.ConversationPropertyPair.html
+  name: List<ConversationPropertyPair>
+  nameWithType: List<ConversationPropertyPair>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.ConversationPropertyPair>
+  nameWithType.vb: List(Of ConversationPropertyPair)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.ConversationPropertyPair)
+  name.vb: List(Of ConversationPropertyPair)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.ConversationPropertyPair
+    name: ConversationPropertyPair
+    href: SF.DialogueModule.ConversationPropertyPair.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.ConversationPropertyPair
+    name: ConversationPropertyPair
+    href: SF.DialogueModule.ConversationPropertyPair.html
+  - name: )
+- uid: SF.DialogueModule.DialogueConversation.#ctor*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.#ctor
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation__ctor
+  name: DialogueConversation
+  nameWithType: DialogueConversation.DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation.DialogueConversation
+  nameWithType.vb: DialogueConversation.New
+  fullName.vb: SF.DialogueModule.DialogueConversation.New
+  name.vb: New
+- uid: SF.DialogueModule.DialogueConversation.Clone*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.Clone
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation_Clone_SF_DialogueModule_DialogueConversation_
+  name: Clone
+  nameWithType: DialogueConversation.Clone
+  fullName: SF.DialogueModule.DialogueConversation.Clone
+- uid: SF.DialogueModule.DialogueConversation.AddProperty*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.AddProperty
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation_AddProperty_SF_DialogueModule_ConversationPropertyPair_
+  name: AddProperty
+  nameWithType: DialogueConversation.AddProperty
+  fullName: SF.DialogueModule.DialogueConversation.AddProperty
+- uid: SF.DialogueModule.ConversationPropertyPair
+  commentId: T:SF.DialogueModule.ConversationPropertyPair
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.ConversationPropertyPair.html
+  name: ConversationPropertyPair
+  nameWithType: ConversationPropertyPair
+  fullName: SF.DialogueModule.ConversationPropertyPair
+- uid: '{TValue}'
+  commentId: '!:TValue'
+  definition: TValue
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: TValue
+  commentId: '!:TValue'
+  name: TValue
+  nameWithType: TValue
+  fullName: TValue
+- uid: SF.DialogueModule.DialogueConversation.GetProperty*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.GetProperty
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation_GetProperty__1_System_String___0_
+  name: GetProperty
+  nameWithType: DialogueConversation.GetProperty
+  fullName: SF.DialogueModule.DialogueConversation.GetProperty
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SF.DialogueModule.DialogueConversation.UpdateNodes*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.UpdateNodes
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation_UpdateNodes_System_Collections_Generic_List_SF_DialogueModule_Nodes_IRuntimeNode__
+  name: UpdateNodes
+  nameWithType: DialogueConversation.UpdateNodes
+  fullName: SF.DialogueModule.DialogueConversation.UpdateNodes
+- uid: SF.DialogueModule.DialogueConversation.StopConversation*
+  commentId: Overload:SF.DialogueModule.DialogueConversation.StopConversation
+  href: SF.DialogueModule.DialogueConversation.html#SF_DialogueModule_DialogueConversation_StopConversation
+  name: StopConversation
+  nameWithType: DialogueConversation.StopConversation
+  fullName: SF.DialogueModule.DialogueConversation.StopConversation

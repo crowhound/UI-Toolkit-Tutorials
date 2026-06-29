@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.FillBarEvent
+  commentId: T:SF.UIModule.FillBarEvent
+  id: FillBarEvent
+  parent: SF.UIModule
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FillBarEvent
+  nameWithType: FillBarEvent
+  fullName: SF.UIModule.FillBarEvent
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FillBarEvent : UnityEvent<float>
+    content.vb: >-
+      <Serializable>
+
+      Public Class FillBarEvent Inherits UnityEvent(Of Single)
+  inheritance:
+  - System.Object
+  - UnityEngine.Events.UnityEventBase
+  - UnityEngine.Events.UnityEvent{System.Single}
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+references:
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Events.UnityEventBase
+  commentId: T:UnityEngine.Events.UnityEventBase
+  parent: UnityEngine.Events
+  isExternal: true
+  name: UnityEventBase
+  nameWithType: UnityEventBase
+  fullName: UnityEngine.Events.UnityEventBase
+- uid: UnityEngine.Events.UnityEvent{System.Single}
+  commentId: T:UnityEngine.Events.UnityEvent{System.Single}
+  parent: UnityEngine.Events
+  definition: UnityEngine.Events.UnityEvent`1
+  name: UnityEvent<float>
+  nameWithType: UnityEvent<float>
+  fullName: UnityEngine.Events.UnityEvent<float>
+  nameWithType.vb: UnityEvent(Of Single)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of Single)
+  name.vb: UnityEvent(Of Single)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    isExternal: true
+  - name: <
+  - uid: System.Single
+    name: float
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Single
+    name: Single
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Events
+  commentId: N:UnityEngine.Events
+  isExternal: true
+  name: UnityEngine.Events
+  nameWithType: UnityEngine.Events
+  fullName: UnityEngine.Events
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.Events
+    name: Events
+    isExternal: true
+- uid: UnityEngine.Events.UnityEvent`1
+  commentId: T:UnityEngine.Events.UnityEvent`1
+  isExternal: true
+  name: UnityEvent<T0>
+  nameWithType: UnityEvent<T0>
+  fullName: UnityEngine.Events.UnityEvent<T0>
+  nameWithType.vb: UnityEvent(Of T0)
+  fullName.vb: UnityEngine.Events.UnityEvent(Of T0)
+  name.vb: UnityEvent(Of T0)
+  spec.csharp:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    isExternal: true
+  - name: <
+  - name: T0
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.Events.UnityEvent`1
+    name: UnityEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T0
+  - name: )

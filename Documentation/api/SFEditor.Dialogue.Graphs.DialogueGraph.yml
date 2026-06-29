@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph
+  commentId: T:SFEditor.Dialogue.Graphs.DialogueGraph
+  id: DialogueGraph
+  parent: SFEditor.Dialogue.Graphs
+  children:
+  - SFEditor.Dialogue.Graphs.DialogueGraph.AssetExtension
+  - SFEditor.Dialogue.Graphs.DialogueGraph.AssetIconPath
+  - SFEditor.Dialogue.Graphs.DialogueGraph.Database
+  - SFEditor.Dialogue.Graphs.DialogueGraph.LinkedConversationAsset
+  - SFEditor.Dialogue.Graphs.DialogueGraph.NodeProcessor
+  - SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes
+  langs:
+  - csharp
+  - vb
+  name: DialogueGraph
+  nameWithType: DialogueGraph
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: >-
+      [Icon("Assets/Editor Default Resources/SF Dialogue Graph/Icons/Dialogue Graph Icon.png")]
+
+      [Graph("sfgr", GraphOptions.Default)]
+
+      [Serializable]
+
+      public class DialogueGraph : SFGraphBase
+    content.vb: >-
+      <Icon("Assets/Editor Default Resources/SF Dialogue Graph/Icons/Dialogue Graph Icon.png")>
+
+      <Graph("sfgr", GraphOptions.Default)>
+
+      <Serializable>
+
+      Public Class DialogueGraph Inherits SFGraphBase
+  inheritance:
+  - System.Object
+  - Unity.GraphToolkit.Editor.Graph
+  - SFEditor.Dialogue.Graphs.SFGraphBase
+  inheritedMembers:
+  - SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  - SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  - SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  attributes:
+  - type: UnityEngine.IconAttribute
+    ctor: UnityEngine.IconAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Assets/Editor Default Resources/SF Dialogue Graph/Icons/Dialogue Graph Icon.png
+  - type: Unity.GraphToolkit.Editor.GraphAttribute
+    ctor: Unity.GraphToolkit.Editor.GraphAttribute.#ctor(System.String,Unity.GraphToolkit.Editor.GraphOptions)
+    arguments:
+    - type: System.String
+      value: sfgr
+    - type: Unity.GraphToolkit.Editor.GraphOptions
+      value: 0
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.AssetIconPath
+  commentId: F:SFEditor.Dialogue.Graphs.DialogueGraph.AssetIconPath
+  id: AssetIconPath
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: AssetIconPath
+  nameWithType: DialogueGraph.AssetIconPath
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.AssetIconPath
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public const string AssetIconPath = "Assets/Editor Default Resources/SF Dialogue Graph/Icons/Dialogue Graph Icon.png"
+    return:
+      type: System.String
+    content.vb: Public Const AssetIconPath As String = "Assets/Editor Default Resources/SF Dialogue Graph/Icons/Dialogue Graph Icon.png"
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.AssetExtension
+  commentId: F:SFEditor.Dialogue.Graphs.DialogueGraph.AssetExtension
+  id: AssetExtension
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: AssetExtension
+  nameWithType: DialogueGraph.AssetExtension
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.AssetExtension
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public const string AssetExtension = "sfgr"
+    return:
+      type: System.String
+    content.vb: Public Const AssetExtension As String = "sfgr"
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.LinkedConversationAsset
+  commentId: F:SFEditor.Dialogue.Graphs.DialogueGraph.LinkedConversationAsset
+  id: LinkedConversationAsset
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: LinkedConversationAsset
+  nameWithType: DialogueGraph.LinkedConversationAsset
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.LinkedConversationAsset
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public DialogueConversation LinkedConversationAsset
+    return:
+      type: SF.DialogueModule.DialogueConversation
+    content.vb: Public LinkedConversationAsset As DialogueConversation
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.Database
+  commentId: F:SFEditor.Dialogue.Graphs.DialogueGraph.Database
+  id: Database
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: Database
+  nameWithType: DialogueGraph.Database
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.Database
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  syntax:
+    content: public DialogueDatabase Database
+    return:
+      type: SF.DialogueModule.DialogueDatabase
+    content.vb: Public Database As DialogueDatabase
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.NodeProcessor
+  commentId: F:SFEditor.Dialogue.Graphs.DialogueGraph.NodeProcessor
+  id: NodeProcessor
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: NodeProcessor
+  nameWithType: DialogueGraph.NodeProcessor
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.NodeProcessor
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: A helper class the editor and runtime graph nodes.
+  example: []
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public DialogueNodeProcessor NodeProcessor
+    return:
+      type: SFEditor.DialogueModule.DialogueNodeProcessor
+    content.vb: >-
+      <NonSerialized>
+
+      Public NodeProcessor As DialogueNodeProcessor
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes
+  commentId: M:SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes
+  id: ProcessGraphNodes
+  parent: SFEditor.Dialogue.Graphs.DialogueGraph
+  langs:
+  - csharp
+  - vb
+  name: ProcessGraphNodes()
+  nameWithType: DialogueGraph.ProcessGraphNodes()
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes()
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Dialogue.Graphs
+  summary: Processes the <xref href="SFEditor.Dialogue.Graphs.DialogueGraph" data-throw-if-not-resolved="false"></xref> for the editor assets and creates the list of runtime nodes from it.
+  example: []
+  syntax:
+    content: public void ProcessGraphNodes()
+    content.vb: Public Sub ProcessGraphNodes()
+  overload: SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes*
+references:
+- uid: SFEditor.Dialogue.Graphs
+  commentId: N:SFEditor.Dialogue.Graphs
+  href: SFEditor.html
+  name: SFEditor.Dialogue.Graphs
+  nameWithType: SFEditor.Dialogue.Graphs
+  fullName: SFEditor.Dialogue.Graphs
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Dialogue
+    name: Dialogue
+    href: SFEditor.Dialogue.html
+  - name: .
+  - uid: SFEditor.Dialogue.Graphs
+    name: Graphs
+    href: SFEditor.Dialogue.Graphs.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Unity.GraphToolkit.Editor.Graph
+  commentId: T:Unity.GraphToolkit.Editor.Graph
+  parent: Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Graph
+  nameWithType: Graph
+  fullName: Unity.GraphToolkit.Editor.Graph
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase
+  commentId: T:SFEditor.Dialogue.Graphs.SFGraphBase
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.SFGraphBase.html
+  name: SFGraphBase
+  nameWithType: SFGraphBase
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  commentId: F:SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_HasGraphChanged
+  name: HasGraphChanged
+  nameWithType: SFGraphBase.HasGraphChanged
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.HasGraphChanged
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  commentId: F:SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_HasInitialized
+  name: HasInitialized
+  nameWithType: SFGraphBase.HasInitialized
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.HasInitialized
+- uid: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  commentId: M:SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  parent: SFEditor.Dialogue.Graphs.SFGraphBase
+  isExternal: true
+  href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_OnGraphChanged_Unity_GraphToolkit_Editor_GraphLogger_
+  name: OnGraphChanged(GraphLogger)
+  nameWithType: SFGraphBase.OnGraphChanged(GraphLogger)
+  fullName: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+  spec.csharp:
+  - uid: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+    name: OnGraphChanged
+    href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_OnGraphChanged_Unity_GraphToolkit_Editor_GraphLogger_
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.GraphLogger
+    name: GraphLogger
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SFEditor.Dialogue.Graphs.SFGraphBase.OnGraphChanged(Unity.GraphToolkit.Editor.GraphLogger)
+    name: OnGraphChanged
+    href: SFEditor.Dialogue.Graphs.SFGraphBase.html#SFEditor_Dialogue_Graphs_SFGraphBase_OnGraphChanged_Unity_GraphToolkit_Editor_GraphLogger_
+  - name: (
+  - uid: Unity.GraphToolkit.Editor.GraphLogger
+    name: GraphLogger
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Unity.GraphToolkit.Editor
+  commentId: N:Unity.GraphToolkit.Editor
+  isExternal: true
+  name: Unity.GraphToolkit.Editor
+  nameWithType: Unity.GraphToolkit.Editor
+  fullName: Unity.GraphToolkit.Editor
+  spec.csharp:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+  spec.vb:
+  - uid: Unity
+    name: Unity
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit
+    name: GraphToolkit
+    isExternal: true
+  - name: .
+  - uid: Unity.GraphToolkit.Editor
+    name: Editor
+    isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: SF.DialogueModule.DialogueDatabase
+  commentId: T:SF.DialogueModule.DialogueDatabase
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueDatabase.html
+  name: DialogueDatabase
+  nameWithType: DialogueDatabase
+  fullName: SF.DialogueModule.DialogueDatabase
+- uid: SFEditor.DialogueModule.DialogueNodeProcessor
+  commentId: T:SFEditor.DialogueModule.DialogueNodeProcessor
+  parent: SFEditor.DialogueModule
+  href: SFEditor.DialogueModule.DialogueNodeProcessor.html
+  name: DialogueNodeProcessor
+  nameWithType: DialogueNodeProcessor
+  fullName: SFEditor.DialogueModule.DialogueNodeProcessor
+- uid: SFEditor.DialogueModule
+  commentId: N:SFEditor.DialogueModule
+  href: SFEditor.html
+  name: SFEditor.DialogueModule
+  nameWithType: SFEditor.DialogueModule
+  fullName: SFEditor.DialogueModule
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.DialogueModule
+    name: DialogueModule
+    href: SFEditor.DialogueModule.html
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph
+  commentId: T:SFEditor.Dialogue.Graphs.DialogueGraph
+  parent: SFEditor.Dialogue.Graphs
+  href: SFEditor.Dialogue.Graphs.DialogueGraph.html
+  name: DialogueGraph
+  nameWithType: DialogueGraph
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph
+- uid: SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes*
+  commentId: Overload:SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes
+  href: SFEditor.Dialogue.Graphs.DialogueGraph.html#SFEditor_Dialogue_Graphs_DialogueGraph_ProcessGraphNodes
+  name: ProcessGraphNodes
+  nameWithType: DialogueGraph.ProcessGraphNodes
+  fullName: SFEditor.Dialogue.Graphs.DialogueGraph.ProcessGraphNodes

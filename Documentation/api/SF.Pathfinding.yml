@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Pathfinding
+  commentId: N:SF.Pathfinding
+  id: SF.Pathfinding
+  children:
+  - SF.Pathfinding.MathGraphMovement
+  - SF.Pathfinding.TrigFunctionType
+  langs:
+  - csharp
+  - vb
+  name: SF.Pathfinding
+  nameWithType: SF.Pathfinding
+  fullName: SF.Pathfinding
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.Pathfinding.TrigFunctionType
+  commentId: T:SF.Pathfinding.TrigFunctionType
+  parent: SF.Pathfinding
+  href: SF.Pathfinding.TrigFunctionType.html
+  name: TrigFunctionType
+  nameWithType: TrigFunctionType
+  fullName: SF.Pathfinding.TrigFunctionType
+- uid: SF.Pathfinding.MathGraphMovement
+  commentId: T:SF.Pathfinding.MathGraphMovement
+  href: SF.Pathfinding.MathGraphMovement.html
+  name: MathGraphMovement
+  nameWithType: MathGraphMovement
+  fullName: SF.Pathfinding.MathGraphMovement
+- uid: SF.Pathfinding
+  commentId: N:SF.Pathfinding
+  href: SF.html
+  name: SF.Pathfinding
+  nameWithType: SF.Pathfinding
+  fullName: SF.Pathfinding
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html

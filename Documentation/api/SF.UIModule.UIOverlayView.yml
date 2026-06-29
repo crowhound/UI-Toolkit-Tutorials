@@ -1,0 +1,274 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIModule.UIOverlayView
+  commentId: T:SF.UIModule.UIOverlayView
+  id: UIOverlayView
+  parent: SF.UIModule
+  children:
+  - SF.UIModule.UIOverlayView._overlayContainer
+  - SF.UIModule.UIOverlayView._overlayUXML
+  langs:
+  - csharp
+  - vb
+  name: UIOverlayView
+  nameWithType: UIOverlayView
+  fullName: SF.UIModule.UIOverlayView
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  summary: Base class for any overlay that needs to be displayed for runtime.
+  example: []
+  syntax:
+    content: 'public class UIOverlayView : MonoBehaviour'
+    content.vb: Public Class UIOverlayView Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.UIModule.UIOverlayView.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.UIModule.UIOverlayView._overlayUXML
+  commentId: F:SF.UIModule.UIOverlayView._overlayUXML
+  id: _overlayUXML
+  parent: SF.UIModule.UIOverlayView
+  langs:
+  - csharp
+  - vb
+  name: _overlayUXML
+  nameWithType: UIOverlayView._overlayUXML
+  fullName: SF.UIModule.UIOverlayView._overlayUXML
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: >-
+      [SerializeField]
+
+      protected UIDocument _overlayUXML
+    return:
+      type: UnityEngine.UIElements.UIDocument
+    content.vb: >-
+      <SerializeField>
+
+      Protected _overlayUXML As UIDocument
+  attributes:
+  - type: UnityEngine.SerializeField
+    ctor: UnityEngine.SerializeField.#ctor
+    arguments: []
+- uid: SF.UIModule.UIOverlayView._overlayContainer
+  commentId: F:SF.UIModule.UIOverlayView._overlayContainer
+  id: _overlayContainer
+  parent: SF.UIModule.UIOverlayView
+  langs:
+  - csharp
+  - vb
+  name: _overlayContainer
+  nameWithType: UIOverlayView._overlayContainer
+  fullName: SF.UIModule.UIOverlayView._overlayContainer
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIModule
+  syntax:
+    content: protected VisualElement _overlayContainer
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Protected _overlayContainer As VisualElement
+references:
+- uid: SF.UIModule
+  commentId: N:SF.UIModule
+  href: SF.html
+  name: SF.UIModule
+  nameWithType: SF.UIModule
+  fullName: SF.UIModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIModule
+    name: UIModule
+    href: SF.UIModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.UIModule.UIOverlayView.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<UIOverlayView>(UIOverlayView)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<UIOverlayView>(UIOverlayView)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.UIModule.UIOverlayView>(SF.UIModule.UIOverlayView)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of UIOverlayView)(UIOverlayView)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.UIModule.UIOverlayView)(SF.UIModule.UIOverlayView)
+  name.vb: IsActiveEnabledAndNotNull(Of UIOverlayView)(UIOverlayView)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIOverlayView)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.UIModule.UIOverlayView
+    name: UIOverlayView
+    href: SF.UIModule.UIOverlayView.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIModule.UIOverlayView
+    name: UIOverlayView
+    href: SF.UIModule.UIOverlayView.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.UIModule.UIOverlayView)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIModule.UIOverlayView
+    name: UIOverlayView
+    href: SF.UIModule.UIOverlayView.html
+  - name: )
+  - name: (
+  - uid: SF.UIModule.UIOverlayView
+    name: UIOverlayView
+    href: SF.UIModule.UIOverlayView.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: UnityEngine.UIElements.UIDocument
+  commentId: T:UnityEngine.UIElements.UIDocument
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: UIDocument
+  nameWithType: UIDocument
+  fullName: UnityEngine.UIElements.UIDocument
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement

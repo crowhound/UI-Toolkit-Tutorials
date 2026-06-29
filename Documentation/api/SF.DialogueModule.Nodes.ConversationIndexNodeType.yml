@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  commentId: T:SF.DialogueModule.Nodes.ConversationIndexNodeType
+  id: ConversationIndexNodeType
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.ConversationIndexNodeType.Get
+  - SF.DialogueModule.Nodes.ConversationIndexNodeType.Set
+  langs:
+  - csharp
+  - vb
+  name: ConversationIndexNodeType
+  nameWithType: ConversationIndexNodeType
+  fullName: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  type: Enum
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: public enum ConversationIndexNodeType
+    content.vb: Public Enum ConversationIndexNodeType
+- uid: SF.DialogueModule.Nodes.ConversationIndexNodeType.Get
+  commentId: F:SF.DialogueModule.Nodes.ConversationIndexNodeType.Get
+  id: Get
+  parent: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  langs:
+  - csharp
+  - vb
+  name: Get
+  nameWithType: ConversationIndexNodeType.Get
+  fullName: SF.DialogueModule.Nodes.ConversationIndexNodeType.Get
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: Get = 0
+    return:
+      type: SF.DialogueModule.Nodes.ConversationIndexNodeType
+- uid: SF.DialogueModule.Nodes.ConversationIndexNodeType.Set
+  commentId: F:SF.DialogueModule.Nodes.ConversationIndexNodeType.Set
+  id: Set
+  parent: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: ConversationIndexNodeType.Set
+  fullName: SF.DialogueModule.Nodes.ConversationIndexNodeType.Set
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  syntax:
+    content: Set = 1
+    return:
+      type: SF.DialogueModule.Nodes.ConversationIndexNodeType
+references:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: SF.DialogueModule.Nodes.ConversationIndexNodeType
+  commentId: T:SF.DialogueModule.Nodes.ConversationIndexNodeType
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.ConversationIndexNodeType.html
+  name: ConversationIndexNodeType
+  nameWithType: ConversationIndexNodeType
+  fullName: SF.DialogueModule.Nodes.ConversationIndexNodeType

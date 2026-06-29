@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  commentId: T:SFEditor.UIElements.Utilities.SFUIElementsFactory
+  id: SFUIElementsFactory
+  parent: SFEditor.UIElements.Utilities
+  children:
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles(UnityEngine.UIElements.VisualElement)
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetAssetPath
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetName
+  - SFEditor.UIElements.Utilities.SFUIElementsFactory.SFUIElementsRootPath
+  langs:
+  - csharp
+  - vb
+  name: SFUIElementsFactory
+  nameWithType: SFUIElementsFactory
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  summary: This is a factory class to help quickly set up new UI elements in the editor like inspectors, editor windows, and any other custom editor class.
+  example: []
+  syntax:
+    content: public class SFUIElementsFactory
+    content.vb: Public Class SFUIElementsFactory
+  inheritance:
+  - System.Object
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetName
+  commentId: F:SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetName
+  id: SFCommonStyleSheetName
+  parent: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  langs:
+  - csharp
+  - vb
+  name: SFCommonStyleSheetName
+  nameWithType: SFUIElementsFactory.SFCommonStyleSheetName
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetName
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public const string SFCommonStyleSheetName = "CommonUSS"
+    return:
+      type: System.String
+    content.vb: Public Const SFCommonStyleSheetName As String = "CommonUSS"
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFUIElementsRootPath
+  commentId: F:SFEditor.UIElements.Utilities.SFUIElementsFactory.SFUIElementsRootPath
+  id: SFUIElementsRootPath
+  parent: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  langs:
+  - csharp
+  - vb
+  name: SFUIElementsRootPath
+  nameWithType: SFUIElementsFactory.SFUIElementsRootPath
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFUIElementsRootPath
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  summary: >-
+    Base path to the root folder of the SFUIElements package.
+
+    <remarks>
+
+    The root path to SF UI Elements is a sub package directory inside of the SF Core package.
+
+    </remarks>
+  example: []
+  syntax:
+    content: public const string SFUIElementsRootPath = "Packages/shatterfantasy.sf-topdown-arpg/SF Core/SF UI Elements"
+    return:
+      type: System.String
+    content.vb: Public Const SFUIElementsRootPath As String = "Packages/shatterfantasy.sf-topdown-arpg/SF Core/SF UI Elements"
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetAssetPath
+  commentId: F:SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetAssetPath
+  id: SFCommonStyleSheetAssetPath
+  parent: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  langs:
+  - csharp
+  - vb
+  name: SFCommonStyleSheetAssetPath
+  nameWithType: SFUIElementsFactory.SFCommonStyleSheetAssetPath
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheetAssetPath
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public static readonly string SFCommonStyleSheetAssetPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly SFCommonStyleSheetAssetPath As String
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+  commentId: P:SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+  id: SFCommonStyleSheet
+  parent: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  langs:
+  - csharp
+  - vb
+  name: SFCommonStyleSheet
+  nameWithType: SFUIElementsFactory.SFCommonStyleSheet
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+  type: Property
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public static StyleSheet SFCommonStyleSheet { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.StyleSheet
+    content.vb: Public Shared ReadOnly Property SFCommonStyleSheet As StyleSheet
+  overload: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet*
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles(UnityEngine.UIElements.VisualElement)
+  commentId: M:SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles(UnityEngine.UIElements.VisualElement)
+  id: InitializeSFStyles(UnityEngine.UIElements.VisualElement)
+  parent: SFEditor.UIElements.Utilities.SFUIElementsFactory
+  langs:
+  - csharp
+  - vb
+  name: InitializeSFStyles(VisualElement)
+  nameWithType: SFUIElementsFactory.InitializeSFStyles(VisualElement)
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles(UnityEngine.UIElements.VisualElement)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.UIElements.Utilities
+  syntax:
+    content: public static VisualElement InitializeSFStyles(VisualElement ve)
+    parameters:
+    - id: ve
+      type: UnityEngine.UIElements.VisualElement
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Public Shared Function InitializeSFStyles(ve As VisualElement) As VisualElement
+  overload: SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles*
+references:
+- uid: SFEditor.UIElements.Utilities
+  commentId: N:SFEditor.UIElements.Utilities
+  href: SFEditor.html
+  name: SFEditor.UIElements.Utilities
+  nameWithType: SFEditor.UIElements.Utilities
+  fullName: SFEditor.UIElements.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+    href: SFEditor.UIElements.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  - name: .
+  - uid: SFEditor.UIElements.Utilities
+    name: Utilities
+    href: SFEditor.UIElements.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet*
+  commentId: Overload:SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+  href: SFEditor.UIElements.Utilities.SFUIElementsFactory.html#SFEditor_UIElements_Utilities_SFUIElementsFactory_SFCommonStyleSheet
+  name: SFCommonStyleSheet
+  nameWithType: SFUIElementsFactory.SFCommonStyleSheet
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.SFCommonStyleSheet
+- uid: UnityEngine.UIElements.StyleSheet
+  commentId: T:UnityEngine.UIElements.StyleSheet
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: StyleSheet
+  nameWithType: StyleSheet
+  fullName: UnityEngine.UIElements.StyleSheet
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles*
+  commentId: Overload:SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles
+  href: SFEditor.UIElements.Utilities.SFUIElementsFactory.html#SFEditor_UIElements_Utilities_SFUIElementsFactory_InitializeSFStyles_UnityEngine_UIElements_VisualElement_
+  name: InitializeSFStyles
+  nameWithType: SFUIElementsFactory.InitializeSFStyles
+  fullName: SFEditor.UIElements.Utilities.SFUIElementsFactory.InitializeSFStyles
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement

@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.Pathfinding.MathGraphMovement
+  commentId: T:SF.Pathfinding.MathGraphMovement
+  id: MathGraphMovement
+  parent: SF.Pathfinding
+  children:
+  - SF.Pathfinding.MathGraphMovement.Amplitude
+  - SF.Pathfinding.MathGraphMovement.Speed
+  - SF.Pathfinding.MathGraphMovement.TrigMovementType
+  - SF.Pathfinding.MathGraphMovement.YOffSet
+  langs:
+  - csharp
+  - vb
+  name: MathGraphMovement
+  nameWithType: MathGraphMovement
+  fullName: SF.Pathfinding.MathGraphMovement
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: 'public class MathGraphMovement : MonoBehaviour'
+    content.vb: Public Class MathGraphMovement Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.Pathfinding.MathGraphMovement.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+- uid: SF.Pathfinding.MathGraphMovement.Speed
+  commentId: F:SF.Pathfinding.MathGraphMovement.Speed
+  id: Speed
+  parent: SF.Pathfinding.MathGraphMovement
+  langs:
+  - csharp
+  - vb
+  name: Speed
+  nameWithType: MathGraphMovement.Speed
+  fullName: SF.Pathfinding.MathGraphMovement.Speed
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: public Vector2 Speed
+    return:
+      type: UnityEngine.Vector2
+    content.vb: Public Speed As Vector2
+- uid: SF.Pathfinding.MathGraphMovement.TrigMovementType
+  commentId: F:SF.Pathfinding.MathGraphMovement.TrigMovementType
+  id: TrigMovementType
+  parent: SF.Pathfinding.MathGraphMovement
+  langs:
+  - csharp
+  - vb
+  name: TrigMovementType
+  nameWithType: MathGraphMovement.TrigMovementType
+  fullName: SF.Pathfinding.MathGraphMovement.TrigMovementType
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: public TrigFunctionType TrigMovementType
+    return:
+      type: SF.Pathfinding.TrigFunctionType
+    content.vb: Public TrigMovementType As TrigFunctionType
+- uid: SF.Pathfinding.MathGraphMovement.Amplitude
+  commentId: F:SF.Pathfinding.MathGraphMovement.Amplitude
+  id: Amplitude
+  parent: SF.Pathfinding.MathGraphMovement
+  langs:
+  - csharp
+  - vb
+  name: Amplitude
+  nameWithType: MathGraphMovement.Amplitude
+  fullName: SF.Pathfinding.MathGraphMovement.Amplitude
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: public float Amplitude
+    return:
+      type: System.Single
+    content.vb: Public Amplitude As Single
+- uid: SF.Pathfinding.MathGraphMovement.YOffSet
+  commentId: F:SF.Pathfinding.MathGraphMovement.YOffSet
+  id: YOffSet
+  parent: SF.Pathfinding.MathGraphMovement
+  langs:
+  - csharp
+  - vb
+  name: YOffSet
+  nameWithType: MathGraphMovement.YOffSet
+  fullName: SF.Pathfinding.MathGraphMovement.YOffSet
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.Pathfinding
+  syntax:
+    content: public float YOffSet
+    return:
+      type: System.Single
+    content.vb: Public YOffSet As Single
+references:
+- uid: SF.Pathfinding
+  commentId: N:SF.Pathfinding
+  href: SF.html
+  name: SF.Pathfinding
+  nameWithType: SF.Pathfinding
+  fullName: SF.Pathfinding
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.Pathfinding
+    name: Pathfinding
+    href: SF.Pathfinding.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.Pathfinding.MathGraphMovement.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<MathGraphMovement>(MathGraphMovement)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<MathGraphMovement>(MathGraphMovement)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.Pathfinding.MathGraphMovement>(SF.Pathfinding.MathGraphMovement)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of MathGraphMovement)(MathGraphMovement)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.Pathfinding.MathGraphMovement)(SF.Pathfinding.MathGraphMovement)
+  name.vb: IsActiveEnabledAndNotNull(Of MathGraphMovement)(MathGraphMovement)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Pathfinding.MathGraphMovement)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.Pathfinding.MathGraphMovement
+    name: MathGraphMovement
+    href: SF.Pathfinding.MathGraphMovement.html
+  - name: '>'
+  - name: (
+  - uid: SF.Pathfinding.MathGraphMovement
+    name: MathGraphMovement
+    href: SF.Pathfinding.MathGraphMovement.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.Pathfinding.MathGraphMovement)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.Pathfinding.MathGraphMovement
+    name: MathGraphMovement
+    href: SF.Pathfinding.MathGraphMovement.html
+  - name: )
+  - name: (
+  - uid: SF.Pathfinding.MathGraphMovement
+    name: MathGraphMovement
+    href: SF.Pathfinding.MathGraphMovement.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: SF.Pathfinding.TrigFunctionType
+  commentId: T:SF.Pathfinding.TrigFunctionType
+  parent: SF.Pathfinding
+  href: SF.Pathfinding.TrigFunctionType.html
+  name: TrigFunctionType
+  nameWithType: TrigFunctionType
+  fullName: SF.Pathfinding.TrigFunctionType
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

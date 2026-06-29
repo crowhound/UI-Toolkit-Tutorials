@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.SFEditorUtilities
+  commentId: T:SFEditor.SFEditorUtilities
+  id: SFEditorUtilities
+  parent: SFEditor
+  children:
+  - SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(System.String)
+  - SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SFEditorUtilities
+  nameWithType: SFEditorUtilities
+  fullName: SFEditor.SFEditorUtilities
+  type: Class
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor
+  syntax:
+    content: public static class SFEditorUtilities
+    content.vb: Public Module SFEditorUtilities
+  inheritance:
+  - System.Object
+- uid: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName(System.String,System.Boolean)
+  commentId: M:SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName(System.String,System.Boolean)
+  id: RemoveInvalidCharsFromFileName(System.String,System.Boolean)
+  parent: SFEditor.SFEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: RemoveInvalidCharsFromFileName(string, bool)
+  nameWithType: SFEditorUtilities.RemoveInvalidCharsFromFileName(string, bool)
+  fullName: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName(string, bool)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor
+  syntax:
+    content: public static string RemoveInvalidCharsFromFileName(string filename, bool logIfInvalidChars)
+    parameters:
+    - id: filename
+      type: System.String
+    - id: logIfInvalidChars
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Shared Function RemoveInvalidCharsFromFileName(filename As String, logIfInvalidChars As Boolean) As String
+  overload: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName*
+  nameWithType.vb: SFEditorUtilities.RemoveInvalidCharsFromFileName(String, Boolean)
+  fullName.vb: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName(String, Boolean)
+  name.vb: RemoveInvalidCharsFromFileName(String, Boolean)
+- uid: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(System.String)
+  commentId: M:SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(System.String)
+  id: GetDisplayStringOfInvalidCharsOfFileName(System.String)
+  parent: SFEditor.SFEditorUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayStringOfInvalidCharsOfFileName(string)
+  nameWithType: SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(string)
+  fullName: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(string)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor
+  syntax:
+    content: public static string GetDisplayStringOfInvalidCharsOfFileName(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetDisplayStringOfInvalidCharsOfFileName(filename As String) As String
+  overload: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName*
+  nameWithType.vb: SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(String)
+  fullName.vb: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName(String)
+  name.vb: GetDisplayStringOfInvalidCharsOfFileName(String)
+references:
+- uid: SFEditor
+  commentId: N:SFEditor
+  href: SFEditor.html
+  name: SFEditor
+  nameWithType: SFEditor
+  fullName: SFEditor
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName*
+  commentId: Overload:SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName
+  href: SFEditor.SFEditorUtilities.html#SFEditor_SFEditorUtilities_RemoveInvalidCharsFromFileName_System_String_System_Boolean_
+  name: RemoveInvalidCharsFromFileName
+  nameWithType: SFEditorUtilities.RemoveInvalidCharsFromFileName
+  fullName: SFEditor.SFEditorUtilities.RemoveInvalidCharsFromFileName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName*
+  commentId: Overload:SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName
+  href: SFEditor.SFEditorUtilities.html#SFEditor_SFEditorUtilities_GetDisplayStringOfInvalidCharsOfFileName_System_String_
+  name: GetDisplayStringOfInvalidCharsOfFileName
+  nameWithType: SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName
+  fullName: SFEditor.SFEditorUtilities.GetDisplayStringOfInvalidCharsOfFileName

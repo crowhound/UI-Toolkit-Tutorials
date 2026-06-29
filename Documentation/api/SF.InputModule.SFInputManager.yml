@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.InputModule.SFInputManager
+  commentId: T:SF.InputModule.SFInputManager
+  id: SFInputManager
+  parent: SF.InputModule
+  children:
+  - SF.InputModule.SFInputManager.Controls
+  - SF.InputModule.SFInputManager.DisableActionMap
+  - SF.InputModule.SFInputManager.EnableActionMap
+  - SF.InputModule.SFInputManager.Instance
+  langs:
+  - csharp
+  - vb
+  name: SFInputManager
+  nameWithType: SFInputManager
+  fullName: SF.InputModule.SFInputManager
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.InputModule
+  syntax:
+    content: >-
+      [DefaultExecutionOrder(-5)]
+
+      public class SFInputManager : MonoBehaviour
+    content.vb: >-
+      <DefaultExecutionOrder(-5)>
+
+      Public Class SFInputManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  extensionMethods:
+  - SF.InputModule.SFInputManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  attributes:
+  - type: UnityEngine.DefaultExecutionOrder
+    ctor: UnityEngine.DefaultExecutionOrder.#ctor(System.Int32)
+    arguments:
+    - type: System.Int32
+      value: -5
+- uid: SF.InputModule.SFInputManager.Instance
+  commentId: P:SF.InputModule.SFInputManager.Instance
+  id: Instance
+  parent: SF.InputModule.SFInputManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: SFInputManager.Instance
+  fullName: SF.InputModule.SFInputManager.Instance
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.InputModule
+  syntax:
+    content: public static SFInputManager Instance { get; }
+    parameters: []
+    return:
+      type: SF.InputModule.SFInputManager
+    content.vb: Public Shared ReadOnly Property Instance As SFInputManager
+  overload: SF.InputModule.SFInputManager.Instance*
+- uid: SF.InputModule.SFInputManager.Controls
+  commentId: P:SF.InputModule.SFInputManager.Controls
+  id: Controls
+  parent: SF.InputModule.SFInputManager
+  langs:
+  - csharp
+  - vb
+  name: Controls
+  nameWithType: SFInputManager.Controls
+  fullName: SF.InputModule.SFInputManager.Controls
+  type: Property
+  assemblies:
+  - SF.Packages
+  namespace: SF.InputModule
+  syntax:
+    content: public static Controls Controls { get; }
+    parameters: []
+    return:
+      type: SF.InputModule.Controls
+    content.vb: Public Shared ReadOnly Property Controls As Controls
+  overload: SF.InputModule.SFInputManager.Controls*
+- uid: SF.InputModule.SFInputManager.EnableActionMap
+  commentId: M:SF.InputModule.SFInputManager.EnableActionMap
+  id: EnableActionMap
+  parent: SF.InputModule.SFInputManager
+  langs:
+  - csharp
+  - vb
+  name: EnableActionMap()
+  nameWithType: SFInputManager.EnableActionMap()
+  fullName: SF.InputModule.SFInputManager.EnableActionMap()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.InputModule
+  syntax:
+    content: public void EnableActionMap()
+    content.vb: Public Sub EnableActionMap()
+  overload: SF.InputModule.SFInputManager.EnableActionMap*
+- uid: SF.InputModule.SFInputManager.DisableActionMap
+  commentId: M:SF.InputModule.SFInputManager.DisableActionMap
+  id: DisableActionMap
+  parent: SF.InputModule.SFInputManager
+  langs:
+  - csharp
+  - vb
+  name: DisableActionMap()
+  nameWithType: SFInputManager.DisableActionMap()
+  fullName: SF.InputModule.SFInputManager.DisableActionMap()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.InputModule
+  syntax:
+    content: public void DisableActionMap()
+    content.vb: Public Sub DisableActionMap()
+  overload: SF.InputModule.SFInputManager.DisableActionMap*
+references:
+- uid: SF.InputModule
+  commentId: N:SF.InputModule
+  href: SF.html
+  name: SF.InputModule
+  nameWithType: SF.InputModule
+  fullName: SF.InputModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.InputModule
+    name: InputModule
+    href: SF.InputModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.InputModule
+    name: InputModule
+    href: SF.InputModule.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: SF.InputModule.SFInputManager.SF.ComponentUtilities.IsActiveEnabledAndNotNull``1
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  parent: SF.ComponentUtilities
+  definition: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<SFInputManager>(SFInputManager)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<SFInputManager>(SFInputManager)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<SF.InputModule.SFInputManager>(SF.InputModule.SFInputManager)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of SFInputManager)(SFInputManager)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of SF.InputModule.SFInputManager)(SF.InputModule.SFInputManager)
+  name.vb: IsActiveEnabledAndNotNull(Of SFInputManager)(SFInputManager)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.InputModule.SFInputManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - uid: SF.InputModule.SFInputManager
+    name: SFInputManager
+    href: SF.InputModule.SFInputManager.html
+  - name: '>'
+  - name: (
+  - uid: SF.InputModule.SFInputManager
+    name: SFInputManager
+    href: SF.InputModule.SFInputManager.html
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(SF.InputModule.SFInputManager)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.InputModule.SFInputManager
+    name: SFInputManager
+    href: SF.InputModule.SFInputManager.html
+  - name: )
+  - name: (
+  - uid: SF.InputModule.SFInputManager
+    name: SFInputManager
+    href: SF.InputModule.SFInputManager.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  commentId: M:SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+  href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  name: IsActiveEnabledAndNotNull<T>(T)
+  nameWithType: ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  fullName: SF.ComponentUtilities.IsActiveEnabledAndNotNull<T>(T)
+  nameWithType.vb: ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  fullName.vb: SF.ComponentUtilities.IsActiveEnabledAndNotNull(Of T)(T)
+  name.vb: IsActiveEnabledAndNotNull(Of T)(T)
+  spec.csharp:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.ComponentUtilities.IsActiveEnabledAndNotNull``1(``0)
+    name: IsActiveEnabledAndNotNull
+    href: SF.ComponentUtilities.html#SF_ComponentUtilities_IsActiveEnabledAndNotNull__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.ComponentUtilities
+  commentId: T:SF.ComponentUtilities
+  parent: SF
+  href: SF.ComponentUtilities.html
+  name: ComponentUtilities
+  nameWithType: ComponentUtilities
+  fullName: SF.ComponentUtilities
+- uid: SF
+  commentId: N:SF
+  href: SF.html
+  name: SF
+  nameWithType: SF
+  fullName: SF
+- uid: SF.InputModule.SFInputManager.Instance*
+  commentId: Overload:SF.InputModule.SFInputManager.Instance
+  href: SF.InputModule.SFInputManager.html#SF_InputModule_SFInputManager_Instance
+  name: Instance
+  nameWithType: SFInputManager.Instance
+  fullName: SF.InputModule.SFInputManager.Instance
+- uid: SF.InputModule.SFInputManager
+  commentId: T:SF.InputModule.SFInputManager
+  parent: SF.InputModule
+  href: SF.InputModule.SFInputManager.html
+  name: SFInputManager
+  nameWithType: SFInputManager
+  fullName: SF.InputModule.SFInputManager
+- uid: SF.InputModule.SFInputManager.Controls*
+  commentId: Overload:SF.InputModule.SFInputManager.Controls
+  href: SF.InputModule.SFInputManager.html#SF_InputModule_SFInputManager_Controls
+  name: Controls
+  nameWithType: SFInputManager.Controls
+  fullName: SF.InputModule.SFInputManager.Controls
+- uid: SF.InputModule.Controls
+  commentId: T:SF.InputModule.Controls
+  parent: SF.InputModule
+  name: Controls
+  nameWithType: Controls
+  fullName: SF.InputModule.Controls
+- uid: SF.InputModule.SFInputManager.EnableActionMap*
+  commentId: Overload:SF.InputModule.SFInputManager.EnableActionMap
+  href: SF.InputModule.SFInputManager.html#SF_InputModule_SFInputManager_EnableActionMap
+  name: EnableActionMap
+  nameWithType: SFInputManager.EnableActionMap
+  fullName: SF.InputModule.SFInputManager.EnableActionMap
+- uid: SF.InputModule.SFInputManager.DisableActionMap*
+  commentId: Overload:SF.InputModule.SFInputManager.DisableActionMap
+  href: SF.InputModule.SFInputManager.html#SF_InputModule_SFInputManager_DisableActionMap
+  name: DisableActionMap
+  nameWithType: SFInputManager.DisableActionMap
+  fullName: SF.InputModule.SFInputManager.DisableActionMap

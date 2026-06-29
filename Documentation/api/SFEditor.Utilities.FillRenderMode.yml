@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Utilities.FillRenderMode
+  commentId: T:SFEditor.Utilities.FillRenderMode
+  id: FillRenderMode
+  parent: SFEditor.Utilities
+  children:
+  - SFEditor.Utilities.FillRenderMode.Solid
+  - SFEditor.Utilities.FillRenderMode.TransparentFill
+  langs:
+  - csharp
+  - vb
+  name: FillRenderMode
+  nameWithType: FillRenderMode
+  fullName: SFEditor.Utilities.FillRenderMode
+  type: Enum
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: public enum FillRenderMode
+    content.vb: Public Enum FillRenderMode
+- uid: SFEditor.Utilities.FillRenderMode.Solid
+  commentId: F:SFEditor.Utilities.FillRenderMode.Solid
+  id: Solid
+  parent: SFEditor.Utilities.FillRenderMode
+  langs:
+  - csharp
+  - vb
+  name: Solid
+  nameWithType: FillRenderMode.Solid
+  fullName: SFEditor.Utilities.FillRenderMode.Solid
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: Solid = 0
+    return:
+      type: SFEditor.Utilities.FillRenderMode
+- uid: SFEditor.Utilities.FillRenderMode.TransparentFill
+  commentId: F:SFEditor.Utilities.FillRenderMode.TransparentFill
+  id: TransparentFill
+  parent: SFEditor.Utilities.FillRenderMode
+  langs:
+  - csharp
+  - vb
+  name: TransparentFill
+  nameWithType: FillRenderMode.TransparentFill
+  fullName: SFEditor.Utilities.FillRenderMode.TransparentFill
+  type: Field
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Utilities
+  syntax:
+    content: TransparentFill = 1
+    return:
+      type: SFEditor.Utilities.FillRenderMode
+references:
+- uid: SFEditor.Utilities
+  commentId: N:SFEditor.Utilities
+  href: SFEditor.html
+  name: SFEditor.Utilities
+  nameWithType: SFEditor.Utilities
+  fullName: SFEditor.Utilities
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Utilities
+    name: Utilities
+    href: SFEditor.Utilities.html
+- uid: SFEditor.Utilities.FillRenderMode
+  commentId: T:SFEditor.Utilities.FillRenderMode
+  parent: SFEditor.Utilities
+  href: SFEditor.Utilities.FillRenderMode.html
+  name: FillRenderMode
+  nameWithType: FillRenderMode
+  fullName: SFEditor.Utilities.FillRenderMode

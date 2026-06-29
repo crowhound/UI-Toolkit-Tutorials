@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  id: StartDialogueRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  children:
+  - SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode
+  langs:
+  - csharp
+  - vb
+  name: StartDialogueRuntimeNode
+  nameWithType: StartDialogueRuntimeNode
+  fullName: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: >-
+    I might not need this. I could just use the StartDialogueNode (editor) just to get the start of a conversation.
+
+    Might not need to know about it.
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class StartDialogueRuntimeNode : RuntimeNode, IRuntimeNode
+    content.vb: >-
+      <Serializable>
+
+      Public Class StartDialogueRuntimeNode Inherits RuntimeNode Implements IRuntimeNode
+  inheritance:
+  - System.Object
+  - SF.DialogueModule.Nodes.RuntimeNode
+  implements:
+  - SF.DialogueModule.Nodes.IRuntimeNode
+  inheritedMembers:
+  - SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  - SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  - SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  - SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  - SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode
+  id: ProcessNode
+  parent: SF.DialogueModule.Nodes.StartDialogueRuntimeNode
+  langs:
+  - csharp
+  - vb
+  name: ProcessNode()
+  nameWithType: StartDialogueRuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.DialogueModule.Nodes
+  summary: Processes the logic for custom nodes.
+  example: []
+  syntax:
+    content: public override void ProcessNode()
+    content.vb: Public Overrides Sub ProcessNode()
+  overridden: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  overload: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode*
+references:
+- uid: SF.DialogueModule.Nodes
+  commentId: N:SF.DialogueModule.Nodes
+  href: SF.html
+  name: SF.DialogueModule.Nodes
+  nameWithType: SF.DialogueModule.Nodes
+  fullName: SF.DialogueModule.Nodes
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  - name: .
+  - uid: SF.DialogueModule.Nodes
+    name: Nodes
+    href: SF.DialogueModule.Nodes.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SF.DialogueModule.Nodes.RuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.RuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.RuntimeNode.html
+  name: RuntimeNode
+  nameWithType: RuntimeNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode
+- uid: SF.DialogueModule.Nodes.IRuntimeNode
+  commentId: T:SF.DialogueModule.Nodes.IRuntimeNode
+  parent: SF.DialogueModule.Nodes
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: IRuntimeNode
+  nameWithType: IRuntimeNode
+  fullName: SF.DialogueModule.Nodes.IRuntimeNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShouldPauseGraphProcessing
+  name: ShouldPauseGraphProcessing
+  nameWithType: RuntimeNode.ShouldPauseGraphProcessing
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShouldPauseGraphProcessing
+- uid: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.Conversation
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_Conversation
+  name: Conversation
+  nameWithType: RuntimeNode.Conversation
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.Conversation
+- uid: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  commentId: P:SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_IsBlockNode
+  name: IsBlockNode
+  nameWithType: RuntimeNode.IsBlockNode
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.IsBlockNode
+- uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  isExternal: true
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  name: TraverseNode(in List<RuntimeNode>)
+  nameWithType: RuntimeNode.TraverseNode(in List<RuntimeNode>)
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(in System.Collections.Generic.List<SF.DialogueModule.Nodes.RuntimeNode>)
+  nameWithType.vb: RuntimeNode.TraverseNode(List(Of RuntimeNode))
+  fullName.vb: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List(Of SF.DialogueModule.Nodes.RuntimeNode))
+  name.vb: TraverseNode(List(Of RuntimeNode))
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - name: in
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.TraverseNode(System.Collections.Generic.List{SF.DialogueModule.Nodes.RuntimeNode}@)
+    name: TraverseNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_TraverseNode_System_Collections_Generic_List_SF_DialogueModule_Nodes_RuntimeNode___
+  - name: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.RuntimeNode
+    name: RuntimeNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html
+  - name: )
+  - name: )
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  name: ShallowCopy()
+  nameWithType: RuntimeNode.ShallowCopy()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ShallowCopy
+    name: ShallowCopy
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ShallowCopy
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  commentId: M:SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+  parent: SF.DialogueModule.Nodes.RuntimeNode
+  href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  name: ProcessNode()
+  nameWithType: RuntimeNode.ProcessNode()
+  fullName: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode()
+  spec.csharp:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SF.DialogueModule.Nodes.RuntimeNode.ProcessNode
+    name: ProcessNode
+    href: SF.DialogueModule.Nodes.RuntimeNode.html#SF_DialogueModule_Nodes_RuntimeNode_ProcessNode
+  - name: (
+  - name: )
+- uid: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode*
+  commentId: Overload:SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode
+  href: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.html#SF_DialogueModule_Nodes_StartDialogueRuntimeNode_ProcessNode
+  name: ProcessNode
+  nameWithType: StartDialogueRuntimeNode.ProcessNode
+  fullName: SF.DialogueModule.Nodes.StartDialogueRuntimeNode.ProcessNode

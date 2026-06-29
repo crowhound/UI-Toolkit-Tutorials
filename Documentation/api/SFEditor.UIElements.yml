@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  id: SFEditor.UIElements
+  children:
+  - SFEditor.UIElements.ObjectPickerExtensions
+  - SFEditor.UIElements.SFImageField
+  - SFEditor.UIElements.SFImageField.UxmlSerializedData
+  - SFEditor.UIElements.SFTypeDropdownMenu`1
+  - SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+  langs:
+  - csharp
+  - vb
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  type: Namespace
+  assemblies:
+  - SFeditor.Packages
+references:
+- uid: SFEditor.UIElements.ObjectPickerExtensions
+  commentId: T:SFEditor.UIElements.ObjectPickerExtensions
+  parent: SFEditor.UIElements
+  href: SFEditor.UIElements.ObjectPickerExtensions.html
+  name: ObjectPickerExtensions
+  nameWithType: ObjectPickerExtensions
+  fullName: SFEditor.UIElements.ObjectPickerExtensions
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+  commentId: T:SFEditor.UIElements.SFTypeDropdownMenu`1
+  href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  name: SFTypeDropdownMenu<TOption>
+  nameWithType: SFTypeDropdownMenu<TOption>
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption)
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption)
+  name.vb: SFTypeDropdownMenu(Of TOption)
+  spec.csharp:
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+    name: SFTypeDropdownMenu
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  - name: <
+  - name: TOption
+  - name: '>'
+  spec.vb:
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+    name: SFTypeDropdownMenu
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOption
+  - name: )
+- uid: SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+  commentId: T:SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+  href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  name: SFTypeDropdownMenu<TOption>.UxmlSerializedData
+  nameWithType: SFTypeDropdownMenu<TOption>.UxmlSerializedData
+  fullName: SFEditor.UIElements.SFTypeDropdownMenu<TOption>.UxmlSerializedData
+  nameWithType.vb: SFTypeDropdownMenu(Of TOption).UxmlSerializedData
+  fullName.vb: SFEditor.UIElements.SFTypeDropdownMenu(Of TOption).UxmlSerializedData
+  name.vb: SFTypeDropdownMenu(Of TOption).UxmlSerializedData
+  spec.csharp:
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+    name: SFTypeDropdownMenu
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  - name: <
+  - name: TOption
+  - name: '>'
+  - name: .
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.UxmlSerializedData.html
+  spec.vb:
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1
+    name: SFTypeDropdownMenu
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TOption
+  - name: )
+  - name: .
+  - uid: SFEditor.UIElements.SFTypeDropdownMenu`1.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SFEditor.UIElements.SFTypeDropdownMenu-1.UxmlSerializedData.html
+- uid: SFEditor.UIElements.SFImageField
+  commentId: T:SFEditor.UIElements.SFImageField
+  href: SFEditor.UIElements.SFImageField.html
+  name: SFImageField
+  nameWithType: SFImageField
+  fullName: SFEditor.UIElements.SFImageField
+- uid: SFEditor.UIElements.SFImageField.UxmlSerializedData
+  commentId: T:SFEditor.UIElements.SFImageField.UxmlSerializedData
+  href: SFEditor.UIElements.SFImageField.html
+  name: SFImageField.UxmlSerializedData
+  nameWithType: SFImageField.UxmlSerializedData
+  fullName: SFEditor.UIElements.SFImageField.UxmlSerializedData
+  spec.csharp:
+  - uid: SFEditor.UIElements.SFImageField
+    name: SFImageField
+    href: SFEditor.UIElements.SFImageField.html
+  - name: .
+  - uid: SFEditor.UIElements.SFImageField.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SFEditor.UIElements.SFImageField.UxmlSerializedData.html
+  spec.vb:
+  - uid: SFEditor.UIElements.SFImageField
+    name: SFImageField
+    href: SFEditor.UIElements.SFImageField.html
+  - name: .
+  - uid: SFEditor.UIElements.SFImageField.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SFEditor.UIElements.SFImageField.UxmlSerializedData.html
+- uid: SFEditor.UIElements
+  commentId: N:SFEditor.UIElements
+  href: SFEditor.html
+  name: SFEditor.UIElements
+  nameWithType: SFEditor.UIElements
+  fullName: SFEditor.UIElements
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.UIElements
+    name: UIElements
+    href: SFEditor.UIElements.html

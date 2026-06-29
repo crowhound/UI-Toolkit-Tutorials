@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.AppUI
+  commentId: N:SF.AppUI
+  id: SF.AppUI
+  children:
+  - SF.AppUI.SFAppUIFactory
+  langs:
+  - csharp
+  - vb
+  name: SF.AppUI
+  nameWithType: SF.AppUI
+  fullName: SF.AppUI
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.AppUI.SFAppUIFactory
+  commentId: T:SF.AppUI.SFAppUIFactory
+  href: SF.AppUI.SFAppUIFactory.html
+  name: SFAppUIFactory
+  nameWithType: SFAppUIFactory
+  fullName: SF.AppUI.SFAppUIFactory

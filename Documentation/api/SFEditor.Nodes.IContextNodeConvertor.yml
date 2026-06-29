@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: SFEditor.Nodes.IContextNodeConvertor
+  commentId: T:SFEditor.Nodes.IContextNodeConvertor
+  id: IContextNodeConvertor
+  parent: SFEditor.Nodes
+  children:
+  - SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  langs:
+  - csharp
+  - vb
+  name: IContextNodeConvertor
+  nameWithType: IContextNodeConvertor
+  fullName: SFEditor.Nodes.IContextNodeConvertor
+  type: Interface
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Nodes
+  summary: Describes how to convert an editor node to a runtime node for processing.
+  example: []
+  syntax:
+    content: 'public interface IContextNodeConvertor : INodeConvertor'
+    content.vb: Public Interface IContextNodeConvertor Inherits INodeConvertor
+  derivedClasses:
+  - SFEditor.Dialogue.Graphs.BranchingContextNode
+  - SFEditor.Dialogue.Graphs.ConversationContextNode
+  inheritedMembers:
+  - SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+- uid: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  commentId: M:SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  id: ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  parent: SFEditor.Nodes.IContextNodeConvertor
+  langs:
+  - csharp
+  - vb
+  name: ConvertToRuntimeNodes(DialogueConversation)
+  nameWithType: IContextNodeConvertor.ConvertToRuntimeNodes(DialogueConversation)
+  fullName: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes(SF.DialogueModule.DialogueConversation)
+  type: Method
+  assemblies:
+  - SFeditor.Packages
+  namespace: SFEditor.Nodes
+  summary: Tells how a graph importing class should convert editor nodes to runtime nodes.
+  example: []
+  syntax:
+    content: List<IRuntimeNode> ConvertToRuntimeNodes(DialogueConversation dialogueConversation)
+    parameters:
+    - id: dialogueConversation
+      type: SF.DialogueModule.DialogueConversation
+    return:
+      type: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+      description: Returns the converted runtime node.
+    content.vb: Function ConvertToRuntimeNodes(dialogueConversation As DialogueConversation) As List(Of IRuntimeNode)
+  overload: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes*
+references:
+- uid: SFEditor.Nodes
+  commentId: N:SFEditor.Nodes
+  href: SFEditor.html
+  name: SFEditor.Nodes
+  nameWithType: SFEditor.Nodes
+  fullName: SFEditor.Nodes
+  spec.csharp:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+  spec.vb:
+  - uid: SFEditor
+    name: SFEditor
+    href: SFEditor.html
+  - name: .
+  - uid: SFEditor.Nodes
+    name: Nodes
+    href: SFEditor.Nodes.html
+- uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  commentId: M:SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+  parent: SFEditor.Nodes.INodeConvertor
+  href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  name: ConvertToRuntimeNode()
+  nameWithType: INodeConvertor.ConvertToRuntimeNode()
+  fullName: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode()
+  spec.csharp:
+  - uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+    name: ConvertToRuntimeNode
+    href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SFEditor.Nodes.INodeConvertor.ConvertToRuntimeNode
+    name: ConvertToRuntimeNode
+    href: SFEditor.Nodes.INodeConvertor.html#SFEditor_Nodes_INodeConvertor_ConvertToRuntimeNode
+  - name: (
+  - name: )
+- uid: SFEditor.Nodes.INodeConvertor
+  commentId: T:SFEditor.Nodes.INodeConvertor
+  parent: SFEditor.Nodes
+  href: SFEditor.Nodes.INodeConvertor.html
+  name: INodeConvertor
+  nameWithType: INodeConvertor
+  fullName: SFEditor.Nodes.INodeConvertor
+- uid: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes*
+  commentId: Overload:SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes
+  href: SFEditor.Nodes.IContextNodeConvertor.html#SFEditor_Nodes_IContextNodeConvertor_ConvertToRuntimeNodes_SF_DialogueModule_DialogueConversation_
+  name: ConvertToRuntimeNodes
+  nameWithType: IContextNodeConvertor.ConvertToRuntimeNodes
+  fullName: SFEditor.Nodes.IContextNodeConvertor.ConvertToRuntimeNodes
+- uid: SF.DialogueModule.DialogueConversation
+  commentId: T:SF.DialogueModule.DialogueConversation
+  parent: SF.DialogueModule
+  href: SF.DialogueModule.DialogueConversation.html
+  name: DialogueConversation
+  nameWithType: DialogueConversation
+  fullName: SF.DialogueModule.DialogueConversation
+- uid: System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  commentId: T:System.Collections.Generic.List{SF.DialogueModule.Nodes.IRuntimeNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  name: List<IRuntimeNode>
+  nameWithType: List<IRuntimeNode>
+  fullName: System.Collections.Generic.List<SF.DialogueModule.Nodes.IRuntimeNode>
+  nameWithType.vb: List(Of IRuntimeNode)
+  fullName.vb: System.Collections.Generic.List(Of SF.DialogueModule.Nodes.IRuntimeNode)
+  name.vb: List(Of IRuntimeNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.DialogueModule.Nodes.IRuntimeNode
+    name: IRuntimeNode
+    href: SF.DialogueModule.Nodes.IRuntimeNode.html
+  - name: )
+- uid: SF.DialogueModule
+  commentId: N:SF.DialogueModule
+  href: SF.html
+  name: SF.DialogueModule
+  nameWithType: SF.DialogueModule
+  fullName: SF.DialogueModule
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.DialogueModule
+    name: DialogueModule
+    href: SF.DialogueModule.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true

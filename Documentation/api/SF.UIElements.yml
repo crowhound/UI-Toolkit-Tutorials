@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  id: SF.UIElements
+  children:
+  - SF.UIElements.ListViewUtilities
+  - SF.UIElements.SFAutoFitLabel
+  - SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+  - SF.UIElements.SFButtonGroup
+  - SF.UIElements.SFButtonGroup.UxmlSerializedData
+  - SF.UIElements.SFCard
+  - SF.UIElements.SFCard.UxmlSerializedData
+  - SF.UIElements.SFContainer
+  - SF.UIElements.SFContainer.UxmlSerializedData
+  - SF.UIElements.SFRow
+  - SF.UIElements.SFRow.UxmlSerializedData
+  - SF.UIElements.SFVisualElementBase
+  - SF.UIElements.SFVisualElementBase.UxmlSerializedData
+  - SF.UIElements.SideBarLayout
+  - SF.UIElements.SideBarLayout.UxmlSerializedData
+  langs:
+  - csharp
+  - vb
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  type: Namespace
+  assemblies:
+  - SF.Packages
+references:
+- uid: SF.UIElements.SFContainer
+  commentId: T:SF.UIElements.SFContainer
+  href: SF.UIElements.SFContainer.html
+  name: SFContainer
+  nameWithType: SFContainer
+  fullName: SF.UIElements.SFContainer
+- uid: SF.UIElements.SFContainer.UxmlSerializedData
+  commentId: T:SF.UIElements.SFContainer.UxmlSerializedData
+  href: SF.UIElements.SFContainer.html
+  name: SFContainer.UxmlSerializedData
+  nameWithType: SFContainer.UxmlSerializedData
+  fullName: SF.UIElements.SFContainer.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFContainer
+    name: SFContainer
+    href: SF.UIElements.SFContainer.html
+  - name: .
+  - uid: SF.UIElements.SFContainer.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFContainer.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFContainer
+    name: SFContainer
+    href: SF.UIElements.SFContainer.html
+  - name: .
+  - uid: SF.UIElements.SFContainer.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFContainer.UxmlSerializedData.html
+- uid: SF.UIElements.SFRow
+  commentId: T:SF.UIElements.SFRow
+  href: SF.UIElements.SFRow.html
+  name: SFRow
+  nameWithType: SFRow
+  fullName: SF.UIElements.SFRow
+- uid: SF.UIElements.SFRow.UxmlSerializedData
+  commentId: T:SF.UIElements.SFRow.UxmlSerializedData
+  href: SF.UIElements.SFRow.html
+  name: SFRow.UxmlSerializedData
+  nameWithType: SFRow.UxmlSerializedData
+  fullName: SF.UIElements.SFRow.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFRow
+    name: SFRow
+    href: SF.UIElements.SFRow.html
+  - name: .
+  - uid: SF.UIElements.SFRow.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFRow.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFRow
+    name: SFRow
+    href: SF.UIElements.SFRow.html
+  - name: .
+  - uid: SF.UIElements.SFRow.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFRow.UxmlSerializedData.html
+- uid: SF.UIElements.SFButtonGroup
+  commentId: T:SF.UIElements.SFButtonGroup
+  href: SF.UIElements.SFButtonGroup.html
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup
+- uid: SF.UIElements.SFButtonGroup.UxmlSerializedData
+  commentId: T:SF.UIElements.SFButtonGroup.UxmlSerializedData
+  href: SF.UIElements.SFButtonGroup.html
+  name: SFButtonGroup.UxmlSerializedData
+  nameWithType: SFButtonGroup.UxmlSerializedData
+  fullName: SF.UIElements.SFButtonGroup.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: .
+  - uid: SF.UIElements.SFButtonGroup.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFButtonGroup.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: .
+  - uid: SF.UIElements.SFButtonGroup.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFButtonGroup.UxmlSerializedData.html
+- uid: SF.UIElements.SFAutoFitLabel
+  commentId: T:SF.UIElements.SFAutoFitLabel
+  href: SF.UIElements.SFAutoFitLabel.html
+  name: SFAutoFitLabel
+  nameWithType: SFAutoFitLabel
+  fullName: SF.UIElements.SFAutoFitLabel
+- uid: SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+  commentId: T:SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+  href: SF.UIElements.SFAutoFitLabel.html
+  name: SFAutoFitLabel.UxmlSerializedData
+  nameWithType: SFAutoFitLabel.UxmlSerializedData
+  fullName: SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFAutoFitLabel
+    name: SFAutoFitLabel
+    href: SF.UIElements.SFAutoFitLabel.html
+  - name: .
+  - uid: SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFAutoFitLabel.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFAutoFitLabel
+    name: SFAutoFitLabel
+    href: SF.UIElements.SFAutoFitLabel.html
+  - name: .
+  - uid: SF.UIElements.SFAutoFitLabel.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFAutoFitLabel.UxmlSerializedData.html
+- uid: SF.UIElements.SFCard
+  commentId: T:SF.UIElements.SFCard
+  href: SF.UIElements.SFCard.html
+  name: SFCard
+  nameWithType: SFCard
+  fullName: SF.UIElements.SFCard
+- uid: SF.UIElements.SFCard.UxmlSerializedData
+  commentId: T:SF.UIElements.SFCard.UxmlSerializedData
+  href: SF.UIElements.SFCard.html
+  name: SFCard.UxmlSerializedData
+  nameWithType: SFCard.UxmlSerializedData
+  fullName: SF.UIElements.SFCard.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFCard
+    name: SFCard
+    href: SF.UIElements.SFCard.html
+  - name: .
+  - uid: SF.UIElements.SFCard.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFCard.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFCard
+    name: SFCard
+    href: SF.UIElements.SFCard.html
+  - name: .
+  - uid: SF.UIElements.SFCard.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFCard.UxmlSerializedData.html
+- uid: SF.UIElements.SFVisualElementBase
+  commentId: T:SF.UIElements.SFVisualElementBase
+  parent: SF.UIElements
+  href: SF.UIElements.SFVisualElementBase.html
+  name: SFVisualElementBase
+  nameWithType: SFVisualElementBase
+  fullName: SF.UIElements.SFVisualElementBase
+- uid: SF.UIElements.SFVisualElementBase.UxmlSerializedData
+  commentId: T:SF.UIElements.SFVisualElementBase.UxmlSerializedData
+  parent: SF.UIElements
+  href: SF.UIElements.SFVisualElementBase.html
+  name: SFVisualElementBase.UxmlSerializedData
+  nameWithType: SFVisualElementBase.UxmlSerializedData
+  fullName: SF.UIElements.SFVisualElementBase.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SFVisualElementBase
+    name: SFVisualElementBase
+    href: SF.UIElements.SFVisualElementBase.html
+  - name: .
+  - uid: SF.UIElements.SFVisualElementBase.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFVisualElementBase.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SFVisualElementBase
+    name: SFVisualElementBase
+    href: SF.UIElements.SFVisualElementBase.html
+  - name: .
+  - uid: SF.UIElements.SFVisualElementBase.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SFVisualElementBase.UxmlSerializedData.html
+- uid: SF.UIElements.SideBarLayout
+  commentId: T:SF.UIElements.SideBarLayout
+  href: SF.UIElements.SideBarLayout.html
+  name: SideBarLayout
+  nameWithType: SideBarLayout
+  fullName: SF.UIElements.SideBarLayout
+- uid: SF.UIElements.SideBarLayout.UxmlSerializedData
+  commentId: T:SF.UIElements.SideBarLayout.UxmlSerializedData
+  href: SF.UIElements.SideBarLayout.html
+  name: SideBarLayout.UxmlSerializedData
+  nameWithType: SideBarLayout.UxmlSerializedData
+  fullName: SF.UIElements.SideBarLayout.UxmlSerializedData
+  spec.csharp:
+  - uid: SF.UIElements.SideBarLayout
+    name: SideBarLayout
+    href: SF.UIElements.SideBarLayout.html
+  - name: .
+  - uid: SF.UIElements.SideBarLayout.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SideBarLayout.UxmlSerializedData.html
+  spec.vb:
+  - uid: SF.UIElements.SideBarLayout
+    name: SideBarLayout
+    href: SF.UIElements.SideBarLayout.html
+  - name: .
+  - uid: SF.UIElements.SideBarLayout.UxmlSerializedData
+    name: UxmlSerializedData
+    href: SF.UIElements.SideBarLayout.UxmlSerializedData.html
+- uid: SF.UIElements.ListViewUtilities
+  commentId: T:SF.UIElements.ListViewUtilities
+  href: SF.UIElements.ListViewUtilities.html
+  name: ListViewUtilities
+  nameWithType: ListViewUtilities
+  fullName: SF.UIElements.ListViewUtilities
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  href: SF.html
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html

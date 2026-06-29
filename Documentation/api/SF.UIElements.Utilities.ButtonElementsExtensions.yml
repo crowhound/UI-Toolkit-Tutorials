@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.Utilities.ButtonElementsExtensions
+  commentId: T:SF.UIElements.Utilities.ButtonElementsExtensions
+  id: ButtonElementsExtensions
+  parent: SF.UIElements.Utilities
+  children:
+  - SF.UIElements.Utilities.ButtonElementsExtensions.OnClick``1(``0,System.Action)
+  langs:
+  - csharp
+  - vb
+  name: ButtonElementsExtensions
+  nameWithType: ButtonElementsExtensions
+  fullName: SF.UIElements.Utilities.ButtonElementsExtensions
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: public static class ButtonElementsExtensions
+    content.vb: Public Module ButtonElementsExtensions
+  inheritance:
+  - System.Object
+- uid: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick``1(``0,System.Action)
+  commentId: M:SF.UIElements.Utilities.ButtonElementsExtensions.OnClick``1(``0,System.Action)
+  id: OnClick``1(``0,System.Action)
+  isExtensionMethod: true
+  parent: SF.UIElements.Utilities.ButtonElementsExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnClick<T>(T, Action)
+  nameWithType: ButtonElementsExtensions.OnClick<T>(T, Action)
+  fullName: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick<T>(T, System.Action)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements.Utilities
+  syntax:
+    content: 'public static T OnClick<T>(this T target, Action callback) where T : Button'
+    parameters:
+    - id: target
+      type: '{T}'
+    - id: callback
+      type: System.Action
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function OnClick(Of T As Button)(target As T, callback As Action) As T
+  overload: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick*
+  nameWithType.vb: ButtonElementsExtensions.OnClick(Of T)(T, Action)
+  fullName.vb: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick(Of T)(T, System.Action)
+  name.vb: OnClick(Of T)(T, Action)
+references:
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick*
+  commentId: Overload:SF.UIElements.Utilities.ButtonElementsExtensions.OnClick
+  href: SF.UIElements.Utilities.ButtonElementsExtensions.html#SF_UIElements_Utilities_ButtonElementsExtensions_OnClick__1___0_System_Action_
+  name: OnClick
+  nameWithType: ButtonElementsExtensions.OnClick
+  fullName: SF.UIElements.Utilities.ButtonElementsExtensions.OnClick
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

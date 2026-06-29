@@ -1,0 +1,2343 @@
+### YamlMime:ManagedReference
+items:
+- uid: SF.UIElements.SFButtonGroup
+  commentId: T:SF.UIElements.SFButtonGroup
+  id: SFButtonGroup
+  parent: SF.UIElements
+  children:
+  - SF.UIElements.SFButtonGroup.#ctor
+  - SF.UIElements.SFButtonGroup.#ctor(UnityEngine.UIElements.Button[])
+  - SF.UIElements.SFButtonGroup.AddButton
+  - SF.UIElements.SFButtonGroup.AddButton(UnityEngine.UIElements.Button)
+  - SF.UIElements.SFButtonGroup.USSClassName
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup
+  type: Class
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  syntax:
+    content: >-
+      [UxmlElement]
+
+      public class SFButtonGroup : VisualElement
+    content.vb: >-
+      <UxmlElement>
+
+      Public Class SFButtonGroup Inherits VisualElement
+  inheritance:
+  - System.Object
+  - UnityEngine.UIElements.CallbackEventHandler
+  - UnityEngine.UIElements.Focusable
+  - UnityEngine.UIElements.VisualElement
+  extensionMethods:
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2({U},System.String,System.String)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(UnityEngine.UIElements.EventCallback{{TEventType}})
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(UnityEngine.UIElements.VisualElement,System.String)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(UnityEngine.UIElements.VisualElement,System.String[])
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(System.String)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(System.String[])
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(UnityEngine.UIElements.VisualElement)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.Register``2(UnityEngine.UIElements.EventCallback{{TEventType}})
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(System.String)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(System.Int32)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(System.Int32,UnityEngine.Color)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(UnityEngine.UIElements.DisplayStyle)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(System.Int32)
+  - SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  attributes:
+  - type: UnityEngine.UIElements.UxmlElementAttribute
+    ctor: UnityEngine.UIElements.UxmlElementAttribute.#ctor
+    arguments: []
+- uid: SF.UIElements.SFButtonGroup.USSClassName
+  commentId: F:SF.UIElements.SFButtonGroup.USSClassName
+  id: USSClassName
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: USSClassName
+  nameWithType: SFButtonGroup.USSClassName
+  fullName: SF.UIElements.SFButtonGroup.USSClassName
+  type: Field
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  syntax:
+    content: public const string USSClassName = "button-group"
+    return:
+      type: System.String
+    content.vb: Public Const USSClassName As String = "button-group"
+- uid: SF.UIElements.SFButtonGroup.#ctor
+  commentId: M:SF.UIElements.SFButtonGroup.#ctor
+  id: '#ctor'
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup()
+  nameWithType: SFButtonGroup.SFButtonGroup()
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup()
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  syntax:
+    content: public SFButtonGroup()
+    content.vb: Public Sub New()
+  overload: SF.UIElements.SFButtonGroup.#ctor*
+  nameWithType.vb: SFButtonGroup.New()
+  fullName.vb: SF.UIElements.SFButtonGroup.New()
+  name.vb: New()
+- uid: SF.UIElements.SFButtonGroup.#ctor(UnityEngine.UIElements.Button[])
+  commentId: M:SF.UIElements.SFButtonGroup.#ctor(UnityEngine.UIElements.Button[])
+  id: '#ctor(UnityEngine.UIElements.Button[])'
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: SFButtonGroup(Button[])
+  nameWithType: SFButtonGroup.SFButtonGroup(Button[])
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup(UnityEngine.UIElements.Button[])
+  type: Constructor
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  syntax:
+    content: public SFButtonGroup(Button[] buttons)
+    parameters:
+    - id: buttons
+      type: UnityEngine.UIElements.Button[]
+    content.vb: Public Sub New(buttons As Button())
+  overload: SF.UIElements.SFButtonGroup.#ctor*
+  nameWithType.vb: SFButtonGroup.New(Button())
+  fullName.vb: SF.UIElements.SFButtonGroup.New(UnityEngine.UIElements.Button())
+  name.vb: New(Button())
+- uid: SF.UIElements.SFButtonGroup.AddButton(UnityEngine.UIElements.Button)
+  commentId: M:SF.UIElements.SFButtonGroup.AddButton(UnityEngine.UIElements.Button)
+  id: AddButton(UnityEngine.UIElements.Button)
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddButton(Button)
+  nameWithType: SFButtonGroup.AddButton(Button)
+  fullName: SF.UIElements.SFButtonGroup.AddButton(UnityEngine.UIElements.Button)
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  summary: Adds a new button to the Button Group.
+  example: []
+  syntax:
+    content: public void AddButton(Button button)
+    parameters:
+    - id: button
+      type: UnityEngine.UIElements.Button
+      description: ''
+    content.vb: Public Sub AddButton(button As Button)
+  overload: SF.UIElements.SFButtonGroup.AddButton*
+- uid: SF.UIElements.SFButtonGroup.AddButton
+  commentId: M:SF.UIElements.SFButtonGroup.AddButton
+  id: AddButton
+  parent: SF.UIElements.SFButtonGroup
+  langs:
+  - csharp
+  - vb
+  name: AddButton()
+  nameWithType: SFButtonGroup.AddButton()
+  fullName: SF.UIElements.SFButtonGroup.AddButton()
+  type: Method
+  assemblies:
+  - SF.Packages
+  namespace: SF.UIElements
+  summary: Adds a new button to the Button Group and also returns it to the calling method to allow for editing the newly created button properties.
+  example: []
+  syntax:
+    content: public Button AddButton()
+    return:
+      type: UnityEngine.UIElements.Button
+      description: ''
+    content.vb: Public Function AddButton() As Button
+  overload: SF.UIElements.SFButtonGroup.AddButton*
+references:
+- uid: SF.UIElements
+  commentId: N:SF.UIElements
+  href: SF.html
+  name: SF.UIElements
+  nameWithType: SF.UIElements
+  fullName: SF.UIElements
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.UIElements.CallbackEventHandler
+  commentId: T:UnityEngine.UIElements.CallbackEventHandler
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: CallbackEventHandler
+  nameWithType: CallbackEventHandler
+  fullName: UnityEngine.UIElements.CallbackEventHandler
+- uid: UnityEngine.UIElements.Focusable
+  commentId: T:UnityEngine.UIElements.Focusable
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Focusable
+  nameWithType: Focusable
+  fullName: UnityEngine.UIElements.Focusable
+- uid: UnityEngine.UIElements.VisualElement
+  commentId: T:UnityEngine.UIElements.VisualElement
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2({U},System.String,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  name: AddBindableChild<SFButtonGroup, U>(SFButtonGroup, U, string, string)
+  nameWithType: VisualElementsExtensions.AddBindableChild<SFButtonGroup, U>(SFButtonGroup, U, string, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild<SF.UIElements.SFButtonGroup, U>(SF.UIElements.SFButtonGroup, U, string, string)
+  nameWithType.vb: VisualElementsExtensions.AddBindableChild(Of SFButtonGroup, U)(SFButtonGroup, U, String, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild(Of SF.UIElements.SFButtonGroup, U)(SF.UIElements.SFButtonGroup, U, String, String)
+  name.vb: AddBindableChild(Of SFButtonGroup, U)(SFButtonGroup, U, String, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(SF.UIElements.SFButtonGroup,``1,System.String,System.String)
+    name: AddBindableChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: U
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(SF.UIElements.SFButtonGroup,``1,System.String,System.String)
+    name: AddBindableChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: U
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(UnityEngine.UIElements.EventCallback{{TEventType}})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: AddCallback<SFButtonGroup, TEventType>(SFButtonGroup, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.AddCallback<SFButtonGroup, TEventType>(SFButtonGroup, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback<SF.UIElements.SFButtonGroup, TEventType>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.EventCallback<TEventType>)
+  nameWithType.vb: VisualElementsExtensions.AddCallback(Of SFButtonGroup, TEventType)(SFButtonGroup, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback(Of SF.UIElements.SFButtonGroup, TEventType)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: AddCallback(Of SFButtonGroup, TEventType)(SFButtonGroup, EventCallback(Of TEventType))
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.EventCallback{``1})
+    name: AddCallback
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.EventCallback{``1})
+    name: AddCallback
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  name: AddChild<SFButtonGroup>(SFButtonGroup, VisualElement, string)
+  nameWithType: VisualElementsExtensions.AddChild<SFButtonGroup>(SFButtonGroup, VisualElement, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement, string)
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of SFButtonGroup)(SFButtonGroup, VisualElement, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement, String)
+  name.vb: AddChild(Of SFButtonGroup)(SFButtonGroup, VisualElement, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement,System.String)
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement,System.String)
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddChild<SFButtonGroup>(SFButtonGroup, VisualElement, string[])
+  nameWithType: VisualElementsExtensions.AddChild<SFButtonGroup>(SFButtonGroup, VisualElement, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement, string[])
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of SFButtonGroup)(SFButtonGroup, VisualElement, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement, String())
+  name.vb: AddChild(Of SFButtonGroup)(SFButtonGroup, VisualElement, String())
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  name: AddClass<SFButtonGroup>(SFButtonGroup, string)
+  nameWithType: VisualElementsExtensions.AddClass<SFButtonGroup>(SFButtonGroup, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, string)
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of SFButtonGroup)(SFButtonGroup, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, String)
+  name.vb: AddClass(Of SFButtonGroup)(SFButtonGroup, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(SF.UIElements.SFButtonGroup,System.String)
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(SF.UIElements.SFButtonGroup,System.String)
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  name: AddClass<SFButtonGroup>(SFButtonGroup, string[])
+  nameWithType: VisualElementsExtensions.AddClass<SFButtonGroup>(SFButtonGroup, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, string[])
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of SFButtonGroup)(SFButtonGroup, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, String())
+  name.vb: AddClass(Of SFButtonGroup)(SFButtonGroup, String())
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(SF.UIElements.SFButtonGroup,System.String[])
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(SF.UIElements.SFButtonGroup,System.String[])
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  name: AddRow<SFButtonGroup>(SFButtonGroup)
+  nameWithType: VisualElementsExtensions.AddRow<SFButtonGroup>(SFButtonGroup)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup)
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of SFButtonGroup)(SFButtonGroup)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup)
+  name.vb: AddRow(Of SFButtonGroup)(SFButtonGroup)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(SF.UIElements.SFButtonGroup)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(SF.UIElements.SFButtonGroup)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(UnityEngine.UIElements.VisualElement)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  name: AddRow<SFButtonGroup>(SFButtonGroup, VisualElement)
+  nameWithType: VisualElementsExtensions.AddRow<SFButtonGroup>(SFButtonGroup, VisualElement)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of SFButtonGroup)(SFButtonGroup, VisualElement)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.VisualElement)
+  name.vb: AddRow(Of SFButtonGroup)(SFButtonGroup, VisualElement)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.VisualElement)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.Register``2(UnityEngine.UIElements.EventCallback{{TEventType}})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: Register<SFButtonGroup, TEventType>(SFButtonGroup, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.Register<SFButtonGroup, TEventType>(SFButtonGroup, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Register<SF.UIElements.SFButtonGroup, TEventType>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.EventCallback<TEventType>)
+  nameWithType.vb: VisualElementsExtensions.Register(Of SFButtonGroup, TEventType)(SFButtonGroup, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Register(Of SF.UIElements.SFButtonGroup, TEventType)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: Register(Of SFButtonGroup, TEventType)(SFButtonGroup, EventCallback(Of TEventType))
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.EventCallback{``1})
+    name: Register
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.EventCallback{``1})
+    name: Register
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  name: Rename<SFButtonGroup>(SFButtonGroup, string)
+  nameWithType: VisualElementsExtensions.Rename<SFButtonGroup>(SFButtonGroup, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Rename<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, string)
+  nameWithType.vb: VisualElementsExtensions.Rename(Of SFButtonGroup)(SFButtonGroup, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Rename(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, String)
+  name.vb: Rename(Of SFButtonGroup)(SFButtonGroup, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(SF.UIElements.SFButtonGroup,System.String)
+    name: Rename
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(SF.UIElements.SFButtonGroup,System.String)
+    name: Rename
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  name: SetAllBordersRadius<SFButtonGroup>(SFButtonGroup, int)
+  nameWithType: VisualElementsExtensions.SetAllBordersRadius<SFButtonGroup>(SFButtonGroup, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int)
+  nameWithType.vb: VisualElementsExtensions.SetAllBordersRadius(Of SFButtonGroup)(SFButtonGroup, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer)
+  name.vb: SetAllBordersRadius(Of SFButtonGroup)(SFButtonGroup, Integer)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(SF.UIElements.SFButtonGroup,System.Int32)
+    name: SetAllBordersRadius
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(SF.UIElements.SFButtonGroup,System.Int32)
+    name: SetAllBordersRadius
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(System.Int32,UnityEngine.Color)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  name: SetAllBorders<SFButtonGroup>(SFButtonGroup, int, Color)
+  nameWithType: VisualElementsExtensions.SetAllBorders<SFButtonGroup>(SFButtonGroup, int, Color)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int, UnityEngine.Color)
+  nameWithType.vb: VisualElementsExtensions.SetAllBorders(Of SFButtonGroup)(SFButtonGroup, Integer, Color)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer, UnityEngine.Color)
+  name.vb: SetAllBorders(Of SFButtonGroup)(SFButtonGroup, Integer, Color)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.Color)
+    name: SetAllBorders
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.Color)
+    name: SetAllBorders
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllMargin<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllMargin<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetAllMargin(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllMargin(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllMargin
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllMargin
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllPadding<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllPadding<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetAllPadding(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllPadding(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllPadding
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllPadding
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  name: SetBorder<SFButtonGroup>(SFButtonGroup, int, Color, BorderSide)
+  nameWithType: VisualElementsExtensions.SetBorder<SFButtonGroup>(SFButtonGroup, int, Color, BorderSide)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  nameWithType.vb: VisualElementsExtensions.SetBorder(Of SFButtonGroup)(SFButtonGroup, Integer, Color, BorderSide)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  name.vb: SetBorder(Of SFButtonGroup)(SFButtonGroup, Integer, Color, BorderSide)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+    name: SetBorder
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIElements.Utilities.BorderSide
+    name: BorderSide
+    href: SF.UIElements.Utilities.BorderSide.html
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+    name: SetBorder
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIElements.Utilities.BorderSide
+    name: BorderSide
+    href: SF.UIElements.Utilities.BorderSide.html
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  name: SetChildrenAsRowItems<SFButtonGroup>(SFButtonGroup)
+  nameWithType: VisualElementsExtensions.SetChildrenAsRowItems<SFButtonGroup>(SFButtonGroup)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup)
+  nameWithType.vb: VisualElementsExtensions.SetChildrenAsRowItems(Of SFButtonGroup)(SFButtonGroup)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup)
+  name.vb: SetChildrenAsRowItems(Of SFButtonGroup)(SFButtonGroup)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(SF.UIElements.SFButtonGroup)
+    name: SetChildrenAsRowItems
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(SF.UIElements.SFButtonGroup)
+    name: SetChildrenAsRowItems
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(UnityEngine.UIElements.DisplayStyle)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  name: SetDisplayStyle<SFButtonGroup>(SFButtonGroup, DisplayStyle)
+  nameWithType: VisualElementsExtensions.SetDisplayStyle<SFButtonGroup>(SFButtonGroup, DisplayStyle)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.DisplayStyle)
+  nameWithType.vb: VisualElementsExtensions.SetDisplayStyle(Of SFButtonGroup)(SFButtonGroup, DisplayStyle)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, UnityEngine.UIElements.DisplayStyle)
+  name.vb: SetDisplayStyle(Of SFButtonGroup)(SFButtonGroup, DisplayStyle)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.DisplayStyle)
+    name: SetDisplayStyle
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.DisplayStyle
+    name: DisplayStyle
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(SF.UIElements.SFButtonGroup,UnityEngine.UIElements.DisplayStyle)
+    name: SetDisplayStyle
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.DisplayStyle
+    name: DisplayStyle
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  name: SetFontSize<SFButtonGroup>(SFButtonGroup, int)
+  nameWithType: VisualElementsExtensions.SetFontSize<SFButtonGroup>(SFButtonGroup, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int)
+  nameWithType.vb: VisualElementsExtensions.SetFontSize(Of SFButtonGroup)(SFButtonGroup, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer)
+  name.vb: SetFontSize(Of SFButtonGroup)(SFButtonGroup, Integer)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(SF.UIElements.SFButtonGroup,System.Int32)
+    name: SetFontSize
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(SF.UIElements.SFButtonGroup,System.Int32)
+    name: SetFontSize
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  parent: SF.UIElements.Utilities.VisualElementsExtensions
+  definition: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetWidth<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetWidth<SFButtonGroup>(SFButtonGroup, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth<SF.UIElements.SFButtonGroup>(SF.UIElements.SFButtonGroup, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetWidth(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth(Of SF.UIElements.SFButtonGroup)(SF.UIElements.SFButtonGroup, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetWidth(Of SFButtonGroup)(SFButtonGroup, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetWidth
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: '>'
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(SF.UIElements.SFButtonGroup,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetWidth
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: )
+  - name: (
+  - uid: SF.UIElements.SFButtonGroup
+    name: SFButtonGroup
+    href: SF.UIElements.SFButtonGroup.html
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UIElements
+  commentId: N:UnityEngine.UIElements
+  isExternal: true
+  name: UnityEngine.UIElements
+  nameWithType: UnityEngine.UIElements
+  fullName: UnityEngine.UIElements
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UIElements
+    name: UIElements
+    isExternal: true
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  name: AddBindableChild<T, U>(T, U, string, string)
+  nameWithType: VisualElementsExtensions.AddBindableChild<T, U>(T, U, string, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild<T, U>(T, U, string, string)
+  nameWithType.vb: VisualElementsExtensions.AddBindableChild(Of T, U)(T, U, String, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild(Of T, U)(T, U, String, String)
+  name.vb: AddBindableChild(Of T, U)(T, U, String, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+    name: AddBindableChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddBindableChild``2(``0,``1,System.String,System.String)
+    name: AddBindableChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddBindableChild__2___0___1_System_String_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: U
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions
+  commentId: T:SF.UIElements.Utilities.VisualElementsExtensions
+  parent: SF.UIElements.Utilities
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html
+  name: VisualElementsExtensions
+  nameWithType: VisualElementsExtensions
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: AddCallback<T, TEventType>(T, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.AddCallback<T, TEventType>(T, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback<T, TEventType>(T, UnityEngine.UIElements.EventCallback<TEventType>)
+  nameWithType.vb: VisualElementsExtensions.AddCallback(Of T, TEventType)(T, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback(Of T, TEventType)(T, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: AddCallback(Of T, TEventType)(T, EventCallback(Of TEventType))
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+    name: AddCallback
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddCallback``2(``0,UnityEngine.UIElements.EventCallback{``1})
+    name: AddCallback
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddCallback__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  name: AddChild<T>(T, VisualElement, string)
+  nameWithType: VisualElementsExtensions.AddChild<T>(T, VisualElement, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<T>(T, UnityEngine.UIElements.VisualElement, string)
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of T)(T, VisualElement, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of T)(T, UnityEngine.UIElements.VisualElement, String)
+  name.vb: AddChild(Of T)(T, VisualElement, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String)
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  name: AddChild<T>(T, VisualElement, string[])
+  nameWithType: VisualElementsExtensions.AddChild<T>(T, VisualElement, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddChild<T>(T, UnityEngine.UIElements.VisualElement, string[])
+  nameWithType.vb: VisualElementsExtensions.AddChild(Of T)(T, VisualElement, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddChild(Of T)(T, UnityEngine.UIElements.VisualElement, String())
+  name.vb: AddChild(Of T)(T, VisualElement, String())
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddChild``1(``0,UnityEngine.UIElements.VisualElement,System.String[])
+    name: AddChild
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddChild__1___0_UnityEngine_UIElements_VisualElement_System_String___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  name: AddClass<T>(T, string)
+  nameWithType: VisualElementsExtensions.AddClass<T>(T, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<T>(T, string)
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of T)(T, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of T)(T, String)
+  name.vb: AddClass(Of T)(T, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String)
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  name: AddClass<T>(T, string[])
+  nameWithType: VisualElementsExtensions.AddClass<T>(T, string[])
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddClass<T>(T, string[])
+  nameWithType.vb: VisualElementsExtensions.AddClass(Of T)(T, String())
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddClass(Of T)(T, String())
+  name.vb: AddClass(Of T)(T, String())
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddClass``1(``0,System.String[])
+    name: AddClass
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddClass__1___0_System_String___
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  name: AddRow<T>(T)
+  nameWithType: VisualElementsExtensions.AddRow<T>(T)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<T>(T)
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of T)(T)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of T)(T)
+  name.vb: AddRow(Of T)(T)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  name: AddRow<T>(T, VisualElement)
+  nameWithType: VisualElementsExtensions.AddRow<T>(T, VisualElement)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.AddRow<T>(T, UnityEngine.UIElements.VisualElement)
+  nameWithType.vb: VisualElementsExtensions.AddRow(Of T)(T, VisualElement)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.AddRow(Of T)(T, UnityEngine.UIElements.VisualElement)
+  name.vb: AddRow(Of T)(T, VisualElement)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.AddRow``1(``0,UnityEngine.UIElements.VisualElement)
+    name: AddRow
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_AddRow__1___0_UnityEngine_UIElements_VisualElement_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: Register<T, TEventType>(T, EventCallback<TEventType>)
+  nameWithType: VisualElementsExtensions.Register<T, TEventType>(T, EventCallback<TEventType>)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Register<T, TEventType>(T, UnityEngine.UIElements.EventCallback<TEventType>)
+  nameWithType.vb: VisualElementsExtensions.Register(Of T, TEventType)(T, EventCallback(Of TEventType))
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Register(Of T, TEventType)(T, UnityEngine.UIElements.EventCallback(Of TEventType))
+  name.vb: Register(Of T, TEventType)(T, EventCallback(Of TEventType))
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+    name: Register
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEventType
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Register``2(``0,UnityEngine.UIElements.EventCallback{``1})
+    name: Register
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Register__2___0_UnityEngine_UIElements_EventCallback___1__
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEventType
+  - name: )
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  name: Rename<T>(T, string)
+  nameWithType: VisualElementsExtensions.Rename<T>(T, string)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.Rename<T>(T, string)
+  nameWithType.vb: VisualElementsExtensions.Rename(Of T)(T, String)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.Rename(Of T)(T, String)
+  name.vb: Rename(Of T)(T, String)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+    name: Rename
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.Rename``1(``0,System.String)
+    name: Rename
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_Rename__1___0_System_String_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  name: SetAllBordersRadius<T>(T, int)
+  nameWithType: VisualElementsExtensions.SetAllBordersRadius<T>(T, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius<T>(T, int)
+  nameWithType.vb: VisualElementsExtensions.SetAllBordersRadius(Of T)(T, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius(Of T)(T, Integer)
+  name.vb: SetAllBordersRadius(Of T)(T, Integer)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+    name: SetAllBordersRadius
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBordersRadius``1(``0,System.Int32)
+    name: SetAllBordersRadius
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBordersRadius__1___0_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  name: SetAllBorders<T>(T, int, Color)
+  nameWithType: VisualElementsExtensions.SetAllBorders<T>(T, int, Color)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders<T>(T, int, UnityEngine.Color)
+  nameWithType.vb: VisualElementsExtensions.SetAllBorders(Of T)(T, Integer, Color)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders(Of T)(T, Integer, UnityEngine.Color)
+  name.vb: SetAllBorders(Of T)(T, Integer, Color)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+    name: SetAllBorders
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllBorders``1(``0,System.Int32,UnityEngine.Color)
+    name: SetAllBorders
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllBorders__1___0_System_Int32_UnityEngine_Color_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllMargin<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllMargin<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetAllMargin(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllMargin(Of T)(T, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllMargin
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllMargin``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllMargin
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllMargin__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetAllPadding<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetAllPadding<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetAllPadding(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetAllPadding(Of T)(T, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllPadding
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetAllPadding``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetAllPadding
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetAllPadding__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  name: SetBorder<T>(T, int, Color, BorderSide)
+  nameWithType: VisualElementsExtensions.SetBorder<T>(T, int, Color, BorderSide)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder<T>(T, int, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  nameWithType.vb: VisualElementsExtensions.SetBorder(Of T)(T, Integer, Color, BorderSide)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder(Of T)(T, Integer, UnityEngine.Color, SF.UIElements.Utilities.BorderSide)
+  name.vb: SetBorder(Of T)(T, Integer, Color, BorderSide)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+    name: SetBorder
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIElements.Utilities.BorderSide
+    name: BorderSide
+    href: SF.UIElements.Utilities.BorderSide.html
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetBorder``1(``0,System.Int32,UnityEngine.Color,SF.UIElements.Utilities.BorderSide)
+    name: SetBorder
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetBorder__1___0_System_Int32_UnityEngine_Color_SF_UIElements_Utilities_BorderSide_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.Color
+    name: Color
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SF.UIElements.Utilities.BorderSide
+    name: BorderSide
+    href: SF.UIElements.Utilities.BorderSide.html
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  name: SetChildrenAsRowItems<T>(T)
+  nameWithType: VisualElementsExtensions.SetChildrenAsRowItems<T>(T)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems<T>(T)
+  nameWithType.vb: VisualElementsExtensions.SetChildrenAsRowItems(Of T)(T)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems(Of T)(T)
+  name.vb: SetChildrenAsRowItems(Of T)(T)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+    name: SetChildrenAsRowItems
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetChildrenAsRowItems``1(``0)
+    name: SetChildrenAsRowItems
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetChildrenAsRowItems__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  name: SetDisplayStyle<T>(T, DisplayStyle)
+  nameWithType: VisualElementsExtensions.SetDisplayStyle<T>(T, DisplayStyle)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle<T>(T, UnityEngine.UIElements.DisplayStyle)
+  nameWithType.vb: VisualElementsExtensions.SetDisplayStyle(Of T)(T, DisplayStyle)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle(Of T)(T, UnityEngine.UIElements.DisplayStyle)
+  name.vb: SetDisplayStyle(Of T)(T, DisplayStyle)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+    name: SetDisplayStyle
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.DisplayStyle
+    name: DisplayStyle
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetDisplayStyle``1(``0,UnityEngine.UIElements.DisplayStyle)
+    name: SetDisplayStyle
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetDisplayStyle__1___0_UnityEngine_UIElements_DisplayStyle_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.DisplayStyle
+    name: DisplayStyle
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  name: SetFontSize<T>(T, int)
+  nameWithType: VisualElementsExtensions.SetFontSize<T>(T, int)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize<T>(T, int)
+  nameWithType.vb: VisualElementsExtensions.SetFontSize(Of T)(T, Integer)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize(Of T)(T, Integer)
+  name.vb: SetFontSize(Of T)(T, Integer)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+    name: SetFontSize
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetFontSize``1(``0,System.Int32)
+    name: SetFontSize
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetFontSize__1___0_System_Int32_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  commentId: M:SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+  isExternal: true
+  href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  name: SetWidth<T>(T, int, LengthUnit)
+  nameWithType: VisualElementsExtensions.SetWidth<T>(T, int, LengthUnit)
+  fullName: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth<T>(T, int, UnityEngine.UIElements.LengthUnit)
+  nameWithType.vb: VisualElementsExtensions.SetWidth(Of T)(T, Integer, LengthUnit)
+  fullName.vb: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth(Of T)(T, Integer, UnityEngine.UIElements.LengthUnit)
+  name.vb: SetWidth(Of T)(T, Integer, LengthUnit)
+  spec.csharp:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetWidth
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: SF.UIElements.Utilities.VisualElementsExtensions.SetWidth``1(``0,System.Int32,UnityEngine.UIElements.LengthUnit)
+    name: SetWidth
+    href: SF.UIElements.Utilities.VisualElementsExtensions.html#SF_UIElements_Utilities_VisualElementsExtensions_SetWidth__1___0_System_Int32_UnityEngine_UIElements_LengthUnit_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: UnityEngine.UIElements.LengthUnit
+    name: LengthUnit
+    isExternal: true
+  - name: )
+- uid: SF.UIElements.Utilities
+  commentId: N:SF.UIElements.Utilities
+  href: SF.html
+  name: SF.UIElements.Utilities
+  nameWithType: SF.UIElements.Utilities
+  fullName: SF.UIElements.Utilities
+  spec.csharp:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+  spec.vb:
+  - uid: SF
+    name: SF
+    href: SF.html
+  - name: .
+  - uid: SF.UIElements
+    name: UIElements
+    href: SF.UIElements.html
+  - name: .
+  - uid: SF.UIElements.Utilities
+    name: Utilities
+    href: SF.UIElements.Utilities.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SF.UIElements.SFButtonGroup.#ctor*
+  commentId: Overload:SF.UIElements.SFButtonGroup.#ctor
+  href: SF.UIElements.SFButtonGroup.html#SF_UIElements_SFButtonGroup__ctor
+  name: SFButtonGroup
+  nameWithType: SFButtonGroup.SFButtonGroup
+  fullName: SF.UIElements.SFButtonGroup.SFButtonGroup
+  nameWithType.vb: SFButtonGroup.New
+  fullName.vb: SF.UIElements.SFButtonGroup.New
+  name.vb: New
+- uid: UnityEngine.UIElements.Button[]
+  isExternal: true
+  name: Button[]
+  nameWithType: Button[]
+  fullName: UnityEngine.UIElements.Button[]
+  nameWithType.vb: Button()
+  fullName.vb: UnityEngine.UIElements.Button()
+  name.vb: Button()
+  spec.csharp:
+  - uid: UnityEngine.UIElements.Button
+    name: Button
+    isExternal: true
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: UnityEngine.UIElements.Button
+    name: Button
+    isExternal: true
+  - name: (
+  - name: )
+- uid: SF.UIElements.SFButtonGroup.AddButton*
+  commentId: Overload:SF.UIElements.SFButtonGroup.AddButton
+  href: SF.UIElements.SFButtonGroup.html#SF_UIElements_SFButtonGroup_AddButton_UnityEngine_UIElements_Button_
+  name: AddButton
+  nameWithType: SFButtonGroup.AddButton
+  fullName: SF.UIElements.SFButtonGroup.AddButton
+- uid: UnityEngine.UIElements.Button
+  commentId: T:UnityEngine.UIElements.Button
+  parent: UnityEngine.UIElements
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: UnityEngine.UIElements.Button
